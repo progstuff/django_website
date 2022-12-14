@@ -28,7 +28,7 @@ def add_data_to_line(app_name, line: str, a, b):
 
 if __name__ == '__main__':
     folder = 'D:\\python_projects\\python_django_diploma\\shop\\shop_cite\\templates\\shop_cite\\'
-    file_name = 'sale.html'
+    file_name = 'about.html'
     file = open(folder + 'r' + file_name, 'w', encoding="utf-8")
     file.write('{% load static %}\n')
     with open(folder + file_name, 'r', encoding="utf-8") as f:
