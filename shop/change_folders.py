@@ -27,10 +27,11 @@ def add_data_to_line(app_name, line: str, a, b):
     return rez
 
 if __name__ == '__main__':
-
-    file_name = 'cart.html'
-    file = open('r' + file_name, 'w')
-    with open(file_name, 'r', encoding="utf-8") as f:
+    folder = 'D:\\python_projects\\python_django_diploma\\shop\\shop_cite\\templates\\shop_cite\\'
+    file_name = 'sale.html'
+    file = open(folder + 'r' + file_name, 'w', encoding="utf-8")
+    file.write('{% load static %}\n')
+    with open(folder + file_name, 'r', encoding="utf-8") as f:
         line = f.read()
         a, b = change_line(line)
         if len(a) > 0:

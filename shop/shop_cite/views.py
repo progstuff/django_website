@@ -6,5 +6,5 @@ class MainPage(View):
 
     def get(self, request):
         return render(request,
-                      'shop_cite/rcart.html',
+                      'shop_cite/sale.html',
                       context={})
