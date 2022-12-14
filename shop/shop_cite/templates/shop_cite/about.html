@@ -17,24 +17,7 @@
 <html class="ie11" lang="ru">
 <![endif]-->
 <!--[if gt IE 11]><!--> <html lang="ru"> <!--<![endif]-->
-<head>
-  <title>Megano</title>
-  <meta name="description" content="Описание страницы">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-  <link href="favicon.ico" rel="shortcut icon">
-  <link rel="preload" href="{% static 'shop_cite/assets/fonts/Roboto/Roboto-Regular.woff' %}" as="font">
-  <link rel="preload" href="{% static 'shop_cite/assets/fonts/Roboto/Roboto-Italic.woff' %}" as="font">
-  <link rel="preload" href="{% static 'shop_cite/assets/fonts/Roboto/Roboto-Bold.woff' %}" as="font">
-  <link rel="preload" href="{% static 'shop_cite/assets/fonts/Roboto/Roboto-Bold_Italic.woff' %}" as="font">
-  <link rel="preload" href="{% static 'shop_cite/assets/fonts/Roboto/Roboto-Light.woff' %}" as="font">
-  <link rel="preload" href="{% static 'shop_cite/assets/fonts/Roboto/Roboto-Light_Italic.woff' %}" as="font">
-  <link rel="stylesheet" href="{% static 'shop_cite/assets/css/fonts.css' %}?v=35945634">
-  <link rel="stylesheet" href="{% static 'shop_cite/assets/css/basic.css' %}?v=35945634">
-  <link rel="stylesheet" href="{% static 'shop_cite/assets/css/extra.css' %}?v=35945634">
-  <script src="{% static 'shop_cite/assets/plg/CountDown/countdown.js' %}"></script><!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-</head>
+  {% include 'shop_cite/head_element.html' %}
 <body class="Site">
   <!--if lt IE 8
   p.error-browser
@@ -54,7 +37,7 @@
           <h1 class="Middle-title">About Megano
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
-            <li class="breadcrumbs-item"><a href="index.html">home</a>
+            <li class="breadcrumbs-item"><a href="/">home</a>
             </li>
             <li class="breadcrumbs-item breadcrumbs-item_current"><span>About Us</span>
             </li>
