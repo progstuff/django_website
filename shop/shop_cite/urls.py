@@ -7,12 +7,13 @@ from .views.catalog_page import CatalogPage
 from .views.order_details_page import OrderDetailsPage
 from .views.order_page import OrderPage
 from .views.payment_page import PaymentPage
-
 from .views.payment_someone_page import PaymentSomeonePage
 from .views.product_page import ProductPage
 from .views.profile_page import ProfilePage
 from .views.profile_avatar_page import ProfileAvatarPage
 from .views.progress_payment_page import ProgressPaymentPage
+from .views.account_page import AccountPage
+from .views.sale_page import SalePage
 
 
 urlpatterns = [
@@ -30,4 +31,6 @@ urlpatterns = [
     path('profile', ProfilePage.as_view(), name='profile'),
     path('profile-avatar', ProfileAvatarPage.as_view(), name='profile-avatar'),
     path('progress-payment', ProgressPaymentPage.as_view(), name='progress-payment'),
+    path('account', AccountPage.as_view(), name='account'),
+    path('sale', SalePage.as_view(), name='sale'),
 ]
