@@ -7,14 +7,15 @@ from datetime import datetime
 class UserProfile(models.Model):
 
     USER_STATUS = (
-        ('З', 'Золото'),
-        ('C', 'Серебро'),
-        ('Б', 'Бронза'),
+        ('А', 'Администратор'),
+        ('П', 'Покупатель'),
+        ('Н', 'Незарегистрированный пользователь'),
     )
     PAYMENT_TYPE = (
         ('Б', 'Безнал'),
         ('К', 'Карта'),
         ('Н', 'Наличные'),
+        ('-', 'Не указано')
     )
 
     user = models.OneToOneField(User, default=None, null=False, on_delete=models.CASCADE,
