@@ -1,10 +1,9 @@
-from django.shortcuts import render
-from django.views.generic import View
+from .view_utils import BaseTemplate
 
 
-class PaymentPage(View):
+class PaymentPage(BaseTemplate):
 
     def get(self, request):
-        return render(request,
-                      'shop_cite/payment.html',
-                      context={})
+        return self.get_render(request,
+                               'shop_cite/payment.html',
+                               context={})

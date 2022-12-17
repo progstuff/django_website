@@ -1,10 +1,9 @@
-from django.shortcuts import render
-from django.views.generic import View
+from .view_utils import BaseTemplate
 
 
-class AboutPage(View):
+class AboutPage(BaseTemplate):
 
     def get(self, request):
-        return render(request,
-                      'shop_cite/about.html',
-                      context={})
+        return self.get_render(request,
+                               'shop_cite/about.html',
+                                context={})

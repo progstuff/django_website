@@ -1,10 +1,9 @@
-from django.shortcuts import render
-from django.views.generic import View
+from .view_utils import BaseTemplate
 
 
-class OrderPage(View):
+class OrderPage(BaseTemplate):
 
     def get(self, request):
-        return render(request,
-                      'shop_cite/order.html',
-                      context={})
+        return self.get_render(request,
+                               'shop_cite/order.html',
+                               context={})

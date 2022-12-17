@@ -32,7 +32,10 @@ class UserProfile(models.Model):
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=1000, verbose_name=_('Название'))
+    parent_category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.DO_NOTHING, verbose_name=_('Категория'))
+    name = models.CharField(default='', max_length=1000, verbose_name=_('Название'))
+    image_src = models.CharField(default='', max_length=1000, verbose_name=_('Иконка'))
+    short_image_name = models.CharField(default='', max_length=1000, verbose_name=_('Короткое название'))
 
     class Meta:
         verbose_name_plural = _('Категории')

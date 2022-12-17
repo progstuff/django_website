@@ -1,10 +1,9 @@
-from django.shortcuts import render
-from django.views.generic import View
+from .view_utils import BaseTemplate
 
 
-class CartPage(View):
+class CartPage(BaseTemplate):
 
     def get(self, request):
-        return render(request,
-                      'shop_cite/cart.html',
-                      context={})
+        return self.get_render(request,
+                               'shop_cite/cart.html',
+                               context={})

@@ -14,7 +14,7 @@ class UserProfileAdmin(admin.ModelAdmin):
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name']
+    list_display = ['id', 'parent_category', 'name', 'image_src', 'short_image_name']
 
 
 @admin.register(Product)

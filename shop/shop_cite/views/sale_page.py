@@ -1,10 +1,9 @@
-from django.shortcuts import render
-from django.views.generic import View
+from .view_utils import BaseTemplate
 
 
-class SalePage(View):
+class SalePage(BaseTemplate):
 
     def get(self, request):
-        return render(request,
-                      'shop_cite/sale.html',
-                      context={})
+        return self.get_render(request,
+                               'shop_cite/sale.html',
+                               context={})
