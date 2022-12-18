@@ -9,7 +9,7 @@ from .views.order_page import OrderPage
 from .views.payment_page import PaymentPage
 from .views.payment_someone_page import PaymentSomeonePage
 from .views.product_page import ProductPage
-from .views.profile_page import ProfilePage
+from .views.registration_page import RegistrationPage
 from .views.profile_avatar_page import ProfileAvatarPage
 from .views.progress_payment_page import ProgressPaymentPage
 from .views.account_page import AccountPage
@@ -28,7 +28,7 @@ urlpatterns = [
 
     path('payment-someone', PaymentSomeonePage.as_view(), name='payment-someone'),
     path('product', ProductPage.as_view(), name='product'),
-    path('profile', ProfilePage.as_view(), name='profile'),
+    path('registration', RegistrationPage.as_view(), name='registration'),
     path('profile-avatar', ProfileAvatarPage.as_view(), name='profile-avatar'),
     path('progress-payment', ProgressPaymentPage.as_view(), name='progress-payment'),
     path('account', AccountPage.as_view(), name='account'),
