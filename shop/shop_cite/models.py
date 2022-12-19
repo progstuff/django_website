@@ -18,7 +18,7 @@ class UserProfile(models.Model):
         ('-', 'Не указано')
     )
 
-    user = models.OneToOneField(User, default=None, null=False, on_delete=models.CASCADE,
+    user = models.OneToOneField(User, on_delete=models.SET_NULL, null=True,
                                 related_name="userprofile_user", verbose_name=_('Пользователь'))
     status = models.CharField(max_length=10, choices=USER_STATUS, verbose_name=_('Статус'))
     payment_method = models.CharField(max_length=10, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
@@ -32,7 +32,7 @@ class UserProfile(models.Model):
 
 
 class Category(models.Model):
-    parent_category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.DO_NOTHING, verbose_name=_('Категория'))
+    parent_category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL, verbose_name=_('Категория'))
     name = models.CharField(default='', max_length=1000, verbose_name=_('Название'))
     image_src = models.CharField(default='', max_length=1000, verbose_name=_('Иконка'))
     short_image_name = models.CharField(default='', max_length=1000, verbose_name=_('Короткое название'))
@@ -49,7 +49,7 @@ class Product(models.Model):
 
     name = models.CharField(max_length=1000, verbose_name=_('Название'))
     description = models.CharField(max_length=1000, verbose_name=_('Описание'))
-    category = models.ForeignKey(Category, default=None, null=False, on_delete=models.DO_NOTHING,
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True,
                                  related_name="product_category", verbose_name=_('Категория'))
 
     class Meta:
@@ -73,13 +73,13 @@ class Store(models.Model):
 
 
 class Review(models.Model):
-    user = models.ForeignKey(User, default=None, null=False, on_delete=models.DO_NOTHING,
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
                              related_name="review_user", verbose_name=_('Пользователь'))
-    product = models.ForeignKey(Product, default=None, null=False, on_delete=models.DO_NOTHING,
+    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
                                 related_name="review_product", verbose_name=_('Товар'))
     rating = models.IntegerField(default=0, verbose_name=_('Оценка'))
     description = models.CharField(max_length=1000, verbose_name=_('Текст отзыва'))
-    store = models.ForeignKey(Store, default=None, null=False, on_delete=models.DO_NOTHING,
+    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
                               related_name="review_store", verbose_name=_('Магазин'))
 
     class Meta:
@@ -92,7 +92,7 @@ class Review(models.Model):
 
 class Delivery(models.Model):
 
-    store = models.ForeignKey(Store, default=None, null=False, on_delete=models.DO_NOTHING,
+    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
                               related_name="delivery_store", verbose_name=_('Магазин'))
     address = models.CharField(max_length=1000, verbose_name=_('Адрес'))
 
@@ -105,9 +105,9 @@ class Delivery(models.Model):
 
 
 class Storage(models.Model):
-    product = models.ForeignKey(Product, default=None, null=False, on_delete=models.DO_NOTHING,
+    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
                                 related_name="storage_product", verbose_name=_('Товар'))
-    store = models.ForeignKey(Store, default=None, null=False, on_delete=models.DO_NOTHING,
+    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
                               related_name="storage_store", verbose_name=_('Магазин'))
     price = models.FloatField(default=0.0, verbose_name=_('Цена'))
     amount = models.IntegerField(default=0, verbose_name=_('Количество'))
@@ -121,11 +121,11 @@ class Storage(models.Model):
 
 
 class Purchase(models.Model):
-    user = models.ForeignKey(User, default=None, null=False, on_delete=models.DO_NOTHING,
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
                              related_name="purchase_user", verbose_name=_('Пользователь'))
-    product = models.ForeignKey(Product, default=None, null=False, on_delete=models.DO_NOTHING,
+    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
                                 related_name="purchase_product", verbose_name=_('Товар'))
-    store = models.ForeignKey(Store, default=None, null=False, on_delete=models.DO_NOTHING,
+    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
                               related_name="purchase_store", verbose_name=_('Магазин'))
     price = models.FloatField(default=0.0, verbose_name=_('Цена'))
     amount = models.IntegerField(default=0, verbose_name=_('Количество'))
@@ -141,11 +141,11 @@ class Purchase(models.Model):
 
 
 class Basket(models.Model):
-    user = models.ForeignKey(User, default=None, null=False, on_delete=models.DO_NOTHING,
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
                              related_name="basket_user", verbose_name=_('Пользователь'))
-    product = models.ForeignKey(Product, default=None, null=False, on_delete=models.DO_NOTHING,
+    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
                                 related_name="basket_product", verbose_name=_('Товар'))
-    store = models.ForeignKey(Store, default=None, null=False, on_delete=models.DO_NOTHING,
+    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
                               related_name="basket_store", verbose_name=_('Магазин'))
     price = models.FloatField(default=0.0, verbose_name=_('Цена'))
     amount = models.IntegerField(default=0, verbose_name=_('Количество'))
