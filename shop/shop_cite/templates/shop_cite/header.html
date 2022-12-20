@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,10 +28,21 @@
             </div>
           </div>
           <nav class="row-block">
+
             <div class="row ControlPanel-rowSplit">
-              <div class="row-block"><a class="ControlPanel-title" href="/account">Login / Register</a>
-              </div>
+              {% if request.user.is_authenticated %}
+                <div class="row-block"><a class="ControlPanel-title" href="/account">{{request.user}}</a>
+                </div>
+                <div class="row-block"><a class="ControlPanel-title" href="/logout">{% trans "Выйти" %}</a>
+                </div>
+              {% else %}
+                <div class="row-block"><a class="ControlPanel-title" href="/authenticate">{% trans "Войти" %}</a>
+                </div>
+                <div class="row-block"><a class="ControlPanel-title" href="/registration">{% trans "Регистрация" %}</a>
+                </div>
+              {% endif %}
             </div>
+
           </nav>
         </div>
       </div>

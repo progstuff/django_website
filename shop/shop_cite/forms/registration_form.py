@@ -2,7 +2,7 @@ from django import forms
 from django.utils.translation import gettext_lazy as _
 from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
-from .models import UserProfile
+from ..models import UserProfile
 
 
 class RegistrationForm(forms.Form):
