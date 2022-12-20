@@ -1,6 +1,6 @@
 from .view_utils import BaseTemplate
 from ..forms import RegistrationForm
-from django.core.exceptions import ValidationError
+from django.db.utils import IntegrityError
 
 
 class RegistrationPage(BaseTemplate):
@@ -14,12 +14,19 @@ class RegistrationPage(BaseTemplate):
     def post(self, request):
         form = RegistrationForm(request.POST)
         if form.is_valid():
-            return self.get_render(request,
-                                   'shop_cite/index.html',
-                                   context={'form': form, 'errors': ''})
+            try:
+                form.save_to_db()
+                return self.get_render(request,
+                                       'shop_cite/index.html',
+                                       context={'form': form, 'errors': ''})
+            except IntegrityError:
+                errors = form.get_error_messages()
+                errors['email'] = 'Пользователь с таким email уже зарегистрирован'
+                return self.get_render(request,
+                                       'shop_cite/registration.html',
+                                       context={'form': form, 'errors': errors})
         else:
             errors = form.get_error_messages()
-
             return self.get_render(request,
                                    'shop_cite/registration.html',
                                    context={'form': form, 'errors': errors})

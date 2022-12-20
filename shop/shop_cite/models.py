@@ -20,8 +20,8 @@ class UserProfile(models.Model):
 
     user = models.OneToOneField(User, on_delete=models.SET_NULL, null=True,
                                 related_name="userprofile_user", verbose_name=_('Пользователь'))
-    status = models.CharField(max_length=10, choices=USER_STATUS, verbose_name=_('Статус'))
-    payment_method = models.CharField(max_length=10, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
+    status = models.CharField(default='П', max_length=10, choices=USER_STATUS, verbose_name=_('Статус'))
+    payment_method = models.CharField(default='-', max_length=10, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
 
     class Meta:
         verbose_name_plural = _('Профили пользователей')
