@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import time
+import json
+import random
 
 
 def get_products_data_from_citilink(product_name, page_number):
@@ -23,6 +25,7 @@ def get_products_data_from_citilink(product_name, page_number):
 
     return products
 
+
 def get_main_categories_data():
     url = 'https://www.citilink.ru'
     r = requests.get(url)
@@ -33,29 +36,106 @@ def get_main_categories_data():
         name_in_url = c.next.attrs.get('data-category-alias', None)
         if title is not None and name_in_url is not None:
             main_categories.append({'human_name': title,
-                                    'url_name': name_in_url})
+                                    'url_name': name_in_url,
+                                    'link': 'https://www.citilink.ru/catalog/{0}/'.format(name_in_url),
+                                    'img_link': ''})
     return main_categories
 
 
-def get_subcategory_name(main_category_name):
+def request_subcategory_page(main_category_name):
     url = 'https://www.citilink.ru/catalog/{0}/'.format(main_category_name)
-    r = requests.get(url)
+    print(url)
+    s = requests.Session()
+    s.headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36'
+    r = s.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
-    data = soup.find_all('div', class_='CatalogCategoryCardWrapper__content-flex')[0]
+    return soup
+
+
+def is_products_page(parsing_result):
+    categories_cnt = len(parsing_result.find_all('div', class_='CatalogCategoryCardWrapper__content-flex'))
+
+    if categories_cnt == 0:
+        return True
+    return False
+
+
+def get_subcategories_names(parsing_result):
+    data = parsing_result.find_all('div', class_='CatalogCategoryCardWrapper__content-flex')[0]
     result = []
     for card in data.contents:
         link = card.next.contents[1].attrs['href']
         name = card.next.contents[0].next.next.attrs['alt']
         img_link = card.next.contents[0].next.next.attrs['src']
-        result.append({'name': name,
+        result.append({'human_name': name,
+                       'url_name': link.split('/')[-2],
                        'link': link,
                        'img_link': img_link})
     return result
 
-main_categories = get_main_categories_data()
-time.sleep(0.2)
-subcategories = get_subcategory_name(main_categories[2]['url_name'])
-time.sleep(0.2)
-products = get_products_data_from_citilink(subcategories[5]['link'], 1)
 
-a = 1
+def create_subcategory_array(main_categories):
+
+    categories_array = []
+    cnt = 0
+    for main_category in main_categories:
+        time.sleep(random.randint(1, 3))
+        try:
+            parsing_result = request_subcategory_page(main_category['url_name'])
+        except requests.exceptions.TooManyRedirects:
+            print('request error')
+            continue
+
+        if not is_products_page(parsing_result):
+            subcategories = get_subcategories_names(parsing_result)
+            for subcategory in subcategories:
+
+                try:
+                    parsing_result = request_subcategory_page(subcategory['url_name'])
+                    categories_array.append({'root': main_category['url_name'],
+                                             'value': subcategory})
+                    categories_array[-1]['value']['is_product_page'] = is_products_page(parsing_result)
+                except:
+                    print('request error')
+                    continue
+
+            print(subcategories)
+        else:
+            categories_array.append({'root': main_category['url_name'], 'value': {'is_product_page': True}})
+            print(main_category['url_name'])
+        cnt += 1
+        print('{0}/{1}'.format(cnt, len(main_categories)))
+    return categories_array
+
+
+def get_all_categories_data():
+    last_result = []
+    main_categories = get_main_categories_data()
+    result1 = create_subcategory_array(main_categories)
+
+    dop_cat = []
+    for result in result1:
+        last_result.append(result)
+        if not result['value']['is_product_page']:
+            dop_cat.append({'url_name': result['value']['url_name']})
+
+    result2 = create_subcategory_array(dop_cat)
+    for result in result2:
+        if result['value']['is_product_page']:
+            last_result.append(result)
+
+    return main_categories, last_result
+
+
+def work_with_categories():
+    main_categories, last_result = get_all_categories_data()
+    with open('categories_data.json', 'wb') as fp:
+        data = json.dumps(last_result, indent=4, ensure_ascii=False).encode('utf8')
+        fp.write(data)
+
+    with open('main_categories_data.json', 'wb') as fp:
+        data = json.dumps(main_categories, indent=4, ensure_ascii=False).encode('utf8')
+        fp.write(data)
+
+#time.sleep(0.2)
+#products = get_products_data_from_citilink(subcategories[5]['link'], 1)
