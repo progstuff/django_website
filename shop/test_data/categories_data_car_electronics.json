@@ -1,0 +1,742 @@
+[
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Автокресла",
+            "url_name": "avtokresla",
+            "link": "https://www.citilink.ru/catalog/avtokresla/",
+            "img_link": "https://category-images.s1.citilink.ru/f3ec0da0-3f0d-477b-b591-abe46caf94d6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Автоэлектроника",
+            "url_name": "avtoelektronika",
+            "link": "https://www.citilink.ru/catalog/avtoelektronika/",
+            "img_link": "https://category-images.s1.citilink.ru/9e7063d2-f06b-404f-b9ab-35922c71d586.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Шины и диски",
+            "url_name": "shiny-i-diski",
+            "link": "https://www.citilink.ru/catalog/shiny-i-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/c5697a86-38b1-45d2-97e4-f8f6b3b7afea.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Масла и автохимия",
+            "url_name": "masla-i-avtohimiya",
+            "link": "https://www.citilink.ru/catalog/masla-i-avtohimiya/",
+            "img_link": "https://category-images.s1.citilink.ru/c0362cbc-80cd-4cba-93c7-a770cc7a4747.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Аккумуляторы и зарядные устройства",
+            "url_name": "akkumulyatory-i-zaryadnye-ustroistva",
+            "link": "https://www.citilink.ru/catalog/akkumulyatory-i-zaryadnye-ustroistva/",
+            "img_link": "https://category-images.s1.citilink.ru/a1406967-6baa-4ec1-bf41-d5b9bad99076.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Автосвет",
+            "url_name": "avtosvet",
+            "link": "https://www.citilink.ru/catalog/avtosvet/",
+            "img_link": "https://category-images.s1.citilink.ru/8c683e62-bb37-49b7-ab22-7f1acf3d2a93.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Инструменты и оборудование",
+            "url_name": "instrumenty-i-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/instrumenty-i-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/05cb54db-1ecf-4e25-9afa-7963af03110f.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Запчасти для ТО",
+            "url_name": "zapchasti-dlya-to",
+            "link": "https://www.citilink.ru/catalog/zapchasti-dlya-to/",
+            "img_link": "https://category-images.s1.citilink.ru/3bdc1251-426c-47af-a831-af403d04dcf0.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Перевозка багажа",
+            "url_name": "perevozka-bagazha",
+            "link": "https://www.citilink.ru/catalog/perevozka-bagazha/",
+            "img_link": "https://category-images.s1.citilink.ru/47e4acac-5541-433a-b609-d56fbe3cebf3.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "car_electronics",
+        "value": {
+            "human_name": "Автоаксессуары и принадлежности",
+            "url_name": "avtoaksessuary-i-prinadlezhnosti",
+            "link": "https://www.citilink.ru/catalog/avtoaksessuary-i-prinadlezhnosti/",
+            "img_link": "https://category-images.s1.citilink.ru/02152f34-42f7-4e48-afe4-dfbee6a3251a.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Видеорегистраторы",
+            "url_name": "videoregistratory",
+            "link": "https://www.citilink.ru/catalog/videoregistratory/",
+            "img_link": "https://category-images.s1.citilink.ru/177a1466-d8d6-4013-b4a3-ed72be6d2765.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Видеорегистраторы с радар-детектором",
+            "url_name": "videoregistratory-s-radar-detektorom",
+            "link": "https://www.citilink.ru/catalog/videoregistratory-s-radar-detektorom/",
+            "img_link": "https://category-images.s1.citilink.ru/1bd18194-31c4-4813-9eb9-8f19de208191.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Радар-детекторы",
+            "url_name": "radar-detektory",
+            "link": "https://www.citilink.ru/catalog/radar-detektory/",
+            "img_link": "https://category-images.s1.citilink.ru/627f6412-8da1-4d30-8bff-ef30000f9532.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Навигаторы GPS/Глонасс",
+            "url_name": "navigatory-gps-glonass",
+            "link": "https://www.citilink.ru/catalog/navigatory-gps-glonass/",
+            "img_link": "https://category-images.s1.citilink.ru/ce407be0-5136-43cb-bc1f-7a5579d2a8ce.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Автомагнитолы",
+            "url_name": "avtomagnitoly",
+            "link": "https://www.citilink.ru/catalog/avtomagnitoly/",
+            "img_link": "https://category-images.s1.citilink.ru/4eadb24a-9a04-4799-8ef5-65d992c42001.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Колонки автомобильные",
+            "url_name": "kolonki-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/kolonki-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/adc63a4a-d0d4-44ee-99c7-a1e146ac0b7e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Сабвуферы автомобильные",
+            "url_name": "sabvufery-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/sabvufery-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/56d51eab-f878-49ba-a0c0-b9ad6d877d64.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Усилители автомобильные",
+            "url_name": "usiliteli-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/usiliteli-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/5f9d9989-4d4a-42dc-913c-28bccd7d816a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Парктроники",
+            "url_name": "parktroniki",
+            "link": "https://www.citilink.ru/catalog/parktroniki/",
+            "img_link": "https://category-images.s1.citilink.ru/7f96f563-6b15-4384-b551-b0e2465b818d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Автомобильные установочные комплекты",
+            "url_name": "avtomobilnye-ustanovochnye-komplekty",
+            "link": "https://www.citilink.ru/catalog/avtomobilnye-ustanovochnye-komplekty/",
+            "img_link": "https://category-images.s1.citilink.ru/e5dacc1a-cdc5-4f5a-ade7-5ab346ba5605.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Автомобильные провода, кабели, адаптеры",
+            "url_name": "avtomobilnye-provoda-kabeli-adaptery",
+            "link": "https://www.citilink.ru/catalog/avtomobilnye-provoda-kabeli-adaptery/",
+            "img_link": "https://category-images.s1.citilink.ru/3293e34d-f98d-4d38-9674-ccd7062a5d67.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Автохолодильники",
+            "url_name": "avtoholodilniki",
+            "link": "https://www.citilink.ru/catalog/avtoholodilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/894c554c-00da-4c32-8043-cc186ae8394c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Камеры заднего вида",
+            "url_name": "kamery-zadnego-vida",
+            "link": "https://www.citilink.ru/catalog/kamery-zadnego-vida/",
+            "img_link": "https://category-images.s1.citilink.ru/3db76941-7770-4b3a-978f-2480d57cd464.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Антенны автомобильные",
+            "url_name": "antenny-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/antenny-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/00d2d797-3590-407e-9156-33ae6a9cf1a0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Мониторы автомобильные",
+            "url_name": "monitory-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/monitory-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/0f689bbb-4875-4f7b-9767-54236c9243dc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "FM трансмиттеры",
+            "url_name": "fm-transmittery",
+            "link": "https://www.citilink.ru/catalog/fm-transmittery/",
+            "img_link": "https://category-images.s1.citilink.ru/c47f865a-0a78-4272-90ba-393e3a82eb12.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Автосигнализации",
+            "url_name": "avtosignalizacii",
+            "link": "https://www.citilink.ru/catalog/avtosignalizacii/",
+            "img_link": "https://category-images.s1.citilink.ru/62da70e4-a1c9-43d6-84b3-612d0ed4ad76.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Алкотестеры",
+            "url_name": "alkotestery",
+            "link": "https://www.citilink.ru/catalog/alkotestery/",
+            "img_link": "https://category-images.s1.citilink.ru/f561b21c-abb0-4ad6-ba14-0c9345ddfb1f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Автомобильные разветвители прикуривателя",
+            "url_name": "avtomobilnye-razvetviteli-prikurivatelya",
+            "link": "https://www.citilink.ru/catalog/avtomobilnye-razvetviteli-prikurivatelya/",
+            "img_link": "https://category-images.s1.citilink.ru/cf26cc05-90ed-44e5-b658-c0f1a98be369.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Рации",
+            "url_name": "racii",
+            "link": "https://www.citilink.ru/catalog/racii/",
+            "img_link": "https://category-images.s1.citilink.ru/c6a89097-a52f-4de2-ae16-0bc12c5aa443.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoelektronika",
+        "value": {
+            "human_name": "Автомобильные пылесосы",
+            "url_name": "pylesosy--avtomobilnye-pylesosy",
+            "link": "https://www.citilink.ru/catalog/pylesosy--avtomobilnye-pylesosy/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_209_1663936255.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shiny-i-diski",
+        "value": {
+            "human_name": "Шины автомобильные",
+            "url_name": "shiny",
+            "link": "https://www.citilink.ru/catalog/shiny/",
+            "img_link": "https://category-images.s1.citilink.ru/b756a43b-2ef4-4831-b899-14e1b405e730.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shiny-i-diski",
+        "value": {
+            "human_name": "Диски автомобильные",
+            "url_name": "diski-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/diski-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/69fa2249-5848-42b5-9907-557942ae0ea4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shiny-i-diski",
+        "value": {
+            "human_name": "Чехлы для колес",
+            "url_name": "chehly-dlya-koles",
+            "link": "https://www.citilink.ru/catalog/chehly-dlya-koles/",
+            "img_link": "https://category-images.s1.citilink.ru/8d22dca3-e6c9-4ea6-a124-4e8da45b4d46.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shiny-i-diski",
+        "value": {
+            "human_name": "Зимние шины",
+            "url_name": "shiny--zimnie",
+            "link": "https://www.citilink.ru/catalog/shiny--zimnie/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1306_1670323627.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Масла моторные",
+            "url_name": "masla-motornye",
+            "link": "https://www.citilink.ru/catalog/masla-motornye/",
+            "img_link": "https://category-images.s1.citilink.ru/7f31aec1-d864-44eb-b486-cfa384beeb98.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Масла трансмиссионные",
+            "url_name": "masla-transmissionnye",
+            "link": "https://www.citilink.ru/catalog/masla-transmissionnye/",
+            "img_link": "https://category-images.s1.citilink.ru/d3a17f52-8034-401c-9384-f62563ee9ea5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Масла гидравлические",
+            "url_name": "masla-gidravlicheskie",
+            "link": "https://www.citilink.ru/catalog/masla-gidravlicheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/bbfcc317-2da7-44f3-b0f9-d78ff817a90a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Масла специальные",
+            "url_name": "masla-specialnye",
+            "link": "https://www.citilink.ru/catalog/masla-specialnye/",
+            "img_link": "https://category-images.s1.citilink.ru/4cb1f54d-395b-4992-b9e1-88a6b07106ec.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Антифриз",
+            "url_name": "antifriz",
+            "link": "https://www.citilink.ru/catalog/antifriz/",
+            "img_link": "https://category-images.s1.citilink.ru/67f1f1cc-622d-4d72-aa37-0ee5605204df.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Тормозные жидкости",
+            "url_name": "tormoznye-zhidkosti",
+            "link": "https://www.citilink.ru/catalog/tormoznye-zhidkosti/",
+            "img_link": "https://category-images.s1.citilink.ru/61892e97-2d4b-4744-91ce-60d3123e8b20.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Присадки автомобильные",
+            "url_name": "prisadki-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/prisadki-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/64a73a2f-fd58-46e0-9316-9379e3c8a77e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Промывки",
+            "url_name": "promyvki",
+            "link": "https://www.citilink.ru/catalog/promyvki/",
+            "img_link": "https://category-images.s1.citilink.ru/ac14fe3d-caf0-4df6-920f-085dbf891f35.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Смазки автомобильные",
+            "url_name": "smazki-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/smazki-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/e68112d8-d192-4a82-8d64-2803614b2051.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Антикоры",
+            "url_name": "antikory",
+            "link": "https://www.citilink.ru/catalog/antikory/",
+            "img_link": "https://category-images.s1.citilink.ru/05b03a8b-f317-4ad9-8221-c69173ae82e9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Очистители автомобильные",
+            "url_name": "ochistiteli-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/ochistiteli-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/b5674299-5d40-4432-bd8f-27cf7639aa6b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Автошампуни",
+            "url_name": "avtoshampuni",
+            "link": "https://www.citilink.ru/catalog/avtoshampuni/",
+            "img_link": "https://category-images.s1.citilink.ru/0c62b3b4-94dd-415e-a4b6-396fc417cb00.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Стеклоомыватели",
+            "url_name": "stekloomyvateli",
+            "link": "https://www.citilink.ru/catalog/stekloomyvateli/",
+            "img_link": "https://category-images.s1.citilink.ru/b6851fc1-ceb9-4df6-b062-d586a1432cd4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "masla-i-avtohimiya",
+        "value": {
+            "human_name": "Воски и полироли",
+            "url_name": "voski-i-poliroli",
+            "link": "https://www.citilink.ru/catalog/voski-i-poliroli/",
+            "img_link": "https://category-images.s1.citilink.ru/f7bfb5d6-9033-481d-9a64-41ad46c60eb6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akkumulyatory-i-zaryadnye-ustroistva",
+        "value": {
+            "human_name": "Аккумуляторы для авто- и мототехники",
+            "url_name": "akkumulyatory-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/akkumulyatory-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/890bc949-7f45-4b5c-aa3f-b1a1af584a97.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akkumulyatory-i-zaryadnye-ustroistva",
+        "value": {
+            "human_name": "Пусковые и зарядные устройства",
+            "url_name": "puskovye-i-zaryadnye-ustroistva",
+            "link": "https://www.citilink.ru/catalog/puskovye-i-zaryadnye-ustroistva/",
+            "img_link": "https://category-images.s1.citilink.ru/dcd45962-1224-4f29-939c-98a6b22f8f9c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akkumulyatory-i-zaryadnye-ustroistva",
+        "value": {
+            "human_name": "Преобразователи напряжения",
+            "url_name": "preobrazovateli-napryazheniya",
+            "link": "https://www.citilink.ru/catalog/preobrazovateli-napryazheniya/",
+            "img_link": "https://category-images.s1.citilink.ru/e3d5345e-243b-47f3-8aff-ff418fe5d1ff.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akkumulyatory-i-zaryadnye-ustroistva",
+        "value": {
+            "human_name": "Провода прикуривания",
+            "url_name": "provoda-prikurivaniya",
+            "link": "https://www.citilink.ru/catalog/provoda-prikurivaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/f1209c33-ac9f-4865-b2e0-a3dcb9dc6f1c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtosvet",
+        "value": {
+            "human_name": "Автолампы",
+            "url_name": "avtolampy",
+            "link": "https://www.citilink.ru/catalog/avtolampy/",
+            "img_link": "https://category-images.s1.citilink.ru/a427789a-5298-47ce-aa28-1807dd6baceb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtosvet",
+        "value": {
+            "human_name": "Обманки для светодиодных ламп",
+            "url_name": "obmanki-dlya-svetodiodnyh-lamp",
+            "link": "https://www.citilink.ru/catalog/obmanki-dlya-svetodiodnyh-lamp/",
+            "img_link": "https://category-images.s1.citilink.ru/6a2c62d5-159d-4b0e-9ec6-e9d2fbc884e1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "instrumenty-i-oborudovanie",
+        "value": {
+            "human_name": "Наборы инструментов",
+            "url_name": "nabory-instrumentov",
+            "link": "https://www.citilink.ru/catalog/nabory-instrumentov/",
+            "img_link": "https://category-images.s1.citilink.ru/586b57cb-0ee7-4be5-bf79-3b7bb233a159.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "instrumenty-i-oborudovanie",
+        "value": {
+            "human_name": "Автомобильные компрессоры",
+            "url_name": "avtomobilnye-kompressory",
+            "link": "https://www.citilink.ru/catalog/avtomobilnye-kompressory/",
+            "img_link": "https://category-images.s1.citilink.ru/08b9bcc6-2fae-47b3-832a-23af6af05a70.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "instrumenty-i-oborudovanie",
+        "value": {
+            "human_name": "Манометры",
+            "url_name": "manometry",
+            "link": "https://www.citilink.ru/catalog/manometry/",
+            "img_link": "https://category-images.s1.citilink.ru/d93be4dd-265b-465b-93d1-2975e58bc509.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "instrumenty-i-oborudovanie",
+        "value": {
+            "human_name": "Домкраты",
+            "url_name": "domkraty",
+            "link": "https://www.citilink.ru/catalog/domkraty/",
+            "img_link": "https://category-images.s1.citilink.ru/6c873892-d745-41f2-a20e-9740c5bf3583.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "instrumenty-i-oborudovanie",
+        "value": {
+            "human_name": "Лопаты автомобильные",
+            "url_name": "lopaty--avtolopaty",
+            "link": "https://www.citilink.ru/catalog/lopaty--avtolopaty/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_890_1637140060.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zapchasti-dlya-to",
+        "value": {
+            "human_name": "Свечи зажигания",
+            "url_name": "svechi-zazhiganiya",
+            "link": "https://www.citilink.ru/catalog/svechi-zazhiganiya/",
+            "img_link": "https://category-images.s1.citilink.ru/5a2b40bf-de4c-4f04-b4c8-a2b23da83e66.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zapchasti-dlya-to",
+        "value": {
+            "human_name": "Фильтры автомобильные",
+            "url_name": "filtry-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/filtry-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/31a31341-d5a5-480c-a10e-3a87e2467b4f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zapchasti-dlya-to",
+        "value": {
+            "human_name": "Щетки стеклоочистителей",
+            "url_name": "schetki-stekloochistitelei",
+            "link": "https://www.citilink.ru/catalog/schetki-stekloochistitelei/",
+            "img_link": "https://category-images.s1.citilink.ru/4fcf500a-103c-4d7e-92d5-9339f1cc15e1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zapchasti-dlya-to",
+        "value": {
+            "human_name": "Тормозные колодки",
+            "url_name": "tormoznye-kolodki",
+            "link": "https://www.citilink.ru/catalog/tormoznye-kolodki/",
+            "img_link": "https://category-images.s1.citilink.ru/6dd571f0-f4de-4606-8e58-5e9faacee744.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zapchasti-dlya-to",
+        "value": {
+            "human_name": "Тормозные диски",
+            "url_name": "tormoznye-diski",
+            "link": "https://www.citilink.ru/catalog/tormoznye-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/05bb97be-cdcb-4046-900f-536a503c4646.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "perevozka-bagazha",
+        "value": {
+            "human_name": "Боксы багажные",
+            "url_name": "boksy-bagazhnye",
+            "link": "https://www.citilink.ru/catalog/boksy-bagazhnye/",
+            "img_link": "https://category-images.s1.citilink.ru/bba66bff-e848-45bf-a437-f73a400dd612.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "perevozka-bagazha",
+        "value": {
+            "human_name": "Автомобильные крепления для багажа",
+            "url_name": "avtomobilnye-krepleniya-dlya-bagazha",
+            "link": "https://www.citilink.ru/catalog/avtomobilnye-krepleniya-dlya-bagazha/",
+            "img_link": "https://category-images.s1.citilink.ru/d50ae612-034b-4f03-9d43-901a0ec5f856.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoaksessuary-i-prinadlezhnosti",
+        "value": {
+            "human_name": "Аксессуары для автомобиля",
+            "url_name": "aksessuary-dlya-avtomobilya",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-avtomobilya/",
+            "img_link": "https://category-images.s1.citilink.ru/d236cd5b-e49c-438b-bcfe-f2d11422b69b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoaksessuary-i-prinadlezhnosti",
+        "value": {
+            "human_name": "Щетки и скребки автомобильные",
+            "url_name": "schetki-i-skrebki-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/schetki-i-skrebki-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/0ae04b9a-5604-4241-b769-c49b0d1b11ca.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoaksessuary-i-prinadlezhnosti",
+        "value": {
+            "human_name": "Изоляционные материалы",
+            "url_name": "izolyacionnye-materialy",
+            "link": "https://www.citilink.ru/catalog/izolyacionnye-materialy/",
+            "img_link": "https://category-images.s1.citilink.ru/c42fd226-d26b-4733-9823-1014ea143873.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoaksessuary-i-prinadlezhnosti",
+        "value": {
+            "human_name": "Наборы автомобилиста",
+            "url_name": "nabory-avtomobilista",
+            "link": "https://www.citilink.ru/catalog/nabory-avtomobilista/",
+            "img_link": "https://category-images.s1.citilink.ru/e52d785e-f481-4625-8529-f144bc598b3f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoaksessuary-i-prinadlezhnosti",
+        "value": {
+            "human_name": "Чехлы и накидки на сидение",
+            "url_name": "chehly-i-nakidki-na-sidenie",
+            "link": "https://www.citilink.ru/catalog/chehly-i-nakidki-na-sidenie/",
+            "img_link": "https://category-images.s1.citilink.ru/de34bbc3-2354-421f-82a6-a3a304108b18.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoaksessuary-i-prinadlezhnosti",
+        "value": {
+            "human_name": "Канистры",
+            "url_name": "kanistry",
+            "link": "https://www.citilink.ru/catalog/kanistry/",
+            "img_link": "https://category-images.s1.citilink.ru/74989af3-73cc-4796-a11e-e9c0c03f2278.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtoaksessuary-i-prinadlezhnosti",
+        "value": {
+            "human_name": "Оплетки на руль",
+            "url_name": "opletki-na-rul",
+            "link": "https://www.citilink.ru/catalog/opletki-na-rul/",
+            "img_link": "https://category-images.s1.citilink.ru/59866c72-b77b-40d9-967d-317f8e7957b5.jpg",
+            "is_product_page": true
+        }
+    }
+]

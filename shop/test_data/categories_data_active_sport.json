@@ -1,0 +1,1292 @@
+[
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Товары для зимних видов спорта",
+            "url_name": "tovary-dlya-zimnih-vidov-sporta",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-zimnih-vidov-sporta/",
+            "img_link": "https://category-images.s1.citilink.ru/5caa6f05-97f3-45c3-993d-720b6aad2b30.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Квадрокоптеры и аксессуары",
+            "url_name": "kvadrokoptery-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/kvadrokoptery-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/932acca5-364e-4adf-bbbb-09746178bc20.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Электротранспорт",
+            "url_name": "elektrotransport",
+            "link": "https://www.citilink.ru/catalog/elektrotransport/",
+            "img_link": "https://category-images.s1.citilink.ru/94b58871-8e10-42d3-b28e-35e2767e7980.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Велоспорт",
+            "url_name": "velosport",
+            "link": "https://www.citilink.ru/catalog/velosport/",
+            "img_link": "https://category-images.s1.citilink.ru/e67d043f-e6a0-4af5-9a62-12014ec533ec.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Ролики, самокаты и скейтбординг",
+            "url_name": "roliki-samokaty",
+            "link": "https://www.citilink.ru/catalog/roliki-samokaty/",
+            "img_link": "https://category-images.s1.citilink.ru/bff2e9a6-f9c0-4fe5-8d85-e206239193ab.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Спортивная защита и экипировка",
+            "url_name": "optika",
+            "link": "https://www.citilink.ru/catalog/optika/",
+            "img_link": "https://category-images.s1.citilink.ru/7afe8988-c930-4e7b-8f16-6ec483b7b554.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Водные виды спорта",
+            "url_name": "vodnye-vidy-sporta",
+            "link": "https://www.citilink.ru/catalog/vodnye-vidy-sporta/",
+            "img_link": "https://category-images.s1.citilink.ru/22ea9cf4-3ec0-4196-b145-87aea9569d17.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Командные виды спорта",
+            "url_name": "komandnye-vidy-sporta",
+            "link": "https://www.citilink.ru/catalog/komandnye-vidy-sporta/",
+            "img_link": "https://category-images.s1.citilink.ru/0add59a3-b0ec-48be-ac38-8010df0e57f3.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Аксессуары для путешествий",
+            "url_name": "aksessuary-dlya-puteshestvii",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-puteshestvii/",
+            "img_link": "https://category-images.s1.citilink.ru/22bb9aff-3faf-4a3b-9980-34cdb56cacb4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Рюкзаки на все случаи жизни",
+            "url_name": "vse-ryukzaki",
+            "link": "https://www.citilink.ru/catalog/vse-ryukzaki/",
+            "img_link": "https://category-images.s1.citilink.ru/2d61e56c-80b6-4f54-9c3c-01d35841d2f3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Товары для путешествий",
+            "url_name": "tovary-dlya-puteshestvii",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-puteshestvii/",
+            "img_link": "https://category-images.s1.citilink.ru/6739344c-c30a-4b6c-b1de-8130c7eee024.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Тренажеры и силовые тренировки",
+            "url_name": "trenazhery-i-silovye-trenirovki",
+            "link": "https://www.citilink.ru/catalog/trenazhery-i-silovye-trenirovki/",
+            "img_link": "https://category-images.s1.citilink.ru/13203fff-a730-4c23-aed1-4c51198dfc8d.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Фитнес и Йога",
+            "url_name": "fitnes-i-ioga",
+            "link": "https://www.citilink.ru/catalog/fitnes-i-ioga/",
+            "img_link": "https://category-images.s1.citilink.ru/cfd108cb-db2c-4216-a3ac-460c126828ef.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Зимняя рыбалка",
+            "url_name": "zimnyaya-rybalka",
+            "link": "https://www.citilink.ru/catalog/zimnyaya-rybalka/",
+            "img_link": "https://category-images.s1.citilink.ru/26edd6c8-48a7-4077-88e9-5e8504ddf601.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Туризм и отдых",
+            "url_name": "turizm-i-otdyh",
+            "link": "https://www.citilink.ru/catalog/turizm-i-otdyh/",
+            "img_link": "https://category-images.s1.citilink.ru/5ab856b0-1e2f-4e08-9809-873e18e20a2d.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Товары для рыбалки",
+            "url_name": "rybalka",
+            "link": "https://www.citilink.ru/catalog/rybalka/",
+            "img_link": "https://category-images.s1.citilink.ru/2bb539c1-2f89-4e77-a493-660270b07fe1.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Спортивное питание",
+            "url_name": "sportivnoe-pitanie",
+            "link": "https://www.citilink.ru/catalog/sportivnoe-pitanie/",
+            "img_link": "https://category-images.s1.citilink.ru/e2e06eb2-19d5-4b0e-baf7-3e256c45d6b6.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "active_sport",
+        "value": {
+            "human_name": "Игры",
+            "url_name": "igry",
+            "link": "https://www.citilink.ru/catalog/igry/",
+            "img_link": "https://category-images.s1.citilink.ru/d52b1716-9357-4a00-8d0c-9093245a97d5.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Маски для зимних видов спорта",
+            "url_name": "maski-i-ochki-dlya-zimnih-vidov-sporta",
+            "link": "https://www.citilink.ru/catalog/maski-i-ochki-dlya-zimnih-vidov-sporta/",
+            "img_link": "https://category-images.s1.citilink.ru/d3b527ac-e0cf-4a5d-8275-67205b095e70.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Сноуборды",
+            "url_name": "snoubordy",
+            "link": "https://www.citilink.ru/catalog/snoubordy/",
+            "img_link": "https://category-images.s1.citilink.ru/f8b83245-f2f7-4443-820e-92f8c270d776.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Лыжи беговые",
+            "url_name": "lyzhi-begovye",
+            "link": "https://www.citilink.ru/catalog/lyzhi-begovye/",
+            "img_link": "https://category-images.s1.citilink.ru/66a83174-372a-434d-814d-1ca419d377ce.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Палки лыжные",
+            "url_name": "palki-lyzhnye",
+            "link": "https://www.citilink.ru/catalog/palki-lyzhnye/",
+            "img_link": "https://category-images.s1.citilink.ru/27f560e0-fac2-46a0-ac0c-8ad64895c0c8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Крепления для лыж",
+            "url_name": "krepleniya-dlya-lyzh",
+            "link": "https://www.citilink.ru/catalog/krepleniya-dlya-lyzh/",
+            "img_link": "https://category-images.s1.citilink.ru/a06d562b-56e7-43b3-a1eb-80342883826d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Коньки",
+            "url_name": "konki",
+            "link": "https://www.citilink.ru/catalog/konki/",
+            "img_link": "https://category-images.s1.citilink.ru/5e1977e0-fb93-49a7-b042-6cacb5585707.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Клюшки",
+            "url_name": "klyushki",
+            "link": "https://www.citilink.ru/catalog/klyushki/",
+            "img_link": "https://category-images.s1.citilink.ru/87421a21-500c-463a-a637-f84de84888e6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Уход за инвентарем",
+            "url_name": "uhod-za-inventarem",
+            "link": "https://www.citilink.ru/catalog/uhod-za-inventarem/",
+            "img_link": "https://category-images.s1.citilink.ru/c3d449ba-9948-4e7e-bf02-41103d74ed73.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Чехлы для спортивного снаряжения",
+            "url_name": "chehly-dlya-snoubordov-lyzh",
+            "link": "https://www.citilink.ru/catalog/chehly-dlya-snoubordov-lyzh/",
+            "img_link": "https://category-images.s1.citilink.ru/6e9ea561-c397-4347-9d72-87c7364d6f74.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Ледянки",
+            "url_name": "ledyanki",
+            "link": "https://www.citilink.ru/catalog/ledyanki/",
+            "img_link": "https://category-images.s1.citilink.ru/a85749b4-84d9-40af-9c56-3239a27c2368.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zimnih-vidov-sporta",
+        "value": {
+            "human_name": "Шлемы для горных лыж и сноубордов",
+            "url_name": "zaschitnye-shlemy--dlya-gornyh-lyzh",
+            "link": "https://www.citilink.ru/catalog/zaschitnye-shlemy--dlya-gornyh-lyzh/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1229_1644407767.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kvadrokoptery-i-aksessuary",
+        "value": {
+            "human_name": "Квадрокоптеры",
+            "url_name": "kvadrokoptery",
+            "link": "https://www.citilink.ru/catalog/kvadrokoptery/",
+            "img_link": "https://category-images.s1.citilink.ru/8075efd7-93e4-48c8-b17f-485e323cca43.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kvadrokoptery-i-aksessuary",
+        "value": {
+            "human_name": "Аксессуары для квадрокоптеров",
+            "url_name": "aksessuary-dlya-kvadrokopterov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-kvadrokopterov/",
+            "img_link": "https://category-images.s1.citilink.ru/e132fac0-2191-4524-8423-4d32242cb1e6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrotransport",
+        "value": {
+            "human_name": "Электровелосипеды",
+            "url_name": "elektrovelosipedy",
+            "link": "https://www.citilink.ru/catalog/elektrovelosipedy/",
+            "img_link": "https://category-images.s1.citilink.ru/2d45af36-137c-4cd9-835b-93690d5c7d7c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrotransport",
+        "value": {
+            "human_name": "Электросамокаты",
+            "url_name": "elektrosamokaty",
+            "link": "https://www.citilink.ru/catalog/elektrosamokaty/",
+            "img_link": "https://category-images.s1.citilink.ru/8f848839-e0bd-4d97-afaa-365deea377bb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrotransport",
+        "value": {
+            "human_name": "Гироскутеры",
+            "url_name": "giroskutery",
+            "link": "https://www.citilink.ru/catalog/giroskutery/",
+            "img_link": "https://category-images.s1.citilink.ru/aad2cf61-3756-4a51-9548-883163720b90.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "velosport",
+        "value": {
+            "human_name": "Велосипеды",
+            "url_name": "velosipedy",
+            "link": "https://www.citilink.ru/catalog/velosipedy/",
+            "img_link": "https://category-images.s1.citilink.ru/a3b64447-1d37-4011-bf69-69391e58968e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "velosport",
+        "value": {
+            "human_name": "Аксессуары для велосипедов",
+            "url_name": "aksessuary-dlya-velosipedov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-velosipedov/",
+            "img_link": "https://category-images.s1.citilink.ru/7234c444-a58a-4d10-85f8-ecd6d333848e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "velosport",
+        "value": {
+            "human_name": "Запчасти для велосипедов",
+            "url_name": "zapchasti-dlya-velosipedov",
+            "link": "https://www.citilink.ru/catalog/zapchasti-dlya-velosipedov/",
+            "img_link": "https://category-images.s1.citilink.ru/f590fe74-b700-4206-b4ef-701c70e94fb1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "roliki-samokaty",
+        "value": {
+            "human_name": "Ролики",
+            "url_name": "roliki",
+            "link": "https://www.citilink.ru/catalog/roliki/",
+            "img_link": "https://category-images.s1.citilink.ru/3c442f95-a6a2-42f5-9a15-dd8cd9254c11.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "roliki-samokaty",
+        "value": {
+            "human_name": "Самокаты",
+            "url_name": "samokaty",
+            "link": "https://www.citilink.ru/catalog/samokaty/",
+            "img_link": "https://category-images.s1.citilink.ru/ac38a97e-ee32-4408-b776-24a1941814d6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "roliki-samokaty",
+        "value": {
+            "human_name": "Скейтборды и лонгборды",
+            "url_name": "skeitbordy-i-longbordy",
+            "link": "https://www.citilink.ru/catalog/skeitbordy-i-longbordy/",
+            "img_link": "https://category-images.s1.citilink.ru/e770e069-4335-4d8d-a279-54bde274b2f8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "optika",
+        "value": {
+            "human_name": "Шлемы",
+            "url_name": "zaschitnye-shlemy",
+            "link": "https://www.citilink.ru/catalog/zaschitnye-shlemy/",
+            "img_link": "https://category-images.s1.citilink.ru/2d602213-ab93-4b6c-abae-b35addb6114d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "optika",
+        "value": {
+            "human_name": "Маски для зимних видов спорта",
+            "url_name": "maski-i-ochki-dlya-zimnih-vidov-sporta",
+            "link": "https://www.citilink.ru/catalog/maski-i-ochki-dlya-zimnih-vidov-sporta/",
+            "img_link": "https://category-images.s1.citilink.ru/84a67bae-c104-44b3-830e-7c21adb64aa2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "optika",
+        "value": {
+            "human_name": "Спортивные очки",
+            "url_name": "sportivnye-ochki",
+            "link": "https://www.citilink.ru/catalog/sportivnye-ochki/",
+            "img_link": "https://category-images.s1.citilink.ru/8104ecfa-9326-4771-b21f-e3d7c25b9c74.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "optika",
+        "value": {
+            "human_name": "Защита тела",
+            "url_name": "zaschita-dlya-aktivnyh-vidov-sporta",
+            "link": "https://www.citilink.ru/catalog/zaschita-dlya-aktivnyh-vidov-sporta/",
+            "img_link": "https://category-images.s1.citilink.ru/3d82ec17-f96a-4d56-b883-9fbe4cbb5c7c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vodnye-vidy-sporta",
+        "value": {
+            "human_name": "Маски и наборы для снорклинга",
+            "url_name": "maski-i-nabory-dlya-snorklinga",
+            "link": "https://www.citilink.ru/catalog/maski-i-nabory-dlya-snorklinga/",
+            "img_link": "https://category-images.s1.citilink.ru/d9014b8a-c805-44f1-8945-ce1028d0b61a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vodnye-vidy-sporta",
+        "value": {
+            "human_name": "Очки для плавания",
+            "url_name": "ochki-dlya-plavaniya",
+            "link": "https://www.citilink.ru/catalog/ochki-dlya-plavaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/88111356-a2e2-455f-b08a-4bb63c2141ba.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vodnye-vidy-sporta",
+        "value": {
+            "human_name": "Шапочки для плавания",
+            "url_name": "shapochki-dlya-plavaniya",
+            "link": "https://www.citilink.ru/catalog/shapochki-dlya-plavaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/e676ccf2-3965-4ae4-8412-abcd664b21ff.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vodnye-vidy-sporta",
+        "value": {
+            "human_name": "Ласты",
+            "url_name": "lasty",
+            "link": "https://www.citilink.ru/catalog/lasty/",
+            "img_link": "https://category-images.s1.citilink.ru/81f6c737-7af5-4b2e-8515-d190afdc765c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vodnye-vidy-sporta",
+        "value": {
+            "human_name": "Сапборды и Вейкборды",
+            "url_name": "sapbordy-i-veikbordy",
+            "link": "https://www.citilink.ru/catalog/sapbordy-i-veikbordy/",
+            "img_link": "https://category-images.s1.citilink.ru/fce67073-6608-485f-b4b1-4cd263c18e01.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komandnye-vidy-sporta",
+        "value": {
+            "human_name": "Мячи спортивные",
+            "url_name": "myachi-futbolnye",
+            "link": "https://www.citilink.ru/catalog/myachi-futbolnye/",
+            "img_link": "https://category-images.s1.citilink.ru/b6384c54-1e4f-4eeb-9046-8e779f088066.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komandnye-vidy-sporta",
+        "value": {
+            "human_name": "Аксессуары для командных видов спорта",
+            "url_name": "aksessuary-dlya-futbola",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-futbola/",
+            "img_link": "https://category-images.s1.citilink.ru/754df300-edba-4f01-8361-2e209c7f83fc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-puteshestvii",
+        "value": {
+            "human_name": "Чемоданы",
+            "url_name": "chemodany",
+            "link": "https://www.citilink.ru/catalog/chemodany/",
+            "img_link": "https://category-images.s1.citilink.ru/3a950268-3389-4d4f-a94a-491792a95e2e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-puteshestvii",
+        "value": {
+            "human_name": "Сумки",
+            "url_name": "sumki",
+            "link": "https://www.citilink.ru/catalog/sumki/",
+            "img_link": "https://category-images.s1.citilink.ru/4c5ab095-2c7c-480a-b40a-7189b54ffb10.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-puteshestvii",
+        "value": {
+            "human_name": "Аксессуары для путешествий",
+            "url_name": "aksessuary-dlya-puteshestvii",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-puteshestvii/",
+            "img_link": "https://category-images.s1.citilink.ru/310da019-6d5b-45c0-ad58-64e7186b00d0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Велотренажеры",
+            "url_name": "velotrenazhery",
+            "link": "https://www.citilink.ru/catalog/velotrenazhery/",
+            "img_link": "https://category-images.s1.citilink.ru/1bb50a94-8849-49b2-a866-c6ebe4cce6f5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Беговые дорожки",
+            "url_name": "begovye-dorozhki",
+            "link": "https://www.citilink.ru/catalog/begovye-dorozhki/",
+            "img_link": "https://category-images.s1.citilink.ru/c3a4c314-3196-49ab-b207-05e1a7321424.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Эллиптические тренажеры",
+            "url_name": "ellipticheskie-trenazhery",
+            "link": "https://www.citilink.ru/catalog/ellipticheskie-trenazhery/",
+            "img_link": "https://category-images.s1.citilink.ru/d5f42144-82a6-4660-a8c9-20f9237d55a3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Гребные тренажеры",
+            "url_name": "grebnye-trenazhery",
+            "link": "https://www.citilink.ru/catalog/grebnye-trenazhery/",
+            "img_link": "https://category-images.s1.citilink.ru/f81290f9-4219-4bb8-8a84-14fb645dbb02.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Степперы",
+            "url_name": "steppery",
+            "link": "https://www.citilink.ru/catalog/steppery/",
+            "img_link": "https://category-images.s1.citilink.ru/e8ca3e80-ab15-43ce-8083-6d06af99b45c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Турники и брусья",
+            "url_name": "turniki-i-brusya",
+            "link": "https://www.citilink.ru/catalog/turniki-i-brusya/",
+            "img_link": "https://category-images.s1.citilink.ru/8f46118a-e10c-4ddc-b057-3f37f988a352.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Силовые тренажеры",
+            "url_name": "silovye-trenazhery",
+            "link": "https://www.citilink.ru/catalog/silovye-trenazhery/",
+            "img_link": "https://category-images.s1.citilink.ru/3e550af0-adf0-4d8a-8b29-299652744c28.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Гантели",
+            "url_name": "ganteli",
+            "link": "https://www.citilink.ru/catalog/ganteli/",
+            "img_link": "https://category-images.s1.citilink.ru/883164ff-2e51-43bc-8ed2-4f5f6472b547.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Гири",
+            "url_name": "giri",
+            "link": "https://www.citilink.ru/catalog/giri/",
+            "img_link": "https://category-images.s1.citilink.ru/cb3822a9-b2b5-44cd-8f8c-f776c5b4536f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Инверсионные столы",
+            "url_name": "inversionnye-stoly",
+            "link": "https://www.citilink.ru/catalog/inversionnye-stoly/",
+            "img_link": "https://category-images.s1.citilink.ru/03dc03aa-807d-4905-8fca-f6fc7bc6e6cd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Скамьи и стойки",
+            "url_name": "skami-i-stoiki",
+            "link": "https://www.citilink.ru/catalog/skami-i-stoiki/",
+            "img_link": "https://category-images.s1.citilink.ru/aed6d75b-f18a-45e0-80fb-2abb18002dce.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Грифы и штанги",
+            "url_name": "grify-i-shtangi",
+            "link": "https://www.citilink.ru/catalog/grify-i-shtangi/",
+            "img_link": "https://category-images.s1.citilink.ru/c5527deb-8001-406c-ad5d-d0b5e8debf5b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Диски для штанги и гантелей",
+            "url_name": "diski-dlya-shtangi-i-gantelei",
+            "link": "https://www.citilink.ru/catalog/diski-dlya-shtangi-i-gantelei/",
+            "img_link": "https://category-images.s1.citilink.ru/3fd77bea-f1df-400b-bc7d-a6d5c3a7cea4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Перчатки для силовых тренировок",
+            "url_name": "perchatki-dlya-silovyh-trenirovok",
+            "link": "https://www.citilink.ru/catalog/perchatki-dlya-silovyh-trenirovok/",
+            "img_link": "https://category-images.s1.citilink.ru/918a4e44-d8cc-4215-a3b5-90f96d05b9ea.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "trenazhery-i-silovye-trenirovki",
+        "value": {
+            "human_name": "Пояса для силовых тренировок",
+            "url_name": "poyasa-dlya-silovyh-trenirovok",
+            "link": "https://www.citilink.ru/catalog/poyasa-dlya-silovyh-trenirovok/",
+            "img_link": "https://category-images.s1.citilink.ru/8c8e37ae-6298-41d0-8b55-fee98ae33b6f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Коврики для фитнеса и йоги",
+            "url_name": "kovriki-dlya-fitnesa-i-iogi",
+            "link": "https://www.citilink.ru/catalog/kovriki-dlya-fitnesa-i-iogi/",
+            "img_link": "https://category-images.s1.citilink.ru/252841cd-7c7e-4cd6-b16a-61957a417843.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Фитболы и медболы",
+            "url_name": "fitboly-i-medboly",
+            "link": "https://www.citilink.ru/catalog/fitboly-i-medboly/",
+            "img_link": "https://category-images.s1.citilink.ru/e4ff7a54-ba5f-45dc-aa43-773aa6d998c3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Эспандеры и кистевые тренажеры",
+            "url_name": "espandery-i-kistevye-trenazhery",
+            "link": "https://www.citilink.ru/catalog/espandery-i-kistevye-trenazhery/",
+            "img_link": "https://category-images.s1.citilink.ru/64ad4179-734d-4dee-be8f-da44b05cde5d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Скакалки",
+            "url_name": "skakalki",
+            "link": "https://www.citilink.ru/catalog/skakalki/",
+            "img_link": "https://category-images.s1.citilink.ru/b400cf26-bbe7-482f-a418-59751081d0de.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Обручи",
+            "url_name": "obruchi",
+            "link": "https://www.citilink.ru/catalog/obruchi/",
+            "img_link": "https://category-images.s1.citilink.ru/19ade088-bffc-4f48-a989-18e6a6682de0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Упоры для отжиманий",
+            "url_name": "upory-dlya-otzhimanii",
+            "link": "https://www.citilink.ru/catalog/upory-dlya-otzhimanii/",
+            "img_link": "https://category-images.s1.citilink.ru/7a5c30d5-e08c-4c74-ad51-88855deb288c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Утяжелители",
+            "url_name": "utyazheliteli",
+            "link": "https://www.citilink.ru/catalog/utyazheliteli/",
+            "img_link": "https://category-images.s1.citilink.ru/565e4701-2d8f-431a-b35f-b18623fb003c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Балансировочные тренажеры",
+            "url_name": "balansirovochnye-trenazhery",
+            "link": "https://www.citilink.ru/catalog/balansirovochnye-trenazhery/",
+            "img_link": "https://category-images.s1.citilink.ru/ab5a9cb6-eb3a-42a2-b387-8fa92efed91b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Степ-платформы",
+            "url_name": "step-platformy",
+            "link": "https://www.citilink.ru/catalog/step-platformy/",
+            "img_link": "https://category-images.s1.citilink.ru/60ecefa6-258a-4262-baed-74b9d82f37f2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Тейпы",
+            "url_name": "kinezio-teipy",
+            "link": "https://www.citilink.ru/catalog/kinezio-teipy/",
+            "img_link": "https://category-images.s1.citilink.ru/a0605bab-0ee7-4de4-bc0b-fa7c35b8c47e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Суппорта и эластичные бинты",
+            "url_name": "supporta-i-elastichnye-binty",
+            "link": "https://www.citilink.ru/catalog/supporta-i-elastichnye-binty/",
+            "img_link": "https://category-images.s1.citilink.ru/f15d3477-6861-4793-bf48-8b8f7ad5c288.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Блоки для йоги",
+            "url_name": "bloki-dlya-iogi",
+            "link": "https://www.citilink.ru/catalog/bloki-dlya-iogi/",
+            "img_link": "https://category-images.s1.citilink.ru/b9761923-9b6a-43cb-af49-21ae1853f1fd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Ремешки для йоги",
+            "url_name": "remeshki-dlya-iogi",
+            "link": "https://www.citilink.ru/catalog/remeshki-dlya-iogi/",
+            "img_link": "https://category-images.s1.citilink.ru/146a61bc-32de-4d61-8fae-5343a4ff284a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Колеса, валики и ролики  для йоги",
+            "url_name": "kolesa-dlya-iogi",
+            "link": "https://www.citilink.ru/catalog/kolesa-dlya-iogi/",
+            "img_link": "https://category-images.s1.citilink.ru/28b7a719-9853-45b6-a377-bdc192ea24ce.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Ленты для пилатеса и тренировок",
+            "url_name": "lenty-dlya-pilatesa-i-trenirovok",
+            "link": "https://www.citilink.ru/catalog/lenty-dlya-pilatesa-i-trenirovok/",
+            "img_link": "https://category-images.s1.citilink.ru/e8d6dbaa-b9f2-4bba-80c7-b7567f1573bd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Палки гимнастические, Бодибары",
+            "url_name": "palki-gimnasticheskie-bodibary",
+            "link": "https://www.citilink.ru/catalog/palki-gimnasticheskie-bodibary/",
+            "img_link": "https://category-images.s1.citilink.ru/eb364be9-c818-4916-9927-fa839763df41.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Батуты",
+            "url_name": "batuty",
+            "link": "https://www.citilink.ru/catalog/batuty/",
+            "img_link": "https://category-images.s1.citilink.ru/264806e4-2c26-48f7-86b4-c2d43ad1f770.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Носки противоскользящие",
+            "url_name": "noski-protivoskolzyaschie",
+            "link": "https://www.citilink.ru/catalog/noski-protivoskolzyaschie/",
+            "img_link": "https://category-images.s1.citilink.ru/a225af35-26d9-4895-ade3-8e3573b22d1d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Перчатки спортивные",
+            "url_name": "perchatki-protivoskolzyaschie",
+            "link": "https://www.citilink.ru/catalog/perchatki-protivoskolzyaschie/",
+            "img_link": "https://category-images.s1.citilink.ru/58c7db42-177f-46ca-a760-937bf396d367.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Туристические сумки и гермомешки",
+            "url_name": "ryukzaki-i-sumki",
+            "link": "https://www.citilink.ru/catalog/ryukzaki-i-sumki/",
+            "img_link": "https://category-images.s1.citilink.ru/7caae651-755a-4841-b50f-9705fe81680d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fitnes-i-ioga",
+        "value": {
+            "human_name": "Спортивные рюкзаки",
+            "url_name": "ryukzaki--sportivnye-ryukzaki-mainmenu",
+            "link": "https://www.citilink.ru/catalog/ryukzaki--sportivnye-ryukzaki-mainmenu/",
+            "img_link": "https://static.citilink.ru/media/global/nophoto.png?1671712894",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Рыболовные снасти и инструменты",
+            "url_name": "rybolovnye-snasti-i-instrumenty",
+            "link": "https://www.citilink.ru/catalog/rybolovnye-snasti-i-instrumenty/",
+            "img_link": "https://category-images.s1.citilink.ru/cc48abd2-4304-4f68-a054-d0c581936f09.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Ледобуры для рыбалки",
+            "url_name": "ledobury-dlya-rybalki",
+            "link": "https://www.citilink.ru/catalog/ledobury-dlya-rybalki/",
+            "img_link": "https://category-images.s1.citilink.ru/43756e9c-6734-4662-b23b-c7b773b0eaa9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Приманки рыболовные",
+            "url_name": "primanki-rybolovnye",
+            "link": "https://www.citilink.ru/catalog/primanki-rybolovnye/",
+            "img_link": "https://category-images.s1.citilink.ru/0cab11b1-7127-4096-a399-5f9d57514ccd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Палатки и тенты",
+            "url_name": "palatki-i-tenty",
+            "link": "https://www.citilink.ru/catalog/palatki-i-tenty/",
+            "img_link": "https://category-images.s1.citilink.ru/f0c45220-b557-405d-83ab-72601543cb9c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Горелки походные",
+            "url_name": "gorelki-pohodnye",
+            "link": "https://www.citilink.ru/catalog/gorelki-pohodnye/",
+            "img_link": "https://category-images.s1.citilink.ru/ecc24849-b1f1-4902-b62c-fbf65ac98aa8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Зимние удочки",
+            "url_name": "udochki-i-udilischa--zimnie-udochki",
+            "link": "https://www.citilink.ru/catalog/udochki-i-udilischa--zimnie-udochki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1586_1668801235.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Лопаты складные",
+            "url_name": "lopaty--lopaty-skladnye-ng",
+            "link": "https://www.citilink.ru/catalog/lopaty--lopaty-skladnye-ng/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_890_1668801422.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Портативные инфракрасные обогреватели",
+            "url_name": "infrakrasnye-obogrevateli--portativnye-infrakrasnye-obogrevateli-ng",
+            "link": "https://www.citilink.ru/catalog/infrakrasnye-obogrevateli--portativnye-infrakrasnye-obogrevateli-ng/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_589_1668801608.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Леска для зимней рыбалки",
+            "url_name": "leski-rybolovnye--zimnyaya",
+            "link": "https://www.citilink.ru/catalog/leski-rybolovnye--zimnyaya/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1584_1668801329.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zimnyaya-rybalka",
+        "value": {
+            "human_name": "Туристические топоры",
+            "url_name": "topory--turisticheskie-topory",
+            "link": "https://www.citilink.ru/catalog/topory--turisticheskie-topory/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_891_1668801521.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Палатки и тенты",
+            "url_name": "palatki-i-tenty",
+            "link": "https://www.citilink.ru/catalog/palatki-i-tenty/",
+            "img_link": "https://category-images.s1.citilink.ru/65196eb0-deae-42c1-9906-336e8184507e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Спальные мешки",
+            "url_name": "spalnye-meshki",
+            "link": "https://www.citilink.ru/catalog/spalnye-meshki/",
+            "img_link": "https://category-images.s1.citilink.ru/376b895a-26bf-4031-8d97-e253852522e1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Коврики туристические",
+            "url_name": "kovriki-turisticheskie",
+            "link": "https://www.citilink.ru/catalog/kovriki-turisticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/0a9742f3-b3b0-4229-8d10-2c4c0fc04480.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Горелки походные",
+            "url_name": "gorelki-pohodnye",
+            "link": "https://www.citilink.ru/catalog/gorelki-pohodnye/",
+            "img_link": "https://category-images.s1.citilink.ru/ae939c43-c134-4343-b257-574021a9191e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Походная мебель и кухня",
+            "url_name": "pohodnaya-mebel-i-kuhnya",
+            "link": "https://www.citilink.ru/catalog/pohodnaya-mebel-i-kuhnya/",
+            "img_link": "https://category-images.s1.citilink.ru/112cd51a-2538-4d85-a2f6-f4694864bce8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Рации",
+            "url_name": "racii",
+            "link": "https://www.citilink.ru/catalog/racii/",
+            "img_link": "https://category-images.s1.citilink.ru/b9691651-df5a-475e-9968-91a5a26d9a55.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Аксессуары для раций",
+            "url_name": "aksessuary-dlya-racii",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-racii/",
+            "img_link": "https://category-images.s1.citilink.ru/6d1c2703-a7d1-400f-ac48-47d572582c4c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Палки для скандинавской ходьбы и треккинга",
+            "url_name": "palki-dlya-skandinavskoi-hodby-i-trekkinga",
+            "link": "https://www.citilink.ru/catalog/palki-dlya-skandinavskoi-hodby-i-trekkinga/",
+            "img_link": "https://category-images.s1.citilink.ru/23ffcba2-3140-46aa-8ee4-125498d7299b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Портативные колонки",
+            "url_name": "portativnye-kolonki",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki/",
+            "img_link": "https://category-images.s1.citilink.ru/9921ca4c-b1dc-4dc9-93be-0a7a8e2cacf2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Туристическая посуда",
+            "url_name": "turisticheskaya-posuda",
+            "link": "https://www.citilink.ru/catalog/turisticheskaya-posuda/",
+            "img_link": "https://category-images.s1.citilink.ru/e51bf930-0a06-4449-bf77-4af636f66cbc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "turizm-i-otdyh",
+        "value": {
+            "human_name": "Туристические рюкзаки",
+            "url_name": "ryukzaki--turisticheskie-ryukzaki-mainmenu",
+            "link": "https://www.citilink.ru/catalog/ryukzaki--turisticheskie-ryukzaki-mainmenu/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1740_1664550410.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Лодки",
+            "url_name": "lodki",
+            "link": "https://www.citilink.ru/catalog/lodki/",
+            "img_link": "https://category-images.s1.citilink.ru/c1b02494-ac93-479b-9601-9b6a85fde16b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Удочки и удилища",
+            "url_name": "udochki-i-udilischa",
+            "link": "https://www.citilink.ru/catalog/udochki-i-udilischa/",
+            "img_link": "https://category-images.s1.citilink.ru/addde754-e502-49f5-b4f9-57df4a83a74b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Лески рыболовные",
+            "url_name": "leski-rybolovnye",
+            "link": "https://www.citilink.ru/catalog/leski-rybolovnye/",
+            "img_link": "https://category-images.s1.citilink.ru/a2cf3448-c4cf-4eb6-91e4-1142fe9193ed.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Катушки рыболовные",
+            "url_name": "katushki-rybolovnye",
+            "link": "https://www.citilink.ru/catalog/katushki-rybolovnye/",
+            "img_link": "https://category-images.s1.citilink.ru/da8cfb74-6773-4a4a-bdd8-3e0bc468d53e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Приманки рыболовные",
+            "url_name": "primanki-rybolovnye",
+            "link": "https://www.citilink.ru/catalog/primanki-rybolovnye/",
+            "img_link": "https://category-images.s1.citilink.ru/514187d4-a73c-42e8-953a-627a22f389c3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Рыболовные снасти и инструменты",
+            "url_name": "rybolovnye-snasti-i-instrumenty",
+            "link": "https://www.citilink.ru/catalog/rybolovnye-snasti-i-instrumenty/",
+            "img_link": "https://category-images.s1.citilink.ru/7e7f4d75-e013-45d6-9901-188aecc05f7e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Ящики рыболовные",
+            "url_name": "rybolovnye-snasti-i-instrumenty--yashchiki-dlya-rybalki",
+            "link": "https://www.citilink.ru/catalog/rybolovnye-snasti-i-instrumenty--yashchiki-dlya-rybalki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1587_1641939804.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rybalka",
+        "value": {
+            "human_name": "Ледобуры для рыбалки",
+            "url_name": "ledobury-dlya-rybalki",
+            "link": "https://www.citilink.ru/catalog/ledobury-dlya-rybalki/",
+            "img_link": "https://category-images.s1.citilink.ru/3b82667e-aea8-4c37-a4e4-832d72c2fc7f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Шейкеры и спортивные фляги",
+            "url_name": "sheikery",
+            "link": "https://www.citilink.ru/catalog/sheikery/",
+            "img_link": "https://category-images.s1.citilink.ru/9747f37c-fb6f-4380-b618-686a116a504d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Протеины",
+            "url_name": "proteiny",
+            "link": "https://www.citilink.ru/catalog/proteiny/",
+            "img_link": "https://category-images.s1.citilink.ru/3e649c1c-7d7c-4568-bda9-441c725e4d85.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Аминокислоты и BCAA",
+            "url_name": "aminokisloty-i-bcaa",
+            "link": "https://www.citilink.ru/catalog/aminokisloty-i-bcaa/",
+            "img_link": "https://category-images.s1.citilink.ru/e6b5678e-4ef7-4084-93ec-03b83af7d1cc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Витамины и минералы",
+            "url_name": "vitaminy-i-mineraly",
+            "link": "https://www.citilink.ru/catalog/vitaminy-i-mineraly/",
+            "img_link": "https://category-images.s1.citilink.ru/62eeb387-09cb-4bb9-9379-61095d0393ba.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Энергетики и изотоники",
+            "url_name": "energetiki-i-izotoniki",
+            "link": "https://www.citilink.ru/catalog/energetiki-i-izotoniki/",
+            "img_link": "https://category-images.s1.citilink.ru/4b02ca04-9e29-47f2-ba36-ce3fdad19a02.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Жиросжигатели",
+            "url_name": "zhiroszhigateli",
+            "link": "https://www.citilink.ru/catalog/zhiroszhigateli/",
+            "img_link": "https://category-images.s1.citilink.ru/266c2abc-944a-41d4-bc44-63cc63397a33.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Специальные препараты",
+            "url_name": "specialnye-preparaty",
+            "link": "https://www.citilink.ru/catalog/specialnye-preparaty/",
+            "img_link": "https://category-images.s1.citilink.ru/702c22eb-c33f-4002-88e2-129d18de512c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sportivnoe-pitanie",
+        "value": {
+            "human_name": "Правильное питание",
+            "url_name": "pravilnoe-pitanie",
+            "link": "https://www.citilink.ru/catalog/pravilnoe-pitanie/",
+            "img_link": "https://category-images.s1.citilink.ru/aa5ee612-9f76-4828-8dbc-1af7ec4a87fb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igry",
+        "value": {
+            "human_name": "Теннисные ракетки",
+            "url_name": "tennisnye-raketki",
+            "link": "https://www.citilink.ru/catalog/tennisnye-raketki/",
+            "img_link": "https://category-images.s1.citilink.ru/29a7d723-2a8c-4ede-8925-2550b8ed1fc9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igry",
+        "value": {
+            "human_name": "Дартс",
+            "url_name": "darts",
+            "link": "https://www.citilink.ru/catalog/darts/",
+            "img_link": "https://category-images.s1.citilink.ru/aef19aa1-61a1-4619-8306-9fa7d4d72c94.jpg",
+            "is_product_page": true
+        }
+    }
+]

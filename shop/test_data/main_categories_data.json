@@ -3,7 +3,8 @@
         "human_name": "Новый год",
         "url_name": "novyy_god",
         "link": "https://www.citilink.ru/catalog/novyy_god/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     },
     {
         "human_name": "Смартфоны и гаджеты",
@@ -45,42 +46,49 @@
         "human_name": "Умный дом и системы безопасности",
         "url_name": "photo_and_video",
         "link": "https://www.citilink.ru/catalog/photo_and_video/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     },
     {
         "human_name": "Канцтовары, Мебель и Офисная техника",
         "url_name": "furniture",
         "link": "https://www.citilink.ru/catalog/furniture/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     },
     {
         "human_name": "Строительство и ремонт",
         "url_name": "power_tools_and_garden_equipments",
         "link": "https://www.citilink.ru/catalog/power_tools_and_garden_equipments/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     },
     {
         "human_name": "Дом и дача",
         "url_name": "dom_i_dacha",
         "link": "https://www.citilink.ru/catalog/dom_i_dacha/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     },
     {
         "human_name": "Автотовары",
         "url_name": "car_electronics",
         "link": "https://www.citilink.ru/catalog/car_electronics/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     },
     {
         "human_name": "Спорт и отдых",
         "url_name": "active_sport",
         "link": "https://www.citilink.ru/catalog/active_sport/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     },
     {
         "human_name": "Детские товары",
         "url_name": "detskie_tovary",
         "link": "https://www.citilink.ru/catalog/detskie_tovary/",
-        "img_link": ""
+        "img_link": "",
+        "is_product_page": true
     }
 ]

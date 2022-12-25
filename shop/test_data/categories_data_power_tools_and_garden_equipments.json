@@ -1,0 +1,1432 @@
+[
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Отопление и климат",
+            "url_name": "otoplenie-i-klimat",
+            "link": "https://www.citilink.ru/catalog/otoplenie-i-klimat/",
+            "img_link": "https://category-images.s1.citilink.ru/0f6e14c8-cc58-4035-a6f8-5144aa40ca71.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Генераторы",
+            "url_name": "generatory",
+            "link": "https://www.citilink.ru/catalog/generatory/",
+            "img_link": "https://category-images.s1.citilink.ru/4f2b70f7-ee13-458a-be52-63f4873dc46f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Силовая техника",
+            "url_name": "silovaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/silovaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/23ad89a3-c385-4f8e-98eb-34c639d927a8.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Электроинструмент",
+            "url_name": "elektroinstrument",
+            "link": "https://www.citilink.ru/catalog/elektroinstrument/",
+            "img_link": "https://category-images.s1.citilink.ru/4568dbc0-e7e5-4335-8a67-1b8aebfa118c.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Аккумуляторный инструмент и техника",
+            "url_name": "akkumulyatornyi-instrument-i-tehnika",
+            "link": "https://www.citilink.ru/catalog/akkumulyatornyi-instrument-i-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/dc0a4eea-faf1-46ff-b5f2-1ea5815f58f7.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "АКБ и ЗУ для инструмента",
+            "url_name": "akb-i-zu-dlya-instrumenta",
+            "link": "https://www.citilink.ru/catalog/akb-i-zu-dlya-instrumenta/",
+            "img_link": "https://category-images.s1.citilink.ru/cffa3dc3-cb08-45f2-849b-db42c886650c.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Шлифовальные машины",
+            "url_name": "shlifovalnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/shlifovalnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/42b7c865-e77e-4a36-a49f-fcee86f3af4e.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Пилы",
+            "url_name": "pily",
+            "link": "https://www.citilink.ru/catalog/pily/",
+            "img_link": "https://category-images.s1.citilink.ru/0493fa45-72b3-4f0b-92a5-abfa76e140cb.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Измерительный инструмент",
+            "url_name": "izmeritelnyi-instrument",
+            "link": "https://www.citilink.ru/catalog/izmeritelnyi-instrument/",
+            "img_link": "https://category-images.s1.citilink.ru/7f0095f1-0c79-4842-86b2-4728fbdd28f0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Наборы инструментов",
+            "url_name": "nabory-instrumentov",
+            "link": "https://www.citilink.ru/catalog/nabory-instrumentov/",
+            "img_link": "https://category-images.s1.citilink.ru/147db697-a849-4c8f-a5a3-8c978da0667a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Ручные инструменты",
+            "url_name": "ruchnye-instrumenty",
+            "link": "https://www.citilink.ru/catalog/ruchnye-instrumenty/",
+            "img_link": "https://category-images.s1.citilink.ru/700637ef-54a3-4467-b72a-11e830d0fb92.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Расходные материалы",
+            "url_name": "rashodnye-materialy",
+            "link": "https://www.citilink.ru/catalog/rashodnye-materialy/",
+            "img_link": "https://category-images.s1.citilink.ru/3922e06b-6259-4851-9b52-bc695c32a55c.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Пневматический инструмент",
+            "url_name": "pnevmaticheskii-instrument",
+            "link": "https://www.citilink.ru/catalog/pnevmaticheskii-instrument/",
+            "img_link": "https://category-images.s1.citilink.ru/c24288a2-d038-428b-99db-8708ab714142.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Сумки и ящики для инструментов",
+            "url_name": "sumki-i-yaschiki-dlya-instrumentov",
+            "link": "https://www.citilink.ru/catalog/sumki-i-yaschiki-dlya-instrumentov/",
+            "img_link": "https://category-images.s1.citilink.ru/75bd796c-310e-4fd0-a7ec-e3ea356b2627.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Электрика",
+            "url_name": "elektrika",
+            "link": "https://www.citilink.ru/catalog/elektrika/",
+            "img_link": "https://category-images.s1.citilink.ru/c6f6240f-4349-4d36-b38b-7613dbdfddfa.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Сантехника",
+            "url_name": "santehnika",
+            "link": "https://www.citilink.ru/catalog/santehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/a4fd4cfd-e1b3-48ea-bd00-5a8ae08b54d4.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Инженерная сантехника",
+            "url_name": "inzhenernaya-santehnika",
+            "link": "https://www.citilink.ru/catalog/inzhenernaya-santehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/d7cb83d3-d9fd-48b9-bb8a-248c39c83214.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Мебель для ванной",
+            "url_name": "mebel-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/mebel-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/d4f429de-9217-4121-a35d-572af21336dc.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Аксессуары для ванной",
+            "url_name": "aksessuary-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/cdbc9c75-f4c5-43fb-95ce-80c88cd1e2be.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Лакокрасочные материалы",
+            "url_name": "lakokrasochnye-materialy",
+            "link": "https://www.citilink.ru/catalog/lakokrasochnye-materialy/",
+            "img_link": "https://category-images.s1.citilink.ru/263c7d4d-b811-4d78-b2e5-d2d71bd629e4.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Строительные ножи и лезвия",
+            "url_name": "stroitelnye-nozhi-i-lezviya",
+            "link": "https://www.citilink.ru/catalog/stroitelnye-nozhi-i-lezviya/",
+            "img_link": "https://category-images.s1.citilink.ru/13c8c83f-63fe-4f3e-96b7-72bc43021308.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "power_tools_and_garden_equipments",
+        "value": {
+            "human_name": "Отделочные материалы",
+            "url_name": "otdelochnye-materialy",
+            "link": "https://www.citilink.ru/catalog/otdelochnye-materialy/",
+            "img_link": "https://category-images.s1.citilink.ru/dd5b60f7-a2f0-474e-9d58-ee5c031a4563.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Радиаторы отопления",
+            "url_name": "radiatory-otopleniya",
+            "link": "https://www.citilink.ru/catalog/radiatory-otopleniya/",
+            "img_link": "https://category-images.s1.citilink.ru/c2635342-4043-45b7-a2bc-40d97fab396d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Аксессуары для радиаторов",
+            "url_name": "aksessuary-dlya-radiatorov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-radiatorov/",
+            "img_link": "https://category-images.s1.citilink.ru/6c707b70-c976-413a-ba95-28e94534c1c4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Полотенцесушители",
+            "url_name": "polotencesushiteli",
+            "link": "https://www.citilink.ru/catalog/polotencesushiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/f931cd7b-e184-4ee6-a0b3-2401e043ffc6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Котлы",
+            "url_name": "kotly",
+            "link": "https://www.citilink.ru/catalog/kotly/",
+            "img_link": "https://category-images.s1.citilink.ru/fbc1b5ed-009a-4d73-aeb3-5f7109c5fe4e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Аксессуары и комплектующие для котлов",
+            "url_name": "aksessuary-i-komplektuyuschie-dlya-kotlov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-i-komplektuyuschie-dlya-kotlov/",
+            "img_link": "https://category-images.s1.citilink.ru/8f865317-fdd1-47a6-ae2a-27230c739e91.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Теплый пол и греющий кабель",
+            "url_name": "teplyi-pol-i-greyuschii-kabel",
+            "link": "https://www.citilink.ru/catalog/teplyi-pol-i-greyuschii-kabel/",
+            "img_link": "https://category-images.s1.citilink.ru/cc14fda4-d40f-4848-ac00-bde505cd31f4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Тепловые пушки",
+            "url_name": "teplovye-pushki",
+            "link": "https://www.citilink.ru/catalog/teplovye-pushki/",
+            "img_link": "https://category-images.s1.citilink.ru/5953a0c6-ae12-4bc9-a67c-4f83de71ce21.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otoplenie-i-klimat",
+        "value": {
+            "human_name": "Тепловые завесы",
+            "url_name": "teplovye-zavesy",
+            "link": "https://www.citilink.ru/catalog/teplovye-zavesy/",
+            "img_link": "https://category-images.s1.citilink.ru/a3926b8b-bbca-4b92-b149-82b5d3c4eb1c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "silovaya-tehnika",
+        "value": {
+            "human_name": "Сварочные аппараты",
+            "url_name": "svarochnye-apparaty",
+            "link": "https://www.citilink.ru/catalog/svarochnye-apparaty/",
+            "img_link": "https://category-images.s1.citilink.ru/d80edbe2-d701-41b1-a815-fd5bf13d5fb2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "silovaya-tehnika",
+        "value": {
+            "human_name": "Аксессуары для сварки",
+            "url_name": "aksessuary-dlya-svarki",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-svarki/",
+            "img_link": "https://category-images.s1.citilink.ru/8af38514-1628-4563-9ee6-43eaddc6b14a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "silovaya-tehnika",
+        "value": {
+            "human_name": "Вибротехника",
+            "url_name": "vibrotehnika",
+            "link": "https://www.citilink.ru/catalog/vibrotehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/3e8e9bce-8e2c-4d4c-b6ac-22a59baac0fa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "silovaya-tehnika",
+        "value": {
+            "human_name": "Стабилизаторы напряжения силовые",
+            "url_name": "stabilizatory-napryazheniya-silovye",
+            "link": "https://www.citilink.ru/catalog/stabilizatory-napryazheniya-silovye/",
+            "img_link": "https://category-images.s1.citilink.ru/8c855916-d696-49b9-ba71-09935618100d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "silovaya-tehnika",
+        "value": {
+            "human_name": "Силовые удлинители",
+            "url_name": "silovye-udliniteli",
+            "link": "https://www.citilink.ru/catalog/silovye-udliniteli/",
+            "img_link": "https://category-images.s1.citilink.ru/a6f692a4-1cbd-49b4-b11b-f171293b6685.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Шуруповерты",
+            "url_name": "shurupoverty",
+            "link": "https://www.citilink.ru/catalog/shurupoverty/",
+            "img_link": "https://category-images.s1.citilink.ru/b3df8507-e68a-4763-8456-046a1a2a099a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Перфораторы",
+            "url_name": "perforatory",
+            "link": "https://www.citilink.ru/catalog/perforatory/",
+            "img_link": "https://category-images.s1.citilink.ru/531b6be4-415c-44f9-8686-1d0e627984c7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Дрели",
+            "url_name": "dreli",
+            "link": "https://www.citilink.ru/catalog/dreli/",
+            "img_link": "https://category-images.s1.citilink.ru/b8c52314-c3c8-4197-a4d1-c952509be275.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Лобзики",
+            "url_name": "lobziki",
+            "link": "https://www.citilink.ru/catalog/lobziki/",
+            "img_link": "https://category-images.s1.citilink.ru/c02dfd84-8fed-4b91-8d71-55a746ba4f07.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Рубанки",
+            "url_name": "rubanki",
+            "link": "https://www.citilink.ru/catalog/rubanki/",
+            "img_link": "https://category-images.s1.citilink.ru/f54444b0-1ade-4397-bbcc-e711c36df273.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Строительные пылесосы",
+            "url_name": "stroitelnye-pylesosy",
+            "link": "https://www.citilink.ru/catalog/stroitelnye-pylesosy/",
+            "img_link": "https://category-images.s1.citilink.ru/a08d3838-a9bd-4853-927d-5ea098d76dbd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Стружкоотсосы",
+            "url_name": "struzhkootsosy",
+            "link": "https://www.citilink.ru/catalog/struzhkootsosy/",
+            "img_link": "https://category-images.s1.citilink.ru/8b7f5da7-2ee9-4d9f-8277-bb4474a388e8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Фены и термопистолеты",
+            "url_name": "feny-i-termopistolety",
+            "link": "https://www.citilink.ru/catalog/feny-i-termopistolety/",
+            "img_link": "https://category-images.s1.citilink.ru/d9146c56-ba08-43a9-adbf-5286e42677f0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Плиткорезы",
+            "url_name": "plitkorezy",
+            "link": "https://www.citilink.ru/catalog/plitkorezy/",
+            "img_link": "https://category-images.s1.citilink.ru/8fe969e8-29d1-4cfc-9935-070de7e36719.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Аксессуары для электроинструмента",
+            "url_name": "aksessuary-dlya-elektroinstrumenta",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-elektroinstrumenta/",
+            "img_link": "https://category-images.s1.citilink.ru/5980ed5f-aa88-4804-a9d2-c632da24c79e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Краскопульты",
+            "url_name": "kraskopulty",
+            "link": "https://www.citilink.ru/catalog/kraskopulty/",
+            "img_link": "https://category-images.s1.citilink.ru/de297421-9ab8-4572-905c-149c297f216f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Фрезеры",
+            "url_name": "frezery",
+            "link": "https://www.citilink.ru/catalog/frezery/",
+            "img_link": "https://category-images.s1.citilink.ru/8596d629-b81f-465f-8567-8f2a2280cf08.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Точила",
+            "url_name": "tochila",
+            "link": "https://www.citilink.ru/catalog/tochila/",
+            "img_link": "https://category-images.s1.citilink.ru/80fd4a22-4937-457f-a0ee-38ffd42d1cf0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Отбойные молотки",
+            "url_name": "otboinye-molotki",
+            "link": "https://www.citilink.ru/catalog/otboinye-molotki/",
+            "img_link": "https://category-images.s1.citilink.ru/b47eee1c-4808-44c7-805c-f9787651cebd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Паяльное оборудование",
+            "url_name": "payalnoe-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/payalnoe-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/dfb7f3f0-3cdc-499d-8317-a47003c5f0e5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Аксессуары для пайки",
+            "url_name": "aksessuary-dlya-paiki",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-paiki/",
+            "img_link": "https://category-images.s1.citilink.ru/54c07a7b-51ff-440d-baae-676384f13ac0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Строительные степлеры",
+            "url_name": "stroitelnye-steplery",
+            "link": "https://www.citilink.ru/catalog/stroitelnye-steplery/",
+            "img_link": "https://category-images.s1.citilink.ru/17e67f8a-1897-413f-bcf0-2a04a46a5407.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektroinstrument",
+        "value": {
+            "human_name": "Бетономешалки",
+            "url_name": "betonomeshalki",
+            "link": "https://www.citilink.ru/catalog/betonomeshalki/",
+            "img_link": "https://category-images.s1.citilink.ru/60bb9ccf-1570-499a-9afa-cff26358dd18.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akkumulyatornyi-instrument-i-tehnika",
+        "value": {
+            "human_name": "Аккумуляторные перфораторы",
+            "url_name": "akkumulyatornye-perforatory",
+            "link": "https://www.citilink.ru/catalog/akkumulyatornye-perforatory/",
+            "img_link": "https://category-images.s1.citilink.ru/9262dbb4-87f8-4e3f-a6bf-6aaa3b6f3464.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akkumulyatornyi-instrument-i-tehnika",
+        "value": {
+            "human_name": "Аккумуляторные отвертки",
+            "url_name": "akkumulyatornye-otvertki",
+            "link": "https://www.citilink.ru/catalog/akkumulyatornye-otvertki/",
+            "img_link": "https://category-images.s1.citilink.ru/817b424a-5eb7-4fbc-85ee-330661bf7f29.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akkumulyatornyi-instrument-i-tehnika",
+        "value": {
+            "human_name": "Аккумуляторные снегоуборщики",
+            "url_name": "snegouborschiki--akkumulyatornye-snegouborshchiki",
+            "link": "https://www.citilink.ru/catalog/snegouborschiki--akkumulyatornye-snegouborshchiki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_557_1669704021.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akb-i-zu-dlya-instrumenta",
+        "value": {
+            "human_name": "Аккумуляторы для садовой техники",
+            "url_name": "akkumulyatory-dlya-sadovoi-tehniki",
+            "link": "https://www.citilink.ru/catalog/akkumulyatory-dlya-sadovoi-tehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/6c7e9e2c-988d-4756-b908-5d3a6072b5c0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akb-i-zu-dlya-instrumenta",
+        "value": {
+            "human_name": "Аккумуляторы для инструмента",
+            "url_name": "akkumulyatory-dlya-instrumenta",
+            "link": "https://www.citilink.ru/catalog/akkumulyatory-dlya-instrumenta/",
+            "img_link": "https://category-images.s1.citilink.ru/18ac3934-d3d3-41b2-bd87-a235fde25990.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "akb-i-zu-dlya-instrumenta",
+        "value": {
+            "human_name": "Зарядные устройства для аккумуляторов",
+            "url_name": "zaryadnye-ustroistva-dlya-akkumulyatorov",
+            "link": "https://www.citilink.ru/catalog/zaryadnye-ustroistva-dlya-akkumulyatorov/",
+            "img_link": "https://category-images.s1.citilink.ru/472e2d2a-eb4a-4a7b-8978-b5c3bf1baa17.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "УШМ (Болгарки)",
+            "url_name": "ushm-bolgarki",
+            "link": "https://www.citilink.ru/catalog/ushm-bolgarki/",
+            "img_link": "https://category-images.s1.citilink.ru/8d95b57e-5fb5-4193-a76f-324239fb58fe.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "Ленточные шлифмашины",
+            "url_name": "lentochnye-shlifmashiny",
+            "link": "https://www.citilink.ru/catalog/lentochnye-shlifmashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/04941650-edbc-4652-9ae2-8e7605065b57.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "Дельта шлифмашины",
+            "url_name": "delta-shlifmashiny",
+            "link": "https://www.citilink.ru/catalog/delta-shlifmashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/ba858cca-1847-48b7-9840-dd76e362fba9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "Виброшлифмашины",
+            "url_name": "vibroshlifmashiny",
+            "link": "https://www.citilink.ru/catalog/vibroshlifmashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/04f42bd7-9126-427e-bbe5-cbb2cd751f5b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "Эксцентриковые шлифмашины",
+            "url_name": "ekscentrikovye-shlifmashiny",
+            "link": "https://www.citilink.ru/catalog/ekscentrikovye-shlifmashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/63298479-02f2-45b5-b4fb-2cb26c39e2c9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "Граверы",
+            "url_name": "gravery",
+            "link": "https://www.citilink.ru/catalog/gravery/",
+            "img_link": "https://category-images.s1.citilink.ru/5bf3509a-4ade-4a79-af8e-a67582e358a7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "Многофункциональный инструмент (реноваторы)",
+            "url_name": "mnogofunkcionalnyi-instrument-renovatory",
+            "link": "https://www.citilink.ru/catalog/mnogofunkcionalnyi-instrument-renovatory/",
+            "img_link": "https://category-images.s1.citilink.ru/96003fe5-f3d9-442f-8db2-fca7a38c1259.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shlifovalnye-mashiny",
+        "value": {
+            "human_name": "Полировальные машины",
+            "url_name": "polirovalnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/polirovalnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/d3dd2261-90c3-4aae-9414-ff5f86de337e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pily",
+        "value": {
+            "human_name": "Циркулярные пилы",
+            "url_name": "cirkulyarnye-pily",
+            "link": "https://www.citilink.ru/catalog/cirkulyarnye-pily/",
+            "img_link": "https://category-images.s1.citilink.ru/03f8c930-d171-4dda-8565-dda475b67022.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pily",
+        "value": {
+            "human_name": "Торцовочные пилы",
+            "url_name": "torcovochnye-pily",
+            "link": "https://www.citilink.ru/catalog/torcovochnye-pily/",
+            "img_link": "https://category-images.s1.citilink.ru/71ba4e60-1df9-41d5-b598-caf85ef61d07.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pily",
+        "value": {
+            "human_name": "Сабельные пилы",
+            "url_name": "sabelnye-pily",
+            "link": "https://www.citilink.ru/catalog/sabelnye-pily/",
+            "img_link": "https://category-images.s1.citilink.ru/c034d1cf-a218-46c4-bbed-b46ecf7fabee.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pily",
+        "value": {
+            "human_name": "Штроборезы",
+            "url_name": "shtroborezy",
+            "link": "https://www.citilink.ru/catalog/shtroborezy/",
+            "img_link": "https://category-images.s1.citilink.ru/fdccd6de-f413-4061-a9ae-1a57295cc679.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pily",
+        "value": {
+            "human_name": "Ножовки",
+            "url_name": "stolyarno-slesarnyi-instrument--nozhovki",
+            "link": "https://www.citilink.ru/catalog/stolyarno-slesarnyi-instrument--nozhovki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1499_1658917434.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ruchnye-instrumenty",
+        "value": {
+            "human_name": "Гаечные ключи",
+            "url_name": "gaechnye-klyuchi",
+            "link": "https://www.citilink.ru/catalog/gaechnye-klyuchi/",
+            "img_link": "https://category-images.s1.citilink.ru/56860785-efdc-468e-93d6-e45209851808.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ruchnye-instrumenty",
+        "value": {
+            "human_name": "Шарнирно-губцевый инструмент",
+            "url_name": "sharnirno-gubcevyi-instrument",
+            "link": "https://www.citilink.ru/catalog/sharnirno-gubcevyi-instrument/",
+            "img_link": "https://category-images.s1.citilink.ru/63086789-2239-4bc8-8db0-4139663cd5d5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ruchnye-instrumenty",
+        "value": {
+            "human_name": "Монтажно-крепежный инструмент",
+            "url_name": "montazhno-krepezhnyi-instrument",
+            "link": "https://www.citilink.ru/catalog/montazhno-krepezhnyi-instrument/",
+            "img_link": "https://category-images.s1.citilink.ru/118b7e7a-3d1a-40f2-a919-8c77034206a0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ruchnye-instrumenty",
+        "value": {
+            "human_name": "Столярно-слесарный инструмент",
+            "url_name": "stolyarno-slesarnyi-instrument",
+            "link": "https://www.citilink.ru/catalog/stolyarno-slesarnyi-instrument/",
+            "img_link": "https://category-images.s1.citilink.ru/9e8e55bf-45ce-43ff-a805-450e57fd20bd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Отрезные диски и круги",
+            "url_name": "otreznye-diski-i-krugi",
+            "link": "https://www.citilink.ru/catalog/otreznye-diski-i-krugi/",
+            "img_link": "https://category-images.s1.citilink.ru/06fc5dfa-2ee0-4317-9114-f892a34bb4b7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Пильные диски",
+            "url_name": "pilnye-diski",
+            "link": "https://www.citilink.ru/catalog/pilnye-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/28fdf627-17a4-439f-b48d-9616060aa503.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Фрезы по дереву",
+            "url_name": "frezy-po-derevu",
+            "link": "https://www.citilink.ru/catalog/frezy-po-derevu/",
+            "img_link": "https://category-images.s1.citilink.ru/63513722-f0f8-4cd3-9cff-97b69429b6fd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Алмазные диски",
+            "url_name": "almaznye-diski",
+            "link": "https://www.citilink.ru/catalog/almaznye-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/47de3f5f-a9e0-4a55-a61d-26376e229712.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Абразивные диски",
+            "url_name": "abrazivnye-diski",
+            "link": "https://www.citilink.ru/catalog/abrazivnye-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/796e47c5-305a-42ce-8c56-5b75bd580616.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Пилки и полотна",
+            "url_name": "pilki-i-polotna",
+            "link": "https://www.citilink.ru/catalog/pilki-i-polotna/",
+            "img_link": "https://category-images.s1.citilink.ru/66a2c050-147b-4cae-9ec0-e23031c8d06f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Круги, диски, фрезы",
+            "url_name": "krugi-diski-frezy",
+            "link": "https://www.citilink.ru/catalog/krugi-diski-frezy/",
+            "img_link": "https://category-images.s1.citilink.ru/fabc2b1a-9501-41ab-ad72-8f205311535f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Наборы бит и сверл",
+            "url_name": "nabory-bit-i-sverl",
+            "link": "https://www.citilink.ru/catalog/nabory-bit-i-sverl/",
+            "img_link": "https://category-images.s1.citilink.ru/5a206b75-ca47-4535-8cc6-aab26f07dd0a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy",
+        "value": {
+            "human_name": "Аксессуары для электроинструмента",
+            "url_name": "aksessuary-dlya-elektroinstrumenta",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-elektroinstrumenta/",
+            "img_link": "https://category-images.s1.citilink.ru/6893bcc1-8d0a-47ff-8dd4-8d53eea0c9b6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Компрессоры пневматические",
+            "url_name": "kompressory-pnevmaticheskie",
+            "link": "https://www.citilink.ru/catalog/kompressory-pnevmaticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/da7f0dc7-5e6d-4a3e-b363-0cb9bf8e1c4d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Пистолеты пневматические",
+            "url_name": "pistolety-pnevmaticheskie",
+            "link": "https://www.citilink.ru/catalog/pistolety-pnevmaticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/373fd00a-7721-448b-bade-222a91c24d7f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Краскораспылители пневматические",
+            "url_name": "kraskoraspyliteli-pnevmaticheskie",
+            "link": "https://www.citilink.ru/catalog/kraskoraspyliteli-pnevmaticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/002380f1-e51c-413d-9ef4-340fa0e64077.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Гайковерты пневматические",
+            "url_name": "gaikoverty-pnevmaticheskie",
+            "link": "https://www.citilink.ru/catalog/gaikoverty-pnevmaticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/856e063a-ba67-4d5a-b42c-4c568b053288.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Дрели пневматические",
+            "url_name": "dreli-pnevmaticheskie",
+            "link": "https://www.citilink.ru/catalog/dreli-pnevmaticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/692439a6-38e4-4d74-a04e-dfcdb8c335db.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Шлифмашины пневматические",
+            "url_name": "shlifmashiny-pnevmaticheskie",
+            "link": "https://www.citilink.ru/catalog/shlifmashiny-pnevmaticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/3946e633-6649-4ce3-b4f7-610041b99703.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Наборы пневматические",
+            "url_name": "nabory-pnevmaticheskie",
+            "link": "https://www.citilink.ru/catalog/nabory-pnevmaticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/bed2c47b-a4d3-469d-a955-a2da6669e146.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pnevmaticheskii-instrument",
+        "value": {
+            "human_name": "Аксессуары для пневмоинструментов",
+            "url_name": "aksessuary-dlya-pnevmoinstrumentov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-pnevmoinstrumentov/",
+            "img_link": "https://category-images.s1.citilink.ru/75afee0d-e2e5-4b77-8d05-97c3a808e6ef.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Силовые кабели и провода",
+            "url_name": "silovye-kabeli",
+            "link": "https://www.citilink.ru/catalog/silovye-kabeli/",
+            "img_link": "https://category-images.s1.citilink.ru/bc665dc2-7184-4a24-b58c-89b32472aeee.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Гофрированные трубы и аксессуары",
+            "url_name": "gofrirovannye-truby",
+            "link": "https://www.citilink.ru/catalog/gofrirovannye-truby/",
+            "img_link": "https://category-images.s1.citilink.ru/d8b472e0-377a-4f3c-8636-675f5540b3b9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Аппараты защиты",
+            "url_name": "apparaty-zaschity",
+            "link": "https://www.citilink.ru/catalog/apparaty-zaschity/",
+            "img_link": "https://category-images.s1.citilink.ru/6e168d22-b596-4341-b982-9ae29b2eb5ee.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Изделия для электромонтажа",
+            "url_name": "izdeliya-dlya-elektromontazha",
+            "link": "https://www.citilink.ru/catalog/izdeliya-dlya-elektromontazha/",
+            "img_link": "https://category-images.s1.citilink.ru/3fee1b1e-9b63-465d-b6eb-612688b3113a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Розетки",
+            "url_name": "rozetki",
+            "link": "https://www.citilink.ru/catalog/rozetki/",
+            "img_link": "https://category-images.s1.citilink.ru/6595d9ba-642b-4536-abfd-d400b8f3699e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Выключатели",
+            "url_name": "vyklyuchateli",
+            "link": "https://www.citilink.ru/catalog/vyklyuchateli/",
+            "img_link": "https://category-images.s1.citilink.ru/994f2311-71e1-42fe-9498-b56933ce219b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Диммеры",
+            "url_name": "dimmery",
+            "link": "https://www.citilink.ru/catalog/dimmery/",
+            "img_link": "https://category-images.s1.citilink.ru/5a045fb2-6fd7-4f5b-975b-2ed3f5b3d944.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Рамки для розеток и выключателей",
+            "url_name": "ramki-dlya-rozetok-i-vyklyuchatelei",
+            "link": "https://www.citilink.ru/catalog/ramki-dlya-rozetok-i-vyklyuchatelei/",
+            "img_link": "https://category-images.s1.citilink.ru/bac1f09e-c3e1-4f4f-8d28-5c8350a7a712.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Щиты и боксы",
+            "url_name": "schity-i-boksy",
+            "link": "https://www.citilink.ru/catalog/schity-i-boksy/",
+            "img_link": "https://category-images.s1.citilink.ru/2f8c0fe2-f417-494b-a8eb-ab1806d67bdc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Счетчики электроэнергии",
+            "url_name": "schetchiki-elektroenergii",
+            "link": "https://www.citilink.ru/catalog/schetchiki-elektroenergii/",
+            "img_link": "https://category-images.s1.citilink.ru/7f2901a5-ccdf-450b-8630-c582a2d8ac48.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Реле",
+            "url_name": "rele",
+            "link": "https://www.citilink.ru/catalog/rele/",
+            "img_link": "https://category-images.s1.citilink.ru/382740aa-59f5-4a10-bc50-c5cb71c6e6a8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Звонки",
+            "url_name": "zvonki",
+            "link": "https://www.citilink.ru/catalog/zvonki/",
+            "img_link": "https://category-images.s1.citilink.ru/84d26feb-8677-45ec-8d99-e4ab11122256.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektrika",
+        "value": {
+            "human_name": "Пускатели и контакторы",
+            "url_name": "puskateli-i-kontaktory",
+            "link": "https://www.citilink.ru/catalog/puskateli-i-kontaktory/",
+            "img_link": "https://category-images.s1.citilink.ru/1b1b9c8b-94a4-4da5-916e-d8896a853713.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Ванны",
+            "url_name": "vanny",
+            "link": "https://www.citilink.ru/catalog/vanny/",
+            "img_link": "https://category-images.s1.citilink.ru/75c22eb7-0d1e-4731-ab17-92333d93ec7e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Комплектующие для ванны",
+            "url_name": "ekrany-dlya-vann",
+            "link": "https://www.citilink.ru/catalog/ekrany-dlya-vann/",
+            "img_link": "https://category-images.s1.citilink.ru/61d970d7-bd78-4478-9dbd-b090248299b5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Раковины",
+            "url_name": "rakoviny",
+            "link": "https://www.citilink.ru/catalog/rakoviny/",
+            "img_link": "https://category-images.s1.citilink.ru/22953710-194d-49cb-9b00-e13515786061.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Унитазы",
+            "url_name": "unitazy",
+            "link": "https://www.citilink.ru/catalog/unitazy/",
+            "img_link": "https://category-images.s1.citilink.ru/e8e35c92-89c9-4487-9e87-e9d2afe6c1d3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Смесители и душевые гарнитуры",
+            "url_name": "smesiteli",
+            "link": "https://www.citilink.ru/catalog/smesiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/2a220911-de4e-447f-b9e7-80a309d40859.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Душевые ограждения",
+            "url_name": "dushevye-ograzhdeniya",
+            "link": "https://www.citilink.ru/catalog/dushevye-ograzhdeniya/",
+            "img_link": "https://category-images.s1.citilink.ru/fd85a7b9-3f90-4b43-bcf4-f771ea5691ac.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Душевые поддоны",
+            "url_name": "dushevye-poddony",
+            "link": "https://www.citilink.ru/catalog/dushevye-poddony/",
+            "img_link": "https://category-images.s1.citilink.ru/52e297ff-56e6-4bd4-925b-c147a753a85c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Кухонные мойки",
+            "url_name": "kuhonnye-moiki",
+            "link": "https://www.citilink.ru/catalog/kuhonnye-moiki/",
+            "img_link": "https://category-images.s1.citilink.ru/aacdf155-a5a9-42ec-aeaa-591f23da9433.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "santehnika",
+        "value": {
+            "human_name": "Инсталляции",
+            "url_name": "installyacii",
+            "link": "https://www.citilink.ru/catalog/installyacii/",
+            "img_link": "https://category-images.s1.citilink.ru/162110cd-6aef-47e2-b0cd-1cae870bd190.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Трубы",
+            "url_name": "truby",
+            "link": "https://www.citilink.ru/catalog/truby/",
+            "img_link": "https://category-images.s1.citilink.ru/6bc862ca-44cc-4084-997c-3f86d2fd0731.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Фитинги",
+            "url_name": "fitingi",
+            "link": "https://www.citilink.ru/catalog/fitingi/",
+            "img_link": "https://category-images.s1.citilink.ru/7277d296-fb8b-4165-8d85-f52babbb9d7d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Запорная арматура",
+            "url_name": "zapornaya-armatura",
+            "link": "https://www.citilink.ru/catalog/zapornaya-armatura/",
+            "img_link": "https://category-images.s1.citilink.ru/f446158c-c6fe-4a89-9513-72a2175e8898.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Слив и канализация",
+            "url_name": "sliv-i-kanalizaciya",
+            "link": "https://www.citilink.ru/catalog/sliv-i-kanalizaciya/",
+            "img_link": "https://category-images.s1.citilink.ru/d9321125-9c55-45ea-bd11-fe7cdbbe0b1c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Счетчики для воды",
+            "url_name": "schetchiki-dlya-vody",
+            "link": "https://www.citilink.ru/catalog/schetchiki-dlya-vody/",
+            "img_link": "https://category-images.s1.citilink.ru/965669a6-4e32-48ef-9144-63cfec020cbc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Ревизионные люки",
+            "url_name": "revizionnye-lyuki",
+            "link": "https://www.citilink.ru/catalog/revizionnye-lyuki/",
+            "img_link": "https://category-images.s1.citilink.ru/fc1943c5-9626-460a-b2d7-c20051d71d74.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Системы защиты от протечек",
+            "url_name": "sistemy-zaschity-ot-protechek",
+            "link": "https://www.citilink.ru/catalog/sistemy-zaschity-ot-protechek/",
+            "img_link": "https://category-images.s1.citilink.ru/88a4e349-6160-4ff6-a274-7a298074782d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Комплектующие и расходные материалы для сантехники",
+            "url_name": "komplektuyuschie-i-rashodnye-materialy-dlya-santehniki",
+            "link": "https://www.citilink.ru/catalog/komplektuyuschie-i-rashodnye-materialy-dlya-santehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/4e80521d-9a87-4232-a477-ef762fa94b04.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "inzhenernaya-santehnika",
+        "value": {
+            "human_name": "Вентиляция и комплектующие",
+            "url_name": "ventilyaciya-i-komplektuyuschie",
+            "link": "https://www.citilink.ru/catalog/ventilyaciya-i-komplektuyuschie/",
+            "img_link": "https://category-images.s1.citilink.ru/26a266c3-d15b-46e5-b6c3-40e9862ca3c3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel-dlya-vannoi",
+        "value": {
+            "human_name": "Тумбы и комоды для ванной",
+            "url_name": "tumby-i-komody-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/tumby-i-komody-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/e0943b4a-6b6f-4a46-bbe5-5fa7c3df72df.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel-dlya-vannoi",
+        "value": {
+            "human_name": "Шкафы  для ванной",
+            "url_name": "shkafy-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/shkafy-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/c56fa607-83fd-4fa7-bdf3-266694fb9936.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel-dlya-vannoi",
+        "value": {
+            "human_name": "Зеркала для ванной",
+            "url_name": "zerkala-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/zerkala-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/0cc1f60b-57a8-4e73-bc98-566ab2ed0068.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel-dlya-vannoi",
+        "value": {
+            "human_name": "Полки для ванной",
+            "url_name": "polki-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/polki-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/f9df18d9-fc68-4ef6-a545-97dc19bbcae8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Ершики для ванной",
+            "url_name": "ershiki-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/ershiki-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/8bbe7760-663b-4814-aa01-48ae4fdf8ff9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Стаканы для ванной",
+            "url_name": "stakany-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/stakany-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/5f86b183-1167-4b6c-8642-7b3d94b9e58e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Держатели для ванной",
+            "url_name": "derzhateli-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/derzhateli-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/d5a45b80-3b76-4f12-8ab9-6358757cb1a7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Дозаторы для ванной",
+            "url_name": "dozatory-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/dozatory-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/bcec9916-45a9-4ba8-8326-64a6efd25560.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Мыльницы для ванной",
+            "url_name": "mylnicy-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/mylnicy-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/9b0b1a79-bea8-49f2-82e7-a2bd53e0ea98.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Коврики для ванных комнат",
+            "url_name": "kovriki-dlya-vannyh-komnat",
+            "link": "https://www.citilink.ru/catalog/kovriki-dlya-vannyh-komnat/",
+            "img_link": "https://category-images.s1.citilink.ru/ca07ca0f-9110-4c65-b597-8a7450f005b7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Сиденья и поручни",
+            "url_name": "sidenya-i-poruchni",
+            "link": "https://www.citilink.ru/catalog/sidenya-i-poruchni/",
+            "img_link": "https://category-images.s1.citilink.ru/453937a7-bff7-41d5-98db-811e17795249.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Вешалки и крючки для ванной",
+            "url_name": "veshalki-i-kryuchki-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/veshalki-i-kryuchki-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/bb710c0b-bc6c-4f86-b8d6-81343484d20b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-vannoi",
+        "value": {
+            "human_name": "Шторы и карнизы для ванной",
+            "url_name": "shtory-i-karnizy-dlya-vannoi",
+            "link": "https://www.citilink.ru/catalog/shtory-i-karnizy-dlya-vannoi/",
+            "img_link": "https://category-images.s1.citilink.ru/9ada475d-699d-4438-aabc-a2cbe0b72393.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "lakokrasochnye-materialy",
+        "value": {
+            "human_name": "Краски",
+            "url_name": "kraski",
+            "link": "https://www.citilink.ru/catalog/kraski/",
+            "img_link": "https://category-images.s1.citilink.ru/a651b2ac-4503-471a-9d1b-0c349e5ce2d1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "lakokrasochnye-materialy",
+        "value": {
+            "human_name": "Покрытия для древесины",
+            "url_name": "pokrytiya-dlya-drevesiny",
+            "link": "https://www.citilink.ru/catalog/pokrytiya-dlya-drevesiny/",
+            "img_link": "https://category-images.s1.citilink.ru/502a4ff8-e3ed-46da-b0ad-19ce2eb14995.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "lakokrasochnye-materialy",
+        "value": {
+            "human_name": "Товары для подготовки поверхностей",
+            "url_name": "tovary-dlya-podgotovki-poverhnostei",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-podgotovki-poverhnostei/",
+            "img_link": "https://category-images.s1.citilink.ru/94a149bb-ea43-4588-96fb-4b7115a9e4d3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "lakokrasochnye-materialy",
+        "value": {
+            "human_name": "Строительный клей",
+            "url_name": "stroitelnyi-klei",
+            "link": "https://www.citilink.ru/catalog/stroitelnyi-klei/",
+            "img_link": "https://category-images.s1.citilink.ru/5f22cf4d-98ff-45c7-99d2-f1d35ff51141.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "lakokrasochnye-materialy",
+        "value": {
+            "human_name": "Малярный инструмент",
+            "url_name": "malyarnyi-instrument",
+            "link": "https://www.citilink.ru/catalog/malyarnyi-instrument/",
+            "img_link": "https://category-images.s1.citilink.ru/a9360562-9f31-4ceb-a27f-11a1bed13f7e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdelochnye-materialy",
+        "value": {
+            "human_name": "Ламинат",
+            "url_name": "laminat",
+            "link": "https://www.citilink.ru/catalog/laminat/",
+            "img_link": "https://category-images.s1.citilink.ru/6d044627-8e10-4784-abe6-b8601e1ac5b1.jpg",
+            "is_product_page": true
+        }
+    }
+]

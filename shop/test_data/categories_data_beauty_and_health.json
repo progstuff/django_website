@@ -1,0 +1,372 @@
+[
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Товары для укладки",
+            "url_name": "tovary-dlya-ukladki",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-ukladki/",
+            "img_link": "https://category-images.s1.citilink.ru/3f4b45bb-83ed-4182-aa6a-1b71a97a3881.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Товары для здоровья",
+            "url_name": "tovary-dlya-zdorovya",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-zdorovya/",
+            "img_link": "https://category-images.s1.citilink.ru/6825798a-3a51-4f6b-a803-88a5c83ea0d5.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Товары для красоты",
+            "url_name": "tovary-dlya-krasoty",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-krasoty/",
+            "img_link": "https://category-images.s1.citilink.ru/74245c4a-edc0-4525-a1d2-70c3d7dc250f.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Средства личной гигиены",
+            "url_name": "sredstva-lichnoi-gigieny",
+            "link": "https://www.citilink.ru/catalog/sredstva-lichnoi-gigieny/",
+            "img_link": "https://category-images.s1.citilink.ru/44932bf8-e3ba-40dd-8a99-fc0d0aed0726.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Антисептики",
+            "url_name": "antiseptiki",
+            "link": "https://www.citilink.ru/catalog/antiseptiki/",
+            "img_link": "https://category-images.s1.citilink.ru/0890c229-2c69-4e22-ae72-8a4a42250f16.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Средства защиты",
+            "url_name": "sredstva-zaschity",
+            "link": "https://www.citilink.ru/catalog/sredstva-zaschity/",
+            "img_link": "https://category-images.s1.citilink.ru/15be187c-5f46-4d47-9dcd-11f5df9cb130.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Продукты",
+            "url_name": "produkty",
+            "link": "https://www.citilink.ru/catalog/produkty/",
+            "img_link": "https://category-images.s1.citilink.ru/496eb294-7890-4f7f-b86c-311dc4bc9a81.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Сушилки для обуви",
+            "url_name": "sushilki-dlya-obuvi",
+            "link": "https://www.citilink.ru/catalog/sushilki-dlya-obuvi/",
+            "img_link": "https://category-images.s1.citilink.ru/fe4f332e-f5a8-485d-a6a9-e712596a8c06.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Бритвы и эпиляторы",
+            "url_name": "britvy-i-epilyatory",
+            "link": "https://www.citilink.ru/catalog/britvy-i-epilyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/0d447278-bc68-4fc1-9957-84a5a22983bf.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Зубные щетки и ирригаторы",
+            "url_name": "zubnye-schetki-i-irrigatory",
+            "link": "https://www.citilink.ru/catalog/zubnye-schetki-i-irrigatory/",
+            "img_link": "https://category-images.s1.citilink.ru/076bdb50-01ed-48dc-8e18-d915e378cf67.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "beauty_and_health",
+        "value": {
+            "human_name": "Медицинское оборудование",
+            "url_name": "medicinskoe-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/medicinskoe-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/29c6b1f1-365a-4b21-b6a9-d90f9746a934.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "tovary-dlya-ukladki",
+        "value": {
+            "human_name": "Щипцы для завивки волос",
+            "url_name": "schipcy-dlya-zavivki-volos",
+            "link": "https://www.citilink.ru/catalog/schipcy-dlya-zavivki-volos/",
+            "img_link": "https://category-images.s1.citilink.ru/085dd1a9-f33d-4696-9647-8c46fe6b1111.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-ukladki",
+        "value": {
+            "human_name": "Фен-щетки",
+            "url_name": "fen-schetki",
+            "link": "https://www.citilink.ru/catalog/fen-schetki/",
+            "img_link": "https://category-images.s1.citilink.ru/b2098147-b3c6-49fe-b683-cfa4c3635d2e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-ukladki",
+        "value": {
+            "human_name": "Мультистайлеры",
+            "url_name": "multistailery",
+            "link": "https://www.citilink.ru/catalog/multistailery/",
+            "img_link": "https://category-images.s1.citilink.ru/0d1caf21-40eb-407d-b190-d024f986cd89.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-ukladki",
+        "value": {
+            "human_name": "Выпрямители для волос",
+            "url_name": "vypryamiteli-dlya-volos",
+            "link": "https://www.citilink.ru/catalog/vypryamiteli-dlya-volos/",
+            "img_link": "https://category-images.s1.citilink.ru/de389c44-bbb9-4c38-a727-7c3074f145bc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-ukladki",
+        "value": {
+            "human_name": "Фены",
+            "url_name": "feny",
+            "link": "https://www.citilink.ru/catalog/feny/",
+            "img_link": "https://category-images.s1.citilink.ru/abf78e4d-adaa-4b9c-b8f5-3b85f11772e2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zdorovya",
+        "value": {
+            "human_name": "Гидромассажные ванночки для ног",
+            "url_name": "gidromassazhnye-vannochki-dlya-nog",
+            "link": "https://www.citilink.ru/catalog/gidromassazhnye-vannochki-dlya-nog/",
+            "img_link": "https://category-images.s1.citilink.ru/0652c38c-6788-4c44-8837-63d022406785.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zdorovya",
+        "value": {
+            "human_name": "Весы напольные",
+            "url_name": "vesy-napolnye",
+            "link": "https://www.citilink.ru/catalog/vesy-napolnye/",
+            "img_link": "https://category-images.s1.citilink.ru/fa799006-193e-4d8c-87a2-95ffdcd6ef90.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-zdorovya",
+        "value": {
+            "human_name": "Массажеры",
+            "url_name": "massazhery",
+            "link": "https://www.citilink.ru/catalog/massazhery/",
+            "img_link": "https://category-images.s1.citilink.ru/c979c004-ebef-4965-aeff-2ecf76ae0ec5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-krasoty",
+        "value": {
+            "human_name": "Триммеры OneBlade",
+            "url_name": "oneblade",
+            "link": "https://www.citilink.ru/catalog/oneblade/",
+            "img_link": "https://category-images.s1.citilink.ru/5bc81a19-fcb3-4c51-b2f1-1d7683918244.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-krasoty",
+        "value": {
+            "human_name": "Машинки для стрижки волос",
+            "url_name": "mashinki-dlya-strizhki-volos",
+            "link": "https://www.citilink.ru/catalog/mashinki-dlya-strizhki-volos/",
+            "img_link": "https://category-images.s1.citilink.ru/1f0a81f6-5765-414a-adec-1021373ee90c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-krasoty",
+        "value": {
+            "human_name": "Триммеры",
+            "url_name": "trimmery",
+            "link": "https://www.citilink.ru/catalog/trimmery/",
+            "img_link": "https://category-images.s1.citilink.ru/0c66f62a-e11c-4960-b80a-72b2dfbe2e75.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-krasoty",
+        "value": {
+            "human_name": "Товары для маникюра и педикюра",
+            "url_name": "manikyurnye-nabory",
+            "link": "https://www.citilink.ru/catalog/manikyurnye-nabory/",
+            "img_link": "https://category-images.s1.citilink.ru/4d9ac6ff-576c-4f6e-b36e-e039c446f310.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-krasoty",
+        "value": {
+            "human_name": "Косметические приборы",
+            "url_name": "kosmeticheskie-pribory",
+            "link": "https://www.citilink.ru/catalog/kosmeticheskie-pribory/",
+            "img_link": "https://category-images.s1.citilink.ru/d6825d8b-3176-4bb6-9ab2-cd24cf60c065.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-krasoty",
+        "value": {
+            "human_name": "Косметические зеркала",
+            "url_name": "kosmeticheskie-zerkala",
+            "link": "https://www.citilink.ru/catalog/kosmeticheskie-zerkala/",
+            "img_link": "https://category-images.s1.citilink.ru/f317f758-ab11-4fa6-86a6-c098b36e06b2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "britvy-i-epilyatory",
+        "value": {
+            "human_name": "Электробритвы",
+            "url_name": "elektrobritvy",
+            "link": "https://www.citilink.ru/catalog/elektrobritvy/",
+            "img_link": "https://category-images.s1.citilink.ru/5a9c0ea9-84b1-4f06-a0f6-6686005baa69.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "britvy-i-epilyatory",
+        "value": {
+            "human_name": "Эпиляторы",
+            "url_name": "epilyatory",
+            "link": "https://www.citilink.ru/catalog/epilyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/f3a98f13-8f58-4e29-a93e-719e030c72ad.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "britvy-i-epilyatory",
+        "value": {
+            "human_name": "Аксессуары для бритв и эпиляторов",
+            "url_name": "aksessuary-dlya-britv-i-epilyatorov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-britv-i-epilyatorov/",
+            "img_link": "https://category-images.s1.citilink.ru/6976a2f5-8f72-4f1c-a905-3da1b8fca9ca.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zubnye-schetki-i-irrigatory",
+        "value": {
+            "human_name": "Зубные щетки",
+            "url_name": "zubnye-schetki",
+            "link": "https://www.citilink.ru/catalog/zubnye-schetki/",
+            "img_link": "https://category-images.s1.citilink.ru/ac12dcfe-f536-4966-86e9-86134ad679cf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zubnye-schetki-i-irrigatory",
+        "value": {
+            "human_name": "Аксессуары для зубных щеток",
+            "url_name": "aksessuary-dlya-zubnyh-schetok",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-zubnyh-schetok/",
+            "img_link": "https://category-images.s1.citilink.ru/a21e4873-1072-4db9-8884-c59c819948ae.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "medicinskoe-oborudovanie",
+        "value": {
+            "human_name": "Тонометры",
+            "url_name": "tonometry",
+            "link": "https://www.citilink.ru/catalog/tonometry/",
+            "img_link": "https://category-images.s1.citilink.ru/1468d702-eec1-4a6a-8dcb-1b3926309e1f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "medicinskoe-oborudovanie",
+        "value": {
+            "human_name": "Термометры",
+            "url_name": "termometry",
+            "link": "https://www.citilink.ru/catalog/termometry/",
+            "img_link": "https://category-images.s1.citilink.ru/d98a7d37-68ba-46a6-aea6-00e1d6d8d0d4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "medicinskoe-oborudovanie",
+        "value": {
+            "human_name": "Стетоскопы",
+            "url_name": "stetoskopy",
+            "link": "https://www.citilink.ru/catalog/stetoskopy/",
+            "img_link": "https://category-images.s1.citilink.ru/00ce0d58-d1bd-4321-b7dc-aa84ba7c0d05.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "medicinskoe-oborudovanie",
+        "value": {
+            "human_name": "Ингаляторы",
+            "url_name": "ingalyatory",
+            "link": "https://www.citilink.ru/catalog/ingalyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/417b9873-d81c-47be-9bc1-2faba34099e9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "medicinskoe-oborudovanie",
+        "value": {
+            "human_name": "Контактные линзы",
+            "url_name": "kontaktnye-linzy",
+            "link": "https://www.citilink.ru/catalog/kontaktnye-linzy/",
+            "img_link": "https://category-images.s1.citilink.ru/65a94f60-5400-43a6-be0a-e416402ccf56.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "medicinskoe-oborudovanie",
+        "value": {
+            "human_name": "Грелки",
+            "url_name": "grelki",
+            "link": "https://www.citilink.ru/catalog/grelki/",
+            "img_link": "https://category-images.s1.citilink.ru/44b0fe63-e6eb-4fe9-bf4f-8882cddc492f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "medicinskoe-oborudovanie",
+        "value": {
+            "human_name": "Пульсоксиметры",
+            "url_name": "pulsoksimetry",
+            "link": "https://www.citilink.ru/catalog/pulsoksimetry/",
+            "img_link": "https://category-images.s1.citilink.ru/dbcbc06b-54b9-44cf-9087-9f217feb06e1.jpg",
+            "is_product_page": true
+        }
+    }
+]

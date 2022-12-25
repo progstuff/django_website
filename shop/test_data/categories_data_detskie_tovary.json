@@ -1,0 +1,842 @@
+[
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Детские зимние товары",
+            "url_name": "zimnie-tovary",
+            "link": "https://www.citilink.ru/catalog/zimnie-tovary/",
+            "img_link": "https://category-images.s1.citilink.ru/13cff3a2-300b-4eff-a91a-5a2fdba43023.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Игрушки и игры",
+            "url_name": "igrushki-i-igry",
+            "link": "https://www.citilink.ru/catalog/igrushki-i-igry/",
+            "img_link": "https://category-images.s1.citilink.ru/22912164-af13-4cca-b541-64ad2eadf9f1.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Гаджеты для детей",
+            "url_name": "gadzhety-dlya-detei",
+            "link": "https://www.citilink.ru/catalog/gadzhety-dlya-detei/",
+            "img_link": "https://category-images.s1.citilink.ru/578b8224-f725-4938-b8d6-29e05ffa9678.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Хобби и творчество",
+            "url_name": "hobbi-i-tvorchestvo",
+            "link": "https://www.citilink.ru/catalog/hobbi-i-tvorchestvo/",
+            "img_link": "https://category-images.s1.citilink.ru/f2bde871-f98f-40af-82ed-9bb2ee4f64af.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Коляски и аксессуары",
+            "url_name": "kolyaski-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/kolyaski-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/6da1aa4d-04c0-40e1-bfe5-e78c46de3d84.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Автокресла и аксессуары",
+            "url_name": "avtokresla-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/avtokresla-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/f908c16e-2556-429a-a58a-b10be8f2b07b.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Детский спорт и отдых",
+            "url_name": "detskii-sport-i-otdyh",
+            "link": "https://www.citilink.ru/catalog/detskii-sport-i-otdyh/",
+            "img_link": "https://category-images.s1.citilink.ru/e659e74a-8b1f-4adf-95a5-a48133cfff2c.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Подгузники и трусики",
+            "url_name": "podguzniki-i-trusiki",
+            "link": "https://www.citilink.ru/catalog/podguzniki-i-trusiki/",
+            "img_link": "https://category-images.s1.citilink.ru/01868778-bdcc-4ac9-8b64-2f43e756d8f2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Гигиена и здоровье",
+            "url_name": "gigiena-i-kosmetika",
+            "link": "https://www.citilink.ru/catalog/gigiena-i-kosmetika/",
+            "img_link": "https://category-images.s1.citilink.ru/ccb19f15-dcb7-4423-978d-642b3192f876.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Товары для мам",
+            "url_name": "tovary-dlya-mam",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-mam/",
+            "img_link": "https://category-images.s1.citilink.ru/ada21897-6455-4897-a62c-7a57752cbeba.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Кормление малыша",
+            "url_name": "kormlenie-malysha",
+            "link": "https://www.citilink.ru/catalog/kormlenie-malysha/",
+            "img_link": "https://category-images.s1.citilink.ru/8beeabfd-323b-4420-aeff-2e8239ff42d3.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Детское питание",
+            "url_name": "detskoe-pitanie",
+            "link": "https://www.citilink.ru/catalog/detskoe-pitanie/",
+            "img_link": "https://category-images.s1.citilink.ru/7a915d6a-c774-4855-8d23-214498119a63.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Детская комната",
+            "url_name": "detskaya-komnata",
+            "link": "https://www.citilink.ru/catalog/detskaya-komnata/",
+            "img_link": "https://category-images.s1.citilink.ru/9203db70-6277-44d2-928e-00b69f36de1f.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Детские площадки",
+            "url_name": "detskie-ploschadki",
+            "link": "https://www.citilink.ru/catalog/detskie-ploschadki/",
+            "img_link": "https://category-images.s1.citilink.ru/e4b25d48-a871-4a48-b2f1-a0b1a8dd1d65.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "detskie_tovary",
+        "value": {
+            "human_name": "Товары для школы",
+            "url_name": "tovary-dlya-shkoly",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-shkoly/",
+            "img_link": "https://category-images.s1.citilink.ru/27fd6f1c-8d8a-44f0-9e90-37eb5c3430e9.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "zimnie-tovary",
+        "value": {
+            "human_name": "Ледянки",
+            "url_name": "ledyanki",
+            "link": "https://www.citilink.ru/catalog/ledyanki/",
+            "img_link": "https://category-images.s1.citilink.ru/dce11603-ad1b-4667-a88f-9a8c29e5251d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Мягкие игрушки",
+            "url_name": "myagkie-igrushki",
+            "link": "https://www.citilink.ru/catalog/myagkie-igrushki/",
+            "img_link": "https://category-images.s1.citilink.ru/1b794ad3-648f-402e-a224-ca3b5a3c8cee.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Развивающие игрушки",
+            "url_name": "razvivayuschie-igrushki",
+            "link": "https://www.citilink.ru/catalog/razvivayuschie-igrushki/",
+            "img_link": "https://category-images.s1.citilink.ru/5c165766-cf45-4539-9725-79f63b4b5141.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Интерактивные игрушки",
+            "url_name": "interaktivnye-igrushki",
+            "link": "https://www.citilink.ru/catalog/interaktivnye-igrushki/",
+            "img_link": "https://category-images.s1.citilink.ru/5f3094ce-ff99-4890-9eb3-439cedccf3a0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Деревянные игрушки",
+            "url_name": "derevyannye-igrushki",
+            "link": "https://www.citilink.ru/catalog/derevyannye-igrushki/",
+            "img_link": "https://category-images.s1.citilink.ru/7a1d33d3-2294-4ea4-9da0-82dc9e6f5819.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Фигурки",
+            "url_name": "figurki",
+            "link": "https://www.citilink.ru/catalog/figurki/",
+            "img_link": "https://category-images.s1.citilink.ru/1b075548-1baf-4b96-b474-ad168de6303a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Конструкторы",
+            "url_name": "konstruktory",
+            "link": "https://www.citilink.ru/catalog/konstruktory/",
+            "img_link": "https://category-images.s1.citilink.ru/9224c8b5-84df-4f99-971f-f39bd58f4842.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Игрушки",
+            "url_name": "igrushki",
+            "link": "https://www.citilink.ru/catalog/igrushki/",
+            "img_link": "https://category-images.s1.citilink.ru/86afefa3-6d8a-4675-b410-0e0576809c11.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Радиоуправляемые игрушки",
+            "url_name": "radioupravlyaemye-modeli",
+            "link": "https://www.citilink.ru/catalog/radioupravlyaemye-modeli/",
+            "img_link": "https://category-images.s1.citilink.ru/f472e2b3-6853-4c34-94e5-12559f8fa62d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Куклы и аксессуары",
+            "url_name": "kukly-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/kukly-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/c84a53ca-a475-49ad-94e0-4146f88fabd3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Игрушечное оружие",
+            "url_name": "igrushechnoe-oruzhie",
+            "link": "https://www.citilink.ru/catalog/igrushechnoe-oruzhie/",
+            "img_link": "https://category-images.s1.citilink.ru/d5c66d9d-133c-47d9-9500-38ef4ccec1c3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Игрушечный транспорт",
+            "url_name": "igrushechnyi-transport",
+            "link": "https://www.citilink.ru/catalog/igrushechnyi-transport/",
+            "img_link": "https://category-images.s1.citilink.ru/949a2641-f910-4103-b45c-5b5611826de3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Роботы и трансформеры",
+            "url_name": "roboty-i-transformery",
+            "link": "https://www.citilink.ru/catalog/roboty-i-transformery/",
+            "img_link": "https://category-images.s1.citilink.ru/5968a40b-fda0-4fa0-bf79-02636971960f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Сюжетно-ролевые игры",
+            "url_name": "syuzhetno-rolevye-igry",
+            "link": "https://www.citilink.ru/catalog/syuzhetno-rolevye-igry/",
+            "img_link": "https://category-images.s1.citilink.ru/58a23956-ad78-47ee-ada7-9db060d0c5e2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Головоломки, пазлы и мозаика",
+            "url_name": "golovolomki-pazly-i-mozaika",
+            "link": "https://www.citilink.ru/catalog/golovolomki-pazly-i-mozaika/",
+            "img_link": "https://category-images.s1.citilink.ru/876a8e22-8e37-4d54-8d28-1a36e4a64a4f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Настольные игры",
+            "url_name": "nastolnye-igry",
+            "link": "https://www.citilink.ru/catalog/nastolnye-igry/",
+            "img_link": "https://category-images.s1.citilink.ru/ed38749a-2836-4a6d-a525-7436a06cbeef.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Развивающие коврики и центры",
+            "url_name": "razvivayuschie-kovriki-i-centry",
+            "link": "https://www.citilink.ru/catalog/razvivayuschie-kovriki-i-centry/",
+            "img_link": "https://category-images.s1.citilink.ru/2dcb26eb-3604-446f-b087-97718a5adfda.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "igrushki-i-igry",
+        "value": {
+            "human_name": "Музыкальные инструменты",
+            "url_name": "igrushki--muzykalnye-instrumenty-igr",
+            "link": "https://www.citilink.ru/catalog/igrushki--muzykalnye-instrumenty-igr/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1670_1660221599.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety-dlya-detei",
+        "value": {
+            "human_name": "Детские смарт-часы",
+            "url_name": "detskie-smart-chasy",
+            "link": "https://www.citilink.ru/catalog/detskie-smart-chasy/",
+            "img_link": "https://category-images.s1.citilink.ru/4da73ab0-504d-42b4-94ac-97fd61695507.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety-dlya-detei",
+        "value": {
+            "human_name": "Детские планшеты",
+            "url_name": "planshety--kid-tablet",
+            "link": "https://www.citilink.ru/catalog/planshety--kid-tablet/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_376_1659434420.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety-dlya-detei",
+        "value": {
+            "human_name": "Умные колонки для детей",
+            "url_name": "portativnye-kolonki--umnye-kolonki-dlya-detey",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki--umnye-kolonki-dlya-detey/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100076_1661153372.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety-dlya-detei",
+        "value": {
+            "human_name": "Планшеты для рисования",
+            "url_name": "graficheskie-planshety--dlya-risovaniya-gp",
+            "link": "https://www.citilink.ru/catalog/graficheskie-planshety--dlya-risovaniya-gp/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_11_1659435114.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety-dlya-detei",
+        "value": {
+            "human_name": "Детские наушники",
+            "url_name": "naushniki--detskie-naushniki",
+            "link": "https://www.citilink.ru/catalog/naushniki--detskie-naushniki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100091_1659434611.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety-dlya-detei",
+        "value": {
+            "human_name": "Детские квадрокоптеры",
+            "url_name": "kvadrokoptery--detskie-kvadrokoptery",
+            "link": "https://www.citilink.ru/catalog/kvadrokoptery--detskie-kvadrokoptery/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100182_1659434820.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety-dlya-detei",
+        "value": {
+            "human_name": "Детские фотоаппараты",
+            "url_name": "cifrovye-fotoapparaty--detskie-fotoapparaty",
+            "link": "https://www.citilink.ru/catalog/cifrovye-fotoapparaty--detskie-fotoapparaty/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_96_1659006655.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hobbi-i-tvorchestvo",
+        "value": {
+            "human_name": "Робототехника",
+            "url_name": "robototehnika",
+            "link": "https://www.citilink.ru/catalog/robototehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/89ac0e33-144d-4fb4-9c12-1d0433476557.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hobbi-i-tvorchestvo",
+        "value": {
+            "human_name": "Наборы для творчества",
+            "url_name": "nabory-dlya-tvorchestva",
+            "link": "https://www.citilink.ru/catalog/nabory-dlya-tvorchestva/",
+            "img_link": "https://category-images.s1.citilink.ru/34c5c0ca-a8f4-487d-9163-c32465986595.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hobbi-i-tvorchestvo",
+        "value": {
+            "human_name": "Пластилин, тесто и масса для лепки",
+            "url_name": "plastilin-testo-i-massa-dlya-lepki",
+            "link": "https://www.citilink.ru/catalog/plastilin-testo-i-massa-dlya-lepki/",
+            "img_link": "https://category-images.s1.citilink.ru/8ccb69fe-87a9-4636-aa6c-1b2f363918e5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kolyaski-i-aksessuary",
+        "value": {
+            "human_name": "Коляски",
+            "url_name": "kolyaski",
+            "link": "https://www.citilink.ru/catalog/kolyaski/",
+            "img_link": "https://category-images.s1.citilink.ru/501dd5e6-5f7e-41fe-a327-c67de3c776a7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kolyaski-i-aksessuary",
+        "value": {
+            "human_name": "Аксессуары для колясок",
+            "url_name": "aksessuary-dlya-kolyasok",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-kolyasok/",
+            "img_link": "https://category-images.s1.citilink.ru/25908fe8-db9f-4ef5-bc30-2c0cd8bb9f70.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtokresla-i-aksessuary",
+        "value": {
+            "human_name": "Автокресла",
+            "url_name": "avtokresla",
+            "link": "https://www.citilink.ru/catalog/avtokresla/",
+            "img_link": "https://category-images.s1.citilink.ru/b5721df4-736b-45cc-aa9f-a598cf59541f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "avtokresla-i-aksessuary",
+        "value": {
+            "human_name": "Игрушки на автокресло",
+            "url_name": "igrushki--igrushki-na-avtokreslo",
+            "link": "https://www.citilink.ru/catalog/igrushki--igrushki-na-avtokreslo/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1670_1659006755.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskii-sport-i-otdyh",
+        "value": {
+            "human_name": "Гироскутеры",
+            "url_name": "giroskutery",
+            "link": "https://www.citilink.ru/catalog/giroskutery/",
+            "img_link": "https://category-images.s1.citilink.ru/f92c1c62-0657-4335-8224-a5596366984c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskii-sport-i-otdyh",
+        "value": {
+            "human_name": "Детские товары для плавания",
+            "url_name": "detskie-tovary-dlya-plavaniya",
+            "link": "https://www.citilink.ru/catalog/detskie-tovary-dlya-plavaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/901b1494-c658-42e4-ab4f-d047aab32222.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskii-sport-i-otdyh",
+        "value": {
+            "human_name": "Игровые палатки и домики",
+            "url_name": "igrovye-palatki-i-domiki",
+            "link": "https://www.citilink.ru/catalog/igrovye-palatki-i-domiki/",
+            "img_link": "https://category-images.s1.citilink.ru/48daa55b-f1fd-4152-b109-152b4a5c367b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskii-sport-i-otdyh",
+        "value": {
+            "human_name": "Сухие бассейны",
+            "url_name": "suhie-basseiny",
+            "link": "https://www.citilink.ru/catalog/suhie-basseiny/",
+            "img_link": "https://category-images.s1.citilink.ru/4f0862e0-20b4-46e6-a8f8-4e0bdf0a5c44.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskii-sport-i-otdyh",
+        "value": {
+            "human_name": "Детские самокаты",
+            "url_name": "samokaty--detskie-samokaty",
+            "link": "https://www.citilink.ru/catalog/samokaty--detskie-samokaty/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100472_1647203504.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskii-sport-i-otdyh",
+        "value": {
+            "human_name": "Детские скейтборды",
+            "url_name": "skeitbordy-i-longbordy--detskie-s",
+            "link": "https://www.citilink.ru/catalog/skeitbordy-i-longbordy--detskie-s/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1126_1647243224.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gigiena-i-kosmetika",
+        "value": {
+            "human_name": "Влажные салфетки",
+            "url_name": "vlazhnye-salfetki",
+            "link": "https://www.citilink.ru/catalog/vlazhnye-salfetki/",
+            "img_link": "https://category-images.s1.citilink.ru/4c84f148-73bf-4c88-a903-9045c8d814cd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gigiena-i-kosmetika",
+        "value": {
+            "human_name": "Горшки детские",
+            "url_name": "gorshki-detskie",
+            "link": "https://www.citilink.ru/catalog/gorshki-detskie/",
+            "img_link": "https://category-images.s1.citilink.ru/886a0efd-25c2-4259-b6f3-49bc2c1bc6b6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gigiena-i-kosmetika",
+        "value": {
+            "human_name": "Пустышки и аксессуары",
+            "url_name": "pustyshki-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/pustyshki-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/a7f7c8cc-6f08-4223-a655-80ab90db1c85.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gigiena-i-kosmetika",
+        "value": {
+            "human_name": "Прорезыватели",
+            "url_name": "prorezyvateli",
+            "link": "https://www.citilink.ru/catalog/prorezyvateli/",
+            "img_link": "https://category-images.s1.citilink.ru/d5e6277a-6cca-451a-afbf-f4570ca5f1df.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-mam",
+        "value": {
+            "human_name": "Радио- и видеоняни",
+            "url_name": "radio-i-video-nyani",
+            "link": "https://www.citilink.ru/catalog/radio-i-video-nyani/",
+            "img_link": "https://category-images.s1.citilink.ru/321de806-b007-4fed-b822-b080058597b4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-mam",
+        "value": {
+            "human_name": "Молокоотсосы и аксессуары",
+            "url_name": "molokootsosy-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/molokootsosy-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/0f83c34d-aeab-4170-b107-fa7d278e18fc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kormlenie-malysha",
+        "value": {
+            "human_name": "Поильники, кружки",
+            "url_name": "poilniki-kruzhki",
+            "link": "https://www.citilink.ru/catalog/poilniki-kruzhki/",
+            "img_link": "https://category-images.s1.citilink.ru/c38f1035-8c86-482b-965b-8459fde2090d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kormlenie-malysha",
+        "value": {
+            "human_name": "Бутылочки и соски",
+            "url_name": "butylochki-i-soski",
+            "link": "https://www.citilink.ru/catalog/butylochki-i-soski/",
+            "img_link": "https://category-images.s1.citilink.ru/f2412f09-b48a-4429-9029-0d3ae7469dd6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kormlenie-malysha",
+        "value": {
+            "human_name": "Стерилизаторы и подогреватели",
+            "url_name": "sterilizatory-i-podogrevateli",
+            "link": "https://www.citilink.ru/catalog/sterilizatory-i-podogrevateli/",
+            "img_link": "https://category-images.s1.citilink.ru/0e02191d-a7c5-40d6-a0eb-fbee205b1023.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kormlenie-malysha",
+        "value": {
+            "human_name": "Блендеры для детского питания",
+            "url_name": "blendery--blendery-dlya-detskogo-pitaniya",
+            "link": "https://www.citilink.ru/catalog/blendery--blendery-dlya-detskogo-pitaniya/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_261_1659631454.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskoe-pitanie",
+        "value": {
+            "human_name": "Молочные смеси",
+            "url_name": "molochnye-smesi",
+            "link": "https://www.citilink.ru/catalog/molochnye-smesi/",
+            "img_link": "https://category-images.s1.citilink.ru/bdbd82aa-65ea-4d7f-94ce-4ac4c362dd8d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskoe-pitanie",
+        "value": {
+            "human_name": "Пюре детское",
+            "url_name": "pyure-detskoe",
+            "link": "https://www.citilink.ru/catalog/pyure-detskoe/",
+            "img_link": "https://category-images.s1.citilink.ru/19f3adca-d9ee-4a49-97c1-1b1fc0e56917.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskaya-komnata",
+        "value": {
+            "human_name": "Стульчики для кормления",
+            "url_name": "stulchiki-dlya-kormleniya",
+            "link": "https://www.citilink.ru/catalog/stulchiki-dlya-kormleniya/",
+            "img_link": "https://category-images.s1.citilink.ru/df27bae3-4608-4436-bd43-2c6b1f66a0e8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskaya-komnata",
+        "value": {
+            "human_name": "Манежи",
+            "url_name": "manezhi",
+            "link": "https://www.citilink.ru/catalog/manezhi/",
+            "img_link": "https://category-images.s1.citilink.ru/b1cbe438-d562-4c08-86b5-13c55c5ad43f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskaya-komnata",
+        "value": {
+            "human_name": "Наборы детской мебели",
+            "url_name": "nabory-detskoy-mebeli",
+            "link": "https://www.citilink.ru/catalog/nabory-detskoy-mebeli/",
+            "img_link": "https://category-images.s1.citilink.ru/c3473084-54de-4ed1-82ac-a47fc97b0db6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskaya-komnata",
+        "value": {
+            "human_name": "Ночники для детской",
+            "url_name": "nochniki--nochniki-dlya-detskoy",
+            "link": "https://www.citilink.ru/catalog/nochniki--nochniki-dlya-detskoy/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1092_1659006682.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskie-ploschadki",
+        "value": {
+            "human_name": "Детские горки",
+            "url_name": "detskie-gorki",
+            "link": "https://www.citilink.ru/catalog/detskie-gorki/",
+            "img_link": "https://category-images.s1.citilink.ru/3ad50c31-ce09-4176-8db8-1bda0e5c9124.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskie-ploschadki",
+        "value": {
+            "human_name": "Детские песочницы",
+            "url_name": "detskie-pesochnicy",
+            "link": "https://www.citilink.ru/catalog/detskie-pesochnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/8af87e7d-497d-4443-b3f4-991f5edba5b5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskie-ploschadki",
+        "value": {
+            "human_name": "Игровые комплексы и площадки",
+            "url_name": "igrovye-kompleksy-i-ploschadki",
+            "link": "https://www.citilink.ru/catalog/igrovye-kompleksy-i-ploschadki/",
+            "img_link": "https://category-images.s1.citilink.ru/ac0ebd15-cf61-4ee7-b9fa-71ff00b6c428.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskie-ploschadki",
+        "value": {
+            "human_name": "Игрушки для песочницы",
+            "url_name": "igrushki--igrushki-dlya-pesochnicy",
+            "link": "https://www.citilink.ru/catalog/igrushki--igrushki-dlya-pesochnicy/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1670_1659006804.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "detskie-ploschadki",
+        "value": {
+            "human_name": "Для улицы",
+            "url_name": "igrovye-palatki-i-domiki--igrovye-palatki-i-domiki-dlya-ulicy",
+            "link": "https://www.citilink.ru/catalog/igrovye-palatki-i-domiki--igrovye-palatki-i-domiki-dlya-ulicy/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1557_1659006610.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Школьные сумки",
+            "url_name": "shkolnye-rancy-ryukzaki-sumki",
+            "link": "https://www.citilink.ru/catalog/shkolnye-rancy-ryukzaki-sumki/",
+            "img_link": "https://category-images.s1.citilink.ru/cd882cdc-af6f-4d55-babe-afdea6038744.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Пеналы",
+            "url_name": "penaly",
+            "link": "https://www.citilink.ru/catalog/penaly/",
+            "img_link": "https://category-images.s1.citilink.ru/e7f2e403-fd32-493d-b8d1-8bf874122814.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Папка для тетрадей, труда, нот",
+            "url_name": "papka-dlya-tetradei-truda-not",
+            "link": "https://www.citilink.ru/catalog/papka-dlya-tetradei-truda-not/",
+            "img_link": "https://category-images.s1.citilink.ru/4a72f163-0fb5-4113-a9d7-9ca2347d0604.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Тетради и блокноты",
+            "url_name": "tetradi-i-bloknoty",
+            "link": "https://www.citilink.ru/catalog/tetradi-i-bloknoty/",
+            "img_link": "https://category-images.s1.citilink.ru/acd8b091-113f-4b51-bb4d-e7c6727ac413.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Альбомы и гравюры",
+            "url_name": "albomy-i-gravyury",
+            "link": "https://www.citilink.ru/catalog/albomy-i-gravyury/",
+            "img_link": "https://category-images.s1.citilink.ru/1d908013-a237-49bb-870e-5c1795158859.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Обложки",
+            "url_name": "oblozhki",
+            "link": "https://www.citilink.ru/catalog/oblozhki/",
+            "img_link": "https://category-images.s1.citilink.ru/37427516-1766-4215-bfa6-a05ae06e6235.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Товары для творчества",
+            "url_name": "tovary-dlya-tvorchestva",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-tvorchestva/",
+            "img_link": "https://category-images.s1.citilink.ru/11d4486e-29c0-44ae-b73d-f59f2e0b7232.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Аксессуары для начальной школы",
+            "url_name": "aksessuary-dlya-nachalnoi-shkoly",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-nachalnoi-shkoly/",
+            "img_link": "https://category-images.s1.citilink.ru/27431277-cf59-42dc-86d6-ad7402c93203.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Школьные рюкзаки",
+            "url_name": "ryukzaki--shkolnye-ryukzaki",
+            "link": "https://www.citilink.ru/catalog/ryukzaki--shkolnye-ryukzaki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1740_1664551161.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-shkoly",
+        "value": {
+            "human_name": "Наборы для начальной школы",
+            "url_name": "aksessuary-dlya-nachalnoi-shkoly--nabory-dlya-nachalnoy-shkoly",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-nachalnoi-shkoly--nabory-dlya-nachalnoy-shkoly/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_992_1660722871.jpg",
+            "is_product_page": true
+        }
+    }
+]

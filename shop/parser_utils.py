@@ -57,6 +57,8 @@ def is_products_page(parsing_result):
 
     if categories_cnt == 0:
         return True
+
+
     return False
 
 
@@ -101,41 +103,49 @@ def create_subcategory_array(main_categories):
 
             print(subcategories)
         else:
-            categories_array.append({'root': main_category['url_name'], 'value': {'is_product_page': True}})
+            print(main_category['url_name'])
+            value = main_category
+            categories_array.append({'root': main_category['url_name'], 'value': value})
+            categories_array[-1]['value']['is_product_page'] = True
             print(main_category['url_name'])
         cnt += 1
         print('{0}/{1}'.format(cnt, len(main_categories)))
     return categories_array
 
 
-def get_all_categories_data():
+def get_all_categories_data(main_category):
     last_result = []
-    main_categories = get_main_categories_data()
-    result1 = create_subcategory_array(main_categories)
+
+    result1 = create_subcategory_array(main_category)
 
     dop_cat = []
     for result in result1:
         last_result.append(result)
         if not result['value']['is_product_page']:
-            dop_cat.append({'url_name': result['value']['url_name']})
+            dop_cat.append({'human_name': result['value']['human_name'],
+                            'url_name': result['value']['url_name'],
+                            'link': result['value']['link'],
+                            'img_link': result['value']['img_link']})
 
     result2 = create_subcategory_array(dop_cat)
+    #result2 = create_subcategory_array([{'url_name': 'telefoniya'}])
     for result in result2:
         if result['value']['is_product_page']:
             last_result.append(result)
 
-    return main_categories, last_result
+    return last_result
 
 
-def work_with_categories():
-    main_categories, last_result = get_all_categories_data()
-    with open('categories_data.json', 'wb') as fp:
+def work_with_categories(main_category, file_name):
+    last_result = get_all_categories_data(main_category)
+    with open('categories_data_{0}.json'.format(file_name), 'wb') as fp:
         data = json.dumps(last_result, indent=4, ensure_ascii=False).encode('utf8')
         fp.write(data)
 
-    with open('main_categories_data.json', 'wb') as fp:
-        data = json.dumps(main_categories, indent=4, ensure_ascii=False).encode('utf8')
-        fp.write(data)
+
+main_categories = get_main_categories_data()
+for main_category in main_categories[10:len(main_categories)]:
+    work_with_categories([main_category], main_category['url_name'])
 
 #time.sleep(0.2)
 #products = get_products_data_from_citilink(subcategories[5]['link'], 1)
