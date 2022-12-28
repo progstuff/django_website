@@ -6,7 +6,8 @@
             "parent_category": null,
             "name": "Смартфоны и гаджеты",
             "image_src": "assets\\img\\icons\\departments\\mobile.svg",
-            "short_image_name": "mobile"
+            "short_image_name": "mobile",
+            "has_subcategories": true
         }
     },
     {
@@ -16,7 +17,8 @@
             "parent_category": null,
             "name": "Ноутбуки и компьютеры",
             "image_src": "assets\\img\\icons\\departments\\computers_and_notebooks.svg",
-            "short_image_name": "computers_and_notebooks"
+            "short_image_name": "computers_and_notebooks",
+            "has_subcategories": true
         }
     },
     {
@@ -26,7 +28,8 @@
             "parent_category": null,
             "name": "Телевизоры, аудио-видео, фото",
             "image_src": "assets\\img\\icons\\departments\\audio_and_digits.svg",
-            "short_image_name": "audio_and_digits"
+            "short_image_name": "audio_and_digits",
+            "has_subcategories": true
         }
     },
     {
@@ -36,7 +39,8 @@
             "parent_category": null,
             "name": "Бытовая техника",
             "image_src": "assets\\img\\icons\\departments\\large_and_small_appliances.svg",
-            "short_image_name": "large_and_small_appliances"
+            "short_image_name": "large_and_small_appliances",
+            "has_subcategories": true
         }
     },
     {
@@ -46,77 +50,8 @@
             "parent_category": null,
             "name": "Красота и здоровье",
             "image_src": "assets\\img\\icons\\departments\\beauty_and_health.svg",
-            "short_image_name": "beauty_and_health"
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 6,
-        "fields": {
-            "parent_category": null,
-            "name": "Умный дом и системы безопасности",
-            "image_src": "assets\\img\\icons\\departments\\photo_and_video.svg",
-            "short_image_name": "photo_and_video"
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 7,
-        "fields": {
-            "parent_category": null,
-            "name": "Канцтовары, Мебель и Офисная техника",
-            "image_src": "assets\\img\\icons\\departments\\furniture.svg",
-            "short_image_name": "furniture"
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 8,
-        "fields": {
-            "parent_category": null,
-            "name": "Строительство и ремонт",
-            "image_src": "assets\\img\\icons\\departments\\power_tools_and_garden_equipments.svg",
-            "short_image_name": "power_tools_and_garden_equipments"
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 9,
-        "fields": {
-            "parent_category": null,
-            "name": "Дом и дача",
-            "image_src": "assets\\img\\icons\\departments\\dom_i_dacha.svg",
-            "short_image_name": "dom_i_dacha"
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 10,
-        "fields": {
-            "parent_category": null,
-            "name": "Автотовары",
-            "image_src": "assets\\img\\icons\\departments\\car_electronics.svg",
-            "short_image_name": "car_electronics"
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 11,
-        "fields": {
-            "parent_category": null,
-            "name": "Спорт и отдых",
-            "image_src": "assets\\img\\icons\\departments\\active_sport.svg",
-            "short_image_name": "active_sport"
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 12,
-        "fields": {
-            "parent_category": null,
-            "name": "Детские товары",
-            "image_src": "assets\\img\\icons\\departments\\detskie_tovary.svg",
-            "short_image_name": "detskie_tovary"
+            "short_image_name": "beauty_and_health",
+            "has_subcategories": true
         }
     }
 ]

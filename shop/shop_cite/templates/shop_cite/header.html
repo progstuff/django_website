@@ -101,16 +101,25 @@
             </div>
             <div class="CategoriesButton-content">
                 {% for key_one, value_one in categories_lvl_one.items %}
-                    <div class="CategoriesButton-link"><a href="/catalog/{{value_one.2}}">
+                    <div class="CategoriesButton-link">
+                      {% if value_one.3 == True %}
+                      <a href="/catalog-categories/{{value_one.2}}">
+                      {% else %}
+                      <a href="/catalog-products/{{value_one.2}}">
+                      {% endif %}
                       <div class="CategoriesButton-icon"><img src="{% static 'shop_cite/'%}{{value_one.0}}" alt="{{value_one.1}}"/>
                       </div> <span class="CategoriesButton-text">{{key_one}}</span></a>
-                      {% if value_one.3|length > 0%}
+                      {% if value_one.4|length > 0%}
                         <a class="CategoriesButton-arrow" href="#"></a>
                         <div class="CategoriesButton-submenu">
-                        {% for name_one in value_one.3 %}
+                        {% for name_one in value_one.4 %}
                           {% for key_two, value_two in categories_lvl_two.items %}
                               {% if key_two == name_one %}
-                                  <a class="CategoriesButton-link" href="/catalog/{{value_two.2}}">
+                                  {% if value_two.3 == True %}
+                                  <a class="CategoriesButton-link" href="/catalog-categories/{{value_two.2}}">
+                                  {% else %}
+                                  <a class="CategoriesButton-link" href="/catalog-products/{{value_two.2}}">
+                                  {% endif %}
                                   <div class="CategoriesButton-icon"><img src="{% static 'shop_cite/'%}{{value_two.0}}" alt="{{value_two.1}}"/>
                                   </div><span class="CategoriesButton-text">{{key_two}}</span></a>
                               {% endif %}

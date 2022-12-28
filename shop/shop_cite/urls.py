@@ -3,7 +3,8 @@ from .views.main_page import MainPage
 from .views.about_page import AboutPage
 from .views.cart_page import CartPage
 from .views.historyorder_page import HistoryorderPage
-from .views.catalog_page import CatalogPage
+from .views.catalog_products_page import CatalogProductsPage
+from .views.catalog_categories_page import CatalogCategoriesPage
 from .views.order_details_page import OrderDetailsPage
 from .views.order_page import OrderPage
 from .views.payment_page import PaymentPage
@@ -22,7 +23,8 @@ urlpatterns = [
     path('about', AboutPage.as_view(), name='about'),
     path('cart', CartPage.as_view(), name='cart'),
     path('history', HistoryorderPage.as_view(), name='history'),
-    path('catalog/<int:pk>', CatalogPage.as_view(), name='catalog'),
+    path('catalog-products/<int:pk>', CatalogProductsPage.as_view(), name='catalog-products'),
+    path('catalog-categories/<int:pk>', CatalogCategoriesPage.as_view(), name='catalog-categories'),
     path('order-details', OrderDetailsPage.as_view(), name='order-details'),
     path('order', OrderPage.as_view(), name='order'),
     path('payment', PaymentPage.as_view(), name='payment'),

@@ -22,18 +22,18 @@ class BaseTemplate(View):
         lvl_three = {}
         for category in categories:
             if category.parent_category is None:
-                lvl_one[category.name] = (category.image_src, category.short_image_name, category.id, [])
+                lvl_one[category.name] = (category.image_src, category.short_image_name, category.id, category.has_subcategories, [])
         for category in categories:
             if category.parent_category is not None:
                 if category.parent_category.name in lvl_one:
-                    lvl_one[category.parent_category.name][3].append(category.name)
-                    lvl_two[category.name] = (category.image_src, category.short_image_name, category.id, [])
+                    lvl_one[category.parent_category.name][4].append(category.name)
+                    lvl_two[category.name] = (category.image_src, category.short_image_name, category.id, category.has_subcategories, [])
 
         # для третьего уровня (если понадобится)
         for category in categories:
             if category.parent_category is not None:
                 if category.parent_category.name in lvl_two:
-                    lvl_two[category.parent_category.name][3].append(category.name)
-                    lvl_three[category.name] = (category.image_src, category.short_image_name, category.id, [])
+                    lvl_two[category.parent_category.name][4].append(category.name)
+                    lvl_three[category.name] = (category.image_src, category.short_image_name, category.id, category.has_subcategories, [])
 
         return lvl_one, lvl_two, lvl_three
