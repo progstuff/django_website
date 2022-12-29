@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-new_height = 100
+new_height = 200
 d = os.path.dirname(__file__)
 content_path = d + '\\shop_cite\\static\\shop_cite\\assets\\img\\content\\category'
 dir_list = os.listdir(content_path)
