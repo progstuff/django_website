@@ -25,29 +25,28 @@ def get_main_category_id(main_categories, category_name):
     return cnt
 
 
-def create_main_categories_model_objects():
+def create_main_categories_model_objects(max_categories_cnt):
     d = os.path.dirname(__file__)
     with open(d + '\\test_data\\main_categories_data.json', 'r', encoding='utf-8') as fp:
         data = json.load(fp)
 
     model_objects = []
     cnt = 0
-    for val in data[0:5]:
-        cnt += 1
-        file_content = requests.get(val['img_link'])
-        print(val['url_name'])
-        open(d + '\\shop_cite\\static\\shop_cite\\assets\\img\\icons\\departments\\' + val['url_name'] + '.svg', 'wb').write(file_content.content)
+    for val in data:
+        if cnt < max_categories_cnt:
+            cnt += 1
+            file_content = requests.get(val['img_link'])
+            print(val['url_name'])
+            open(d + '\\shop_cite\\static\\shop_cite\\assets\\img\\icons\\departments\\' + val['url_name'] + '.svg', 'wb').write(file_content.content)
 
-        model_objects.append(create_cat_model_object(id_val=cnt,
-                                                     parent_category_id=None,
-                                                     name=val['human_name'],
-                                                     image_src='assets\\img\\icons\\departments\\' + val['url_name'] + '.svg',
-                                                     short_name=val['url_name'],
-                                                     is_product_page=False))
+            model_objects.append(create_cat_model_object(id_val=cnt,
+                                                         parent_category_id=None,
+                                                         name=val['human_name'],
+                                                         image_src='assets\\img\\icons\\departments\\' + val['url_name'] + '.svg',
+                                                         short_name=val['url_name'],
+                                                         is_product_page=False))
 
     return model_objects
-
-
 
 
 def create_other_categories_model_objects():
@@ -99,40 +98,31 @@ def create_other_categories_model_objects():
 
     return model_objects
 
-def get_several_categories(main_categories, model_objects, max_cat_cnt):
 
-    main_id = []
-    for cat in main_categories:
-        main_id.append(cat['pk'])
+def get_subcategories(root_categories, model_objects, max_cat_cnt):
+
+    root_ids = []
+    for cat in root_categories:
+        root_ids.append(cat['pk'])
 
     result = []
     ids = {}
     for category in model_objects:
-        if category['fields']['parent_category'] in main_id:
+        if category['fields']['parent_category'] in root_ids:
             cnt = ids.get(category['fields']['parent_category'], 0)
             cnt += 1
             ids[category['fields']['parent_category']] = cnt
-            if cnt < max_cat_cnt:
+            if cnt <= max_cat_cnt:
                 result.append(category)
 
-    ids2 = {}
-    for category in model_objects:
-        if category['fields']['parent_category'] in ids:
-            cnt = ids2.get(category['fields']['parent_category'], 0)
-            cnt += 1
-            ids2[category['fields']['parent_category']] = cnt
-            if cnt < max_cat_cnt:
-                result.append(category)
+    return result
 
-    ids3 = {}
-    for category in model_objects:
-        if category['fields']['parent_category'] in ids2:
-            cnt = ids3.get(category['fields']['parent_category'], 0)
-            cnt += 1
-            ids3[category['fields']['parent_category']] = cnt
-            if cnt < max_cat_cnt:
-                result.append(category)
 
+def get_several_categories(main_categories_model_objects, model_objects, max_cat_cnt):
+    cat1_model_objects = get_subcategories(main_categories_model_objects, model_objects, max_cat_cnt)
+    cat2_model_objects = get_subcategories(cat1_model_objects, model_objects, max_cat_cnt)
+    cat3_model_objects = get_subcategories(cat2_model_objects, model_objects, max_cat_cnt)
+    result = cat1_model_objects + cat2_model_objects + cat3_model_objects
     return result
 
 
@@ -147,8 +137,10 @@ def save_fixtures(main_categories_model_objects, other_categories_model_objects)
         fp.write(data)
 
 
-main_categories_model_objects = create_main_categories_model_objects()
-main_categories_model_objects = main_categories_model_objects[0:5]
+main_categories_model_objects = create_main_categories_model_objects(max_categories_cnt=4)
+main_categories_model_objects = main_categories_model_objects
 other_categories_model_objects = create_other_categories_model_objects()
-several_categories = get_several_categories(main_categories_model_objects, other_categories_model_objects, 5)
+several_categories = get_several_categories(main_categories_model_objects,
+                                            other_categories_model_objects,
+                                            max_cat_cnt=5)
 save_fixtures(main_categories_model_objects, several_categories)

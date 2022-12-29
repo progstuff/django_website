@@ -45,221 +45,12 @@
     },
     {
         "model": "shop_cite.category",
-        "pk": 62,
-        "fields": {
-            "parent_category": 2,
-            "name": "Ноутбуки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "noutbuki",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 63,
-        "fields": {
-            "parent_category": 2,
-            "name": "Компьютеры и моноблоки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "kompyutery-i-monobloki",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 64,
-        "fields": {
-            "parent_category": 2,
-            "name": "Комплектующие для ПК",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "komplektuyuschie-dlya-pk",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 65,
-        "fields": {
-            "parent_category": 2,
-            "name": "Жесткие диски и SSD",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "zhestkie-diski-i-ssd",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 194,
-        "fields": {
-            "parent_category": 3,
-            "name": "Телевизоры",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "televizory",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 195,
-        "fields": {
-            "parent_category": 3,
-            "name": "OLED",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "televizory--oled-mainmenu",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 196,
-        "fields": {
-            "parent_category": 3,
-            "name": "NEO QLED",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "televizory--qled-mainmenu",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 197,
-        "fields": {
-            "parent_category": 3,
-            "name": "Техника Hi-Fi",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tehnika-hi-fi",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 255,
-        "fields": {
-            "parent_category": 4,
-            "name": "Крупная бытовая техника",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "krupnaya-bytovaya-tehnika",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 256,
-        "fields": {
-            "parent_category": 4,
-            "name": "Встраиваемая техника",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "vstraivaemaya-tehnika",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 257,
-        "fields": {
-            "parent_category": 4,
-            "name": "Вытяжки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "vytyazhki",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 258,
-        "fields": {
-            "parent_category": 4,
-            "name": "Кофемашины, кофеварки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "kofemashiny-kofevarki",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 368,
-        "fields": {
-            "parent_category": 5,
-            "name": "Товары для укладки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-ukladki",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 369,
-        "fields": {
-            "parent_category": 5,
-            "name": "Товары для здоровья",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-zdorovya",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 370,
-        "fields": {
-            "parent_category": 5,
-            "name": "Товары для красоты",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-krasoty",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 371,
-        "fields": {
-            "parent_category": 5,
-            "name": "Средства личной гигиены",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "sredstva-lichnoi-gigieny",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 20,
+        "pk": 24,
         "fields": {
             "parent_category": 1,
-            "name": "Смартфоны",
+            "name": "Детские планшеты",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "smartfony",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 21,
-        "fields": {
-            "parent_category": 1,
-            "name": "Сотовые телефоны",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "sotovye-telefony",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 22,
-        "fields": {
-            "parent_category": 1,
-            "name": "Кнопочные телефоны без камеры",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "sotovye-telefony--knopochnye-telefony-bez-kamery",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 23,
-        "fields": {
-            "parent_category": 1,
-            "name": "Планшеты",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "planshety",
+            "short_image_name": "planshety--kid-tablet",
             "has_subcategories": false
         }
     },
@@ -309,6 +100,17 @@
     },
     {
         "model": "shop_cite.category",
+        "pk": 66,
+        "fields": {
+            "parent_category": 2,
+            "name": "Мониторы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "monitory",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
         "pk": 194,
         "fields": {
             "parent_category": 3,
@@ -348,6 +150,17 @@
             "name": "Техника Hi-Fi",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "tehnika-hi-fi",
+            "has_subcategories": true
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 198,
+        "fields": {
+            "parent_category": 3,
+            "name": "Спутниковое и цифровое ТВ",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sputnikovoe-i-cifrovoe-tv",
             "has_subcategories": true
         }
     },
@@ -397,265 +210,496 @@
     },
     {
         "model": "shop_cite.category",
-        "pk": 368,
-        "fields": {
-            "parent_category": 5,
-            "name": "Товары для укладки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-ukladki",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 369,
-        "fields": {
-            "parent_category": 5,
-            "name": "Товары для здоровья",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-zdorovya",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 370,
-        "fields": {
-            "parent_category": 5,
-            "name": "Товары для красоты",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-krasoty",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 371,
-        "fields": {
-            "parent_category": 5,
-            "name": "Средства личной гигиены",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "sredstva-lichnoi-gigieny",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 20,
-        "fields": {
-            "parent_category": 1,
-            "name": "Смартфоны",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "smartfony",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 21,
-        "fields": {
-            "parent_category": 1,
-            "name": "Сотовые телефоны",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "sotovye-telefony",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 22,
-        "fields": {
-            "parent_category": 1,
-            "name": "Кнопочные телефоны без камеры",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "sotovye-telefony--knopochnye-telefony-bez-kamery",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 23,
-        "fields": {
-            "parent_category": 1,
-            "name": "Планшеты",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "planshety",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 62,
-        "fields": {
-            "parent_category": 2,
-            "name": "Ноутбуки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "noutbuki",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 63,
-        "fields": {
-            "parent_category": 2,
-            "name": "Компьютеры и моноблоки",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "kompyutery-i-monobloki",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 64,
-        "fields": {
-            "parent_category": 2,
-            "name": "Комплектующие для ПК",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "komplektuyuschie-dlya-pk",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 65,
-        "fields": {
-            "parent_category": 2,
-            "name": "Жесткие диски и SSD",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "zhestkie-diski-i-ssd",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 194,
-        "fields": {
-            "parent_category": 3,
-            "name": "Телевизоры",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "televizory",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 195,
-        "fields": {
-            "parent_category": 3,
-            "name": "OLED",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "televizory--oled-mainmenu",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 196,
-        "fields": {
-            "parent_category": 3,
-            "name": "NEO QLED",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "televizory--qled-mainmenu",
-            "has_subcategories": false
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 197,
-        "fields": {
-            "parent_category": 3,
-            "name": "Техника Hi-Fi",
-            "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tehnika-hi-fi",
-            "has_subcategories": true
-        }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 255,
+        "pk": 259,
         "fields": {
             "parent_category": 4,
-            "name": "Крупная бытовая техника",
+            "name": "Техника для кухни",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "krupnaya-bytovaya-tehnika",
+            "short_image_name": "melkaya-bytovaya-tehnika",
             "has_subcategories": true
         }
     },
     {
         "model": "shop_cite.category",
-        "pk": 256,
+        "pk": 83,
         "fields": {
-            "parent_category": 4,
-            "name": "Встраиваемая техника",
+            "parent_category": 63,
+            "name": "Моноблоки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "vstraivaemaya-tehnika",
-            "has_subcategories": true
+            "short_image_name": "monobloki",
+            "has_subcategories": false
         }
     },
     {
         "model": "shop_cite.category",
-        "pk": 257,
+        "pk": 84,
         "fields": {
-            "parent_category": 4,
-            "name": "Вытяжки",
+            "parent_category": 63,
+            "name": "Компьютеры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "vytyazhki",
-            "has_subcategories": true
+            "short_image_name": "kompyutery",
+            "has_subcategories": false
         }
     },
     {
         "model": "shop_cite.category",
-        "pk": 258,
+        "pk": 85,
         "fields": {
-            "parent_category": 4,
-            "name": "Кофемашины, кофеварки",
+            "parent_category": 63,
+            "name": "Системные блоки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "kofemashiny-kofevarki",
-            "has_subcategories": true
+            "short_image_name": "sistemnye-bloki",
+            "has_subcategories": false
         }
     },
     {
         "model": "shop_cite.category",
-        "pk": 368,
+        "pk": 86,
         "fields": {
-            "parent_category": 5,
-            "name": "Товары для укладки",
+            "parent_category": 63,
+            "name": "Компьютеры Ситилинк",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-ukladki",
-            "has_subcategories": true
+            "short_image_name": "kompyutery-sitilink",
+            "has_subcategories": false
         }
     },
     {
         "model": "shop_cite.category",
-        "pk": 369,
+        "pk": 87,
         "fields": {
-            "parent_category": 5,
-            "name": "Товары для здоровья",
+            "parent_category": 63,
+            "name": "Микрокомпьютеры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-zdorovya",
-            "has_subcategories": true
+            "short_image_name": "mikrokompyutery",
+            "has_subcategories": false
         }
     },
     {
         "model": "shop_cite.category",
-        "pk": 370,
+        "pk": 90,
         "fields": {
-            "parent_category": 5,
-            "name": "Товары для красоты",
+            "parent_category": 64,
+            "name": "Платформы для сборки ПК",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "tovary-dlya-krasoty",
-            "has_subcategories": true
+            "short_image_name": "platformy-dlya-sborki-pk",
+            "has_subcategories": false
         }
     },
     {
         "model": "shop_cite.category",
-        "pk": 371,
+        "pk": 91,
         "fields": {
-            "parent_category": 5,
-            "name": "Средства личной гигиены",
+            "parent_category": 64,
+            "name": "Процессоры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
-            "short_image_name": "sredstva-lichnoi-gigieny",
+            "short_image_name": "processory",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 92,
+        "fields": {
+            "parent_category": 64,
+            "name": "Системы охлаждения компьютера",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sistemy-ohlazhdeniya-kompyutera",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 93,
+        "fields": {
+            "parent_category": 64,
+            "name": "Системы охлаждения процессора",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sistemy-ohlazhdeniya-processora",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 94,
+        "fields": {
+            "parent_category": 64,
+            "name": "Системы охлаждения корпуса",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sistemy-ohlazhdeniya-korpusa",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 106,
+        "fields": {
+            "parent_category": 65,
+            "name": "Жесткие диски",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "zhestkie-diski",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 107,
+        "fields": {
+            "parent_category": 65,
+            "name": "SSD накопители",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "ssd-nakopiteli",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 108,
+        "fields": {
+            "parent_category": 65,
+            "name": "Корпуса для жестких дисков",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "korpusa-dlya-zhestkih-diskov",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 109,
+        "fields": {
+            "parent_category": 65,
+            "name": "Аксессуары для жестких дисков",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "aksessuary-dlya-zhestkih-diskov",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 110,
+        "fields": {
+            "parent_category": 65,
+            "name": "Внешние жесткие диски",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vneshnie-zhestkie-diski",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 212,
+        "fields": {
+            "parent_category": 197,
+            "name": "Виниловые проигрыватели",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vinilovye-proigryvateli",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 213,
+        "fields": {
+            "parent_category": 197,
+            "name": "Акустические системы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "akusticheskie-sistemy",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 214,
+        "fields": {
+            "parent_category": 197,
+            "name": "Сабвуферы Hi-Fi",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sabvufery-hi-fi",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 215,
+        "fields": {
+            "parent_category": 198,
+            "name": "Комплекты спутникового ТВ",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "komplekty-sputnikovogo-tv",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 216,
+        "fields": {
+            "parent_category": 198,
+            "name": "Приставки для цифрового ТВ",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "pristavki-dlya-cifrovogo-tv",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 270,
+        "fields": {
+            "parent_category": 255,
+            "name": "Винные шкафы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vinnye-shkafy",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 271,
+        "fields": {
+            "parent_category": 255,
+            "name": "Холодильники",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "holodilniki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 272,
+        "fields": {
+            "parent_category": 255,
+            "name": "Стиральные машины",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "stiralnye-mashiny",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 273,
+        "fields": {
+            "parent_category": 255,
+            "name": "Сушильные машины",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sushilnye-mashiny",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 274,
+        "fields": {
+            "parent_category": 255,
+            "name": "Настольные плиты",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "nastolnye-plity",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 281,
+        "fields": {
+            "parent_category": 256,
+            "name": "Встраиваемые газовые панели",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vstraivaemye-gazovye-paneli",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 282,
+        "fields": {
+            "parent_category": 256,
+            "name": "Встраиваемые электрические панели",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vstraivaemye-elektricheskie-paneli",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 283,
+        "fields": {
+            "parent_category": 256,
+            "name": "Духовые шкафы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "elektricheskie-duhovye-shkafy",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 284,
+        "fields": {
+            "parent_category": 256,
+            "name": "Встраиваемые комплекты",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vstraivaemye-komplekty",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 285,
+        "fields": {
+            "parent_category": 256,
+            "name": "Встраиваемые микроволновые печи",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vstraivaemye-mikrovolnovye-pechi",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 291,
+        "fields": {
+            "parent_category": 257,
+            "name": "Встраиваемые вытяжки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vstraivaemye-vytyazhki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 292,
+        "fields": {
+            "parent_category": 257,
+            "name": "Каминные вытяжки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kaminnye-vytyazhki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 293,
+        "fields": {
+            "parent_category": 257,
+            "name": "Подвесные вытяжки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "podvesnye-vytyazhki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 294,
+        "fields": {
+            "parent_category": 257,
+            "name": "Аксессуары для вытяжек",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "aksessuary-dlya-vytyazhek",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 295,
+        "fields": {
+            "parent_category": 258,
+            "name": "Кофемашины",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kofemashiny",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 296,
+        "fields": {
+            "parent_category": 258,
+            "name": "Кофеварки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kofevarki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 297,
+        "fields": {
+            "parent_category": 258,
+            "name": "Капсульные кофеварки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kapsulnye-kofevarki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 298,
+        "fields": {
+            "parent_category": 258,
+            "name": "Кофе",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kofe",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 299,
+        "fields": {
+            "parent_category": 258,
+            "name": "Кофемолки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kofemolki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 301,
+        "fields": {
+            "parent_category": 259,
+            "name": "Мультиварки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "multivarki",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 302,
+        "fields": {
+            "parent_category": 259,
+            "name": "Микроволновые печи",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "mikrovolnovye-pechi",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 303,
+        "fields": {
+            "parent_category": 259,
+            "name": "Кухонные комбайны",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kuhonnye-kombainy",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 304,
+        "fields": {
+            "parent_category": 259,
+            "name": "Чайники электрические",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "chainiki-elektricheskie",
+            "has_subcategories": false
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 305,
+        "fields": {
+            "parent_category": 259,
+            "name": "Термопоты",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "termopoty",
             "has_subcategories": false
         }
     }

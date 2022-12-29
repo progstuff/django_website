@@ -42,16 +42,5 @@
             "short_image_name": "large_and_small_appliances",
             "has_subcategories": true
         }
-    },
-    {
-        "model": "shop_cite.category",
-        "pk": 5,
-        "fields": {
-            "parent_category": null,
-            "name": "Красота и здоровье",
-            "image_src": "assets\\img\\icons\\departments\\beauty_and_health.svg",
-            "short_image_name": "beauty_and_health",
-            "has_subcategories": true
-        }
     }
 ]
