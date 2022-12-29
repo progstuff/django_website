@@ -1,9 +1,11 @@
 import json
 import requests
 import os
+from os.path import exists
+import shutil
 
 
-def create_cat_model_object(id_val, parent_category_id, name, image_src, short_name, is_product_page):
+def create_cat_model_object(id_val, parent_category_id, name, image_src, short_name, is_product_page, big_image_src):
     rez = {}
     rez['model'] = 'shop_cite.category'
     rez['pk'] = id_val
@@ -11,7 +13,8 @@ def create_cat_model_object(id_val, parent_category_id, name, image_src, short_n
                      'name': name,
                      'image_src': image_src,
                      'short_image_name': short_name,
-                     'has_subcategories': not is_product_page
+                     'has_subcategories': not is_product_page,
+                     'big_image_src': big_image_src
                      }
     return rez
 
@@ -44,6 +47,7 @@ def create_main_categories_model_objects(max_categories_cnt):
                                                          name=val['human_name'],
                                                          image_src='assets\\img\\icons\\departments\\' + val['url_name'] + '.svg',
                                                          short_name=val['url_name'],
+                                                         big_image_src='',
                                                          is_product_page=False))
 
     return model_objects
@@ -59,6 +63,10 @@ def create_other_categories_model_objects():
     ids = {}
     model_objects = []
     product_pages_cnt = 0
+    newpath = d + '\\test_data\\categories_images'
+    if not exists(newpath):
+        os.makedirs(newpath)
+
     for main_category in main_categories:
         res = []
         main_category_name = main_category['url_name']
@@ -69,6 +77,12 @@ def create_other_categories_model_objects():
         ids[main_category_name] = main_cat_id
         cnt_id = start_id
         for category in other_categories:
+            file_name = newpath + '\\' + category['value']['url_name'] + '.jpg'
+            if not exists(file_name):
+                file_content = requests.get(category['value']['img_link'])
+                print(category['value']['img_link'])
+                open(file_name, 'wb').write(file_content.content)
+
             root_cat_id = ids.get(category['root'], -1)
             if root_cat_id == -1:
                 ids[category['root']] = cnt_id
@@ -91,6 +105,7 @@ def create_other_categories_model_objects():
                                                          name=val['value']['human_name'],
                                                          image_src='assets\\img\\icons\\departments\\plug.svg',
                                                          short_name=val['value']['url_name'],
+                                                         big_image_src='assets\\img\\content\\category\\' + val['value']['url_name'] + '.jpg',
                                                          is_product_page=val['value']['is_product_page']))
             if val['value']['is_product_page']:
                 product_pages_cnt += 1
@@ -127,7 +142,19 @@ def get_several_categories(main_categories_model_objects, model_objects, max_cat
 
 
 def save_fixtures(main_categories_model_objects, other_categories_model_objects):
+
     d = os.path.dirname(__file__)
+    newpath = d + '\\test_data\\categories_images'
+    content_path = d + '\\shop_cite\\static\\shop_cite\\assets\\img\\content\\category'
+    if not exists(content_path):
+        os.makedirs(content_path)
+
+    for category in other_categories_model_objects:
+        file_name = newpath + '\\' + category['fields']['short_image_name'] + '.jpg'
+        dest_file_name = content_path + '\\' + category['fields']['short_image_name'] + '.jpg'
+        if exists(file_name) and not exists(dest_file_name):
+            shutil.copyfile(file_name, dest_file_name)
+
     with open(d + '\\shop_cite\\fixtures\\main_categories_data_db.json', 'wb') as fp:
         data = json.dumps(main_categories_model_objects, indent=4, ensure_ascii=False).encode('utf8')
         fp.write(data)
@@ -137,8 +164,7 @@ def save_fixtures(main_categories_model_objects, other_categories_model_objects)
         fp.write(data)
 
 
-main_categories_model_objects = create_main_categories_model_objects(max_categories_cnt=4)
-main_categories_model_objects = main_categories_model_objects
+main_categories_model_objects = create_main_categories_model_objects(max_categories_cnt=6)
 other_categories_model_objects = create_other_categories_model_objects()
 several_categories = get_several_categories(main_categories_model_objects,
                                             other_categories_model_objects,

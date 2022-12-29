@@ -36,12 +36,12 @@
     <div class="Middle-top">
       <div class="wrap">
         <div class="Middle-header">
-          <h1 class="Middle-title">Catalog Megano
+          <h1 class="Middle-title">{{root_category.name}}
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
             <li class="breadcrumbs-item"><a href="/">home</a>
             </li>
-            <li class="breadcrumbs-item breadcrumbs-item_current"><span>Catalog</span>
+            <li class="breadcrumbs-item breadcrumbs-item_current"><span>{{root_category.name}}</span>
             </li>
           </ul>
         </div>
@@ -56,11 +56,11 @@
               <div class="Card">
                 {% if category.has_subcategories == True %}
                   <a class="Card-picture" href="/catalog-categories/{{category.id}}">
-                    <img src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/>
+                    <img src="{% static 'shop_cite/' %}{{category.big_image_src}}" alt="card.jpg"/>
                   </a>
                 {% else %}
                   <a class="Card-picture" href="/catalog-products/{{category.id}}">
-                    <img src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/>
+                    <img src="{% static 'shop_cite/' %}{{category.big_image_src}}" alt="card.jpg"/>
                   </a>
                 {% endif %}
                 <div class="Card-content">
@@ -72,14 +72,6 @@
                       <a href="/catalog-products/{{category.id}}">{{category.name}}</a>
                     {% endif %}
                   </strong>
-                  <div class="Card-description">
-                    <div class="Card-cost"><span class="Card-price">$85.00</span>
-                    </div>
-                    <div class="Card-category">
-                    </div>
-                    <div class="Card-hover"><a class="Card-btn" href=""><img src="{% static 'shop_cite/assets/img/icons/card/cart.svg' %}" alt="cart.svg"/></a>
-                    </div>
-                  </div>
                 </div>
               </div>
             {% endfor %}

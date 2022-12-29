@@ -8,4 +8,5 @@ class CatalogCategoriesPage(BaseTemplate):
         categories = list(Category.objects.filter(parent_category__id=pk))
         return self.get_render(request,
                                'shop_cite/catalog_categories.html',
-                               context={'categories': categories})
+                               context={'categories': categories,
+                                        'root_category': categories[0].parent_category})

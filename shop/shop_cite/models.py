@@ -35,6 +35,7 @@ class Category(models.Model):
     parent_category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL, verbose_name=_('Родительская категория'))
     name = models.CharField(default='', max_length=1000, verbose_name=_('Категория'))
     image_src = models.CharField(default='', max_length=1000, verbose_name=_('Иконка'))
+    big_image_src = models.CharField(default='', max_length=1000, verbose_name=_('Большая иконка'))
     short_image_name = models.CharField(default='', max_length=1000, verbose_name=_('Короткое название'))
     has_subcategories = models.BooleanField(default=False, verbose_name=_('Есть подкатегории'))
 

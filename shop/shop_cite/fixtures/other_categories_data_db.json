@@ -7,7 +7,8 @@
             "name": "Смартфоны",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "smartfony",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\smartfony.jpg"
         }
     },
     {
@@ -18,7 +19,8 @@
             "name": "Сотовые телефоны",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sotovye-telefony",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sotovye-telefony.jpg"
         }
     },
     {
@@ -29,7 +31,8 @@
             "name": "Кнопочные телефоны без камеры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sotovye-telefony--knopochnye-telefony-bez-kamery",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sotovye-telefony--knopochnye-telefony-bez-kamery.jpg"
         }
     },
     {
@@ -40,7 +43,8 @@
             "name": "Планшеты",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "planshety",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\planshety.jpg"
         }
     },
     {
@@ -51,7 +55,8 @@
             "name": "Детские планшеты",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "planshety--kid-tablet",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\planshety--kid-tablet.jpg"
         }
     },
     {
@@ -62,7 +67,8 @@
             "name": "Ноутбуки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "noutbuki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\noutbuki.jpg"
         }
     },
     {
@@ -73,7 +79,8 @@
             "name": "Компьютеры и моноблоки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kompyutery-i-monobloki",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\kompyutery-i-monobloki.jpg"
         }
     },
     {
@@ -84,7 +91,8 @@
             "name": "Комплектующие для ПК",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "komplektuyuschie-dlya-pk",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\komplektuyuschie-dlya-pk.jpg"
         }
     },
     {
@@ -95,7 +103,8 @@
             "name": "Жесткие диски и SSD",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "zhestkie-diski-i-ssd",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\zhestkie-diski-i-ssd.jpg"
         }
     },
     {
@@ -106,7 +115,8 @@
             "name": "Мониторы",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "monitory",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\monitory.jpg"
         }
     },
     {
@@ -117,7 +127,8 @@
             "name": "Телевизоры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "televizory",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\televizory.jpg"
         }
     },
     {
@@ -128,7 +139,8 @@
             "name": "OLED",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "televizory--oled-mainmenu",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\televizory--oled-mainmenu.jpg"
         }
     },
     {
@@ -139,7 +151,8 @@
             "name": "NEO QLED",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "televizory--qled-mainmenu",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\televizory--qled-mainmenu.jpg"
         }
     },
     {
@@ -150,7 +163,8 @@
             "name": "Техника Hi-Fi",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "tehnika-hi-fi",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\tehnika-hi-fi.jpg"
         }
     },
     {
@@ -161,7 +175,8 @@
             "name": "Спутниковое и цифровое ТВ",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sputnikovoe-i-cifrovoe-tv",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\sputnikovoe-i-cifrovoe-tv.jpg"
         }
     },
     {
@@ -172,7 +187,8 @@
             "name": "Крупная бытовая техника",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "krupnaya-bytovaya-tehnika",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\krupnaya-bytovaya-tehnika.jpg"
         }
     },
     {
@@ -183,7 +199,8 @@
             "name": "Встраиваемая техника",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vstraivaemaya-tehnika",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\vstraivaemaya-tehnika.jpg"
         }
     },
     {
@@ -194,7 +211,8 @@
             "name": "Вытяжки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vytyazhki",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\vytyazhki.jpg"
         }
     },
     {
@@ -205,7 +223,8 @@
             "name": "Кофемашины, кофеварки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kofemashiny-kofevarki",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\kofemashiny-kofevarki.jpg"
         }
     },
     {
@@ -216,7 +235,128 @@
             "name": "Техника для кухни",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "melkaya-bytovaya-tehnika",
-            "has_subcategories": true
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\melkaya-bytovaya-tehnika.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 368,
+        "fields": {
+            "parent_category": 5,
+            "name": "Товары для укладки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "tovary-dlya-ukladki",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\tovary-dlya-ukladki.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 369,
+        "fields": {
+            "parent_category": 5,
+            "name": "Товары для здоровья",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "tovary-dlya-zdorovya",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\tovary-dlya-zdorovya.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 370,
+        "fields": {
+            "parent_category": 5,
+            "name": "Товары для красоты",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "tovary-dlya-krasoty",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\tovary-dlya-krasoty.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 371,
+        "fields": {
+            "parent_category": 5,
+            "name": "Средства личной гигиены",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sredstva-lichnoi-gigieny",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sredstva-lichnoi-gigieny.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 372,
+        "fields": {
+            "parent_category": 5,
+            "name": "Антисептики",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "antiseptiki",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\antiseptiki.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 406,
+        "fields": {
+            "parent_category": 6,
+            "name": "Умный дом",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "umnyi-dom",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\umnyi-dom.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 407,
+        "fields": {
+            "parent_category": 6,
+            "name": "Видеонаблюдение",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "videonablyudenie",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\videonablyudenie.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 408,
+        "fields": {
+            "parent_category": 6,
+            "name": "Системы контроля и управления доступом (СКУД)",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sistemy-bezopasnosti",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\sistemy-bezopasnosti.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 409,
+        "fields": {
+            "parent_category": 6,
+            "name": "Домофония",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "domofoniya",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\domofoniya.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 410,
+        "fields": {
+            "parent_category": 6,
+            "name": "Приборы для наблюдения",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "pribory-dlya-nablyudeniya",
+            "has_subcategories": true,
+            "big_image_src": "assets\\img\\content\\category\\pribory-dlya-nablyudeniya.jpg"
         }
     },
     {
@@ -227,7 +367,8 @@
             "name": "Моноблоки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "monobloki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\monobloki.jpg"
         }
     },
     {
@@ -238,7 +379,8 @@
             "name": "Компьютеры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kompyutery",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kompyutery.jpg"
         }
     },
     {
@@ -249,7 +391,8 @@
             "name": "Системные блоки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sistemnye-bloki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sistemnye-bloki.jpg"
         }
     },
     {
@@ -260,7 +403,8 @@
             "name": "Компьютеры Ситилинк",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kompyutery-sitilink",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kompyutery-sitilink.jpg"
         }
     },
     {
@@ -271,7 +415,8 @@
             "name": "Микрокомпьютеры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "mikrokompyutery",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\mikrokompyutery.jpg"
         }
     },
     {
@@ -282,7 +427,8 @@
             "name": "Платформы для сборки ПК",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "platformy-dlya-sborki-pk",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\platformy-dlya-sborki-pk.jpg"
         }
     },
     {
@@ -293,7 +439,8 @@
             "name": "Процессоры",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "processory",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\processory.jpg"
         }
     },
     {
@@ -304,7 +451,8 @@
             "name": "Системы охлаждения компьютера",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sistemy-ohlazhdeniya-kompyutera",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sistemy-ohlazhdeniya-kompyutera.jpg"
         }
     },
     {
@@ -315,7 +463,8 @@
             "name": "Системы охлаждения процессора",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sistemy-ohlazhdeniya-processora",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sistemy-ohlazhdeniya-processora.jpg"
         }
     },
     {
@@ -326,7 +475,8 @@
             "name": "Системы охлаждения корпуса",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sistemy-ohlazhdeniya-korpusa",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sistemy-ohlazhdeniya-korpusa.jpg"
         }
     },
     {
@@ -337,7 +487,8 @@
             "name": "Жесткие диски",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "zhestkie-diski",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\zhestkie-diski.jpg"
         }
     },
     {
@@ -348,7 +499,8 @@
             "name": "SSD накопители",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "ssd-nakopiteli",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\ssd-nakopiteli.jpg"
         }
     },
     {
@@ -359,7 +511,8 @@
             "name": "Корпуса для жестких дисков",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "korpusa-dlya-zhestkih-diskov",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\korpusa-dlya-zhestkih-diskov.jpg"
         }
     },
     {
@@ -370,7 +523,8 @@
             "name": "Аксессуары для жестких дисков",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "aksessuary-dlya-zhestkih-diskov",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\aksessuary-dlya-zhestkih-diskov.jpg"
         }
     },
     {
@@ -381,7 +535,8 @@
             "name": "Внешние жесткие диски",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vneshnie-zhestkie-diski",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vneshnie-zhestkie-diski.jpg"
         }
     },
     {
@@ -392,7 +547,8 @@
             "name": "Виниловые проигрыватели",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vinilovye-proigryvateli",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vinilovye-proigryvateli.jpg"
         }
     },
     {
@@ -403,7 +559,8 @@
             "name": "Акустические системы",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "akusticheskie-sistemy",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\akusticheskie-sistemy.jpg"
         }
     },
     {
@@ -414,7 +571,8 @@
             "name": "Сабвуферы Hi-Fi",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sabvufery-hi-fi",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sabvufery-hi-fi.jpg"
         }
     },
     {
@@ -425,7 +583,8 @@
             "name": "Комплекты спутникового ТВ",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "komplekty-sputnikovogo-tv",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\komplekty-sputnikovogo-tv.jpg"
         }
     },
     {
@@ -436,7 +595,8 @@
             "name": "Приставки для цифрового ТВ",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "pristavki-dlya-cifrovogo-tv",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\pristavki-dlya-cifrovogo-tv.jpg"
         }
     },
     {
@@ -447,7 +607,8 @@
             "name": "Винные шкафы",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vinnye-shkafy",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vinnye-shkafy.jpg"
         }
     },
     {
@@ -458,7 +619,8 @@
             "name": "Холодильники",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "holodilniki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\holodilniki.jpg"
         }
     },
     {
@@ -469,7 +631,8 @@
             "name": "Стиральные машины",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "stiralnye-mashiny",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\stiralnye-mashiny.jpg"
         }
     },
     {
@@ -480,7 +643,8 @@
             "name": "Сушильные машины",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "sushilnye-mashiny",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sushilnye-mashiny.jpg"
         }
     },
     {
@@ -491,7 +655,8 @@
             "name": "Настольные плиты",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "nastolnye-plity",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\nastolnye-plity.jpg"
         }
     },
     {
@@ -502,7 +667,8 @@
             "name": "Встраиваемые газовые панели",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vstraivaemye-gazovye-paneli",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vstraivaemye-gazovye-paneli.jpg"
         }
     },
     {
@@ -513,7 +679,8 @@
             "name": "Встраиваемые электрические панели",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vstraivaemye-elektricheskie-paneli",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vstraivaemye-elektricheskie-paneli.jpg"
         }
     },
     {
@@ -524,7 +691,8 @@
             "name": "Духовые шкафы",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "elektricheskie-duhovye-shkafy",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\elektricheskie-duhovye-shkafy.jpg"
         }
     },
     {
@@ -535,7 +703,8 @@
             "name": "Встраиваемые комплекты",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vstraivaemye-komplekty",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vstraivaemye-komplekty.jpg"
         }
     },
     {
@@ -546,7 +715,8 @@
             "name": "Встраиваемые микроволновые печи",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vstraivaemye-mikrovolnovye-pechi",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vstraivaemye-mikrovolnovye-pechi.jpg"
         }
     },
     {
@@ -557,7 +727,8 @@
             "name": "Встраиваемые вытяжки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "vstraivaemye-vytyazhki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vstraivaemye-vytyazhki.jpg"
         }
     },
     {
@@ -568,7 +739,8 @@
             "name": "Каминные вытяжки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kaminnye-vytyazhki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kaminnye-vytyazhki.jpg"
         }
     },
     {
@@ -579,7 +751,8 @@
             "name": "Подвесные вытяжки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "podvesnye-vytyazhki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\podvesnye-vytyazhki.jpg"
         }
     },
     {
@@ -590,7 +763,8 @@
             "name": "Аксессуары для вытяжек",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "aksessuary-dlya-vytyazhek",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\aksessuary-dlya-vytyazhek.jpg"
         }
     },
     {
@@ -601,7 +775,8 @@
             "name": "Кофемашины",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kofemashiny",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kofemashiny.jpg"
         }
     },
     {
@@ -612,7 +787,8 @@
             "name": "Кофеварки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kofevarki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kofevarki.jpg"
         }
     },
     {
@@ -623,7 +799,8 @@
             "name": "Капсульные кофеварки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kapsulnye-kofevarki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kapsulnye-kofevarki.jpg"
         }
     },
     {
@@ -634,7 +811,8 @@
             "name": "Кофе",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kofe",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kofe.jpg"
         }
     },
     {
@@ -645,7 +823,8 @@
             "name": "Кофемолки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kofemolki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kofemolki.jpg"
         }
     },
     {
@@ -656,7 +835,8 @@
             "name": "Мультиварки",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "multivarki",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\multivarki.jpg"
         }
     },
     {
@@ -667,7 +847,8 @@
             "name": "Микроволновые печи",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "mikrovolnovye-pechi",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\mikrovolnovye-pechi.jpg"
         }
     },
     {
@@ -678,7 +859,8 @@
             "name": "Кухонные комбайны",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "kuhonnye-kombainy",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kuhonnye-kombainy.jpg"
         }
     },
     {
@@ -689,7 +871,8 @@
             "name": "Чайники электрические",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "chainiki-elektricheskie",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\chainiki-elektricheskie.jpg"
         }
     },
     {
@@ -700,7 +883,416 @@
             "name": "Термопоты",
             "image_src": "assets\\img\\icons\\departments\\plug.svg",
             "short_image_name": "termopoty",
-            "has_subcategories": false
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\termopoty.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 379,
+        "fields": {
+            "parent_category": 368,
+            "name": "Щипцы для завивки волос",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "schipcy-dlya-zavivki-volos",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\schipcy-dlya-zavivki-volos.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 380,
+        "fields": {
+            "parent_category": 368,
+            "name": "Фен-щетки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "fen-schetki",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\fen-schetki.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 381,
+        "fields": {
+            "parent_category": 368,
+            "name": "Мультистайлеры",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "multistailery",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\multistailery.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 382,
+        "fields": {
+            "parent_category": 368,
+            "name": "Выпрямители для волос",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vypryamiteli-dlya-volos",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vypryamiteli-dlya-volos.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 383,
+        "fields": {
+            "parent_category": 368,
+            "name": "Фены",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "feny",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\feny.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 384,
+        "fields": {
+            "parent_category": 369,
+            "name": "Гидромассажные ванночки для ног",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "gidromassazhnye-vannochki-dlya-nog",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\gidromassazhnye-vannochki-dlya-nog.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 385,
+        "fields": {
+            "parent_category": 369,
+            "name": "Весы напольные",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vesy-napolnye",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vesy-napolnye.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 386,
+        "fields": {
+            "parent_category": 369,
+            "name": "Массажеры",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "massazhery",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\massazhery.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 387,
+        "fields": {
+            "parent_category": 370,
+            "name": "Триммеры OneBlade",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "oneblade",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\oneblade.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 388,
+        "fields": {
+            "parent_category": 370,
+            "name": "Машинки для стрижки волос",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "mashinki-dlya-strizhki-volos",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\mashinki-dlya-strizhki-volos.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 389,
+        "fields": {
+            "parent_category": 370,
+            "name": "Триммеры",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "trimmery",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\trimmery.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 390,
+        "fields": {
+            "parent_category": 370,
+            "name": "Товары для маникюра и педикюра",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "manikyurnye-nabory",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\manikyurnye-nabory.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 391,
+        "fields": {
+            "parent_category": 370,
+            "name": "Косметические приборы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kosmeticheskie-pribory",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kosmeticheskie-pribory.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 412,
+        "fields": {
+            "parent_category": 406,
+            "name": "Умные лампы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "umnye-lampy",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\umnye-lampy.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 413,
+        "fields": {
+            "parent_category": 406,
+            "name": "Умные розетки",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "umnye-rozetki",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\umnye-rozetki.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 414,
+        "fields": {
+            "parent_category": 406,
+            "name": "Модули для умных устройств",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "furnitura",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\furnitura.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 415,
+        "fields": {
+            "parent_category": 406,
+            "name": "Датчики умный дом",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "datchiki-umnyi-dom",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\datchiki-umnyi-dom.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 416,
+        "fields": {
+            "parent_category": 406,
+            "name": "Комплекты умного дома",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "komplekty",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\komplekty.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 426,
+        "fields": {
+            "parent_category": 407,
+            "name": "Комплекты видеонаблюдения",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "komplekty-videonablyudeniya",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\komplekty-videonablyudeniya.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 427,
+        "fields": {
+            "parent_category": 407,
+            "name": "Камеры видеонаблюдения",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "kamery-videonablyudeniya",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\kamery-videonablyudeniya.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 428,
+        "fields": {
+            "parent_category": 407,
+            "name": "Аксессуары для видеокамер",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "aksessuary-dlya-videokamer",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\aksessuary-dlya-videokamer.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 429,
+        "fields": {
+            "parent_category": 407,
+            "name": "Видеорегистраторы для видеонаблюдения",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "videoregistratory-bezopasnosti",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\videoregistratory-bezopasnosti.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 430,
+        "fields": {
+            "parent_category": 407,
+            "name": "Мониторы для видеонаблюдения",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "monitory-dlya-videonablyudeniya",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\monitory-dlya-videonablyudeniya.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 431,
+        "fields": {
+            "parent_category": 408,
+            "name": "Замки для СКУД",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "zamki-dlya-skud",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\zamki-dlya-skud.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 432,
+        "fields": {
+            "parent_category": 408,
+            "name": "Доводчики для СКУД",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "dovodchiki-dlya-skud",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\dovodchiki-dlya-skud.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 433,
+        "fields": {
+            "parent_category": 408,
+            "name": "Охранные сигнализации",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "signalizacii",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\signalizacii.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 434,
+        "fields": {
+            "parent_category": 408,
+            "name": "Системы оповещения",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "sistemy-opovescheniya",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\sistemy-opovescheniya.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 435,
+        "fields": {
+            "parent_category": 408,
+            "name": "Аксессуары для СКУД",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "aksessuary-dlya-skud",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\aksessuary-dlya-skud.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 441,
+        "fields": {
+            "parent_category": 409,
+            "name": "Домофоны",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "domofony",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\domofony.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 442,
+        "fields": {
+            "parent_category": 409,
+            "name": "Вызывные панели",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "vyzyvnye-paneli",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\vyzyvnye-paneli.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 443,
+        "fields": {
+            "parent_category": 410,
+            "name": "Бинокли",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "binokli",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\binokli.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 444,
+        "fields": {
+            "parent_category": 410,
+            "name": "Телескопы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "teleskopy",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\teleskopy.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 445,
+        "fields": {
+            "parent_category": 410,
+            "name": "Микроскопы",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "mikroskopy",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\mikroskopy.jpg"
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 446,
+        "fields": {
+            "parent_category": 410,
+            "name": "Аксессуары для оптических приборов",
+            "image_src": "assets\\img\\icons\\departments\\plug.svg",
+            "short_image_name": "aksessuary-dlya-opticheskih-priborov",
+            "has_subcategories": false,
+            "big_image_src": "assets\\img\\content\\category\\aksessuary-dlya-opticheskih-priborov.jpg"
         }
     }
 ]
