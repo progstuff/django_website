@@ -6,9 +6,12 @@ import random
 
 
 def get_products_data_from_citilink(product_name, page_number):
-    url = 'https://www.citilink.ru/catalog/{0}/?view_type=grid&p={1}'.format(product_name, page_number)
+
+    url = 'https://www.citilink.ru/catalog/{0}/?pf=discount.any%2Crating.any&&view_type=grid&f=discount.any%2Crating.any%2Cavailable.all&p={1}'.format(product_name,
+                                                                                                                                                       page_number)
     r = requests.get(url)
-    print(r)
+    print(url)
+
     soup = BeautifulSoup(r.text, 'html.parser')
     products = []
     for c in soup.find_all('div', class_='ProductCardVerticalLayout ProductCardVertical__layout'):
@@ -23,7 +26,21 @@ def get_products_data_from_citilink(product_name, page_number):
                          'detail_link': product_link,
                          'image_link': image_src})
 
-    return products
+    return products, soup
+
+
+def is_last_page(page_soup, page_number):
+    pages = page_soup.find_all('div', class_='PaginationWidget__wrapper-pagination')
+    if len(pages) > 0:
+        pages = pages[0]
+        max_page_ind = 0
+        for page_element in pages.contents:
+            if len(page_element.attrs) == 3:
+                page_ind = int(page_element.attrs['data-page'])
+                if page_ind > max_page_ind:
+                    max_page_ind = page_ind
+        return max_page_ind == page_number or max_page_ind < page_number
+    return True
 
 
 def get_main_categories_data():
@@ -143,9 +160,33 @@ def work_with_categories(main_category, file_name):
         fp.write(data)
 
 
-main_categories = get_main_categories_data()
-for main_category in main_categories[10:len(main_categories)]:
-    work_with_categories([main_category], main_category['url_name'])
+#main_categories = get_main_categories_data()
+#for main_category in main_categories[10:len(main_categories)]:
+#    work_with_categories([main_category], main_category['url_name'])
 
-#time.sleep(0.2)
-#products = get_products_data_from_citilink(subcategories[5]['link'], 1)
+def get_products_info(category_name, max_products_cnt):
+    all_products = []
+    last_page = False
+    page_number = 1
+    while not last_page:
+        req_cnt = 0
+        products = []
+        while len(products) == 0:
+            products, page_soup = get_products_data_from_citilink(category_name, page_number)
+            req_cnt += 1
+            if req_cnt >= 5:
+                break
+
+        last_page = is_last_page(page_soup, page_number)
+        all_products += products
+        if len(all_products) >= max_products_cnt:
+            all_products = all_products[0:max_products_cnt]
+            break
+        print(page_number)
+        page_number += 1
+        time.sleep(0.3)
+    return all_products
+
+
+desired_products = get_products_info('igrovye-monitory', 96)
+a = 1
