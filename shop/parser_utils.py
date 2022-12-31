@@ -15,7 +15,7 @@ def get_products_data_from_citilink(product_name, page_number):
     soup = BeautifulSoup(r.text, 'html.parser')
     products = []
     for c in soup.find_all('div', class_='ProductCardVerticalLayout ProductCardVertical__layout'):
-        image_src = c.next.next.next.attrs['href']
+        image_src = c.next.next.next.next.next.next.attrs['src']
         title = c.next.contents[2].next.next.attrs['title']
         product_link = c.next.contents[2].next.next.attrs['href']
         price = c.contents[1].next.next.next.contents[1].next.next.contents[0]
@@ -160,10 +160,6 @@ def work_with_categories(main_category, file_name):
         fp.write(data)
 
 
-#main_categories = get_main_categories_data()
-#for main_category in main_categories[10:len(main_categories)]:
-#    work_with_categories([main_category], main_category['url_name'])
-
 def get_products_info(category_name, max_products_cnt):
     all_products = []
     last_page = False
@@ -184,9 +180,110 @@ def get_products_info(category_name, max_products_cnt):
             break
         print(page_number)
         page_number += 1
-        time.sleep(0.3)
+        time.sleep(3)
     return all_products
 
+def delete_extra_signs(val_str):
+    i = 0
+    for letter in val_str:
+        if letter != '\n' and letter != ' ':
+            break
+        else:
+            i += 1
+    rez = val_str[i:-1]
+    i = 0
+    for letter in rez:
+        if letter == '\n':
+            break
+        else:
+            i += 1
+    rez = rez[0:i]
+    return rez
 
-desired_products = get_products_info('igrovye-monitory', 96)
-a = 1
+
+def get_specification_data(specification_val):
+    rez = {}
+    title_tag = specification_val.find_all('h4', class_='Heading Heading_level_4 SpecificationsFull__title')
+    if len(title_tag) == 1:
+        val = title_tag[0].next
+        title = delete_extra_signs(val)
+        for specification in specification_val.find_all('div', class_='Specifications__row'):
+            name = specification.find_all('div', class_='Specifications__column Specifications__column_name')[0].next
+            name = delete_extra_signs(name)
+            val = specification.find_all('div', class_='Specifications__column Specifications__column_value')[0].next
+            val = delete_extra_signs(val)
+            rez[name] = val
+        return True, title, rez
+    return False, '', rez
+
+
+def get_main_properties(page_soup):
+    main_properties_tags = page_soup.find_all('p', class_='ProductPageMainPropertiesSection__property')
+    rez = {}
+    for main_property_tag in main_properties_tags:
+        name = main_property_tag.contents[0].next
+        name = delete_extra_signs(name)
+        val = main_property_tag.contents[1].next
+        val = delete_extra_signs(val)
+        if val[-1] == ',':
+            val = val[0:-1]
+        rez[name[0:-2]] = val
+    return rez
+
+
+def get_images(page_soup):
+    image_links = []
+    images_tags = page_soup.find_all('img', class_='ProductPageStickyGallery-gallery__image-lower PreviewListSmall__image Image')
+    for image_tag in images_tags:
+        img_link = image_tag.attrs['src']
+        image_links.append(img_link)
+    return image_links
+
+
+def get_detailed_product_info(product_link):
+    url = product_link + 'properties'
+    s = requests.Session()
+    s.headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36'
+    r = s.get(url)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    params = {}
+    for c in soup.find_all('div', class_='SpecificationsFull'):
+        is_finded, title, rez = get_specification_data(c)
+        if is_finded:
+            params[title] = rez
+
+    img_links = get_images(soup)
+    main_properties = get_main_properties(soup)
+    params['imgs_links'] = img_links
+    params['main_params'] = main_properties
+    return params
+
+
+def get_detailed_product_data(product_url):
+    cnt = 0
+    while True:
+        cnt += 1
+        print(product_url)
+        detailed_info = get_detailed_product_info(product_url)
+        if len(detailed_info) > 2:
+            return True, detailed_info
+        if cnt > 10:
+            time.sleep(3)
+            return False, detailed_info
+
+
+#main_categories = get_main_categories_data()
+#for main_category in main_categories[10:len(main_categories)]:
+#    work_with_categories([main_category], main_category['url_name'])
+
+
+result = []
+desired_products = get_products_info('igrovye-monitory', 30)
+for desired_product in desired_products:
+    link = 'https://www.citilink.ru' + desired_product['detail_link']
+    is_successfull, detailed_data = get_detailed_product_data(link)
+    if is_successfull:
+        result.append({'short_data': desired_product,
+                       'detailed_data': detailed_data})
+    time.sleep(1)
+
