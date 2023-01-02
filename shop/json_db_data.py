@@ -58,7 +58,6 @@ def create_other_categories_model_objects():
     with open(d + '\\test_data\\main_categories_data.json', 'r', encoding='utf-8') as fp:
         main_categories = json.load(fp)
 
-
     start_id = 20
     ids = {}
     model_objects = []

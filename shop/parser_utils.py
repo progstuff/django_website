@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import json
 import random
+import os
 
 
 def get_products_data_from_citilink(product_name, page_number):
@@ -183,6 +184,7 @@ def get_products_info(category_name, max_products_cnt):
         time.sleep(3)
     return all_products
 
+
 def delete_extra_signs(val_str):
     i = 0
     for letter in val_str:
@@ -270,20 +272,70 @@ def get_detailed_product_data(product_url):
         if cnt > 10:
             time.sleep(3)
             return False, detailed_info
+        else:
+            time.sleep(1)
 
 
 #main_categories = get_main_categories_data()
 #for main_category in main_categories[10:len(main_categories)]:
 #    work_with_categories([main_category], main_category['url_name'])
 
+def get_products_data(category_name):
+    result = []
+    desired_products = get_products_info(category_name, 20)
+    for desired_product in desired_products:
+        link = 'https://www.citilink.ru' + desired_product['detail_link']
+        is_successfull, detailed_data = get_detailed_product_data(link)
+        if is_successfull:
+            result.append({'short_data': desired_product,
+                           'detailed_data': detailed_data,
+                           'link': link})
+        time.sleep(3)
 
-result = []
-desired_products = get_products_info('igrovye-monitory', 30)
-for desired_product in desired_products:
-    link = 'https://www.citilink.ru' + desired_product['detail_link']
-    is_successfull, detailed_data = get_detailed_product_data(link)
-    if is_successfull:
-        result.append({'short_data': desired_product,
-                       'detailed_data': detailed_data})
-    time.sleep(1)
+    return result
+
+
+def save_product_data(category_name, products_data, cur_dir):
+    with open(cur_dir + '\\' + '{0}_products.json'.format(category_name), 'wb') as fp:
+        data = json.dumps(products_data, indent=4, ensure_ascii=False).encode('utf8')
+        fp.write(data)
+
+    if not os.path.exists(cur_dir + '\\products_imgs'):
+        os.mkdir(cur_dir + '\\products_imgs')
+
+    for product_data in products_data:
+        cnt = 0
+        product_name = product_data['link']
+        vals = product_name.split(sep='/')
+        product_name = vals[-2]
+        for img_link in product_data['detailed_data']['imgs_links']:
+            cnt += 1
+            file_content = requests.get(img_link)
+            print(img_link)
+            open(cur_dir + '\\products_imgs\\{0}_{1}.jpg'.format(product_name, cnt), 'wb').write(file_content.content)
+
+
+def load_and_save_products_data():
+    d = os.path.dirname(__file__)
+    with open(d + '\\shop_cite\\fixtures\\other_categories_data_db.json', 'r', encoding='utf-8') as fp:
+        categories = json.load(fp)
+
+    cnt = 0
+    if not os.path.exists(d + '\\test_data\\products'):
+        os.mkdir(d + '\\test_data\\products')
+
+    for category in categories:
+        if not category['fields']['has_subcategories']:
+            category_name = category['fields']['short_image_name']
+            print(category_name)
+            cur_dir = d + '\\test_data\\products\\{0}'.format(category_name)
+            if not os.path.exists(cur_dir):
+                os.mkdir(cur_dir)
+
+            products_data = get_products_data(category_name)
+            save_product_data(category_name, products_data, cur_dir)
+            cnt += 1
+    print(cnt)
+
+load_and_save_products_data()
 
