@@ -163,9 +163,80 @@ def save_fixtures(main_categories_model_objects, other_categories_model_objects)
         fp.write(data)
 
 
-main_categories_model_objects = create_main_categories_model_objects(max_categories_cnt=6)
-other_categories_model_objects = create_other_categories_model_objects()
-several_categories = get_several_categories(main_categories_model_objects,
-                                            other_categories_model_objects,
-                                            max_cat_cnt=5)
-save_fixtures(main_categories_model_objects, several_categories)
+def create_catalog_data_fixtures():
+    #create catalog fixtures
+    main_categories_model_objects = create_main_categories_model_objects(max_categories_cnt=6)
+    other_categories_model_objects = create_other_categories_model_objects()
+    several_categories = get_several_categories(main_categories_model_objects,
+                                                other_categories_model_objects,
+                                                max_cat_cnt=5)
+    save_fixtures(main_categories_model_objects, several_categories)
+
+
+def get_products_data(category_url_name):
+    d = os.path.dirname(__file__)
+    products_data_file_name = os.path.join(d, 'test_data',
+                                           'products',
+                                           category_url_name,
+                                           category_url_name + '_products.json')
+    if os.path.exists(products_data_file_name):
+        with open(products_data_file_name, 'r', encoding='utf-8') as fp:
+            data = json.load(fp)
+        return data
+    return []
+
+
+def create_product_model_object(id_val, name, description, category_id):
+    rez = {}
+    rez['model'] = 'shop_cite.product'
+    rez['pk'] = id_val
+    rez['fields'] = {'name': name,
+                     'description': description,
+                     'category': category_id
+                     }
+    return rez
+
+
+def get_product_description(product):
+    data = product['detailed_data']['main_params']
+    result = ''
+    for key in data:
+        result += key + ': ' + data[key] + '\n'
+    return result[0:-3]
+
+
+def create_products_model_objects(start_id, category):
+    id_val = start_id
+    products = get_products_data(category['fields']['short_image_name'])
+    model_objects = []
+    for product in products:
+        product_model_object = create_product_model_object(id_val=id_val,
+                                                           name=product['short_data']['name'],
+                                                           description=get_product_description(product),
+                                                           category_id=category['pk'])
+        id_val += 1
+        model_objects.append(product_model_object)
+    return model_objects
+
+
+def create_products_fixture_data():
+    d = os.path.dirname(__file__)
+    with open(os.path.join(d, 'shop_cite', 'fixtures', 'other_categories_data_db.json'), 'r', encoding='utf-8') as fp:
+        categories = json.load(fp)
+
+    products_fixture_data = []
+    start_id = 1
+    for category in categories:
+        if not category['fields']['has_subcategories']:
+            products_model_objects = create_products_model_objects(start_id, category)
+            start_id += len(products_model_objects) + 1
+            products_fixture_data += products_model_objects
+
+    with open(os.path.join(d, 'shop_cite', 'fixtures', 'products_data_db.json'), 'wb') as fp:
+        data = json.dumps(products_fixture_data, indent=4, ensure_ascii=False).encode('utf8')
+        fp.write(data)
+
+    return products_fixture_data
+
+a = create_products_fixture_data()
+b = 1

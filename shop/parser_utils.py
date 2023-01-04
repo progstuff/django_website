@@ -6,11 +6,20 @@ import random
 import os
 
 
+def get_header(s):
+    s.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0'
+    s.headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    return s
+
+
 def get_products_data_from_citilink(product_name, page_number):
 
     url = 'https://www.citilink.ru/catalog/{0}/?pf=discount.any%2Crating.any&&view_type=grid&f=discount.any%2Crating.any%2Cavailable.all&p={1}'.format(product_name,
                                                                                                                                                        page_number)
-    r = requests.get(url)
+    s = requests.Session()
+    s = get_header(s)
+    r = s.get(url)
+    print(r.status_code)
     print(url)
 
     soup = BeautifulSoup(r.text, 'html.parser')
@@ -46,7 +55,10 @@ def is_last_page(page_soup, page_number):
 
 def get_main_categories_data():
     url = 'https://www.citilink.ru'
-    r = requests.get(url)
+    s = requests.Session()
+    s = get_header(s)
+    r = s.get(url)
+    print(r.status_code)
     soup = BeautifulSoup(r.text, 'html.parser')
     main_categories = []
     for c in soup.find_all('div', class_='CatalogMenu__category-items js--CatalogMenu__category-items'):
@@ -64,8 +76,9 @@ def request_subcategory_page(main_category_name):
     url = 'https://www.citilink.ru/catalog/{0}/'.format(main_category_name)
     print(url)
     s = requests.Session()
-    s.headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36'
+    s = get_header(s)
     r = s.get(url)
+    print(r.status_code)
     soup = BeautifulSoup(r.text, 'html.parser')
     return soup
 
@@ -99,7 +112,7 @@ def create_subcategory_array(main_categories):
     categories_array = []
     cnt = 0
     for main_category in main_categories:
-        time.sleep(random.randint(1, 3))
+        time.sleep(5)
         try:
             parsing_result = request_subcategory_page(main_category['url_name'])
         except requests.exceptions.TooManyRedirects:
@@ -172,7 +185,10 @@ def get_products_info(category_name, max_products_cnt):
             products, page_soup = get_products_data_from_citilink(category_name, page_number)
             req_cnt += 1
             if req_cnt >= 5:
+                return False, []
                 break
+            else:
+                time.sleep(5)
 
         last_page = is_last_page(page_soup, page_number)
         all_products += products
@@ -181,8 +197,8 @@ def get_products_info(category_name, max_products_cnt):
             break
         print(page_number)
         page_number += 1
-        time.sleep(3)
-    return all_products
+        time.sleep(5)
+    return True, all_products
 
 
 def delete_extra_signs(val_str):
@@ -245,7 +261,7 @@ def get_images(page_soup):
 def get_detailed_product_info(product_link):
     url = product_link + 'properties'
     s = requests.Session()
-    s.headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36'
+    s = get_header(s)
     r = s.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
     params = {}
@@ -270,10 +286,10 @@ def get_detailed_product_data(product_url):
         if len(detailed_info) > 2:
             return True, detailed_info
         if cnt > 10:
-            time.sleep(3)
+            time.sleep(5)
             return False, detailed_info
         else:
-            time.sleep(1)
+            time.sleep(5)
 
 
 #main_categories = get_main_categories_data()
@@ -282,26 +298,29 @@ def get_detailed_product_data(product_url):
 
 def get_products_data(category_name):
     result = []
-    desired_products = get_products_info(category_name, 20)
-    for desired_product in desired_products:
-        link = 'https://www.citilink.ru' + desired_product['detail_link']
-        is_successfull, detailed_data = get_detailed_product_data(link)
-        if is_successfull:
-            result.append({'short_data': desired_product,
-                           'detailed_data': detailed_data,
-                           'link': link})
-        time.sleep(3)
-
-    return result
+    is_success, desired_products = get_products_info(category_name, 10)
+    if is_success:
+        for desired_product in desired_products:
+            link = 'http://www.citilink.ru' + desired_product['detail_link']
+            is_successfull, detailed_data = get_detailed_product_data(link)
+            if is_successfull:
+                result.append({'short_data': desired_product,
+                               'detailed_data': detailed_data,
+                               'link': link})
+            time.sleep(5)
+    else:
+        return False, []
+    return True, result
 
 
 def save_product_data(category_name, products_data, cur_dir):
-    with open(cur_dir + '\\' + '{0}_products.json'.format(category_name), 'wb') as fp:
+
+    with open(os.path.join(cur_dir, '{0}_products.json'.format(category_name)), 'wb') as fp:
         data = json.dumps(products_data, indent=4, ensure_ascii=False).encode('utf8')
         fp.write(data)
 
-    if not os.path.exists(cur_dir + '\\products_imgs'):
-        os.mkdir(cur_dir + '\\products_imgs')
+    if not os.path.exists(os.path.join(cur_dir, 'products_imgs')):
+        os.mkdir(os.path.join(cur_dir, 'products_imgs'))
 
     for product_data in products_data:
         cnt = 0
@@ -312,30 +331,41 @@ def save_product_data(category_name, products_data, cur_dir):
             cnt += 1
             file_content = requests.get(img_link)
             print(img_link)
-            open(cur_dir + '\\products_imgs\\{0}_{1}.jpg'.format(product_name, cnt), 'wb').write(file_content.content)
+
+            open(os.path.join(cur_dir, 'products_imgs', '{0}_{1}.jpg'.format(product_name, cnt)), 'wb').write(file_content.content)
+            if cnt < 7:
+                time.sleep(1)
+            else:
+                break
 
 
 def load_and_save_products_data():
     d = os.path.dirname(__file__)
-    with open(d + '\\shop_cite\\fixtures\\other_categories_data_db.json', 'r', encoding='utf-8') as fp:
+    with open(os.path.join(d, 'shop_cite', 'fixtures', 'other_categories_data_db.json'), 'r', encoding='utf-8') as fp:
         categories = json.load(fp)
 
     cnt = 0
-    if not os.path.exists(d + '\\test_data\\products'):
-        os.mkdir(d + '\\test_data\\products')
+    if not os.path.exists(os.path.join(d, 'test_data', 'products')):
+        os.mkdir(os.path.join(d, 'test_data', 'products'))
 
-    for category in categories:
+    for category in categories[4:-1]:
         if not category['fields']['has_subcategories']:
             category_name = category['fields']['short_image_name']
             print(category_name)
-            cur_dir = d + '\\test_data\\products\\{0}'.format(category_name)
+            cur_dir = os.path.join(d, 'test_data', 'products', '{0}'.format(category_name))
             if not os.path.exists(cur_dir):
                 os.mkdir(cur_dir)
-
-            products_data = get_products_data(category_name)
-            save_product_data(category_name, products_data, cur_dir)
-            cnt += 1
+                print('LOAD DATA')
+                while True:
+                    is_success, products_data = get_products_data(category_name)
+                    if is_success:
+                        break
+                    else:
+                        print('ERROR LOAD')
+                        time.sleep(10)
+                save_product_data(category_name, products_data, cur_dir)
     print(cnt)
+
 
 load_and_save_products_data()
 

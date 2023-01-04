@@ -53,6 +53,8 @@ class Product(models.Model):
     description = models.CharField(max_length=1000, verbose_name=_('Описание'))
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True,
                                  related_name="product_category", verbose_name=_('Категория'))
+    price = models.FloatField(default=0.0, verbose_name=_('Цена'))
+    main_image_src = models.CharField(default='', max_length=1000, verbose_name=_('Превью'))
 
     class Meta:
         verbose_name_plural = _('Товары')
@@ -60,6 +62,12 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class AdditionalProductImages(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
+                                related_name="product_image", verbose_name=_('Товар'))
+    image_src = models.CharField(default='', max_length=1000, verbose_name=_('Изображение'))
 
 
 class Store(models.Model):
@@ -111,7 +119,6 @@ class Storage(models.Model):
                                 related_name="storage_product", verbose_name=_('Товар'))
     store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
                               related_name="storage_store", verbose_name=_('Магазин'))
-    price = models.FloatField(default=0.0, verbose_name=_('Цена'))
     amount = models.IntegerField(default=0, verbose_name=_('Количество'))
 
     class Meta:
