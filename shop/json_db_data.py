@@ -211,10 +211,12 @@ def get_product_description(product):
     return result[0:-3]
 
 
-def create_products_model_objects(start_id, category):
+def create_products_model_objects(start_id, category, ch_id):
     id_val = start_id
     products = get_products_data(category['fields']['short_image_name'])
-    model_objects = []
+    products_model_objects = []
+    products_characteristics_model_objects = []
+    ch_cnt = ch_id
     for product in products:
         product_name = product['short_data']['detail_link']
         vals = product_name.split(sep='/')
@@ -244,8 +246,21 @@ def create_products_model_objects(start_id, category):
                 key = 'add{0}_image_src'.format(i)
                 product_model_object['fields'][key] = 'assets\\img\\content\\sale\\' + product_name + '_m_{0}.jpg'.format(i)
 
-        model_objects.append(product_model_object)
-    return model_objects
+        characteristics = product['detailed_data']
+        for characteristic_name in characteristics:
+            if characteristic_name != 'main_params' and characteristic_name != 'imgs_links':
+                values = characteristics[characteristic_name]
+                for val_name in values:
+                    charact = characteristic_model_object(id_val=ch_cnt,
+                                                          product_id=product_model_object['pk'],
+                                                          group=characteristic_name,
+                                                          name=val_name,
+                                                          value=values[val_name])
+                    products_characteristics_model_objects.append(charact)
+                    ch_cnt += 1
+
+        products_model_objects.append(product_model_object)
+    return products_model_objects, products_characteristics_model_objects
 
 
 def create_products_fixture_data():
@@ -254,18 +269,38 @@ def create_products_fixture_data():
         categories = json.load(fp)
 
     products_fixture_data = []
+    characteristics_fixture_data = []
     start_id = 1
+    char_id = 1
     for category in categories:
         if not category['fields']['has_subcategories']:
-            products_model_objects = create_products_model_objects(start_id, category)
+            products_model_objects, products_characteristics_model_objects = create_products_model_objects(start_id, category, char_id)
             start_id += len(products_model_objects) + 1
+            char_id += len(products_characteristics_model_objects) + 1
             products_fixture_data += products_model_objects
+            characteristics_fixture_data += products_characteristics_model_objects
 
     with open(os.path.join(d, 'shop_cite', 'fixtures', 'products_data_db.json'), 'wb') as fp:
         data = json.dumps(products_fixture_data, indent=4, ensure_ascii=False).encode('utf8')
         fp.write(data)
 
+    with open(os.path.join(d, 'shop_cite', 'fixtures', 'products_characteristics_data_db.json'), 'wb') as fp:
+        data = json.dumps(characteristics_fixture_data, indent=4, ensure_ascii=False).encode('utf8')
+        fp.write(data)
+
     return products_fixture_data
+
+
+def characteristic_model_object(id_val, product_id, group, name, value):
+    rez = {}
+    rez['model'] = 'shop_cite.productcharacteristics'
+    rez['pk'] = id_val
+    rez['fields'] = {'product': product_id,
+                     'group': group,
+                     'name': name,
+                     'value': value
+                     }
+    return rez
 
 
 a = create_products_fixture_data()

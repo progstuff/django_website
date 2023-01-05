@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import (UserProfile, Category, Product, Store,
-                     Review, Delivery, Storage, Purchase, Basket)
+                     Review, Delivery, Storage, Purchase, Basket,
+                     ProductCharacteristics)
 
 
 admin.site.site_header = 'MEGANO'
@@ -21,6 +22,11 @@ class CategoryAdmin(admin.ModelAdmin):
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['id', 'name', 'description', 'price', 'category', 'add1_image_src']
+
+
+@admin.register(ProductCharacteristics)
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ['id', 'product', 'group', 'name', 'value']
 
 
 @admin.register(Store)

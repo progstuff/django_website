@@ -97,15 +97,10 @@
                     </button>
                   </div>
                 </div>
-                <div class="ProductCard-cartElement"><a class="btn btn_primary" href="#"><img class="btn-icon" src="{% static 'shop_cite/assets/img/icons/card/cart_white.svg' %}" alt="cart_white.svg"/><span class="btn-content">Add To Cart</span></a>
+                <div class="ProductCard-cartElement"><a class="btn btn_primary" href="#"><img class="btn-icon" src="{% static 'shop_cite/assets/img/icons/card/cart_white.svg' %}" alt="cart_white.svg"/><span class="btn-content">Добавить в корзину</span></a>
                 </div>
               </div>
-              <div class="ProductCard-footer">
-                <div class="ProductCard-tags">
-                  <strong class="ProductCard-tagsTitle">Tags:
-                  </strong><a href="#">Accesories</a>,<a href="#">Creative</a>,<a href="#">Design</a>,<a href="#">Gaming</a>
-                </div>
-              </div>
+
             </div>
           </div>
           <div class="Tabs Tabs_default">
@@ -127,29 +122,28 @@
                 </ul>
                 <div class="clearfix">
                 </div>
-
+              </div>
               <div class="Tabs-block" id="sellers">
                 <div class="Categories Categories_product">
                 </div>
               </div>
               <div class="Tabs-block" id="addit">
                 <div class="Product-props">
+
+                  {% for ch_name, ch_val in characteristics.items %}
                   <div class="Product-prop">
-                    <strong>Lorem
-                    </strong><span> Pfizer</span>
+                      <h3 style="font-size: 30px;">{{ch_name}}</h3>
                   </div>
+                  {% for name, val in ch_val.items %}
+                    <div class="Product-prop">
+                      <strong style="color: #2F4F4F">{{name}}
+                      </strong><span>{{val}}</span>
+                    </div>
+                  {% endfor %}
                   <div class="Product-prop">
-                    <strong>ipsum
-                    </strong><span> Lorem ipsum dolor sit</span>
                   </div>
-                  <div class="Product-prop">
-                    <strong>dolor sit
-                    </strong><span> 5 ans</span>
-                  </div>
-                  <div class="Product-prop">
-                    <strong>psum dolo
-                    </strong><span> 2–3 jours</span>
-                  </div>
+                  {% endfor %}
+
                 </div>
               </div>
               <div class="Tabs-block" id="reviews">

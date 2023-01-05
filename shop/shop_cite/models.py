@@ -67,6 +67,20 @@ class Product(models.Model):
         return self.name
 
 
+class ProductCharacteristics(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
+                                related_name="product_characteristic", verbose_name=_('Товар'))
+    group = models.CharField(max_length=1000, verbose_name=_('Группа'))
+    name = models.CharField(max_length=1000, verbose_name=_('Название'))
+    value = models.CharField(max_length=1000, verbose_name=_('Значение'))
+
+    class Meta:
+        verbose_name_plural = _('Характеристики')
+        verbose_name = _('Характеристика')
+
+    def __str__(self):
+        return self.group + ' ' + self.name
+
 class Store(models.Model):
     name = models.CharField(max_length=1000, verbose_name=_('Название'))
     address = models.CharField(max_length=1000, verbose_name=_('Адрес'))
