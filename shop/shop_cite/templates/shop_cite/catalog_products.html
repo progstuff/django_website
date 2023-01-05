@@ -36,12 +36,12 @@
     <div class="Middle-top">
       <div class="wrap">
         <div class="Middle-header">
-          <h1 class="Middle-title">Catalog Megano
+          <h1 class="Middle-title">{{category.name}}
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
             <li class="breadcrumbs-item"><a href="/">home</a>
             </li>
-            <li class="breadcrumbs-item breadcrumbs-item_current"><span>Catalog</span>
+            <li class="breadcrumbs-item breadcrumbs-item_current"><span>{{category.name}}</span>
             </li>
           </ul>
         </div>
@@ -110,12 +110,12 @@
           <div class="Cards">
 
             {% for product in products %}
-              <div class="Card"><a class="Card-picture" href="/product/{{product.id}}"><img src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/></a>
+              <div class="Card"><a class="Card-picture" href="/product/{{product.id}}"><img src="{% static 'shop_cite/' %}{{product.main_image_src}}" alt="card.jpg" intrinsicsize="200x200" style="width: auto"/></a>
                 <div class="Card-content">
                   <strong class="Card-title"><a href="/product/{{product.id}}">{{product.name}}</a>
                   </strong>
                   <div class="Card-description">
-                    <div class="Card-cost"><span class="Card-price">$85.00</span>
+                    <div class="Card-cost"><span class="Card-price">{{product.price}}</span>
                     </div>
                     <div class="Card-category">
                     </div>

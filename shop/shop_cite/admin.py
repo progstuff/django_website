@@ -20,7 +20,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name', 'description', 'category']
+    list_display = ['id', 'name', 'description', 'price', 'category', 'add1_image_src']
 
 
 @admin.register(Store)
@@ -35,7 +35,7 @@ class DeliveryAdmin(admin.ModelAdmin):
 
 @admin.register(Storage)
 class StorageAdmin(admin.ModelAdmin):
-    list_display = ['id', 'product', 'store', 'price', 'amount']
+    list_display = ['id', 'product', 'store', 'amount']
 
 
 @admin.register(Purchase)

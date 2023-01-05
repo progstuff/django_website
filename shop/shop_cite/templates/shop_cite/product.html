@@ -36,7 +36,7 @@
     <div class="Middle-top">
       <div class="wrap">
         <div class="Middle-header">
-          <h1 class="Middle-title">Megano Product
+          <h1 class="Middle-title">{{product.name}}
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
             <li class="breadcrumbs-item"><a href="/">home</a>
@@ -53,9 +53,19 @@
           <div class="ProductCard">
             <div class="ProductCard-look">
               <div class="ProductCard-photo">
-                <img src="{% static 'shop_cite/assets/img/content/home/bigGoods.png' %}" alt="bigGoods.png"/>
+                <img src="{% static 'shop_cite/' %}{{product.add1_image_src}}" alt="add1.jpg"/>
               </div>
-              <div class="ProductCard-picts"><a class="ProductCard-pict ProductCard-pict_ACTIVE" href="{% static 'shop_cite/assets/img/content/home/bigGoods.png' %}"><img src="{% static 'shop_cite/assets/img/content/home/bigGoods.png' %}" alt="bigGoods.png"/></a><a class="ProductCard-pict" href="{% static 'shop_cite/assets/img/content/home/slider.png' %}"><img src="{% static 'shop_cite/assets/img/content/home/slider.png' %}" alt="slider.png"/></a><a class="ProductCard-pict" href="{% static 'shop_cite/assets/img/content/home/videoca.png' %}"><img src="{% static 'shop_cite/assets/img/content/home/videoca.png' %}" alt="videoca.png"/></a>
+              <div class="ProductCard-picts">
+                <a class="ProductCard-pict ProductCard-pict_ACTIVE" href="{% static 'shop_cite/' %}{{product.add1_image_src}}">
+                  <img src="{% static 'shop_cite/' %}{{product.add1_image_src}}" alt="add1.jpg"/></a>
+                {% if product.add2_image_src != "" %}
+                <a class="ProductCard-pict" href="{% static 'shop_cite/' %}{{product.add2_image_src}}">
+                  <img src="{% static 'shop_cite/' %}{{product.add2_image_src}}" alt="add2.png"/></a>
+                {% endif %}
+                {% if product.add3_image_src != "" %}
+                <a class="ProductCard-pict" href="{% static 'shop_cite/' %}{{product.add3_image_src}}">
+                  <img src="{% static 'shop_cite/' %}{{product.add3_image_src}}" alt="add3.png"/></a>
+                {% endif %}
               </div>
             </div>
             <div class="ProductCard-desc">
@@ -64,19 +74,17 @@
                 </h2>
                 <div class="ProductCard-info">
                   <div class="ProductCard-cost">
-                    <div class="ProductCard-price">$55.00
+                    <div class="ProductCard-price">{{product.price}}
                     </div>
                   </div>
                 </div>
               </div>
               <div class="ProductCard-text">
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod
+                  {% for param_name, param_value in description.items %}
+                  <li>{{param_name}}: {{param_value}}
                   </li>
-                  <li>tempor incididunt ut labore et dolore magna aliqua. Lorem
-                  </li>
-                  <li>ipsum dolor sit ameabore et dolore magna aliqua. Lorem ipsum
-                  </li>
+                  {% endfor %}
                 </ul>
               </div>
               <div class="ProductCard-cart">
@@ -101,47 +109,25 @@
             </div>
           </div>
           <div class="Tabs Tabs_default">
-            <div class="Tabs-links"><a class="Tabs-link_ACTIVE Tabs-link" href="#description"><span>Описание</span></a><a class="Tabs-link" href="#addit"><span>AdditionaL Info</span></a><a class="Tabs-link" href="#reviews"><span>Reviews (3)</span></a>
+            <div class="Tabs-links"><a class="Tabs-link_ACTIVE Tabs-link" href="#description">
+              <span>Описание</span></a><a class="Tabs-link" href="#addit">
+              <span>Характеристики</span></a><a class="Tabs-link" href="#reviews">
+              <span>Reviews (3)</span></a>
             </div>
             <div class="Tabs-wrap">
               <div class="Tabs-block" id="description">
-                <h2>Megano Store Hystory
+                <h2>Основные характеристики
                 </h2>
-                <p> {{product.description}}
-                </p><img class="pict pict_right" src="{% static 'shop_cite/assets/img/content/home/bigGoods.png' %}" alt="bigGoods.png"/>
+                <img class="pict pict_right" src="{% static 'shop_cite/' %}{{product.main_image_src}}" alt="main.jpg"/>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetuer
+                  {% for param_name, param_value in description.items %}
+                  <li>{{param_name}}: {{param_value}}
                   </li>
-                  <li>adipiscing elit doli.&#32;<em>Aenean</em>&#32;commodo ligula
-                  </li>
-                  <li>eget dolor. Aenean massa. Cumtipsu sociis
-                  </li>
-                  <li>natoque penatibus et magnis dis parturient
-                  </li>
-                  <li>montesti, nascetur ridiculus mus. Donec
-                  </li>
-                  <li>quam felis, ultricies nec, pellentesque eutu
-                  </li>
+                  {% endfor %}
                 </ul>
                 <div class="clearfix">
                 </div>
-                <div class="table">
-                  <table>
-                    <tr>
-                      <th>Характеристика
-                      </th>
-                      <th>Значение
-                      </th>
-                    </tr>
-                    <tr>
-                      <td>ываыв
-                      </td>
-                      <td>llslssl
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
+
               <div class="Tabs-block" id="sellers">
                 <div class="Categories Categories_product">
                 </div>

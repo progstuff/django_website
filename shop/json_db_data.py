@@ -186,13 +186,19 @@ def get_products_data(category_url_name):
     return []
 
 
-def create_product_model_object(id_val, name, description, category_id):
+def create_product_model_object(id_val, name, description, category_id, price, main_image_src,
+                                add1_img_src='', add2_img_src='', add3_img_src=''):
     rez = {}
     rez['model'] = 'shop_cite.product'
     rez['pk'] = id_val
     rez['fields'] = {'name': name,
                      'description': description,
-                     'category': category_id
+                     'category': category_id,
+                     'price': price,
+                     'main_image_src': main_image_src,
+                     'add1_image_src': add1_img_src,
+                     'add2_image_src': add2_img_src,
+                     'add3_image_src': add3_img_src
                      }
     return rez
 
@@ -210,11 +216,34 @@ def create_products_model_objects(start_id, category):
     products = get_products_data(category['fields']['short_image_name'])
     model_objects = []
     for product in products:
+        product_name = product['short_data']['detail_link']
+        vals = product_name.split(sep='/')
+        product_name = vals[-2]
         product_model_object = create_product_model_object(id_val=id_val,
                                                            name=product['short_data']['name'],
                                                            description=get_product_description(product),
-                                                           category_id=category['pk'])
+                                                           category_id=category['pk'],
+                                                           price=product['short_data']['price'],
+                                                           main_image_src='assets\\img\\content\\sale\\' + product_name + '_main.jpg',
+                                                           )
         id_val += 1
+
+        file_name = os.path.join('test_data', 'products', category['fields']['short_image_name'],
+                                 'products_imgs', product_name + '_main.jpg')
+        dest_file_name = os.path.join('shop_cite', 'static', 'shop_cite', 'assets', 'img', 'content', 'sale', product_name + '_main.jpg')
+        if exists(file_name) and not exists(dest_file_name):
+            shutil.copyfile(file_name, dest_file_name)
+
+        for i in range(1, 4):
+            file_name = os.path.join('test_data', 'products', category['fields']['short_image_name'],
+                                     'products_imgs', product_name + '_m_{0}.jpg'.format(i))
+            dest_file_name = os.path.join('shop_cite', 'static', 'shop_cite', 'assets', 'img', 'content', 'sale', product_name + '_m_{0}.jpg'.format(i))
+            if exists(file_name) and not exists(dest_file_name):
+                shutil.copyfile(file_name, dest_file_name)
+            if exists(file_name):
+                key = 'add{0}_image_src'.format(i)
+                product_model_object['fields'][key] = 'assets\\img\\content\\sale\\' + product_name + '_m_{0}.jpg'.format(i)
+
         model_objects.append(product_model_object)
     return model_objects
 
@@ -237,6 +266,7 @@ def create_products_fixture_data():
         fp.write(data)
 
     return products_fixture_data
+
 
 a = create_products_fixture_data()
 b = 1

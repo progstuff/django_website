@@ -367,5 +367,56 @@ def load_and_save_products_data():
     print(cnt)
 
 
-load_and_save_products_data()
+def load_main_images():
+    d = os.path.dirname(__file__)
+    dir_name = os.path.join(d, 'test_data', 'products')
+    dir_list = os.listdir(dir_name)
+    for folder in dir_list:
+        if os.path.isdir(os.path.join(dir_name, folder)):
+            file_name = os.path.join(dir_name, folder, folder + '_products.json')
+            if os.path.exists(file_name):
+                with open(file_name, 'r', encoding='utf-8') as fp:
+                    products = json.load(fp)
+                    for product in products:
+                        img_link = product['short_data']['image_link']
+                        file_content = requests.get(img_link)
+                        product_name = product['short_data']['detail_link']
+                        vals = product_name.split(sep='/')
+                        product_name = vals[-2]
 
+                        img_file_name = os.path.join(dir_name, folder, 'products_imgs', '{0}_{1}.jpg'.format(product_name, 'main'))
+                        print('{0}_{1}.jpg'.format(product_name, 'main'))
+                        open(img_file_name, 'wb').write(file_content.content)
+
+
+def load_other_images():
+    d = os.path.dirname(__file__)
+    dir_name = os.path.join(d, 'test_data', 'products')
+    dir_list = os.listdir(dir_name)
+    for folder in dir_list:
+        if os.path.isdir(os.path.join(dir_name, folder)):
+            file_name = os.path.join(dir_name, folder, folder + '_products.json')
+            if os.path.exists(file_name):
+                with open(file_name, 'r', encoding='utf-8') as fp:
+                    products = json.load(fp)
+                    for product in products:
+                        img_links = product['detailed_data']['imgs_links']
+                        cnt = 0
+                        for img_link in img_links:
+                            cnt += 1
+                            dimg_link = img_link[0:-6] + '_m.jpg'
+                            print(img_link, dimg_link)
+                            file_content = requests.get(dimg_link)
+                            product_name = product['short_data']['detail_link']
+                            vals = product_name.split(sep='/')
+                            product_name = vals[-2]
+                            img_file_name = os.path.join(dir_name, folder, 'products_imgs', '{0}_{1}_{2}.jpg'.format(product_name, 'm', cnt))
+                            open(img_file_name, 'wb').write(file_content.content)
+                            #print('{0}_{1}_{2}.jpg'.format(product_name, 'b', cnt))
+                            if cnt > 2:
+                                break
+
+#load_main_images()
+#load_and_save_products_data()
+
+load_other_images()
