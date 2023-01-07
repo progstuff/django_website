@@ -78,8 +78,8 @@
           </div>
         </nav>
         <div class="row-block">
-          <div class="CartBlock"><a class="CartBlock-block" href="/cart"><img class="CartBlock-img" src="{% static 'shop_cite/assets/img/icons/cart.svg' %}" alt="cart.svg"/><span class="CartBlock-amount">0</span></a>
-            <div class="CartBlock-block"><span class="CartBlock-price">0.00$</span>
+          <div class="CartBlock"><a class="CartBlock-block" href="/cart"><img class="CartBlock-img" src="{% static 'shop_cite/assets/img/icons/cart.svg' %}" alt="cart.svg"/><span class="CartBlock-amount">{{basket_items_cnt}}</span></a>
+            <div class="CartBlock-block"><span class="CartBlock-price">{{basket_total_price}}</span>
             </div>
           </div>
         </div>

@@ -3,8 +3,7 @@ from ..models import Product, ProductCharacteristics
 
 class ProductPage(BaseTemplate):
 
-    def get(self, request, pk):
-
+    def get_product_data(self, pk):
         product = Product.objects.get(id=pk)
         characteristics = list(ProductCharacteristics.objects.filter(product__id=pk))
         characteristics_dict = {}
@@ -29,6 +28,34 @@ class ProductPage(BaseTemplate):
                 for v in vals[1::]:
                     val += v
             params[name] = val
+        return product, params, characteristics_dict
+
+    def get(self, request, pk):
+        product, params, characteristics_dict = self.get_product_data(pk)
+        return self.get_render(request,
+                               'shop_cite/product.html',
+                               context={'product': product,
+                                        'description': params,
+                                        'characteristics': characteristics_dict})
+
+    def post(self, request, pk):
+        product, params, characteristics_dict = self.get_product_data(pk)
+        basket = request.session.get('basket', None)
+        if basket is None:
+            request.session['basket'] = {}
+            basket = request.session.get('basket', None)
+        bpr = basket.get(str(pk), None)
+        if bpr is None:
+            basket[str(pk)] = {'img_src': product.add1_image_src,
+                               'name': product.name,
+                               'description': product.description,
+                               'amount': int(request.POST['amount']),
+                               'price': product.price}
+        else:
+            basket[str(pk)]['amount'] = int(basket[str(pk)]['amount']) + int(request.POST['amount'])
+            basket[str(pk)]['price'] = product.price
+        request.session['basket'] = basket
+
         return self.get_render(request,
                                'shop_cite/product.html',
                                context={'product': product,
