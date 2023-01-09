@@ -13,6 +13,7 @@ from .views.product_page import ProductPage
 from .views.registration_page import RegistrationPage
 from .views.authenticate_page import AuthenticatePage, LogOutView
 from .views.profile_avatar_page import ProfileAvatarPage
+from .views.profile_page import ProfilePage
 from .views.progress_payment_page import ProgressPaymentPage
 from .views.account_page import AccountPage
 from .views.sale_page import SalePage
@@ -35,6 +36,7 @@ urlpatterns = [
     path('authenticate', AuthenticatePage.as_view(), name='authenticate'),
     path('logout', LogOutView.as_view(), name='logout'),
     path('profile-avatar', ProfileAvatarPage.as_view(), name='profile-avatar'),
+    path('profile', ProfilePage.as_view(), name='profile'),
     path('progress-payment', ProgressPaymentPage.as_view(), name='progress-payment'),
     path('account', AccountPage.as_view(), name='account'),
     path('sale', SalePage.as_view(), name='sale'),

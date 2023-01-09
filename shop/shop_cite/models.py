@@ -12,16 +12,22 @@ class UserProfile(models.Model):
         ('Н', 'Незарегистрированный пользователь'),
     )
     PAYMENT_TYPE = (
-        ('Б', 'Безнал'),
-        ('К', 'Карта'),
-        ('Н', 'Наличные'),
-        ('-', 'Не указано')
+        ('К', 'Онлайн карта'),
+        ('Н', 'Наличные при получении')
+    )
+    DELIVERY_TYPE = (
+        ('О', 'Обычная'),
+        ('Э', 'Экспресс'),
     )
 
     user = models.OneToOneField(User, on_delete=models.SET_NULL, null=True,
                                 related_name="userprofile_user", verbose_name=_('Пользователь'))
+    full_name = models.CharField(default='', max_length=1000, verbose_name=_('ФИО'))
+    phone = models.CharField(default='+70000000000', max_length=12, verbose_name=_('ФИО'))
+    address = models.CharField(default='', max_length=1000, verbose_name=_('ФИО'))
     status = models.CharField(default='П', max_length=10, choices=USER_STATUS, verbose_name=_('Статус'))
-    payment_method = models.CharField(default='-', max_length=10, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
+    payment_method = models.CharField(default='Н', max_length=100, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
+    delivery_type = models.CharField(default='О', max_length=10, choices=DELIVERY_TYPE, verbose_name=_('Тип доставки'))
 
     class Meta:
         verbose_name_plural = _('Профили пользователей')
