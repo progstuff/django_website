@@ -9,6 +9,21 @@ class OrderForm(forms.Form):
     full_name = forms.CharField(label=_('ФИО'))
     email = forms.CharField(label=_('E-mail'), widget=forms.EmailInput)
     phone = forms.CharField(label=_('Телефон'))
+    DELIVERY_TYPE = (
+        ('О', 'Обычная'),
+        ('Э', 'Экспресс'),
+    )
+    delivery_type = forms.ChoiceField(widget=forms.RadioSelect,
+                                      choices=DELIVERY_TYPE)
+    town = forms.CharField(label=_('Город'))
+    address = forms.CharField(label=_('Адрес'))
+    PAYMENT_TYPE = (
+        ('К', 'Онлайн картой'),
+        ('Н', 'Наличными при получении')
+    )
+    payment_type = forms.ChoiceField(widget=forms.RadioSelect,
+                                     choices=PAYMENT_TYPE)
+
 
     def clean_phone_confirm(self):
         p = self.cleaned_data.get('phone', '')

@@ -17,7 +17,7 @@ from .views.profile_page import ProfilePage
 from .views.progress_payment_page import ProgressPaymentPage
 from .views.account_page import AccountPage
 from .views.sale_page import SalePage
-
+from .views.accept_page import AcceptOrderPage
 
 urlpatterns = [
     path('', MainPage.as_view(), name='index'),
@@ -28,6 +28,7 @@ urlpatterns = [
     path('catalog-categories/<int:pk>', CatalogCategoriesPage.as_view(), name='catalog-categories'),
     path('order-details', OrderDetailsPage.as_view(), name='order-details'),
     path('order', OrderPage.as_view(), name='order'),
+    path('accept-order', AcceptOrderPage.as_view(), name='accept-order'),
     path('payment', PaymentPage.as_view(), name='payment'),
 
     path('payment-someone', PaymentSomeonePage.as_view(), name='payment-someone'),

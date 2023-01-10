@@ -13,7 +13,9 @@ class OrderPage(BaseTemplate):
             user_profile = user_profile[0]
             form = OrderForm(initial={'full_name': user_profile.full_name,
                                       'email': user.username,
-                                      'phone': user_profile.phone})
+                                      'phone': user_profile.phone,
+                                      'town': '',
+                                      'address': ''})
             a = 1
         return self.get_render(request,
                                'shop_cite/order.html',
