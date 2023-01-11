@@ -56,7 +56,7 @@
             <div class="Cart-block Cart-block_row">
               <div class="Cart-block Cart-block_pict"><a class="Cart-pict" href="#"><img class="Cart-img" src="{% static 'shop_cite/' %}{{product.img_src}}" alt="card.jpg"/></a>
               </div>
-              <div class="Cart-block Cart-block_info"><a class="Cart-title" href="#">{{product.name}}</a>
+              <div class="Cart-block Cart-block_info"><a class="Cart-title" href="/product/{{product.id}}">{{product.name}}</a>
                 <div class="Cart-desc">{{product.description}}
                 </div>
               </div>
