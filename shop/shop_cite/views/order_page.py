@@ -2,6 +2,8 @@ from .view_utils import BaseTemplate
 from ..models import UserProfile
 from django.contrib.auth.models import User
 from ..forms.order_form import OrderForm
+from django.shortcuts import redirect
+from django.urls import reverse
 
 
 class OrderPage(BaseTemplate):
@@ -16,7 +18,19 @@ class OrderPage(BaseTemplate):
                                       'phone': user_profile.phone,
                                       'town': '',
                                       'address': ''})
-            a = 1
         return self.get_render(request,
                                'shop_cite/order.html',
                                context={'form': form})
+
+    def post(self, request):
+        form = OrderForm(request.POST)
+        if form.is_valid():
+            return self.get_render(request,
+                                   'shop_cite/order.html',
+                                   context={'form': form,
+                                            'is_ok': True})
+        else:
+            return self.get_render(request,
+                                   'shop_cite/order.html',
+                                   context={'form': form,
+                                            'is_ok': False})

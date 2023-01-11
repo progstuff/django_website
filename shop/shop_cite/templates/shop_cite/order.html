@@ -70,7 +70,12 @@
         </div>
         <div class="Section-content">
           <form class="form" action="#" method="post">
+            {% csrf_token %}
+            {% if is_ok %}
+            <div class="Order-block" id="step1">
+            {% else %}
             <div class="Order-block Order-block_OPEN" id="step1">
+            {% endif %}
               <header class="Section-header Section-header_sm">
                 <h2 class="Section-title">Шаг 1. Параметры пользователя
                 </h2>
@@ -144,15 +149,20 @@
                   </label>
                 </div>
               </div>
-              <div class="Order-footer"><a class="btn btn_success Order-next" href="#step4">Дальше</a>
+              <div class="Cart-block">
+                  <button class="btn btn_primary btn_lg" type="submit">Дальше
+                  </button>
               </div>
             </div>
+            {% if is_ok %}
+            <div class="Order-block Order-block_OPEN" id="step4">
+            {% else %}
             <div class="Order-block" id="step4">
+            {% endif %}
               <header class="Section-header Section-header_sm">
                 <h2 class="Section-title">Шаг 4. Подтверждение заказа
                 </h2>
               </header>
-
               <!--+div.Order.-confirmation-->
               <div class="Order-infoBlock">
                 <div class="Order-personal">
