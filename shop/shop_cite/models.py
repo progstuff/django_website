@@ -3,6 +3,25 @@ from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.models import User
 from datetime import datetime
 
+PAYMENT_TYPE = (
+    ('К', 'Онлайн картой'),
+    ('Н', 'Наличными при получении')
+)
+DELIVERY_TYPE = (
+    ('О', 'Обычная'),
+    ('Э', 'Экспресс'),
+)
+DELIVERY_STATE = (
+    ('С', 'Собирается'),
+    ('Д', 'Доставляется'),
+    ('Г', 'Готов к выдаче'),
+    ('В', 'Выдан покупателю'),
+)
+PAYMENT_STATE = (
+    ('Н', 'Не оплачен'),
+    ('О', 'Оплачен'),
+)
+
 
 class UserProfile(models.Model):
 
@@ -11,23 +30,16 @@ class UserProfile(models.Model):
         ('П', 'Покупатель'),
         ('Н', 'Незарегистрированный пользователь'),
     )
-    PAYMENT_TYPE = (
-        ('К', 'Онлайн картой'),
-        ('Н', 'Наличными при получении')
-    )
-    DELIVERY_TYPE = (
-        ('О', 'Обычная'),
-        ('Э', 'Экспресс'),
-    )
 
     user = models.OneToOneField(User, on_delete=models.SET_NULL, null=True,
                                 related_name="userprofile_user", verbose_name=_('Пользователь'))
     full_name = models.CharField(default='', max_length=1000, verbose_name=_('ФИО'))
-    phone = models.CharField(default='+70000000000', max_length=12, verbose_name=_('ФИО'))
-    address = models.CharField(default='', max_length=1000, verbose_name=_('ФИО'))
-    status = models.CharField(default='П', max_length=10, choices=USER_STATUS, verbose_name=_('Статус'))
-    payment_method = models.CharField(default='Н', max_length=100, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
-    delivery_type = models.CharField(default='О', max_length=10, choices=DELIVERY_TYPE, verbose_name=_('Тип доставки'))
+    phone = models.CharField(default='+70000000000', max_length=12, verbose_name=_('Телефон'))
+    address = models.CharField(default='', max_length=1000, verbose_name=_('Адрес'))
+    town = models.CharField(default='', max_length=1000, verbose_name=_('Город'))
+    status = models.CharField(default='П', max_length=1, choices=USER_STATUS, verbose_name=_('Статус'))
+    payment_method = models.CharField(default='Н', max_length=1, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
+    delivery_type = models.CharField(default='О', max_length=1, choices=DELIVERY_TYPE, verbose_name=_('Тип доставки'))
 
     class Meta:
         verbose_name_plural = _('Профили пользователей')
@@ -86,6 +98,7 @@ class ProductCharacteristics(models.Model):
 
     def __str__(self):
         return self.group + ' ' + self.name
+
 
 class Store(models.Model):
     name = models.CharField(max_length=1000, verbose_name=_('Название'))
@@ -149,21 +162,37 @@ class Storage(models.Model):
 class Purchase(models.Model):
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
                              related_name="purchase_user", verbose_name=_('Пользователь'))
-    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
-                                related_name="purchase_product", verbose_name=_('Товар'))
-    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
-                              related_name="purchase_store", verbose_name=_('Магазин'))
-    price = models.FloatField(default=0.0, verbose_name=_('Цена'))
-    amount = models.IntegerField(default=0, verbose_name=_('Количество'))
+
+    payment_method = models.CharField(default='Н', max_length=1, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
+    delivery_type = models.CharField(default='О', max_length=1, choices=DELIVERY_TYPE, verbose_name=_('Тип доставки'))
+    delivery_state = models.CharField(default='Д', max_length=1, choices=DELIVERY_STATE, verbose_name=_('Статус доставки'))
+    payment_state = models.CharField(default='Н', max_length=1, choices=PAYMENT_STATE, verbose_name=_('Статус оплаты'))
     purchase_date = models.DateTimeField(default=datetime.now, verbose_name=_('Дата покупки'))
-    purchase_number = models.BigIntegerField(default=0, verbose_name=_('Номер заказа'))
 
     class Meta:
         verbose_name_plural = _('Покупки')
         verbose_name = _('Покупка')
 
     def __str__(self):
-        return self.purchase_date + ': ' + self.product.name + ': ' + self.store.name
+        return str(self.id)
+
+
+class ProductPurchased(models.Model):
+    purchase = models.ForeignKey(Purchase, on_delete=models.SET_NULL, null=True,
+                                 related_name="product_purchase", verbose_name=_('Заказ'))
+    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
+                                related_name="purchase_product", verbose_name=_('Товар'))
+    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
+                              related_name="purchase_store", verbose_name=_('Магазин'))
+    price = models.FloatField(default=0.0, verbose_name=_('Цена'))
+    amount = models.IntegerField(default=0, verbose_name=_('Количество'))
+
+    class Meta:
+        verbose_name_plural = _('Заказанные товары')
+        verbose_name = _('Заказанный товар')
+
+    def __str__(self):
+        return self.product.name
 
 
 class Basket(models.Model):

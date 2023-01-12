@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import (UserProfile, Category, Product, Store,
                      Review, Delivery, Storage, Purchase, Basket,
-                     ProductCharacteristics)
+                     ProductCharacteristics, ProductPurchased)
 
 
 admin.site.site_header = 'MEGANO'
@@ -46,7 +46,14 @@ class StorageAdmin(admin.ModelAdmin):
 
 @admin.register(Purchase)
 class PurchaseAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'product', 'store', 'price', 'amount', 'purchase_date', 'purchase_number']
+    list_display = ['id', 'user', 'purchase_date', 'payment_method', 'delivery_type',
+                    'delivery_state', 'payment_state']
+
+
+@admin.register(ProductPurchased)
+class ProductPurchasedAdmin(admin.ModelAdmin):
+    list_display = ['id', 'purchase', 'product', 'store', 'price',
+                    'amount']
 
 
 @admin.register(Basket)
