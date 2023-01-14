@@ -52,22 +52,25 @@ class OrderPage(BaseTemplate):
             form = OrderForm(request.POST)
             form.is_valid()
             user = request.user
-            user_profile = UserProfile.objects.filter(user=user).update(town=form.cleaned_data['town'],
-                                                                        full_name=form.cleaned_data['full_name'],
-                                                                        phone=form.cleaned_data['phone'],
-                                                                        address=form.cleaned_data['address'],
-                                                                        payment_method=form.cleaned_data['payment_type'],
-                                                                        delivery_type=form.cleaned_data['delivery_type'])
+            user_profile = UserProfile.objects.get(user=user)
 
-            purchase = Purchase.objects.create()
+            user_profile.town = form.cleaned_data['town']
+            user_profile.full_name = form.cleaned_data['full_name']
+            user_profile.phone = form.cleaned_data['phone']
+            user_profile.address = form.cleaned_data['address']
+            user_profile.payment_method = form.cleaned_data['payment_type']
+            user_profile.delivery_type = form.cleaned_data['delivery_type']
+            user_profile.save()
+
+            purchase = Purchase.objects.create(user_profile=user_profile)
             basket = request.session.get('basket', None)
+
             # get products from basket to template
             if basket is not None:
                 for product in basket:
                     data = basket[product]
                     ProductPurchased.objects.create(purchase=purchase,
                                                     product=Product.objects.filter(id=int(product))[0],
-                                                    store=None,
                                                     price=data['price'],
                                                     amount=data['amount'])
             return HttpResponseRedirect('/payment')

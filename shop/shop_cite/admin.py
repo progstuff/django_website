@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import (UserProfile, Category, Product, Store,
-                     Review, Delivery, Storage, Purchase, Basket,
+from .models import (UserProfile, Category, Product,
+                     Review, Purchase,
                      ProductCharacteristics, ProductPurchased)
 
 
@@ -29,38 +29,17 @@ class ProductAdmin(admin.ModelAdmin):
     list_display = ['id', 'product', 'group', 'name', 'value']
 
 
-@admin.register(Store)
-class StoreAdmin(admin.ModelAdmin):
-    list_display = ['id', 'name', 'address']
-
-
-@admin.register(Delivery)
-class DeliveryAdmin(admin.ModelAdmin):
-    list_display = ['id', 'store', 'address']
-
-
-@admin.register(Storage)
-class StorageAdmin(admin.ModelAdmin):
-    list_display = ['id', 'product', 'store', 'amount']
-
-
 @admin.register(Purchase)
 class PurchaseAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'purchase_date', 'payment_method', 'delivery_type',
+    list_display = ['id', 'user_profile', 'purchase_date', 'payment_method', 'delivery_type',
                     'delivery_state', 'payment_state']
 
 
 @admin.register(ProductPurchased)
 class ProductPurchasedAdmin(admin.ModelAdmin):
-    list_display = ['id', 'purchase', 'product', 'store', 'price',
-                    'amount']
-
-
-@admin.register(Basket)
-class BasketAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'product', 'store', 'price', 'amount']
+    list_display = ['id', 'purchase', 'product', 'price', 'amount']
 
 
 @admin.register(Review)
 class ReviewAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'product', 'rating', 'description', 'store']
+    list_display = ['id', 'user_profile', 'product', 'rating', 'description']

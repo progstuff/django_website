@@ -46,7 +46,7 @@ class UserProfile(models.Model):
         verbose_name = _('Профиль пользователя')
 
     def __str__(self):
-        return self.user.username
+        return self.full_name + ' ' + self.phone
 
 
 class Category(models.Model):
@@ -100,55 +100,25 @@ class ProductCharacteristics(models.Model):
         return self.group + ' ' + self.name
 
 
-class Store(models.Model):
-    name = models.CharField(max_length=1000, verbose_name=_('Название'))
-    address = models.CharField(max_length=1000, verbose_name=_('Адрес'))
-
-    class Meta:
-        verbose_name_plural = _('Магазины')
-        verbose_name = _('Магазин')
-
-    def __str__(self):
-        return self.name + ' ' + self.address
-
-
 class Review(models.Model):
-    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
-                             related_name="review_user", verbose_name=_('Пользователь'))
+    user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL, null=True,
+                                     related_name="review_user", verbose_name=_('Пользователь'))
     product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
                                 related_name="review_product", verbose_name=_('Товар'))
     rating = models.IntegerField(default=0, verbose_name=_('Оценка'))
     description = models.CharField(max_length=1000, verbose_name=_('Текст отзыва'))
-    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
-                              related_name="review_store", verbose_name=_('Магазин'))
 
     class Meta:
         verbose_name_plural = _('Отзывы')
         verbose_name = _('Отзыв')
 
     def __str__(self):
-        return self.user.username + ': ' + self.description
-
-
-class Delivery(models.Model):
-
-    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
-                              related_name="delivery_store", verbose_name=_('Магазин'))
-    address = models.CharField(max_length=1000, verbose_name=_('Адрес'))
-
-    class Meta:
-        verbose_name_plural = _('Адреса доставки магазинов')
-        verbose_name = _('Адрес доставки магазина')
-
-    def __str__(self):
-        return self.store.name + ': ' + self.address
+        return self.user_profile.full_name + ': ' + self.description
 
 
 class Storage(models.Model):
     product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
                                 related_name="storage_product", verbose_name=_('Товар'))
-    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
-                              related_name="storage_store", verbose_name=_('Магазин'))
     amount = models.IntegerField(default=0, verbose_name=_('Количество'))
 
     class Meta:
@@ -160,18 +130,18 @@ class Storage(models.Model):
 
 
 class Purchase(models.Model):
-    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
-                             related_name="purchase_user", verbose_name=_('Пользователь'))
+    user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL, null=True,
+                                     related_name="purchase_user", verbose_name=_('Пользователь'))
 
     payment_method = models.CharField(default='Н', max_length=1, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
     delivery_type = models.CharField(default='О', max_length=1, choices=DELIVERY_TYPE, verbose_name=_('Тип доставки'))
-    delivery_state = models.CharField(default='Д', max_length=1, choices=DELIVERY_STATE, verbose_name=_('Статус доставки'))
+    delivery_state = models.CharField(default='С', max_length=1, choices=DELIVERY_STATE, verbose_name=_('Статус доставки'))
     payment_state = models.CharField(default='Н', max_length=1, choices=PAYMENT_STATE, verbose_name=_('Статус оплаты'))
     purchase_date = models.DateTimeField(default=datetime.now, verbose_name=_('Дата покупки'))
 
     class Meta:
-        verbose_name_plural = _('Покупки')
-        verbose_name = _('Покупка')
+        verbose_name_plural = _('Заказы')
+        verbose_name = _('Заказ')
 
     def __str__(self):
         return str(self.id)
@@ -182,8 +152,6 @@ class ProductPurchased(models.Model):
                                  related_name="product_purchase", verbose_name=_('Заказ'))
     product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
                                 related_name="purchase_product", verbose_name=_('Товар'))
-    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
-                              related_name="purchase_store", verbose_name=_('Магазин'))
     price = models.FloatField(default=0.0, verbose_name=_('Цена'))
     amount = models.IntegerField(default=0, verbose_name=_('Количество'))
 
@@ -193,21 +161,3 @@ class ProductPurchased(models.Model):
 
     def __str__(self):
         return self.product.name
-
-
-class Basket(models.Model):
-    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
-                             related_name="basket_user", verbose_name=_('Пользователь'))
-    product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True,
-                                related_name="basket_product", verbose_name=_('Товар'))
-    store = models.ForeignKey(Store, on_delete=models.SET_NULL, null=True,
-                              related_name="basket_store", verbose_name=_('Магазин'))
-    price = models.FloatField(default=0.0, verbose_name=_('Цена'))
-    amount = models.IntegerField(default=0, verbose_name=_('Количество'))
-
-    class Meta:
-        verbose_name_plural = _('Корзины')
-        verbose_name = _('Корзина')
-
-    def __str__(self):
-        return self.product.name + ': ' + self.store.name
