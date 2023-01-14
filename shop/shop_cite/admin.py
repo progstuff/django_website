@@ -31,7 +31,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Purchase)
 class PurchaseAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user_profile', 'purchase_date', 'payment_method', 'delivery_type',
+    list_display = ['id', 'user_profile', 'purchase_date', 'total_sum', 'payment_method', 'delivery_type',
                     'delivery_state', 'payment_state']
 
 

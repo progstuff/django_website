@@ -137,6 +137,7 @@ class Purchase(models.Model):
     delivery_type = models.CharField(default='О', max_length=1, choices=DELIVERY_TYPE, verbose_name=_('Тип доставки'))
     delivery_state = models.CharField(default='С', max_length=1, choices=DELIVERY_STATE, verbose_name=_('Статус доставки'))
     payment_state = models.CharField(default='Н', max_length=1, choices=PAYMENT_STATE, verbose_name=_('Статус оплаты'))
+    total_sum = models.FloatField(default=0, verbose_name=_('Сумма заказа'))
     purchase_date = models.DateTimeField(default=datetime.now, verbose_name=_('Дата покупки'))
 
     class Meta:

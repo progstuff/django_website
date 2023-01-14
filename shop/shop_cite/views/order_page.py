@@ -62,7 +62,9 @@ class OrderPage(BaseTemplate):
             user_profile.delivery_type = form.cleaned_data['delivery_type']
             user_profile.save()
 
-            purchase = Purchase.objects.create(user_profile=user_profile)
+            cnt, total_sum = self.get_basket_items_cnt(request)
+            purchase = Purchase.objects.create(user_profile=user_profile,
+                                               total_sum=total_sum)
             basket = request.session.get('basket', None)
 
             # get products from basket to template
