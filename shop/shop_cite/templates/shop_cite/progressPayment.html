@@ -50,8 +50,13 @@
     <div class="Section">
       <div class="wrap">
         <div class="ProgressPayment">
+          {% if not_payed %}
           <div class="ProgressPayment-title">Ждем подтверждения оплаты платежной системой
+          {% else %}
+          <div class="ProgressPayment-title">Заказ оплачен
+          {% endif %}
           </div>
+          {% if not_payed %}
           <div class="ProgressPayment-icon">
             <div class="cssload-thecube">
               <div class="cssload-cube cssload-c1"></div>
@@ -60,6 +65,7 @@
               <div class="cssload-cube cssload-c3"></div>
             </div>
           </div>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -72,6 +78,19 @@
   <!--        +breadcrumbs('Главная','Портфолио')-->
   <!--    +Article('portfolio')-->
   <!---->
+    {% if not_payed %}
+     <script>
+       setTimeout(function(){
+          window.location.href = '/payment/{{order_id}}';
+       }, 5000);
+     </script>
+    {% else %}
+     <script>
+       setTimeout(function(){
+          window.location.href = '/';
+       }, 2);
+     </script>
+    {% endif %}
   <script src="{% static 'shop_cite/assets/plg/jQuery/jquery-3.5.0.slim.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/form/jquery.form.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/form/jquery.maskedinput.min.js' %}"></script>

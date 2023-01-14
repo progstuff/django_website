@@ -73,4 +73,4 @@ class OrderPage(BaseTemplate):
                                                     product=Product.objects.filter(id=int(product))[0],
                                                     price=data['price'],
                                                     amount=data['amount'])
-            return HttpResponseRedirect('/payment')
+            return HttpResponseRedirect('/payment/{}'.format(purchase.id))

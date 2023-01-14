@@ -29,7 +29,7 @@ urlpatterns = [
     path('order-details', OrderDetailsPage.as_view(), name='order-details'),
     path('order', OrderPage.as_view(), name='order'),
     path('accept-order', AcceptOrderPage.as_view(), name='accept-order'),
-    path('payment', PaymentPage.as_view(), name='payment'),
+    path('payment/<int:order_id>', PaymentPage.as_view(), name='payment'),
 
     path('payment-someone', PaymentSomeonePage.as_view(), name='payment-someone'),
     path('product/<int:pk>', ProductPage.as_view(), name='product'),
