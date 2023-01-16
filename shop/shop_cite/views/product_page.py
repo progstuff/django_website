@@ -1,5 +1,7 @@
 from .view_utils import BaseTemplate
-from ..models import Product, ProductCharacteristics
+from ..models import Product, ProductCharacteristics, Review, UserProfile
+from ..forms.review_form import ReviewForm
+
 
 class ProductPage(BaseTemplate):
 
@@ -30,34 +32,71 @@ class ProductPage(BaseTemplate):
             params[name] = val
         return product, params, characteristics_dict
 
+    def get_reviews_cnt_str(self, reviews_cnt):
+        if reviews_cnt == 0:
+            return 'Нет отзывов'
+        rez = '{} отзыв'.format(reviews_cnt)
+        b = reviews_cnt % 100;
+        if b >= 5 and b <= 19:
+            return rez + 'ов'
+        a = b % 10
+        if a == 1:
+            return rez
+        if a >= 2 and a <= 4:
+            return rez + 'a'
+        return rez + 'ов'
+
     def get(self, request, pk):
         product, params, characteristics_dict = self.get_product_data(pk)
+        reviews = list(Review.objects.filter(product__id=pk))
+        user = request.user
+        review_form = ReviewForm()
         return self.get_render(request,
                                'shop_cite/product.html',
                                context={'product': product,
                                         'description': params,
-                                        'characteristics': characteristics_dict})
+                                        'characteristics': characteristics_dict,
+                                        'reviews': reviews,
+                                        'reviews_cnt_str': self.get_reviews_cnt_str(len(reviews)),
+                                        'is_authorised': not user.is_anonymous,
+                                        'review_form': review_form})
 
     def post(self, request, pk):
         product, params, characteristics_dict = self.get_product_data(pk)
-        basket = request.session.get('basket', None)
-        if basket is None:
-            request.session['basket'] = {}
-            basket = request.session.get('basket', None)
-        bpr = basket.get(str(pk), None)
-        if bpr is None:
-            basket[str(pk)] = {'img_src': product.add1_image_src,
-                               'name': product.name,
-                               'description': product.description,
-                               'amount': int(request.POST['amount']),
-                               'price': product.price}
-        else:
-            basket[str(pk)]['amount'] = int(basket[str(pk)]['amount']) + int(request.POST['amount'])
-            basket[str(pk)]['price'] = product.price
-        request.session['basket'] = basket
+        user = request.user
+        review_form = ReviewForm()
 
+        if request.POST.get('add_to_busket', None) is not None:
+            basket = request.session.get('basket', None)
+            if basket is None:
+                request.session['basket'] = {}
+                basket = request.session.get('basket', None)
+            bpr = basket.get(str(pk), None)
+            if bpr is None:
+                basket[str(pk)] = {'img_src': product.add1_image_src,
+                                   'name': product.name,
+                                   'description': product.description,
+                                   'amount': int(request.POST['amount']),
+                                   'price': product.price}
+            else:
+                basket[str(pk)]['amount'] = int(basket[str(pk)]['amount']) + int(request.POST['amount'])
+                basket[str(pk)]['price'] = product.price
+            request.session['basket'] = basket
+            reviews = list(Review.objects.filter(product__id=pk))
+        if request.POST.get('add_review', None) is not None:
+            review_form = ReviewForm(request.POST)
+            user_profile = UserProfile.objects.get(user=user)
+            if review_form.is_valid():
+                Review.objects.create(user_profile=user_profile,
+                                      product=product,
+                                      description=review_form.cleaned_data['review'])
+                reviews = list(Review.objects.filter(product__id=pk))
         return self.get_render(request,
                                'shop_cite/product.html',
                                context={'product': product,
                                         'description': params,
-                                        'characteristics': characteristics_dict})
+                                        'characteristics': characteristics_dict,
+                                        'reviews': reviews,
+                                        'reviews_cnt_str': self.get_reviews_cnt_str(len(reviews)),
+                                        'is_authorised': not user.is_anonymous,
+                                        'review_form': review_form})

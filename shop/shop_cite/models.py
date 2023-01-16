@@ -107,6 +107,7 @@ class Review(models.Model):
                                 related_name="review_product", verbose_name=_('Товар'))
     rating = models.IntegerField(default=0, verbose_name=_('Оценка'))
     description = models.CharField(max_length=1000, verbose_name=_('Текст отзыва'))
+    update_date = models.DateTimeField(auto_now=True, verbose_name=_('Дата отзыва'))
 
     class Meta:
         verbose_name_plural = _('Отзывы')
