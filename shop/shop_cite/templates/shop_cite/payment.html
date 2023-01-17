@@ -61,6 +61,10 @@
               <input class="form-input Payment-bill" required id="{{form.card_number.id_for_label}}" type="{{form.card_number.widget_type}}" name="{{form.card_number.name}}" value="{{form.card_number.initial}}" placeholder="9999 9999" data-mask="9999 9999" data-validate="require pay"/>
               {% endif %}
             </div>
+            {% if is_random %}
+            <div class="form-group"><a class="btn btn_success Payment-generate" href="#">Сгенирировать случайный счет</a>
+            </div>
+            {% endif %}
           </div>
           <div class="Payment-pay"><button class="btn btn_primary" type="submit" name="check_data">Оплатить</button>
           </div>

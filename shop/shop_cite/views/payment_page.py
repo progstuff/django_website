@@ -11,7 +11,8 @@ class PaymentPage(BaseTemplate):
         if purchase.payment_state == 'Н':
             return self.get_render(request,
                                    'shop_cite/payment.html',
-                                   context={'form': form})
+                                   context={'form': form,
+                                            'is_random': purchase.payment_method == 'Н'})
         else:
             return self.get_render(request,
                                    'shop_cite/progressPayment.html',
@@ -36,7 +37,7 @@ class PaymentPage(BaseTemplate):
                                        'shop_cite/payment.html',
                                        context={'form': form,
                                                 'order_id': order_id,
-                                                'not_payed': True})
+                                                'is_random': purchase.payment_method == 'Н'})
         else:
             return self.get_render(request,
                                    'shop_cite/progressPayment.html',

@@ -72,16 +72,21 @@
               </div>
               <div class="Cart-block Cart-block_amount">
                 <div class="Cart-amount">
+
                   <div class="Amount">
-                    <button class="Amount-remove" type="button">
+                    <button class="Amount-remove" type="button" onclick="Amount()">
                     </button>
-                    <input class="Amount-input form-input" name="amount" type="text" value="{{product.amount}}"/>
-                    <button class="Amount-add" type="button">
+                    <input class="Amount-input form-input" name="amount" type="text" value="{{product.amount}}" id="amount_input"/>
+                    <button class="Amount-add" type="button" onclick="Amount()">
                     </button>
                   </div>
+
                 </div>
               </div>
-              <div class="Cart-block Cart-block_delete"><a class="Cart-delete" href="#"><img src="{% static 'shop_cite/assets/img/icons/card/delete.svg' %}" alt="delete.svg"/></a>
+              <div class="Cart-block Cart-block_delete">
+                  <button class="Cart-delete" type="button" name="delete_item-{{product.id}}">
+                    <img src="{% static 'shop_cite/assets/img/icons/card/delete.svg' %}" alt="delete.svg"/>
+                  </button>
               </div>
             </div>
           </div>
@@ -112,4 +117,5 @@
   <script src="{% static 'shop_cite/assets/plg/range/ion.rangeSlider.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/Slider/slick.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/js/scripts.js' %}"></script>
+
 </body></html>
