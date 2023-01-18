@@ -110,7 +110,7 @@
           <div class="Cards">
 
             {% for product in products %}
-              <div class="Card"><a class="Card-picture" href="/product/{{product.id}}"><img src="{% static 'shop_cite/' %}{{product.main_image_src}}" alt="card.jpg" intrinsicsize="200x200" style="width: auto"/></a>
+              <div class="Card"><a class="BannersHomeBlock-img" href="/product/{{product.id}}"><img src="{% static 'shop_cite/' %}{{product.main_image_src}}" alt="card.jpg"/></a>
                 <div class="Card-content">
                   <strong class="Card-title"><a href="/product/{{product.id}}">{{product.name}}</a>
                   </strong>
