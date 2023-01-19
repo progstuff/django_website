@@ -40,5 +40,5 @@ urlpatterns = [
     path('profile', ProfilePage.as_view(), name='profile'),
     path('progress-payment', ProgressPaymentPage.as_view(), name='progress-payment'),
     path('account', AccountPage.as_view(), name='account'),
-    path('sale', SalePage.as_view(), name='sale'),
+    path('sale', SalePage.as_view(), name='sale')
 ]
