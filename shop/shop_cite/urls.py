@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, re_path
 from .views.main_page import MainPage
 from .views.about_page import AboutPage
 from .views.cart_page import CartPage
@@ -24,7 +24,8 @@ urlpatterns = [
     path('about', AboutPage.as_view(), name='about'),
     path('cart', CartPage.as_view(), name='cart'),
     path('history', HistoryorderPage.as_view(), name='history'),
-    path('catalog-products/<int:pk>', CatalogProductsPage.as_view(), name='catalog-products'),
+    #path('catalog-products/<int:pk>/', CatalogProductsPage.as_view(), name='catalog-products'),
+    re_path(r'^catalog-products/(?P<pk>[0-9]{3})/*', CatalogProductsPage.as_view(), name='catalog-products'),
     path('catalog-categories/<int:pk>', CatalogCategoriesPage.as_view(), name='catalog-categories'),
     path('order-details/<int:order_id>', OrderDetailsPage.as_view(), name='order-details'),
     path('order', OrderPage.as_view(), name='order'),

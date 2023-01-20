@@ -60,7 +60,7 @@
                 {% csrf_token %}
                 <div class="form-group">
                   <div class="range Section-columnRange">
-                    <input class="range-line" id="{{form.price.id_for_label}}" name="{{form.price.name}}" type="text" data-type="double" data-min="{{min_pr}}" data-max="40000" data-from="700" data-to="{{max_pr}}"/>
+                    <input class="range-line" id="{{form.price.id_for_label}}" name="{{form.price.name}}" type="text" data-type="double" data-min="{{min_pr}}" data-max="{{max_pr}}" data-from="{{from_pr}}" data-to="{{to_pr}}"/>
                     <div class="range-price">Цена:
                       <div class="rangePrice">
                       </div>
@@ -84,7 +84,7 @@
                   </label>
                 </div>
                 <div class="form-group">
-                  <div class="buttons"><button class="btn btn_square btn_dark btn_narrow">Filter</button>
+                  <div class="buttons"><button class="btn btn_square btn_dark btn_narrow" type="submit" name="filter" value="1">Filter</button>
                   </div>
                 </div>
               </form>
@@ -105,7 +105,14 @@
           <div class="Sort">
             <div class="Sort-title">Сортировать по:
             </div>
-            <div class="Sort-variants"><a class="Sort-sortBy Sort-sortBy_dec" href="#">Популярности</a><a class="Sort-sortBy" href="#">Цене</a><a class="Sort-sortBy" href="#">Отзывам</a><a class="Sort-sortBy Sort-sortBy_inc" href="#">Новизне</a>
+            <div class="Sort-variants">
+              <form class="form" action="#" method="post">
+                {% csrf_token %}
+                <button class="Sort-sortBy{{popular_class}}" type="submit" name="popular_sort" value="{{sort_popular}}">Популярности</button>
+                <button class="Sort-sortBy{{price_class}}" type="submit" name="price_sort" value="{{sort_price}}">Цене</button>
+                <button class="Sort-sortBy{{review_class}}" type="submit" name="review_sort" value="{{sort_review}}">Отзывам</button>
+                <button class="Sort-sortBy{{new_class}}" type="submit" name="new_sort" value="{{sort_new}}">Новизне</button>
+              </form>
             </div>
           </div>
           <div class="Cards">
