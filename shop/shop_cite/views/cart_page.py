@@ -20,8 +20,22 @@ class CartPage(BaseTemplate):
         for key in request.POST.keys():
             if 'delete_item' in key:
                 product_id = key.split('-')[1]
-                del basket[product_id]
-                print(product_id)
+                if product_id in basket:
+                    del basket[product_id]
+            if 'remove_item' in key:
+                product_id = key.split('-')[1]
+                if product_id in basket:
+                    cnt = basket[product_id]['amount']
+                    if cnt > 1:
+                        basket[product_id]['amount'] = cnt - 1
+                    else:
+                        del basket[product_id]
+            if 'add_item' in key:
+                product_id = key.split('-')[1]
+                if product_id in basket:
+                    cnt = basket[product_id]['amount']
+                    basket[product_id]['amount'] = cnt + 1
+
         request.session['basket'] = basket
         basket_items = []
         if basket is not None:

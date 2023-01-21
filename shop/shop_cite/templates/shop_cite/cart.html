@@ -75,10 +75,10 @@
                 <div class="Cart-amount">
 
                   <div class="Amount">
-                    <button class="Amount-remove" type="button" onclick="Amount()">
+                    <button class="Amount-remove" type="submit" name="remove_item-{{product.id}}">
                     </button>
                     <input class="Amount-input form-input" name="amount" type="text" value="{{product.amount}}" id="amount_input"/>
-                    <button class="Amount-add" type="button" onclick="Amount()">
+                    <button class="Amount-add" type="submit" name="add_item-{{product.id}}">
                     </button>
                   </div>
 
@@ -128,6 +128,6 @@
   <script src="{% static 'shop_cite/assets/plg/form/jquery.maskedinput.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/range/ion.rangeSlider.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/Slider/slick.min.js' %}"></script>
-  <script src="{% static 'shop_cite/assets/js/scripts.js' %}"></script>
+  <script src="{% static 'shop_cite/assets/js/scripts2.js' %}"></script>
 
 </body></html>
