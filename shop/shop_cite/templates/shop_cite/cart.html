@@ -51,6 +51,7 @@
     <div class="Section">
       <div class="wrap">
         <form class="form Cart" action="#" method="post">
+          {% csrf_token %}
           {% for product in basket_items %}
           <div class="Cart-product">
             <div class="Cart-block Cart-block_row">
@@ -83,14 +84,17 @@
 
                 </div>
               </div>
+
               <div class="Cart-block Cart-block_delete">
-                  <button class="Cart-delete" type="button" name="delete_item-{{product.id}}">
-                    <img src="{% static 'shop_cite/assets/img/icons/card/delete.svg' %}" alt="delete.svg"/>
-                  </button>
+                    <button class="Cart-delete" type="submit" name="delete_item-{{product.id}}">
+                      <img src="{% static 'shop_cite/assets/img/icons/card/delete.svg' %}" alt="delete.svg"/>
+                    </button>
               </div>
+
             </div>
           </div>
           {% endfor %}
+          {% if basket_items|length > 0 %}
           <div class="Cart-total">
             <div class="Cart-block Cart-block_total">
               <strong class="Cart-title">Итого:
@@ -99,6 +103,14 @@
             <div class="Cart-block"><a class="btn btn_success btn_lg" href="/order">Оформить заказ</a>
             </div>
           </div>
+          {% else %}
+          <div class="Cart-total">
+            <div class="Cart-block Cart-block_total">
+              <strong class="Cart-title">Корзина пуста
+              </strong>
+            </div>
+          </div>
+          {% endif %}
         </form>
       </div>
     </div>

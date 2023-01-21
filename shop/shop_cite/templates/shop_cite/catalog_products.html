@@ -73,6 +73,7 @@
                 <div class="form-group">
                   <!-- - var options = setOptions(items, ['value', 'selected', 'disabled']);-->
                 </div>
+                <!--
                 <div class="form-group">
                   <label class="toggle">
                     <input type="checkbox"/><span class="toggle-box"></span><span class="toggle-text">Только товары в наличии</span>
@@ -83,6 +84,7 @@
                     <input type="checkbox"/><span class="toggle-box"></span><span class="toggle-text">С бесплатной доставкой</span>
                   </label>
                 </div>
+                -->
                 <div class="form-group">
                   <div class="buttons"><button class="btn btn_square btn_dark btn_narrow" type="submit" name="filter" value="1">Показать</button>
                   </div>
@@ -90,6 +92,7 @@
               </form>
             </div>
           </div>
+          <!--
           <div class="Section-columnSection">
             <header class="Section-header">
               <strong class="Section-title">Popular tags
@@ -100,6 +103,7 @@
               </div>
             </div>
           </div>
+          -->
         </div>
         <div class="Section-content">
           <div class="Sort">
@@ -110,7 +114,7 @@
                 {% csrf_token %}
                 <!--<button class="Sort-sortBy{{popular_class}}" type="submit" name="popular_sort" value="{{sort_popular}}">Популярности</button>-->
                 <button class="Sort-sortBy{{price_class}}" type="submit" name="price_sort" value="{{sort_price}}" style="border:none;">Цене</button>
-                <button class="Sort-sortBy{{review_class}}" type="submit" name="review_sort" value="{{sort_review}}" style="border:none;">Отзывам</button>
+                <!--<button class="Sort-sortBy{{review_class}}" type="submit" name="review_sort" value="{{sort_review}}" style="border:none;">Отзывам</button>-->
                 <button class="Sort-sortBy{{new_class}}" type="submit" name="new_sort" value="{{sort_new}}" style="border:none;">Названию</button>
               </form>
             </div>
