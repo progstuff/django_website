@@ -1,0 +1,692 @@
+[
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Телевизоры",
+            "url_name": "televizory",
+            "link": "https://www.citilink.ru/catalog/televizory/",
+            "img_link": "https://category-images.s1.citilink.ru/1befc832-076a-4e86-8d5e-2d30456a1ce9.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "OLED",
+            "url_name": "televizory--oled-mainmenu",
+            "link": "https://www.citilink.ru/catalog/televizory--oled-mainmenu/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_118_1637753433.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "NEO QLED",
+            "url_name": "televizory--qled-mainmenu",
+            "link": "https://www.citilink.ru/catalog/televizory--qled-mainmenu/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_118_1643809674.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Техника Hi-Fi",
+            "url_name": "tehnika-hi-fi",
+            "link": "https://www.citilink.ru/catalog/tehnika-hi-fi/",
+            "img_link": "https://category-images.s1.citilink.ru/aa40ce18-e15c-4db0-adc8-17f41fe07bdc.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Спутниковое и цифровое ТВ",
+            "url_name": "sputnikovoe-i-cifrovoe-tv",
+            "link": "https://www.citilink.ru/catalog/sputnikovoe-i-cifrovoe-tv/",
+            "img_link": "https://category-images.s1.citilink.ru/c310addc-c17e-4496-aacd-8c7e579886d1.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Видеотехника",
+            "url_name": "videotehnika",
+            "link": "https://www.citilink.ru/catalog/videotehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/8787868b-0505-4eab-8565-b11f909f9b84.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Аудиотехника",
+            "url_name": "audiotehnika",
+            "link": "https://www.citilink.ru/catalog/audiotehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/52ad89a3-ebcf-4173-ad9f-f37c2b132d24.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Проекторы и экраны",
+            "url_name": "proektory-i-ekrany",
+            "link": "https://www.citilink.ru/catalog/proektory-i-ekrany/",
+            "img_link": "https://category-images.s1.citilink.ru/373ffbfe-f2ed-4a72-b9ea-6423f5eff6b6.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "LED панели",
+            "url_name": "led-paneli",
+            "link": "https://www.citilink.ru/catalog/led-paneli/",
+            "img_link": "https://category-images.s1.citilink.ru/b4622126-9800-4209-851f-645d438d89f0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Наушники",
+            "url_name": "naushniki",
+            "link": "https://www.citilink.ru/catalog/naushniki/",
+            "img_link": "https://category-images.s1.citilink.ru/dbbd5a8d-0329-4345-8123-a6c653a8c119.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Аксессуары для телевизоров",
+            "url_name": "aksessuary-dlya-televizorov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-televizorov/",
+            "img_link": "https://category-images.s1.citilink.ru/5dcc1263-c4f4-43ec-8123-42d1a54513e6.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Музыкальные инструменты",
+            "url_name": "muzykalnye-instrumenty",
+            "link": "https://www.citilink.ru/catalog/muzykalnye-instrumenty/",
+            "img_link": "https://category-images.s1.citilink.ru/90d52b50-9755-4cbd-97b8-c6c284dea2ef.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Кронштейны",
+            "url_name": "kronshteiny",
+            "link": "https://www.citilink.ru/catalog/kronshteiny/",
+            "img_link": "https://category-images.s1.citilink.ru/01e555a9-688b-4f03-9dad-3d4827f53d4e.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Кабели для ТВ и аудио-видео",
+            "url_name": "audio-video-kabeli",
+            "link": "https://www.citilink.ru/catalog/audio-video-kabeli/",
+            "img_link": "https://category-images.s1.citilink.ru/6076046b-22b2-430a-93e8-259f80d50cf1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Аксессуары для LFD-панелей",
+            "url_name": "aksessuary-dlya-lfd-panelei",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-lfd-panelei/",
+            "img_link": "https://category-images.s1.citilink.ru/382ab977-59e7-443b-a216-60a1858ca717.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Видеокамеры",
+            "url_name": "videokamery",
+            "link": "https://www.citilink.ru/catalog/videokamery/",
+            "img_link": "https://category-images.s1.citilink.ru/ae3dda56-01e1-4507-83a4-801662e0bb3b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Фотоаппараты",
+            "url_name": "fotoapparaty",
+            "link": "https://www.citilink.ru/catalog/fotoapparaty/",
+            "img_link": "https://category-images.s1.citilink.ru/becdee28-52cd-4dde-873c-e85cc75d3003.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Аксессуары для фото и видео",
+            "url_name": "aksessuary-dlya-foto-i-video",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-foto-i-video/",
+            "img_link": "https://category-images.s1.citilink.ru/d5afa18e-b105-4c63-a501-cfcc1a1ea16e.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "audio_and_digits",
+        "value": {
+            "human_name": "Студийный свет",
+            "url_name": "studiinyi-svet",
+            "link": "https://www.citilink.ru/catalog/studiinyi-svet/",
+            "img_link": "https://category-images.s1.citilink.ru/da3d2d4d-b0ca-427a-b50f-52b61630d5ae.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-hi-fi",
+        "value": {
+            "human_name": "Виниловые проигрыватели",
+            "url_name": "vinilovye-proigryvateli",
+            "link": "https://www.citilink.ru/catalog/vinilovye-proigryvateli/",
+            "img_link": "https://category-images.s1.citilink.ru/d6aebf6a-340d-455b-b804-a085861edeaa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-hi-fi",
+        "value": {
+            "human_name": "Акустические системы",
+            "url_name": "akusticheskie-sistemy",
+            "link": "https://www.citilink.ru/catalog/akusticheskie-sistemy/",
+            "img_link": "https://category-images.s1.citilink.ru/0e68b072-e00e-4776-8911-bfedf2fc98f1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-hi-fi",
+        "value": {
+            "human_name": "Сабвуферы Hi-Fi",
+            "url_name": "sabvufery-hi-fi",
+            "link": "https://www.citilink.ru/catalog/sabvufery-hi-fi/",
+            "img_link": "https://category-images.s1.citilink.ru/dd3cdb10-2a8a-41cf-b7ba-bfa1400d0cee.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sputnikovoe-i-cifrovoe-tv",
+        "value": {
+            "human_name": "Комплекты спутникового ТВ",
+            "url_name": "komplekty-sputnikovogo-tv",
+            "link": "https://www.citilink.ru/catalog/komplekty-sputnikovogo-tv/",
+            "img_link": "https://category-images.s1.citilink.ru/1b27d61c-6fad-4041-b37e-d3bec7376e4f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sputnikovoe-i-cifrovoe-tv",
+        "value": {
+            "human_name": "Приставки для цифрового ТВ",
+            "url_name": "pristavki-dlya-cifrovogo-tv",
+            "link": "https://www.citilink.ru/catalog/pristavki-dlya-cifrovogo-tv/",
+            "img_link": "https://category-images.s1.citilink.ru/1fc3dc65-05be-44b5-9448-43c1d95b1cc4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videotehnika",
+        "value": {
+            "human_name": "Медиаплееры",
+            "url_name": "mediapleery",
+            "link": "https://www.citilink.ru/catalog/mediapleery/",
+            "img_link": "https://category-images.s1.citilink.ru/785537df-a8ff-4dc6-a495-276db01f932b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videotehnika",
+        "value": {
+            "human_name": "DVD плееры",
+            "url_name": "dvd-pleery",
+            "link": "https://www.citilink.ru/catalog/dvd-pleery/",
+            "img_link": "https://category-images.s1.citilink.ru/be256444-a76c-4bb4-8a3a-3d05af7810a5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videotehnika",
+        "value": {
+            "human_name": "Саундбары",
+            "url_name": "saundbary--soundbars-video-mainmenu",
+            "link": "https://www.citilink.ru/catalog/saundbary--soundbars-video-mainmenu/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1012_1637156216.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Саундбары",
+            "url_name": "saundbary",
+            "link": "https://www.citilink.ru/catalog/saundbary/",
+            "img_link": "https://category-images.s1.citilink.ru/97b6cb44-b32a-42bc-847d-ec1c6ac611de.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Музыкальные центры",
+            "url_name": "muzykalnye-centry",
+            "link": "https://www.citilink.ru/catalog/muzykalnye-centry/",
+            "img_link": "https://category-images.s1.citilink.ru/aa6a7508-c7f8-453b-932a-a1b65abed8c0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Магнитолы",
+            "url_name": "magnitoly",
+            "link": "https://www.citilink.ru/catalog/magnitoly/",
+            "img_link": "https://category-images.s1.citilink.ru/b891151b-41fe-493e-a8e9-f8a7e36ab174.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Портативные колонки",
+            "url_name": "portativnye-kolonki",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki/",
+            "img_link": "https://category-images.s1.citilink.ru/646622b6-740c-4c80-a300-2bddb1d1fa67.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Колонки для компьютера",
+            "url_name": "kolonki-dlya-kompyutera",
+            "link": "https://www.citilink.ru/catalog/kolonki-dlya-kompyutera/",
+            "img_link": "https://category-images.s1.citilink.ru/6b22c7a4-da42-41cc-ad6a-1950b07d187d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "MP3 плееры",
+            "url_name": "mp3-pleery",
+            "link": "https://www.citilink.ru/catalog/mp3-pleery/",
+            "img_link": "https://category-images.s1.citilink.ru/5390efef-0ed2-41d5-92ea-8b1f0c43d0e7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Диктофоны",
+            "url_name": "diktofony",
+            "link": "https://www.citilink.ru/catalog/diktofony/",
+            "img_link": "https://category-images.s1.citilink.ru/a7288086-a439-4485-984b-27c04e63c0fe.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Микрофоны",
+            "url_name": "mikrofony",
+            "link": "https://www.citilink.ru/catalog/mikrofony/",
+            "img_link": "https://category-images.s1.citilink.ru/96d3aab2-3eb7-4eab-9363-d8cd3a67c9ca.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Радиобудильники",
+            "url_name": "radiobudilniki",
+            "link": "https://www.citilink.ru/catalog/radiobudilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/d0ca5549-6940-4d60-8de6-2410a9aaaab8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Радиоприемники",
+            "url_name": "radiopriemniki",
+            "link": "https://www.citilink.ru/catalog/radiopriemniki/",
+            "img_link": "https://category-images.s1.citilink.ru/17b07983-17c1-4617-a066-890aea0d6d1f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Спикерфоны",
+            "url_name": "ustroistva-gromkoi-svyazi",
+            "link": "https://www.citilink.ru/catalog/ustroistva-gromkoi-svyazi/",
+            "img_link": "https://category-images.s1.citilink.ru/7488aabf-b207-4938-be28-5aa963c20c82.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Умные колонки",
+            "url_name": "portativnye-kolonki--umnye-kolonki-k",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki--umnye-kolonki-k/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100076_1660045529.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Музыкальные центры с караоке",
+            "url_name": "muzykalnye-centry--muzykalnye-centry-s-karaoke",
+            "link": "https://www.citilink.ru/catalog/muzykalnye-centry--muzykalnye-centry-s-karaoke/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_225_1668761826.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "audiotehnika",
+        "value": {
+            "human_name": "Умные колонки с Алисой",
+            "url_name": "portativnye-kolonki--umnye-kolonki-s-alisoy-k",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki--umnye-kolonki-s-alisoy-k/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100076_1660045694.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "proektory-i-ekrany",
+        "value": {
+            "human_name": "LED панели",
+            "url_name": "led-paneli",
+            "link": "https://www.citilink.ru/catalog/led-paneli/",
+            "img_link": "https://category-images.s1.citilink.ru/36f905a7-796d-47dd-8deb-657965339f98.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "proektory-i-ekrany",
+        "value": {
+            "human_name": "Проекторы",
+            "url_name": "proektory",
+            "link": "https://www.citilink.ru/catalog/proektory/",
+            "img_link": "https://category-images.s1.citilink.ru/39192bbe-27c9-4f82-a2e4-503097970781.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "proektory-i-ekrany",
+        "value": {
+            "human_name": "Экраны для проекторов",
+            "url_name": "ekrany-dlya-proektorov",
+            "link": "https://www.citilink.ru/catalog/ekrany-dlya-proektorov/",
+            "img_link": "https://category-images.s1.citilink.ru/d88937c6-f39d-4929-82ba-17cb2907f273.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-televizorov",
+        "value": {
+            "human_name": "Стабилизаторы напряжения бытовые",
+            "url_name": "stabilizatory-napryazheniya-bytovye",
+            "link": "https://www.citilink.ru/catalog/stabilizatory-napryazheniya-bytovye/",
+            "img_link": "https://category-images.s1.citilink.ru/71f60c13-4a66-48a8-b054-8779eb4b6539.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-televizorov",
+        "value": {
+            "human_name": "Батарейки",
+            "url_name": "batareiki",
+            "link": "https://www.citilink.ru/catalog/batareiki/",
+            "img_link": "https://category-images.s1.citilink.ru/78a6ab41-fe2b-46a1-a2db-523f5c3b2063.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-televizorov",
+        "value": {
+            "human_name": "Кабели для ТВ и аудио-видео",
+            "url_name": "audio-video-kabeli",
+            "link": "https://www.citilink.ru/catalog/audio-video-kabeli/",
+            "img_link": "https://category-images.s1.citilink.ru/1869ace2-5055-467d-85db-e59836942edb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-televizorov",
+        "value": {
+            "human_name": "Пульты ДУ",
+            "url_name": "pulty-du",
+            "link": "https://www.citilink.ru/catalog/pulty-du/",
+            "img_link": "https://category-images.s1.citilink.ru/b9846f28-b5b2-4d89-8450-7a1d51397afe.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-televizorov",
+        "value": {
+            "human_name": "ТВ антенны",
+            "url_name": "tv-antenny",
+            "link": "https://www.citilink.ru/catalog/tv-antenny/",
+            "img_link": "https://category-images.s1.citilink.ru/e23cb940-2d5e-44cd-a681-23565a8fbf0f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "muzykalnye-instrumenty",
+        "value": {
+            "human_name": "Синтезаторы",
+            "url_name": "sintezatory",
+            "link": "https://www.citilink.ru/catalog/sintezatory/",
+            "img_link": "https://category-images.s1.citilink.ru/2f981cd5-ac47-41eb-8f13-a431982e8828.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "muzykalnye-instrumenty",
+        "value": {
+            "human_name": "Гитары",
+            "url_name": "elektrogitary",
+            "link": "https://www.citilink.ru/catalog/elektrogitary/",
+            "img_link": "https://category-images.s1.citilink.ru/96b982ae-bcd0-4058-bdb7-da4fcc9e3152.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "muzykalnye-instrumenty",
+        "value": {
+            "human_name": "Музыкальные пульты",
+            "url_name": "muzykalnye-pulty",
+            "link": "https://www.citilink.ru/catalog/muzykalnye-pulty/",
+            "img_link": "https://category-images.s1.citilink.ru/5094825b-e36c-486e-bd36-b50aa25a3f3c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "muzykalnye-instrumenty",
+        "value": {
+            "human_name": "Аксессуары для музыкальных инструментов",
+            "url_name": "aksessuary-dlya-muzykalnyh-instrumentov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-muzykalnyh-instrumentov/",
+            "img_link": "https://category-images.s1.citilink.ru/24c9cbf7-4d1b-4803-82d9-2c0da09088b6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kronshteiny",
+        "value": {
+            "human_name": "Кронштейны для телевизоров",
+            "url_name": "kronshteiny-dlya-televizorov",
+            "link": "https://www.citilink.ru/catalog/kronshteiny-dlya-televizorov/",
+            "img_link": "https://category-images.s1.citilink.ru/cc0fd749-45fa-4678-a6fc-66ec1296588e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kronshteiny",
+        "value": {
+            "human_name": "Кронштейны для мониторов",
+            "url_name": "kronshteiny-dlya-monitorov",
+            "link": "https://www.citilink.ru/catalog/kronshteiny-dlya-monitorov/",
+            "img_link": "https://category-images.s1.citilink.ru/cb16784d-6692-48e9-8dc3-134d85ace198.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kronshteiny",
+        "value": {
+            "human_name": "Кронштейны для проекторов",
+            "url_name": "kronshteiny-dlya-proektorov",
+            "link": "https://www.citilink.ru/catalog/kronshteiny-dlya-proektorov/",
+            "img_link": "https://category-images.s1.citilink.ru/8b525e35-4321-4e69-9233-8f1c80e76a8a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kronshteiny",
+        "value": {
+            "human_name": "Кронштейны прочие",
+            "url_name": "kronshteiny-prochie",
+            "link": "https://www.citilink.ru/catalog/kronshteiny-prochie/",
+            "img_link": "https://category-images.s1.citilink.ru/1c36e237-1078-43e0-8f2e-4f5a44c93280.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fotoapparaty",
+        "value": {
+            "human_name": "Зеркальные фотоаппараты",
+            "url_name": "zerkalnye-fotoapparaty",
+            "link": "https://www.citilink.ru/catalog/zerkalnye-fotoapparaty/",
+            "img_link": "https://category-images.s1.citilink.ru/f44af3d3-d5c8-4f16-8298-f8acd0ad6db5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fotoapparaty",
+        "value": {
+            "human_name": "Цифровые фотоаппараты",
+            "url_name": "cifrovye-fotoapparaty",
+            "link": "https://www.citilink.ru/catalog/cifrovye-fotoapparaty/",
+            "img_link": "https://category-images.s1.citilink.ru/9aa20cf7-abbf-4ed8-ab60-283f85b90b8b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fotoapparaty",
+        "value": {
+            "human_name": "Системные камеры",
+            "url_name": "sistemnye-kamery",
+            "link": "https://www.citilink.ru/catalog/sistemnye-kamery/",
+            "img_link": "https://category-images.s1.citilink.ru/088e4e68-e512-44b8-a004-aaf97733ea0b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "fotoapparaty",
+        "value": {
+            "human_name": "Экшн-камеры",
+            "url_name": "ekshn-kamery",
+            "link": "https://www.citilink.ru/catalog/ekshn-kamery/",
+            "img_link": "https://category-images.s1.citilink.ru/716ea7e6-ed34-4935-aee5-61a11f21965b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Объективы для фотоаппаратов",
+            "url_name": "obektivy-dlya-fotoapparatov",
+            "link": "https://www.citilink.ru/catalog/obektivy-dlya-fotoapparatov/",
+            "img_link": "https://category-images.s1.citilink.ru/61b0e708-6e20-45c8-94a1-ed5b88f8d7e6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Вспышки для фотоаппаратов",
+            "url_name": "vspyshki-dlya-fotoapparatov",
+            "link": "https://www.citilink.ru/catalog/vspyshki-dlya-fotoapparatov/",
+            "img_link": "https://category-images.s1.citilink.ru/d6750f8b-b36b-4f3b-8015-ef3b65658c10.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Аксессуары для стедикамов",
+            "url_name": "aksessuary-dlya-stedikamov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-stedikamov/",
+            "img_link": "https://category-images.s1.citilink.ru/69f1375e-7530-41f9-b16b-be116691ab77.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Футляры и сумки",
+            "url_name": "futlyary-i-sumki",
+            "link": "https://www.citilink.ru/catalog/futlyary-i-sumki/",
+            "img_link": "https://category-images.s1.citilink.ru/4b88d1eb-5176-42ea-ba4d-33da7efab206.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Штативы",
+            "url_name": "shtativy",
+            "link": "https://www.citilink.ru/catalog/shtativy/",
+            "img_link": "https://category-images.s1.citilink.ru/0182f6bf-5800-42b2-809f-91521f980528.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Зарядные устройства для фотоаппаратов",
+            "url_name": "zaryadnye-ustroistva-dlya-fotoapparatov",
+            "link": "https://www.citilink.ru/catalog/zaryadnye-ustroistva-dlya-fotoapparatov/",
+            "img_link": "https://category-images.s1.citilink.ru/fee7d7cf-b26f-462d-b911-5a2c0cd2aba0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Карты памяти",
+            "url_name": "karty-pamyati",
+            "link": "https://www.citilink.ru/catalog/karty-pamyati/",
+            "img_link": "https://category-images.s1.citilink.ru/135d20d7-30c4-4b23-b5d2-4e8fcf1da05a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-foto-i-video",
+        "value": {
+            "human_name": "Все аксессуары для фото и видео",
+            "url_name": "vse-aksessuary-dlya-foto-i-video",
+            "link": "https://www.citilink.ru/catalog/vse-aksessuary-dlya-foto-i-video/",
+            "img_link": "https://category-images.s1.citilink.ru/150ab873-a8f0-4add-95a7-54327524727e.jpg",
+            "is_product_page": true
+        }
+    }
+]

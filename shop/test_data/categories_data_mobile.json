@@ -1,0 +1,462 @@
+[
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Смартфоны",
+            "url_name": "smartfony",
+            "link": "https://www.citilink.ru/catalog/smartfony/",
+            "img_link": "https://category-images.s1.citilink.ru/ece5d4b1-82ef-42f9-945a-14d670a7371c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Сотовые телефоны",
+            "url_name": "sotovye-telefony",
+            "link": "https://www.citilink.ru/catalog/sotovye-telefony/",
+            "img_link": "https://category-images.s1.citilink.ru/b7bf24bd-2a98-40eb-ae7b-f0f55916bc40.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Кнопочные телефоны без камеры",
+            "url_name": "sotovye-telefony--knopochnye-telefony-bez-kamery",
+            "link": "https://www.citilink.ru/catalog/sotovye-telefony--knopochnye-telefony-bez-kamery/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1545_1664547063.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Планшеты",
+            "url_name": "planshety",
+            "link": "https://www.citilink.ru/catalog/planshety/",
+            "img_link": "https://category-images.s1.citilink.ru/f08984cf-2d25-4380-ade1-a40fd741af54.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Детские планшеты",
+            "url_name": "planshety--kid-tablet",
+            "link": "https://www.citilink.ru/catalog/planshety--kid-tablet/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_376_1659434420.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Гаджеты",
+            "url_name": "gadzhety",
+            "link": "https://www.citilink.ru/catalog/gadzhety/",
+            "img_link": "https://category-images.s1.citilink.ru/1fcafd89-0c3e-48c7-8bbb-809b3bc6089f.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Аксессуары для планшетов",
+            "url_name": "aksessuary-dlya-planshetov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-planshetov/",
+            "img_link": "https://category-images.s1.citilink.ru/47eb8dc8-5827-41aa-bec7-363279633b18.png",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Аксессуары для смартфонов",
+            "url_name": "aksessuary-dlya-smartfonov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-smartfonov/",
+            "img_link": "https://category-images.s1.citilink.ru/122e5945-75f0-4a2e-a288-7a664c5e5193.png",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Электронные книги и аксессуары",
+            "url_name": "elektronnye-knigi-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/elektronnye-knigi-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/f1bbbc17-c153-4ea4-b9e6-76c837d56c08.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Наушники",
+            "url_name": "naushniki",
+            "link": "https://www.citilink.ru/catalog/naushniki/",
+            "img_link": "https://category-images.s1.citilink.ru/dd8b514a-02af-45dd-b6d3-45d0eb74e0e2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Беспроводные наушники",
+            "url_name": "naushniki--besprovodnye-naushniki-bluetooth",
+            "link": "https://www.citilink.ru/catalog/naushniki--besprovodnye-naushniki-bluetooth/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100091_1644218656.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Кабели для смартфонов и планшетов",
+            "url_name": "perehodniki-provoda",
+            "link": "https://www.citilink.ru/catalog/perehodniki-provoda/",
+            "img_link": "https://category-images.s1.citilink.ru/24a4750c-5440-4519-8ea2-f1a72b05c078.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Зарядные устройства",
+            "url_name": "zaryadnye-ustroistva",
+            "link": "https://www.citilink.ru/catalog/zaryadnye-ustroistva/",
+            "img_link": "https://category-images.s1.citilink.ru/b8e8ed81-b90a-44e1-ad3b-36721f6f0caa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Зарядки для планшета",
+            "url_name": "zaryadnye-ustroistva--for-tablet",
+            "link": "https://www.citilink.ru/catalog/zaryadnye-ustroistva--for-tablet/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_229_1668424708.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mobile",
+        "value": {
+            "human_name": "Аксессуары для наушников",
+            "url_name": "aksessuary-dlya-naushnikov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-naushnikov/",
+            "img_link": "https://category-images.s1.citilink.ru/1c664f82-ae1f-4c38-84ee-9d83f84db39e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Смарт-часы",
+            "url_name": "smart-chasy",
+            "link": "https://www.citilink.ru/catalog/smart-chasy/",
+            "img_link": "https://category-images.s1.citilink.ru/5b1a5410-9efd-4197-ba48-0b247c91d8c2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Квадрокоптеры",
+            "url_name": "kvadrokoptery",
+            "link": "https://www.citilink.ru/catalog/kvadrokoptery/",
+            "img_link": "https://category-images.s1.citilink.ru/0808118e-d828-4907-8804-ab1c84f5c4a7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Фитнес-браслеты",
+            "url_name": "fitnes-braslety",
+            "link": "https://www.citilink.ru/catalog/fitnes-braslety/",
+            "img_link": "https://category-images.s1.citilink.ru/9dbec814-97f0-46f4-8ddc-6fc9ed08b64f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Виртуальные очки",
+            "url_name": "virtualnye-ochki",
+            "link": "https://www.citilink.ru/catalog/virtualnye-ochki/",
+            "img_link": "https://category-images.s1.citilink.ru/47575fb2-9f84-4157-a5a5-876b29b6febb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Экшн-камеры",
+            "url_name": "ekshn-kamery",
+            "link": "https://www.citilink.ru/catalog/ekshn-kamery/",
+            "img_link": "https://category-images.s1.citilink.ru/3b098657-910b-447c-8682-8ecfe5eb158f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Цифровые фоторамки",
+            "url_name": "cifrovye-fotoramki",
+            "link": "https://www.citilink.ru/catalog/cifrovye-fotoramki/",
+            "img_link": "https://category-images.s1.citilink.ru/aca2d211-c606-463f-acff-5e5a7787de07.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Аксессуары для квадрокоптеров",
+            "url_name": "aksessuary-dlya-kvadrokopterov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-kvadrokopterov/",
+            "img_link": "https://category-images.s1.citilink.ru/ba9e25d7-3177-4919-9d7f-56313f23b0f7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "gadzhety",
+        "value": {
+            "human_name": "Аксессуары для гаджетов",
+            "url_name": "aksessuary-dlya-gadzhetov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-gadzhetov/",
+            "img_link": "https://category-images.s1.citilink.ru/a2387b2a-b7bb-4b81-b887-e98851131b55.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Кабели для смартфонов и планшетов",
+            "url_name": "perehodniki-provoda",
+            "link": "https://www.citilink.ru/catalog/perehodniki-provoda/",
+            "img_link": "https://category-images.s1.citilink.ru/90dee4d7-4d88-4083-afdf-ec1ebb80a942.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Чехлы для планшетов",
+            "url_name": "chehly-dlya-planshetov",
+            "link": "https://www.citilink.ru/catalog/chehly-dlya-planshetov/",
+            "img_link": "https://category-images.s1.citilink.ru/29ee1ca0-5a25-4274-a762-7d685131c0d8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Защитные пленки для планшетов",
+            "url_name": "zaschitnye-plenki-dlya-planshetov",
+            "link": "https://www.citilink.ru/catalog/zaschitnye-plenki-dlya-planshetov/",
+            "img_link": "https://category-images.s1.citilink.ru/45098595-f3ce-4151-a7d7-8ce5910ab3f6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Док-станции для планшетов",
+            "url_name": "dok-stancii-dlya-planshetov",
+            "link": "https://www.citilink.ru/catalog/dok-stancii-dlya-planshetov/",
+            "img_link": "https://category-images.s1.citilink.ru/8fb5ac3d-b951-48ca-bbcc-26882f87aa14.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Держатели, подставки",
+            "url_name": "derzhateli-podstavki",
+            "link": "https://www.citilink.ru/catalog/derzhateli-podstavki/",
+            "img_link": "https://category-images.s1.citilink.ru/3faee890-33e1-42e1-9ac3-84dcf891ac78.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Прочие аксессуары для планшетов",
+            "url_name": "prochie-aksessuary-dlya-planshetov",
+            "link": "https://www.citilink.ru/catalog/prochie-aksessuary-dlya-planshetov/",
+            "img_link": "https://category-images.s1.citilink.ru/f77f2b6e-ce55-41d0-a9c9-585cd73fc9fa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Карты памяти",
+            "url_name": "karty-pamyati",
+            "link": "https://www.citilink.ru/catalog/karty-pamyati/",
+            "img_link": "https://category-images.s1.citilink.ru/98631311-af72-4a8f-b0bf-95f51ac8d44b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Зарядки для планшета",
+            "url_name": "zaryadnye-ustroistva--for-tablet",
+            "link": "https://www.citilink.ru/catalog/zaryadnye-ustroistva--for-tablet/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_229_1668424708.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-planshetov",
+        "value": {
+            "human_name": "Клавиатуры для планшетов",
+            "url_name": "dok-stancii-dlya-planshetov--klaviatury-dlya-planshetov",
+            "link": "https://www.citilink.ru/catalog/dok-stancii-dlya-planshetov--klaviatury-dlya-planshetov/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_537_1668424830.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Портативные колонки",
+            "url_name": "portativnye-kolonki",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki/",
+            "img_link": "https://category-images.s1.citilink.ru/6f6bb53d-04c2-439a-8fde-ff2fdf19d419.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Внешние аккумуляторы (Power Bank)",
+            "url_name": "power-bank",
+            "link": "https://www.citilink.ru/catalog/power-bank/",
+            "img_link": "https://category-images.s1.citilink.ru/0825cbaa-fae0-4430-ad6b-826ecca400f9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Карты памяти",
+            "url_name": "karty-pamyati",
+            "link": "https://www.citilink.ru/catalog/karty-pamyati/",
+            "img_link": "https://category-images.s1.citilink.ru/4e66aba0-8d2e-4ddb-ad57-5ebc9d9185c8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Наушники",
+            "url_name": "naushniki",
+            "link": "https://www.citilink.ru/catalog/naushniki/",
+            "img_link": "https://category-images.s1.citilink.ru/b103856f-69ab-4802-a475-cd0f344b5bd3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Кабели для смартфонов и планшетов",
+            "url_name": "perehodniki-provoda",
+            "link": "https://www.citilink.ru/catalog/perehodniki-provoda/",
+            "img_link": "https://category-images.s1.citilink.ru/633fdba9-7933-4985-a54c-a8f653928d54.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Защитные пленки и стекла",
+            "url_name": "zaschitnye-plenki-i-stekla",
+            "link": "https://www.citilink.ru/catalog/zaschitnye-plenki-i-stekla/",
+            "img_link": "https://category-images.s1.citilink.ru/d06467ff-65ec-4ce4-8bec-ed7a6b1ad337.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Чехлы для смартфонов",
+            "url_name": "chehly-dlya-smartfonov",
+            "link": "https://www.citilink.ru/catalog/chehly-dlya-smartfonov/",
+            "img_link": "https://category-images.s1.citilink.ru/5905e947-6062-4fe3-93f3-58b6cec20655.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Селфи-палки",
+            "url_name": "selfi-palki",
+            "link": "https://www.citilink.ru/catalog/selfi-palki/",
+            "img_link": "https://category-images.s1.citilink.ru/7b8d0e56-54ba-47f4-aa8c-cdb50ae83a19.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Прочие аксессуары для смартфонов",
+            "url_name": "prochie-aksessuary-dlya-smartfonov",
+            "link": "https://www.citilink.ru/catalog/prochie-aksessuary-dlya-smartfonov/",
+            "img_link": "https://category-images.s1.citilink.ru/28dcde70-3632-4136-ab40-13d527e86c97.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Внешние моды для смартфонов",
+            "url_name": "vneshnie-mody-dlya-smartfonov",
+            "link": "https://www.citilink.ru/catalog/vneshnie-mody-dlya-smartfonov/",
+            "img_link": "https://category-images.s1.citilink.ru/80991501-ea10-4462-a094-d97b46e9fdcb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Держатели для смартфонов",
+            "url_name": "derzhateli-dlya-smartfonov",
+            "link": "https://www.citilink.ru/catalog/derzhateli-dlya-smartfonov/",
+            "img_link": "https://category-images.s1.citilink.ru/d3d7900b-70a2-423e-9985-507018e379f4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "SIM карты (тарифные планы)",
+            "url_name": "sim-karty-tarifnye-plany",
+            "link": "https://www.citilink.ru/catalog/sim-karty-tarifnye-plany/",
+            "img_link": "https://category-images.s1.citilink.ru/fdfc53fc-57cf-46e2-89de-63b8bdbe661f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-smartfonov",
+        "value": {
+            "human_name": "Смарт-трекеры",
+            "url_name": "smart-trekery",
+            "link": "https://www.citilink.ru/catalog/smart-trekery/",
+            "img_link": "https://category-images.s1.citilink.ru/e0b87a19-2689-4bf2-8892-b6e638aa3873.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "elektronnye-knigi-i-aksessuary",
+        "value": {
+            "human_name": "Электронные книги",
+            "url_name": "elektronnye-knigi",
+            "link": "https://www.citilink.ru/catalog/elektronnye-knigi/",
+            "img_link": "https://category-images.s1.citilink.ru/9e4b91e1-b66d-4361-8df2-cb019091a3ea.jpg",
+            "is_product_page": true
+        }
+    }
+]

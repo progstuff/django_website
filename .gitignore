@@ -111,7 +111,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+shop/test_data
 # Spyder project settings
 .spyderproject
 .spyproject

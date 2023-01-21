@@ -31,6 +31,7 @@
       | для правильного отображения сайта.
   -->
   {% include 'shop_cite/header.html' %}
+
   <div class="Middle Middle_top">
     <div class="Middle-top">
       <div class="wrap">
@@ -49,14 +50,23 @@
     <div class="Section">
       <div class="wrap">
         <form class="form Payment" action="#" method="post">
+          {% csrf_token %}
           <div class="Payment-card">
             <div class="form-group">
               <label class="form-label">Номер карты
               </label>
-              <input class="form-input Payment-bill" id="numero1" name="numero1" type="text" placeholder="9999 9999" data-mask="9999 9999" data-validate="require pay"/>
+              {% if form.card_number.data != None %}
+              <input class="form-input Payment-bill" required id="{{form.card_number.id_for_label}}" type="{{form.card_number.widget_type}}" name="{{form.card_number.name}}" value="{{form.card_number.data}}" placeholder="9999 9999" data-mask="9999 9999" data-validate="require pay"/>
+              {% else %}
+              <input class="form-input Payment-bill" required id="{{form.card_number.id_for_label}}" type="{{form.card_number.widget_type}}" name="{{form.card_number.name}}" value="{{form.card_number.initial}}" placeholder="9999 9999" data-mask="9999 9999" data-validate="require pay"/>
+              {% endif %}
             </div>
+            {% if is_random %}
+            <div class="form-group"><a class="btn btn_success Payment-generate" href="#">Сгенирировать случайный счет</a>
+            </div>
+            {% endif %}
           </div>
-          <div class="Payment-pay"><a class="btn btn_primary" href="/progress-payment">Оплатить</a>
+          <div class="Payment-pay"><button class="btn btn_primary" type="submit" name="check_data">Оплатить</button>
           </div>
         </form>
       </div>

@@ -1,0 +1,442 @@
+[
+    {
+        "root": "photo_and_video",
+        "value": {
+            "human_name": "Умный дом",
+            "url_name": "umnyi-dom",
+            "link": "https://www.citilink.ru/catalog/umnyi-dom/",
+            "img_link": "https://category-images.s1.citilink.ru/1f780064-bb3a-4a0d-b505-4022d9d291e3.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "photo_and_video",
+        "value": {
+            "human_name": "Видеонаблюдение",
+            "url_name": "videonablyudenie",
+            "link": "https://www.citilink.ru/catalog/videonablyudenie/",
+            "img_link": "https://category-images.s1.citilink.ru/fe720063-4b4c-48fe-8102-a48bf30aa6ec.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "photo_and_video",
+        "value": {
+            "human_name": "Системы контроля и управления доступом (СКУД)",
+            "url_name": "sistemy-bezopasnosti",
+            "link": "https://www.citilink.ru/catalog/sistemy-bezopasnosti/",
+            "img_link": "https://category-images.s1.citilink.ru/4db05efc-5be7-4e45-b495-53b689aec129.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "photo_and_video",
+        "value": {
+            "human_name": "Домофония",
+            "url_name": "domofoniya",
+            "link": "https://www.citilink.ru/catalog/domofoniya/",
+            "img_link": "https://category-images.s1.citilink.ru/b68c11a7-ba7f-4a73-8781-0554ea020e34.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "photo_and_video",
+        "value": {
+            "human_name": "Приборы для наблюдения",
+            "url_name": "pribory-dlya-nablyudeniya",
+            "link": "https://www.citilink.ru/catalog/pribory-dlya-nablyudeniya/",
+            "img_link": "https://category-images.s1.citilink.ru/46655dbc-47fd-4f34-9568-9c7cc1b2657f.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "photo_and_video",
+        "value": {
+            "human_name": "Роботы профессиональные",
+            "url_name": "roboty-professionalnye",
+            "link": "https://www.citilink.ru/catalog/roboty-professionalnye/",
+            "img_link": "https://category-images.s1.citilink.ru/97689096-f05d-4cc0-a4f2-bf26f337ae50.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "photo_and_video",
+        "value": {
+            "human_name": "Умные колонки",
+            "url_name": "portativnye-kolonki--umnye-kolonki-k",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki--umnye-kolonki-k/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100076_1660045529.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные лампы",
+            "url_name": "umnye-lampy",
+            "link": "https://www.citilink.ru/catalog/umnye-lampy/",
+            "img_link": "https://category-images.s1.citilink.ru/013b4a39-5ca1-45ce-9150-06b960c88092.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные розетки",
+            "url_name": "umnye-rozetki",
+            "link": "https://www.citilink.ru/catalog/umnye-rozetki/",
+            "img_link": "https://category-images.s1.citilink.ru/e7d9d1bd-7ff7-4e15-88ef-c33caa465155.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Модули для умных устройств",
+            "url_name": "furnitura",
+            "link": "https://www.citilink.ru/catalog/furnitura/",
+            "img_link": "https://category-images.s1.citilink.ru/7a4d9684-3cb3-400a-ba9b-f0c2b8d9f762.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Датчики умный дом",
+            "url_name": "datchiki-umnyi-dom",
+            "link": "https://www.citilink.ru/catalog/datchiki-umnyi-dom/",
+            "img_link": "https://category-images.s1.citilink.ru/83c9a2c2-5c7c-4482-b39d-955960bd2d3f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Комплекты умного дома",
+            "url_name": "komplekty",
+            "link": "https://www.citilink.ru/catalog/komplekty/",
+            "img_link": "https://category-images.s1.citilink.ru/402de484-ed49-4954-8923-45fa3cdb0f1d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Центры управления умным домом",
+            "url_name": "bazovye-bloki",
+            "link": "https://www.citilink.ru/catalog/bazovye-bloki/",
+            "img_link": "https://category-images.s1.citilink.ru/bcc39477-19b1-4ec0-be51-7a60ec225740.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные замки",
+            "url_name": "umnye-zamki",
+            "link": "https://www.citilink.ru/catalog/umnye-zamki/",
+            "img_link": "https://category-images.s1.citilink.ru/5fa59226-c52b-4cfa-a487-81d57a3e8653.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные гаджеты",
+            "url_name": "umnye-gadzhety",
+            "link": "https://www.citilink.ru/catalog/umnye-gadzhety/",
+            "img_link": "https://category-images.s1.citilink.ru/6fd16524-75ea-47ea-a012-e3a3b4bd1bf6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные светильники",
+            "url_name": "umnye-svetilniki",
+            "link": "https://www.citilink.ru/catalog/umnye-svetilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/526514e5-45d9-48d7-aeb9-4aba5ca4db58.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные реле и модули управления",
+            "url_name": "umnye-rele-i-moduli-upravleniya",
+            "link": "https://www.citilink.ru/catalog/umnye-rele-i-moduli-upravleniya/",
+            "img_link": "https://category-images.s1.citilink.ru/cd17b56b-d75c-4c55-a02f-8fbfcc71e743.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные выключатели",
+            "url_name": "umnye-vyklyuchateli",
+            "link": "https://www.citilink.ru/catalog/umnye-vyklyuchateli/",
+            "img_link": "https://category-images.s1.citilink.ru/6e8c60e8-aa5b-4a40-aed1-2b140106c448.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные светодиодные ленты",
+            "url_name": "umnye-svetodiodnye-lenty",
+            "link": "https://www.citilink.ru/catalog/umnye-svetodiodnye-lenty/",
+            "img_link": "https://category-images.s1.citilink.ru/4b1d8a9a-be3f-43e9-93c4-01565eb44ec5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные пульты и кнопки",
+            "url_name": "umnye-pulty-i-knopki",
+            "link": "https://www.citilink.ru/catalog/umnye-pulty-i-knopki/",
+            "img_link": "https://category-images.s1.citilink.ru/33f3ccfd-1795-4a51-af8c-4e52458e1577.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные карнизы, шторы и комплектующие",
+            "url_name": "umnye-karnizy-shtory-i-komplektuyuschie",
+            "link": "https://www.citilink.ru/catalog/umnye-karnizy-shtory-i-komplektuyuschie/",
+            "img_link": "https://category-images.s1.citilink.ru/4e1fa831-7d23-48ea-bff4-15b045278bce.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные колонки",
+            "url_name": "portativnye-kolonki--umnye-kolonki-k",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki--umnye-kolonki-k/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100076_1660045529.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "umnyi-dom",
+        "value": {
+            "human_name": "Умные колонки с Алисой",
+            "url_name": "portativnye-kolonki--umnye-kolonki-s-alisoy-k",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki--umnye-kolonki-s-alisoy-k/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100076_1660045694.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videonablyudenie",
+        "value": {
+            "human_name": "Комплекты видеонаблюдения",
+            "url_name": "komplekty-videonablyudeniya",
+            "link": "https://www.citilink.ru/catalog/komplekty-videonablyudeniya/",
+            "img_link": "https://category-images.s1.citilink.ru/f199e772-5789-4a63-a136-b1285d7c1739.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videonablyudenie",
+        "value": {
+            "human_name": "Камеры видеонаблюдения",
+            "url_name": "kamery-videonablyudeniya",
+            "link": "https://www.citilink.ru/catalog/kamery-videonablyudeniya/",
+            "img_link": "https://category-images.s1.citilink.ru/471c3afe-fbe6-461f-ba30-4f8b563fbaec.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videonablyudenie",
+        "value": {
+            "human_name": "Аксессуары для видеокамер",
+            "url_name": "aksessuary-dlya-videokamer",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-videokamer/",
+            "img_link": "https://category-images.s1.citilink.ru/b2748845-25f7-49ed-858e-5ac472752c2e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videonablyudenie",
+        "value": {
+            "human_name": "Видеорегистраторы для видеонаблюдения",
+            "url_name": "videoregistratory-bezopasnosti",
+            "link": "https://www.citilink.ru/catalog/videoregistratory-bezopasnosti/",
+            "img_link": "https://category-images.s1.citilink.ru/be03fb05-f1ad-4503-908c-7e245b9eb967.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "videonablyudenie",
+        "value": {
+            "human_name": "Мониторы для видеонаблюдения",
+            "url_name": "monitory-dlya-videonablyudeniya",
+            "link": "https://www.citilink.ru/catalog/monitory-dlya-videonablyudeniya/",
+            "img_link": "https://category-images.s1.citilink.ru/8fe7ca44-9d66-4d71-b696-11e17a1364f0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Замки для СКУД",
+            "url_name": "zamki-dlya-skud",
+            "link": "https://www.citilink.ru/catalog/zamki-dlya-skud/",
+            "img_link": "https://category-images.s1.citilink.ru/98d47611-e4a6-4166-93da-ac0847fb357a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Доводчики для СКУД",
+            "url_name": "dovodchiki-dlya-skud",
+            "link": "https://www.citilink.ru/catalog/dovodchiki-dlya-skud/",
+            "img_link": "https://category-images.s1.citilink.ru/bf772aa1-cb55-456b-bb98-760b09065ae7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Охранные сигнализации",
+            "url_name": "signalizacii",
+            "link": "https://www.citilink.ru/catalog/signalizacii/",
+            "img_link": "https://category-images.s1.citilink.ru/a5b8e26a-e7f2-4f09-9417-9e7c2b187b75.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Системы оповещения",
+            "url_name": "sistemy-opovescheniya",
+            "link": "https://www.citilink.ru/catalog/sistemy-opovescheniya/",
+            "img_link": "https://category-images.s1.citilink.ru/81e26eac-db29-4e7d-817f-1912f641aad8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Аксессуары для СКУД",
+            "url_name": "aksessuary-dlya-skud",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-skud/",
+            "img_link": "https://category-images.s1.citilink.ru/d85c061a-08f4-4aa3-9c2d-a46a6b5eacf0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Контроллеры СКУД",
+            "url_name": "kontrollery-skud",
+            "link": "https://www.citilink.ru/catalog/kontrollery-skud/",
+            "img_link": "https://category-images.s1.citilink.ru/0f696b2d-7e68-4da5-87a6-8dbadd18df96.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Терминалы доступа",
+            "url_name": "terminaly-dostupa",
+            "link": "https://www.citilink.ru/catalog/terminaly-dostupa/",
+            "img_link": "https://category-images.s1.citilink.ru/697b58e6-2b4d-4b53-84bd-047613b2dbc4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Считыватели",
+            "url_name": "schityvateli",
+            "link": "https://www.citilink.ru/catalog/schityvateli/",
+            "img_link": "https://category-images.s1.citilink.ru/6c04a68e-0517-4bc6-a375-f7de161393ca.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Датчики безопасности",
+            "url_name": "datchiki",
+            "link": "https://www.citilink.ru/catalog/datchiki/",
+            "img_link": "https://category-images.s1.citilink.ru/9a4b45e1-4a94-4992-8b4e-156de1cfa33c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sistemy-bezopasnosti",
+        "value": {
+            "human_name": "Шлагбаумы и комплекты шлагбаумов",
+            "url_name": "shlagbaumy-i-komplekty-shlagbaumov",
+            "link": "https://www.citilink.ru/catalog/shlagbaumy-i-komplekty-shlagbaumov/",
+            "img_link": "https://category-images.s1.citilink.ru/b1c7af79-1669-47ff-889c-8e3ec322ec7e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "domofoniya",
+        "value": {
+            "human_name": "Домофоны",
+            "url_name": "domofony",
+            "link": "https://www.citilink.ru/catalog/domofony/",
+            "img_link": "https://category-images.s1.citilink.ru/0a6f61ff-a7e8-4b05-bdf5-9de1a9bf66ea.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "domofoniya",
+        "value": {
+            "human_name": "Вызывные панели",
+            "url_name": "vyzyvnye-paneli",
+            "link": "https://www.citilink.ru/catalog/vyzyvnye-paneli/",
+            "img_link": "https://category-images.s1.citilink.ru/1e9a7d78-ec50-4699-8192-6e36969ab778.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pribory-dlya-nablyudeniya",
+        "value": {
+            "human_name": "Бинокли",
+            "url_name": "binokli",
+            "link": "https://www.citilink.ru/catalog/binokli/",
+            "img_link": "https://category-images.s1.citilink.ru/14f98cf4-74ba-4f3a-b92a-75d5deb0fce9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pribory-dlya-nablyudeniya",
+        "value": {
+            "human_name": "Телескопы",
+            "url_name": "teleskopy",
+            "link": "https://www.citilink.ru/catalog/teleskopy/",
+            "img_link": "https://category-images.s1.citilink.ru/d6f1452b-c636-46c1-884f-035988b03073.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pribory-dlya-nablyudeniya",
+        "value": {
+            "human_name": "Микроскопы",
+            "url_name": "mikroskopy",
+            "link": "https://www.citilink.ru/catalog/mikroskopy/",
+            "img_link": "https://category-images.s1.citilink.ru/f742572a-8d6a-4cc5-a194-867950e5af97.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pribory-dlya-nablyudeniya",
+        "value": {
+            "human_name": "Аксессуары для оптических приборов",
+            "url_name": "aksessuary-dlya-opticheskih-priborov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-opticheskih-priborov/",
+            "img_link": "https://category-images.s1.citilink.ru/50e73d30-c92a-4b47-8a25-615221967f92.jpg",
+            "is_product_page": true
+        }
+    }
+]

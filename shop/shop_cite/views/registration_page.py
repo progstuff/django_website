@@ -1,13 +1,32 @@
 from .view_utils import BaseTemplate
-from ..forms import RegistrationForm
+from ..forms.registration_form import RegistrationForm
+from django.db.utils import IntegrityError
+from django.http import HttpResponseRedirect
 
 
 class RegistrationPage(BaseTemplate):
 
     def get(self, request):
         form = RegistrationForm()
-        a = form.visible_fields()
-        b = 1
         return self.get_render(request,
                                'shop_cite/registration.html',
                                context={'form': form})
+
+    def post(self, request):
+        form = RegistrationForm(request.POST)
+        if form.is_valid():
+            try:
+                form.save_to_db()
+                return HttpResponseRedirect('/')
+
+            except IntegrityError:
+                errors = form.get_error_messages()
+                errors['email'] = 'Пользователь с таким email уже зарегистрирован'
+                return self.get_render(request,
+                                       'shop_cite/registration.html',
+                                       context={'form': form, 'errors': errors})
+        else:
+            errors = form.get_error_messages()
+            return self.get_render(request,
+                                   'shop_cite/registration.html',
+                                   context={'form': form, 'errors': errors})

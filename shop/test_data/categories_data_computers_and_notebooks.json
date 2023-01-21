@@ -1,0 +1,1342 @@
+[
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Ноутбуки",
+            "url_name": "noutbuki",
+            "link": "https://www.citilink.ru/catalog/noutbuki/",
+            "img_link": "https://category-images.s1.citilink.ru/ef1970a1-c1ec-42d1-a3c5-b10656a8e70d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Компьютеры и моноблоки",
+            "url_name": "kompyutery-i-monobloki",
+            "link": "https://www.citilink.ru/catalog/kompyutery-i-monobloki/",
+            "img_link": "https://category-images.s1.citilink.ru/6976eab6-b1dd-4271-a462-d7b299767e71.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Комплектующие для ПК",
+            "url_name": "komplektuyuschie-dlya-pk",
+            "link": "https://www.citilink.ru/catalog/komplektuyuschie-dlya-pk/",
+            "img_link": "https://category-images.s1.citilink.ru/fb87a053-2322-4b14-a315-d2818d22b86e.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Жесткие диски и SSD",
+            "url_name": "zhestkie-diski-i-ssd",
+            "link": "https://www.citilink.ru/catalog/zhestkie-diski-i-ssd/",
+            "img_link": "https://category-images.s1.citilink.ru/bd8d81d1-8ac2-4359-925d-248fd3d85877.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Мониторы",
+            "url_name": "monitory",
+            "link": "https://www.citilink.ru/catalog/monitory/",
+            "img_link": "https://category-images.s1.citilink.ru/6962239c-39cc-4836-9e82-a599252cc2ff.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Игровые мониторы",
+            "url_name": "monitory--monitory-igrovye",
+            "link": "https://www.citilink.ru/catalog/monitory--monitory-igrovye/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_162_1646465441.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Сетевые хранилища NAS",
+            "url_name": "setevye-hranilischa-nas",
+            "link": "https://www.citilink.ru/catalog/setevye-hranilischa-nas/",
+            "img_link": "https://category-images.s1.citilink.ru/093a895b-1934-4f0d-b28f-6fa2313b724e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Оргтехника",
+            "url_name": "orgtehnika",
+            "link": "https://www.citilink.ru/catalog/orgtehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/a04fd16b-4083-4d6d-8b8a-5597c6d6dc97.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Манипуляторы и устройства ввода",
+            "url_name": "manipulyatory-i-ustroistva-vvoda",
+            "link": "https://www.citilink.ru/catalog/manipulyatory-i-ustroistva-vvoda/",
+            "img_link": "https://category-images.s1.citilink.ru/8193ff91-db4e-40a5-9b53-97158da665d2.png",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Носители информации",
+            "url_name": "nositeli-informacii",
+            "link": "https://www.citilink.ru/catalog/nositeli-informacii/",
+            "img_link": "https://category-images.s1.citilink.ru/8e2c8a7d-3ef1-47fa-a23b-92d7fd75591e.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Защита питания",
+            "url_name": "zaschita-pitaniya",
+            "link": "https://www.citilink.ru/catalog/zaschita-pitaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/9781c323-c55d-47aa-b86e-da9279f4a9ed.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Сетевое оборудование",
+            "url_name": "setevoe-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/setevoe-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/fd792cdd-8e2d-4a21-90ff-6600ac760aec.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Колонки для компьютера",
+            "url_name": "kolonki-dlya-kompyutera",
+            "link": "https://www.citilink.ru/catalog/kolonki-dlya-kompyutera/",
+            "img_link": "https://category-images.s1.citilink.ru/4070ac22-d38b-4ec7-8dbd-6126a5376ab8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Web-камеры",
+            "url_name": "web-kamery",
+            "link": "https://www.citilink.ru/catalog/web-kamery/",
+            "img_link": "https://category-images.s1.citilink.ru/df4325e0-6f41-4132-8b2d-c7212d230709.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Наушники с микрофоном",
+            "url_name": "naushniki-s-mikrofonom",
+            "link": "https://www.citilink.ru/catalog/naushniki-s-mikrofonom/",
+            "img_link": "https://category-images.s1.citilink.ru/8707d06e-aa4d-4f2b-8a76-1e6c02dc3372.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Хабы, разветвители",
+            "url_name": "haby-razvetviteli",
+            "link": "https://www.citilink.ru/catalog/haby-razvetviteli/",
+            "img_link": "https://category-images.s1.citilink.ru/b159d49f-c783-486f-848d-f12c84b6cf4b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Серверы и СХД",
+            "url_name": "servery-i-shd",
+            "link": "https://www.citilink.ru/catalog/servery-i-shd/",
+            "img_link": "https://category-images.s1.citilink.ru/1dd3cbc8-2fbf-44a0-8808-28af7a86a78b.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Программное обеспечение",
+            "url_name": "programmnoe-obespechenie",
+            "link": "https://www.citilink.ru/catalog/programmnoe-obespechenie/",
+            "img_link": "https://category-images.s1.citilink.ru/fd15f541-7d07-4c09-a89a-d3123818e5f1.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Подарочные сертификаты",
+            "url_name": "podarochnye-sertifikaty",
+            "link": "https://www.citilink.ru/catalog/podarochnye-sertifikaty/",
+            "img_link": "https://category-images.s1.citilink.ru/61dd9ee7-22cf-4574-8a70-a6c8a5dbf78f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Аксессуары для ноутбуков и ПК",
+            "url_name": "aksessuary-dlya-noutbukov-i-pk",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-noutbukov-i-pk/",
+            "img_link": "https://category-images.s1.citilink.ru/d1d29d9f-be2a-4c18-8ab2-b4709b7977da.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "computers_and_notebooks",
+        "value": {
+            "human_name": "Платформы",
+            "url_name": "platformy",
+            "link": "https://www.citilink.ru/catalog/platformy/",
+            "img_link": "https://category-images.s1.citilink.ru/addd87c0-eb0f-441a-8bce-f71916ce4646.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "kompyutery-i-monobloki",
+        "value": {
+            "human_name": "Моноблоки",
+            "url_name": "monobloki",
+            "link": "https://www.citilink.ru/catalog/monobloki/",
+            "img_link": "https://category-images.s1.citilink.ru/296d9d3c-84c7-4237-817f-89b62b9fcbe0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kompyutery-i-monobloki",
+        "value": {
+            "human_name": "Компьютеры",
+            "url_name": "kompyutery",
+            "link": "https://www.citilink.ru/catalog/kompyutery/",
+            "img_link": "https://category-images.s1.citilink.ru/26b89ef7-ec7b-485f-a0d9-ae1dcb4da818.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kompyutery-i-monobloki",
+        "value": {
+            "human_name": "Системные блоки",
+            "url_name": "sistemnye-bloki",
+            "link": "https://www.citilink.ru/catalog/sistemnye-bloki/",
+            "img_link": "https://category-images.s1.citilink.ru/7fc17c63-a8ea-495d-ba88-7abbb47f00da.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kompyutery-i-monobloki",
+        "value": {
+            "human_name": "Компьютеры Ситилинк",
+            "url_name": "kompyutery-sitilink",
+            "link": "https://www.citilink.ru/catalog/kompyutery-sitilink/",
+            "img_link": "https://category-images.s1.citilink.ru/587db9aa-fd69-49d4-ad68-aa0afa118893.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kompyutery-i-monobloki",
+        "value": {
+            "human_name": "Микрокомпьютеры",
+            "url_name": "mikrokompyutery",
+            "link": "https://www.citilink.ru/catalog/mikrokompyutery/",
+            "img_link": "https://category-images.s1.citilink.ru/3802cdf0-ce04-47b3-aa00-dc3db9809b58.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kompyutery-i-monobloki",
+        "value": {
+            "human_name": "Аксессуары для микрокомпьютеров",
+            "url_name": "aksessuary-dlya-mikrokompyuterov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-mikrokompyuterov/",
+            "img_link": "https://category-images.s1.citilink.ru/bfa5ff74-9ac6-4db8-8504-00ea2166cc47.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kompyutery-i-monobloki",
+        "value": {
+            "human_name": "Игровые компьютеры",
+            "url_name": "kompyutery--igrovyie-comp",
+            "link": "https://www.citilink.ru/catalog/kompyutery--igrovyie-comp/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_2_1646428695.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Платформы для сборки ПК",
+            "url_name": "platformy-dlya-sborki-pk",
+            "link": "https://www.citilink.ru/catalog/platformy-dlya-sborki-pk/",
+            "img_link": "https://category-images.s1.citilink.ru/12f9d81a-76b6-4bc3-b6bc-ea74872efe9f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Процессоры",
+            "url_name": "processory",
+            "link": "https://www.citilink.ru/catalog/processory/",
+            "img_link": "https://category-images.s1.citilink.ru/2a70be65-0403-4c2e-a647-e835eb29eff2.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Системы охлаждения компьютера",
+            "url_name": "sistemy-ohlazhdeniya-kompyutera",
+            "link": "https://www.citilink.ru/catalog/sistemy-ohlazhdeniya-kompyutera/",
+            "img_link": "https://category-images.s1.citilink.ru/95e8914b-79f2-4c32-84a7-96db7edfb576.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Системы охлаждения процессора",
+            "url_name": "sistemy-ohlazhdeniya-processora",
+            "link": "https://www.citilink.ru/catalog/sistemy-ohlazhdeniya-processora/",
+            "img_link": "https://category-images.s1.citilink.ru/7c431991-54df-4e4a-bff7-260c2302288b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Системы охлаждения корпуса",
+            "url_name": "sistemy-ohlazhdeniya-korpusa",
+            "link": "https://www.citilink.ru/catalog/sistemy-ohlazhdeniya-korpusa/",
+            "img_link": "https://category-images.s1.citilink.ru/37503fd7-5409-47f5-9c5b-42988dee73bf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Материнские платы",
+            "url_name": "materinskie-platy",
+            "link": "https://www.citilink.ru/catalog/materinskie-platy/",
+            "img_link": "https://category-images.s1.citilink.ru/b39c126d-5007-40d9-bde6-5f4318dfd198.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Модули памяти",
+            "url_name": "moduli-pamyati",
+            "link": "https://www.citilink.ru/catalog/moduli-pamyati/",
+            "img_link": "https://category-images.s1.citilink.ru/10c95527-7fff-4ad2-b2d8-9e2d00a0d725.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Видеокарты",
+            "url_name": "videokarty",
+            "link": "https://www.citilink.ru/catalog/videokarty/",
+            "img_link": "https://category-images.s1.citilink.ru/8aed7acf-815f-4aea-856e-cd9e62850660.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Блоки питания",
+            "url_name": "bloki-pitaniya",
+            "link": "https://www.citilink.ru/catalog/bloki-pitaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/ccf8328b-16ba-43f8-b78f-f6df13a4dc9d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Корпуса",
+            "url_name": "korpusa",
+            "link": "https://www.citilink.ru/catalog/korpusa/",
+            "img_link": "https://category-images.s1.citilink.ru/4bc9e55e-2349-4a85-a57c-b533ddc74991.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Звуковые карты",
+            "url_name": "zvukovye-karty",
+            "link": "https://www.citilink.ru/catalog/zvukovye-karty/",
+            "img_link": "https://category-images.s1.citilink.ru/3050c4cc-d1e7-432a-946d-2718a4a98146.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Оптические приводы",
+            "url_name": "opticheskie-privody",
+            "link": "https://www.citilink.ru/catalog/opticheskie-privody/",
+            "img_link": "https://category-images.s1.citilink.ru/0f1c4480-0675-4f31-8d0c-1acbe78e046b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Контроллеры для ПК",
+            "url_name": "kontrollery-dlya-pk",
+            "link": "https://www.citilink.ru/catalog/kontrollery-dlya-pk/",
+            "img_link": "https://category-images.s1.citilink.ru/e065d37d-1be4-4e6c-a9c5-cd845d617eef.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Термопаста",
+            "url_name": "termopasta",
+            "link": "https://www.citilink.ru/catalog/termopasta/",
+            "img_link": "https://category-images.s1.citilink.ru/8b62fc11-3251-4589-b93f-192416fc1dae.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Криптокошельки",
+            "url_name": "kriptokoshelki",
+            "link": "https://www.citilink.ru/catalog/kriptokoshelki/",
+            "img_link": "https://category-images.s1.citilink.ru/81bcd52a-05ed-40e3-9e7c-19b60120e688.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "komplektuyuschie-dlya-pk",
+        "value": {
+            "human_name": "Майнеры",
+            "url_name": "mainery",
+            "link": "https://www.citilink.ru/catalog/mainery/",
+            "img_link": "https://category-images.s1.citilink.ru/0d4289dd-f46f-4c60-a978-b6d461569c88.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zhestkie-diski-i-ssd",
+        "value": {
+            "human_name": "Жесткие диски",
+            "url_name": "zhestkie-diski",
+            "link": "https://www.citilink.ru/catalog/zhestkie-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/156d1bcd-4f82-4479-a0ee-e5706874bcb1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zhestkie-diski-i-ssd",
+        "value": {
+            "human_name": "SSD накопители",
+            "url_name": "ssd-nakopiteli",
+            "link": "https://www.citilink.ru/catalog/ssd-nakopiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/fdd81016-439d-4d29-9ee0-ae5d25a3899d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zhestkie-diski-i-ssd",
+        "value": {
+            "human_name": "Корпуса для жестких дисков",
+            "url_name": "korpusa-dlya-zhestkih-diskov",
+            "link": "https://www.citilink.ru/catalog/korpusa-dlya-zhestkih-diskov/",
+            "img_link": "https://category-images.s1.citilink.ru/86359cab-6403-4938-b67d-e283c9f0eb3d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zhestkie-diski-i-ssd",
+        "value": {
+            "human_name": "Аксессуары для жестких дисков",
+            "url_name": "aksessuary-dlya-zhestkih-diskov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-zhestkih-diskov/",
+            "img_link": "https://category-images.s1.citilink.ru/7b24bc29-9f14-45f6-8e9e-a5642f7e3a56.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zhestkie-diski-i-ssd",
+        "value": {
+            "human_name": "Внешние жесткие диски",
+            "url_name": "vneshnie-zhestkie-diski",
+            "link": "https://www.citilink.ru/catalog/vneshnie-zhestkie-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/a94a1d2e-d230-49ea-9254-171c9dd8db27.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Принтеры",
+            "url_name": "printery-lazernye",
+            "link": "https://www.citilink.ru/catalog/printery-lazernye/",
+            "img_link": "https://category-images.s1.citilink.ru/2a1e1ac1-4e50-4611-8be0-9b736802b8ad.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "МФУ струйные",
+            "url_name": "mfu-struinye",
+            "link": "https://www.citilink.ru/catalog/mfu-struinye/",
+            "img_link": "https://category-images.s1.citilink.ru/0f2b1fd2-60c3-4c9d-816d-3f1c1f2b4c75.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "МФУ лазерные",
+            "url_name": "mfu-lazernye",
+            "link": "https://www.citilink.ru/catalog/mfu-lazernye/",
+            "img_link": "https://category-images.s1.citilink.ru/6bcdc626-bac9-4e89-a4f2-f9ec6919fd07.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Плоттеры",
+            "url_name": "plottery",
+            "link": "https://www.citilink.ru/catalog/plottery/",
+            "img_link": "https://category-images.s1.citilink.ru/74314068-50f8-4e95-866a-e9eb64f34fa7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Копиры",
+            "url_name": "kopiry",
+            "link": "https://www.citilink.ru/catalog/kopiry/",
+            "img_link": "https://category-images.s1.citilink.ru/25674bcf-ec1f-46c6-9a41-b23f6bf80f48.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Сканеры",
+            "url_name": "skanery",
+            "link": "https://www.citilink.ru/catalog/skanery/",
+            "img_link": "https://category-images.s1.citilink.ru/006c78fe-1841-4d0b-9d7e-ab2cb3216f62.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Сканеры для документов",
+            "url_name": "skanery-dlya-dokumentov",
+            "link": "https://www.citilink.ru/catalog/skanery-dlya-dokumentov/",
+            "img_link": "https://category-images.s1.citilink.ru/bd6ce030-f803-424f-b0b7-3b68b20a6e5f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Картриджи",
+            "url_name": "kartridzhi",
+            "link": "https://www.citilink.ru/catalog/kartridzhi/",
+            "img_link": "https://category-images.s1.citilink.ru/ab4a8075-5e2d-4b7f-94ee-4b7afb6c1e44.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Тонеры",
+            "url_name": "tonery",
+            "link": "https://www.citilink.ru/catalog/tonery/",
+            "img_link": "https://category-images.s1.citilink.ru/c639e9f3-b65f-4872-b617-4dc49a07526e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Фотобарабаны",
+            "url_name": "fotobarabany",
+            "link": "https://www.citilink.ru/catalog/fotobarabany/",
+            "img_link": "https://category-images.s1.citilink.ru/8a53717e-8871-47b4-af30-06ffc35d2000.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Бумага",
+            "url_name": "bumaga",
+            "link": "https://www.citilink.ru/catalog/bumaga/",
+            "img_link": "https://category-images.s1.citilink.ru/22e84488-174b-4aa4-b1d1-03b252c4c8ab.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Термопленки",
+            "url_name": "termoplenki",
+            "link": "https://www.citilink.ru/catalog/termoplenki/",
+            "img_link": "https://category-images.s1.citilink.ru/61e68d6e-2735-4989-8457-b9b0421af4de.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Чернила",
+            "url_name": "chernila",
+            "link": "https://www.citilink.ru/catalog/chernila/",
+            "img_link": "https://category-images.s1.citilink.ru/aa248a30-1eac-4bf7-8de6-468dd0d60568.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "orgtehnika",
+        "value": {
+            "human_name": "Опции для копиров",
+            "url_name": "opcii-dlya-kopirov",
+            "link": "https://www.citilink.ru/catalog/opcii-dlya-kopirov/",
+            "img_link": "https://category-images.s1.citilink.ru/30a50eb8-bcd2-4a8e-bc4c-4dddfc3f9dfb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Батарейки",
+            "url_name": "batareiki",
+            "link": "https://www.citilink.ru/catalog/batareiki/",
+            "img_link": "https://category-images.s1.citilink.ru/18eebce9-a9ac-4192-9845-ec53edea1d95.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Презентеры",
+            "url_name": "prezentery",
+            "link": "https://www.citilink.ru/catalog/prezentery/",
+            "img_link": "https://category-images.s1.citilink.ru/dc7a0aaa-1da2-4eb5-8fdd-e2b92539ac9d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Графические планшеты",
+            "url_name": "graficheskie-planshety",
+            "link": "https://www.citilink.ru/catalog/graficheskie-planshety/",
+            "img_link": "https://category-images.s1.citilink.ru/8614e96a-b52a-4c65-b444-1fe96be35fca.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Аксессуары для графических планшетов",
+            "url_name": "aksessuary-dlya-graficheskih-planshetov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-graficheskih-planshetov/",
+            "img_link": "https://category-images.s1.citilink.ru/63f58a63-d89a-459c-901a-f2728367b9e4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Клавиатуры",
+            "url_name": "klaviatury",
+            "link": "https://www.citilink.ru/catalog/klaviatury/",
+            "img_link": "https://category-images.s1.citilink.ru/5d5f2591-773b-439c-b134-b1ce35e6053e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Мыши",
+            "url_name": "myshi",
+            "link": "https://www.citilink.ru/catalog/myshi/",
+            "img_link": "https://category-images.s1.citilink.ru/a7a2ccbd-cf1d-4126-a60f-b09501a74394.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Комплекты (Клавиатура+Мышь)",
+            "url_name": "komplekty-klaviatura-mysh",
+            "link": "https://www.citilink.ru/catalog/komplekty-klaviatura-mysh/",
+            "img_link": "https://category-images.s1.citilink.ru/212ce985-2789-4805-acaa-d49210bdfc20.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Коврики для мыши",
+            "url_name": "kovriki-dlya-myshi",
+            "link": "https://www.citilink.ru/catalog/kovriki-dlya-myshi/",
+            "img_link": "https://category-images.s1.citilink.ru/b91b9285-fd53-4386-9b8d-9aeeb6c12c9f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Джойстики и геймпады",
+            "url_name": "dzhoistiki-i-geimpady",
+            "link": "https://www.citilink.ru/catalog/dzhoistiki-i-geimpady/",
+            "img_link": "https://category-images.s1.citilink.ru/c447f844-5e83-464f-91d3-659009a62c77.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "manipulyatory-i-ustroistva-vvoda",
+        "value": {
+            "human_name": "Игровые рули",
+            "url_name": "igrovye-ruli",
+            "link": "https://www.citilink.ru/catalog/igrovye-ruli/",
+            "img_link": "https://category-images.s1.citilink.ru/d1d92742-00d2-4761-b77d-193c0287a0a4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nositeli-informacii",
+        "value": {
+            "human_name": "Флешки",
+            "url_name": "fleshki",
+            "link": "https://www.citilink.ru/catalog/fleshki/",
+            "img_link": "https://category-images.s1.citilink.ru/b964fa66-bc35-4ff6-96b9-ac91a5b61af3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nositeli-informacii",
+        "value": {
+            "human_name": "Внешние диски",
+            "url_name": "vneshnie-zhestkie-diski",
+            "link": "https://www.citilink.ru/catalog/vneshnie-zhestkie-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/655ddd35-701b-4134-89dd-1944d809d7f2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nositeli-informacii",
+        "value": {
+            "human_name": "Карты памяти",
+            "url_name": "karty-pamyati",
+            "link": "https://www.citilink.ru/catalog/karty-pamyati/",
+            "img_link": "https://category-images.s1.citilink.ru/afcb9039-e528-42f7-89b1-6492f0c33a4f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nositeli-informacii",
+        "value": {
+            "human_name": "Картридеры",
+            "url_name": "kartridery",
+            "link": "https://www.citilink.ru/catalog/kartridery/",
+            "img_link": "https://category-images.s1.citilink.ru/3af5a1ca-e2e4-465f-9899-a5b5e3b59012.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nositeli-informacii",
+        "value": {
+            "human_name": "Оптические диски",
+            "url_name": "opticheskie-diski",
+            "link": "https://www.citilink.ru/catalog/opticheskie-diski/",
+            "img_link": "https://category-images.s1.citilink.ru/a0c8c816-5293-4046-a63f-dc0a96f034f1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Сетевые разветвители",
+            "url_name": "setevye-razvetviteli",
+            "link": "https://www.citilink.ru/catalog/setevye-razvetviteli/",
+            "img_link": "https://category-images.s1.citilink.ru/e2626ba3-343d-4693-9065-43d498af5270.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Сетевые удлинители",
+            "url_name": "setevye-udliniteli",
+            "link": "https://www.citilink.ru/catalog/setevye-udliniteli/",
+            "img_link": "https://category-images.s1.citilink.ru/505244b6-d7d4-4b04-993f-36ab367b88ad.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Сетевые фильтры",
+            "url_name": "setevye-filtry",
+            "link": "https://www.citilink.ru/catalog/setevye-filtry/",
+            "img_link": "https://category-images.s1.citilink.ru/af1952a3-0206-42ce-b9c4-6d576bb57197.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Источники бесперебойного питания",
+            "url_name": "istochniki-bespereboinogo-pitaniya",
+            "link": "https://www.citilink.ru/catalog/istochniki-bespereboinogo-pitaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/c59d3d1c-6c66-4cbb-8ba6-41052d9babe0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Сетевые фильтры и удлинители",
+            "url_name": "setevye-filtry-i-udliniteli",
+            "link": "https://www.citilink.ru/catalog/setevye-filtry-i-udliniteli/",
+            "img_link": "https://category-images.s1.citilink.ru/272fe594-bf3e-4952-a099-0da06734d246.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Аккумуляторные батареи для ИБП",
+            "url_name": "akkumulyatornye-batarei-dlya-ibp",
+            "link": "https://www.citilink.ru/catalog/akkumulyatornye-batarei-dlya-ibp/",
+            "img_link": "https://category-images.s1.citilink.ru/1ec150fb-b164-46b7-8f5f-667725bb71aa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Стабилизаторы напряжения бытовые",
+            "url_name": "stabilizatory-napryazheniya-bytovye",
+            "link": "https://www.citilink.ru/catalog/stabilizatory-napryazheniya-bytovye/",
+            "img_link": "https://category-images.s1.citilink.ru/d70c4016-89b7-444f-8ddb-213f6860650e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Модули и монтаж",
+            "url_name": "moduli-i-montazh",
+            "link": "https://www.citilink.ru/catalog/moduli-i-montazh/",
+            "img_link": "https://category-images.s1.citilink.ru/32e9b242-7042-44c7-9e1b-6fb5fbcee350.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Шкафы коммутационные",
+            "url_name": "shkafy-kommutacionnye",
+            "link": "https://www.citilink.ru/catalog/shkafy-kommutacionnye/",
+            "img_link": "https://category-images.s1.citilink.ru/ce1e78b4-7b9c-42a8-94ad-b984cf79b321.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "zaschita-pitaniya",
+        "value": {
+            "human_name": "Шкафы электротехнические",
+            "url_name": "shkafy-elektrotehnicheskie",
+            "link": "https://www.citilink.ru/catalog/shkafy-elektrotehnicheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/83d3ac0b-6830-468c-a156-826d472f89ba.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Сетевые хранилища NAS",
+            "url_name": "setevye-hranilischa-nas",
+            "link": "https://www.citilink.ru/catalog/setevye-hranilischa-nas/",
+            "img_link": "https://category-images.s1.citilink.ru/b3ab3a47-aab1-4834-848c-43695c06547d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Bluetooth адаптеры",
+            "url_name": "bluetooth-adaptery",
+            "link": "https://www.citilink.ru/catalog/bluetooth-adaptery/",
+            "img_link": "https://category-images.s1.citilink.ru/00e5dd7d-97c8-480e-96b3-54f76c7606d1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Wi-Fi адаптеры",
+            "url_name": "wi-fi-adaptery",
+            "link": "https://www.citilink.ru/catalog/wi-fi-adaptery/",
+            "img_link": "https://category-images.s1.citilink.ru/edab2106-5288-411a-9e7c-fb221b42b43c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Wi-Fi роутеры (Маршрутизаторы)",
+            "url_name": "wi-fi-routery-marshrutizatory",
+            "link": "https://www.citilink.ru/catalog/wi-fi-routery-marshrutizatory/",
+            "img_link": "https://category-images.s1.citilink.ru/ea67137b-4fb2-4faf-a913-44e564bc2a2a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Точки доступа",
+            "url_name": "tochki-dostupa",
+            "link": "https://www.citilink.ru/catalog/tochki-dostupa/",
+            "img_link": "https://category-images.s1.citilink.ru/0aaa2116-318b-499c-b8e4-3ba74992ec8a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Сетевые адаптеры",
+            "url_name": "setevye-adaptery",
+            "link": "https://www.citilink.ru/catalog/setevye-adaptery/",
+            "img_link": "https://category-images.s1.citilink.ru/e6adbed7-f852-4a5a-8d9b-b7f2a026bdd7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Повторители беспроводного сигнала",
+            "url_name": "povtoriteli-besprovodnogo-signala",
+            "link": "https://www.citilink.ru/catalog/povtoriteli-besprovodnogo-signala/",
+            "img_link": "https://category-images.s1.citilink.ru/cf55d4cb-a591-4bb1-8a80-12e622d84b04.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Межсетевые экраны",
+            "url_name": "mezhsetevye-ekrany",
+            "link": "https://www.citilink.ru/catalog/mezhsetevye-ekrany/",
+            "img_link": "https://category-images.s1.citilink.ru/4c65ee4b-4dd7-4e22-9be1-e522d7ba190b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Модемы",
+            "url_name": "modemy",
+            "link": "https://www.citilink.ru/catalog/modemy/",
+            "img_link": "https://category-images.s1.citilink.ru/11c5dd32-cc49-4ce0-8b4c-89e4e4e23de2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Коммутаторы",
+            "url_name": "kommutatory",
+            "link": "https://www.citilink.ru/catalog/kommutatory/",
+            "img_link": "https://category-images.s1.citilink.ru/bf2403fc-6199-420a-869c-0d7ebd1b27dd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Медиаконвертеры",
+            "url_name": "mediakonvertery",
+            "link": "https://www.citilink.ru/catalog/mediakonvertery/",
+            "img_link": "https://category-images.s1.citilink.ru/be5523eb-ed2b-4425-abff-5c21bc190a4e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Антенны",
+            "url_name": "antenny",
+            "link": "https://www.citilink.ru/catalog/antenny/",
+            "img_link": "https://category-images.s1.citilink.ru/d6559658-8c70-4855-91cb-63cb65bc593d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Доп.модули, трансиверы",
+            "url_name": "dop-moduli-transivery",
+            "link": "https://www.citilink.ru/catalog/dop-moduli-transivery/",
+            "img_link": "https://category-images.s1.citilink.ru/f8d1e439-9786-41f4-91c6-790527c9c726.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Переключатели и кабели",
+            "url_name": "pereklyuchateli-i-kabeli",
+            "link": "https://www.citilink.ru/catalog/pereklyuchateli-i-kabeli/",
+            "img_link": "https://category-images.s1.citilink.ru/7295ab09-7262-478c-ba31-ac59b3f20dd5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Коннекторы, розетки",
+            "url_name": "konnektory-rozetki",
+            "link": "https://www.citilink.ru/catalog/konnektory-rozetki/",
+            "img_link": "https://category-images.s1.citilink.ru/49b4d0fb-e27f-4033-ba49-9228b40da617.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Сетевые кабели и СКС",
+            "url_name": "kabelnye-produkty-dlya-sks",
+            "link": "https://www.citilink.ru/catalog/kabelnye-produkty-dlya-sks/",
+            "img_link": "https://category-images.s1.citilink.ru/dc845183-eb71-4269-a085-08098ac8c435.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "setevoe-oborudovanie",
+        "value": {
+            "human_name": "Кабельный инструмент",
+            "url_name": "kabelnyi-instrument",
+            "link": "https://www.citilink.ru/catalog/kabelnyi-instrument/",
+            "img_link": "https://category-images.s1.citilink.ru/c5bd9f6c-2f4e-40cb-b417-7d4f5c151f4f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Серверы",
+            "url_name": "servery",
+            "link": "https://www.citilink.ru/catalog/servery/",
+            "img_link": "https://category-images.s1.citilink.ru/4da98cd7-9565-458a-894f-da40135545f0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Процессоры для серверов",
+            "url_name": "processory-dlya-serverov",
+            "link": "https://www.citilink.ru/catalog/processory-dlya-serverov/",
+            "img_link": "https://category-images.s1.citilink.ru/bce7c8bf-825f-4598-896c-cf63e3962e13.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Память для серверов",
+            "url_name": "pamyat-dlya-serverov",
+            "link": "https://www.citilink.ru/catalog/pamyat-dlya-serverov/",
+            "img_link": "https://category-images.s1.citilink.ru/081da111-fc25-4df4-b61b-2ad717578966.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Материнские платы для серверов",
+            "url_name": "materinskie-platy-dlya-serverov",
+            "link": "https://www.citilink.ru/catalog/materinskie-platy-dlya-serverov/",
+            "img_link": "https://category-images.s1.citilink.ru/3e324e62-b419-4ee1-9624-f72672f7d657.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Жесткие диски для серверов",
+            "url_name": "zhestkie-diski-dlya-serverov",
+            "link": "https://www.citilink.ru/catalog/zhestkie-diski-dlya-serverov/",
+            "img_link": "https://category-images.s1.citilink.ru/7304e8e5-cc4a-4598-805d-17542091438e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Корпуса для серверов",
+            "url_name": "korpusa-dlya-serverov",
+            "link": "https://www.citilink.ru/catalog/korpusa-dlya-serverov/",
+            "img_link": "https://category-images.s1.citilink.ru/77656638-a862-4b9f-8d9e-a7f9a87bf5f9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Системы хранения информации",
+            "url_name": "sistemy-hraneniya-informacii",
+            "link": "https://www.citilink.ru/catalog/sistemy-hraneniya-informacii/",
+            "img_link": "https://category-images.s1.citilink.ru/4225939c-bc00-4a03-8296-4a1805d9826b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Контроллеры, адаптеры, модули",
+            "url_name": "kontrollery-adaptery-moduli",
+            "link": "https://www.citilink.ru/catalog/kontrollery-adaptery-moduli/",
+            "img_link": "https://category-images.s1.citilink.ru/b8e74a42-dfd6-4ce1-a869-6825235703e7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Монтажные комплекты, ЗИП",
+            "url_name": "montazhnye-komplekty-zip",
+            "link": "https://www.citilink.ru/catalog/montazhnye-komplekty-zip/",
+            "img_link": "https://category-images.s1.citilink.ru/e8ecd631-32c0-49d4-b37c-7dc5f7d83abb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "ПО, лицензии, документация",
+            "url_name": "po-licenzii-dokumentaciya",
+            "link": "https://www.citilink.ru/catalog/po-licenzii-dokumentaciya/",
+            "img_link": "https://category-images.s1.citilink.ru/5f2ea518-64f3-4941-a279-176f87767f2b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Специализированный кабель",
+            "url_name": "specializirovannyi-kabel",
+            "link": "https://www.citilink.ru/catalog/specializirovannyi-kabel/",
+            "img_link": "https://category-images.s1.citilink.ru/3454dd8c-c09c-4243-b538-30a4d5ea25cb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Питание и охлаждение",
+            "url_name": "pitanie-i-ohlazhdenie",
+            "link": "https://www.citilink.ru/catalog/pitanie-i-ohlazhdenie/",
+            "img_link": "https://category-images.s1.citilink.ru/e0d6e4f4-7aea-442a-8eaf-0c598e89f44a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "servery-i-shd",
+        "value": {
+            "human_name": "Шкафы серверные",
+            "url_name": "shkafy-servernye",
+            "link": "https://www.citilink.ru/catalog/shkafy-servernye/",
+            "img_link": "https://category-images.s1.citilink.ru/90d07298-e8d4-4289-9efb-8f78ae8c8a8b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "programmnoe-obespechenie",
+        "value": {
+            "human_name": "Операционные системы",
+            "url_name": "operacionnye-sistemy",
+            "link": "https://www.citilink.ru/catalog/operacionnye-sistemy/",
+            "img_link": "https://category-images.s1.citilink.ru/81d6e8d6-c456-47ce-89d2-8090dced6763.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "programmnoe-obespechenie",
+        "value": {
+            "human_name": "Офисные приложения",
+            "url_name": "ofisnye-prilozheniya",
+            "link": "https://www.citilink.ru/catalog/ofisnye-prilozheniya/",
+            "img_link": "https://category-images.s1.citilink.ru/00d33fd8-8b90-48f8-bb1a-46b104e1d1af.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "programmnoe-obespechenie",
+        "value": {
+            "human_name": "Антивирусы",
+            "url_name": "antivirusy",
+            "link": "https://www.citilink.ru/catalog/antivirusy/",
+            "img_link": "https://category-images.s1.citilink.ru/35e96659-84d4-44a9-8532-0ed0f9726f48.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "programmnoe-obespechenie",
+        "value": {
+            "human_name": "Утилиты",
+            "url_name": "utility",
+            "link": "https://www.citilink.ru/catalog/utility/",
+            "img_link": "https://category-images.s1.citilink.ru/e18a821a-9520-4991-ab9b-0a03f0278f59.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Кабели для ПК и ноутбуков",
+            "url_name": "kabeli-perehodniki",
+            "link": "https://www.citilink.ru/catalog/kabeli-perehodniki/",
+            "img_link": "https://category-images.s1.citilink.ru/8e841371-1a0a-4adf-bbcf-981e080cf19f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Чистящие средства",
+            "url_name": "chistyaschie-sredstva",
+            "link": "https://www.citilink.ru/catalog/chistyaschie-sredstva/",
+            "img_link": "https://category-images.s1.citilink.ru/cb9543d5-ba9d-4fe0-af7c-fd222c878574.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Сумки для ноутбуков",
+            "url_name": "sumki-dlya-noutbukov",
+            "link": "https://www.citilink.ru/catalog/sumki-dlya-noutbukov/",
+            "img_link": "https://category-images.s1.citilink.ru/d8448753-ec12-4a14-9426-44da493e5c0b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Чехлы для ноутбуков",
+            "url_name": "chehly-dlya-noutbukov",
+            "link": "https://www.citilink.ru/catalog/chehly-dlya-noutbukov/",
+            "img_link": "https://category-images.s1.citilink.ru/e5589d17-9054-4e59-a72d-336c7105a451.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Батареи для ноутбуков",
+            "url_name": "batarei-dlya-noutbukov",
+            "link": "https://www.citilink.ru/catalog/batarei-dlya-noutbukov/",
+            "img_link": "https://category-images.s1.citilink.ru/80e75549-8f74-4b78-946a-db7e4582e2ee.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Подставки для ноутбуков",
+            "url_name": "podstavki-dlya-noutbukov",
+            "link": "https://www.citilink.ru/catalog/podstavki-dlya-noutbukov/",
+            "img_link": "https://category-images.s1.citilink.ru/02f3df92-d2e5-48eb-b6c5-92587229bbee.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Адаптеры питания для ноутбуков",
+            "url_name": "adaptery-pitaniya-dlya-noutbukov",
+            "link": "https://www.citilink.ru/catalog/adaptery-pitaniya-dlya-noutbukov/",
+            "img_link": "https://category-images.s1.citilink.ru/713361dd-6e12-4ca6-b545-1387d3ec69c5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Док-станции",
+            "url_name": "dok-stancii",
+            "link": "https://www.citilink.ru/catalog/dok-stancii/",
+            "img_link": "https://category-images.s1.citilink.ru/092c8f40-e184-47ea-9d3d-65bfa76ec029.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Опции и принадлежности",
+            "url_name": "opcii-i-prinadlezhnosti",
+            "link": "https://www.citilink.ru/catalog/opcii-i-prinadlezhnosti/",
+            "img_link": "https://category-images.s1.citilink.ru/d6aa7348-2664-442f-9e3b-71bb84766cff.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Наклейки для клавиатуры",
+            "url_name": "nakleiki-dlya-klaviatury",
+            "link": "https://www.citilink.ru/catalog/nakleiki-dlya-klaviatury/",
+            "img_link": "https://category-images.s1.citilink.ru/448dfcd5-62d2-449e-8cd8-5cbe9d0fbd51.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-noutbukov-i-pk",
+        "value": {
+            "human_name": "Рюкзаки для ноутбуков",
+            "url_name": "ryukzaki--ryukzaki-dlya-noutbukov-mainmenu",
+            "link": "https://www.citilink.ru/catalog/ryukzaki--ryukzaki-dlya-noutbukov-mainmenu/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1740_1664549574.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "platformy",
+        "value": {
+            "human_name": "Серверные платформы",
+            "url_name": "servernye-platformy",
+            "link": "https://www.citilink.ru/catalog/servernye-platformy/",
+            "img_link": "https://category-images.s1.citilink.ru/f8006f85-0f32-49b9-b238-c9833924c0b2.jpg",
+            "is_product_page": true
+        }
+    }
+]

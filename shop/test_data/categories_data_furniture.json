@@ -1,0 +1,1652 @@
+[
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Готовые решения",
+            "url_name": "gotovye-resheniya",
+            "link": "https://www.citilink.ru/catalog/gotovye-resheniya/",
+            "img_link": "https://category-images.s1.citilink.ru/d0160b5c-73c4-4676-b8ca-b7e51b3a000e.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Мебель офисная",
+            "url_name": "mebel",
+            "link": "https://www.citilink.ru/catalog/mebel/",
+            "img_link": "https://category-images.s1.citilink.ru/184e4cd8-6bea-41bc-99cc-a512eb4609d1.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Аксессуары для мебели и интерьера",
+            "url_name": "aksessuary-dlya-mebeli-i-interera",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-mebeli-i-interera/",
+            "img_link": "https://category-images.s1.citilink.ru/40cb15ae-27d9-4fbe-a2f6-4d9d87d469b2.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Конференц-связь и call-центры",
+            "url_name": "konferenc-svyaz-i-call-centry",
+            "link": "https://www.citilink.ru/catalog/konferenc-svyaz-i-call-centry/",
+            "img_link": "https://category-images.s1.citilink.ru/33bd25cd-d4df-4f94-bfe1-4748c00e2230.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Торговое и банковское оборудование",
+            "url_name": "torgovoe-i-bankovskoe-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/torgovoe-i-bankovskoe-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/10995531-bff6-4a60-88f5-b60300e9ab8a.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Офисная техника",
+            "url_name": "ofisnaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/ofisnaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/2b4c5833-83cd-4fc7-bfe8-f08634bda5b6.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Запчасти для оргтехники",
+            "url_name": "zapchasti-dlya-orgtehniki",
+            "link": "https://www.citilink.ru/catalog/zapchasti-dlya-orgtehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/e6e46acd-90a7-44d3-86f8-dd8b7f8ff9af.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Расходные материалы для оргтехники",
+            "url_name": "rashodnye-materialy-dlya-orgtehniki",
+            "link": "https://www.citilink.ru/catalog/rashodnye-materialy-dlya-orgtehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/d8a8ed44-ee91-4dfe-83ec-dd63c4f4981b.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Папки, файлы, системы архивации",
+            "url_name": "papki-faily-sistemy-arhivacii",
+            "link": "https://www.citilink.ru/catalog/papki-faily-sistemy-arhivacii/",
+            "img_link": "https://category-images.s1.citilink.ru/30b00eca-160a-4442-8620-fdb4163d412a.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Офисная канцелярия",
+            "url_name": "ofisnaya-kancelyariya",
+            "link": "https://www.citilink.ru/catalog/ofisnaya-kancelyariya/",
+            "img_link": "https://category-images.s1.citilink.ru/9ff7080e-cabc-49b7-91ea-6b23bba7d03e.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Письменные принадлежности",
+            "url_name": "pismennye-prinadlezhnosti",
+            "link": "https://www.citilink.ru/catalog/pismennye-prinadlezhnosti/",
+            "img_link": "https://category-images.s1.citilink.ru/e2e83ab2-5574-4e87-8eb0-4518a10d26e1.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Изделия из бумаги",
+            "url_name": "izdeliya-iz-bumagi",
+            "link": "https://www.citilink.ru/catalog/izdeliya-iz-bumagi/",
+            "img_link": "https://category-images.s1.citilink.ru/0ccad5fb-a1be-4885-8752-a646e5f2bb25.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Демонстрационное оборудование",
+            "url_name": "demonstracionnoe-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/demonstracionnoe-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/c75d982d-be60-4256-90ab-0fae1143acbd.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Интерактивные доски",
+            "url_name": "interaktivnye-doski",
+            "link": "https://www.citilink.ru/catalog/interaktivnye-doski/",
+            "img_link": "https://category-images.s1.citilink.ru/3c1617f4-a01a-47cb-b37b-7bc517093243.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Телефония",
+            "url_name": "telefoniya",
+            "link": "https://www.citilink.ru/catalog/telefoniya/",
+            "img_link": "https://category-images.s1.citilink.ru/e72ba09e-2371-422a-9500-54f93cb419c3.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Кожгалантерея",
+            "url_name": "kozhgalantereya",
+            "link": "https://www.citilink.ru/catalog/kozhgalantereya/",
+            "img_link": "https://category-images.s1.citilink.ru/9a426f58-df64-408b-bab7-ce31dabac72c.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Офисная эргономика",
+            "url_name": "ofisnaya-ergonomika",
+            "link": "https://www.citilink.ru/catalog/ofisnaya-ergonomika/",
+            "img_link": "https://category-images.s1.citilink.ru/6f2444fd-54ff-41e5-bc0a-910c2928e62f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Калькуляторы",
+            "url_name": "kalkulyatory",
+            "link": "https://www.citilink.ru/catalog/kalkulyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/467d918c-dc75-4f19-837d-9afa13dac554.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Ножи и аксессуары",
+            "url_name": "nozhi-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/nozhi-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/7b422a53-f382-45f9-b3be-9ad30d9f36d3.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "furniture",
+        "value": {
+            "human_name": "Товары для художников",
+            "url_name": "tovary-dlya-hudozhnikov",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-hudozhnikov/",
+            "img_link": "https://category-images.s1.citilink.ru/5aeed772-567b-439e-9d12-15b6fff28010.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Тумбы",
+            "url_name": "tumby",
+            "link": "https://www.citilink.ru/catalog/tumby/",
+            "img_link": "https://category-images.s1.citilink.ru/8ce580e5-4c8a-412b-be57-d3110086e6bb.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Полки",
+            "url_name": "polki",
+            "link": "https://www.citilink.ru/catalog/polki/",
+            "img_link": "https://category-images.s1.citilink.ru/123a8298-2fad-46b1-9161-29d091c503c7.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Офисные кресла",
+            "url_name": "kresla-i-stulya",
+            "link": "https://www.citilink.ru/catalog/kresla-i-stulya/",
+            "img_link": "https://category-images.s1.citilink.ru/acd44977-6ed2-4460-bf92-c9cda8676cd7.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Компьютерные столы",
+            "url_name": "kompyuternye-stoly",
+            "link": "https://www.citilink.ru/catalog/kompyuternye-stoly/",
+            "img_link": "https://category-images.s1.citilink.ru/1b7c8e1f-31ad-4905-a8aa-1ac7dd662191.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Шкафы",
+            "url_name": "shkafy",
+            "link": "https://www.citilink.ru/catalog/shkafy/",
+            "img_link": "https://category-images.s1.citilink.ru/2e50db7a-9986-47b0-9db4-c527a6fd0ffe.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Стеллажи",
+            "url_name": "stellazhi",
+            "link": "https://www.citilink.ru/catalog/stellazhi/",
+            "img_link": "https://category-images.s1.citilink.ru/5cb9fb4e-56f1-480c-935e-e61603d8acae.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Комплекты мебели",
+            "url_name": "komplekty-mebeli",
+            "link": "https://www.citilink.ru/catalog/komplekty-mebeli/",
+            "img_link": "https://category-images.s1.citilink.ru/b5086e4f-07dd-446f-a490-a37790c03323.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Обувницы",
+            "url_name": "obuvnicy",
+            "link": "https://www.citilink.ru/catalog/obuvnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/f61176ab-db6d-42a0-9fbb-8d25fe0fd993.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Кресло руководителя",
+            "url_name": "kresla-i-stulya--rukovoditelya",
+            "link": "https://www.citilink.ru/catalog/kresla-i-stulya--rukovoditelya/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_509_1670323699.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel",
+        "value": {
+            "human_name": "Офисные стулья",
+            "url_name": "stulya--ofisnye-s",
+            "link": "https://www.citilink.ru/catalog/stulya--ofisnye-s/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1747_1670323738.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-mebeli-i-interera",
+        "value": {
+            "human_name": "Офисная эргономика",
+            "url_name": "ofisnaya-ergonomika",
+            "link": "https://www.citilink.ru/catalog/ofisnaya-ergonomika/",
+            "img_link": "https://category-images.s1.citilink.ru/43640f52-5e1e-4f96-870e-518b65d1b6e7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-mebeli-i-interera",
+        "value": {
+            "human_name": "Коврики под кресло",
+            "url_name": "kovriki-pod-kreslo",
+            "link": "https://www.citilink.ru/catalog/kovriki-pod-kreslo/",
+            "img_link": "https://category-images.s1.citilink.ru/0a2f189f-e70b-48f1-a513-b0c31785a82d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-mebeli-i-interera",
+        "value": {
+            "human_name": "Вешалки",
+            "url_name": "veshalki",
+            "link": "https://www.citilink.ru/catalog/veshalki/",
+            "img_link": "https://category-images.s1.citilink.ru/3f55d426-bc22-4804-b8a6-593fff497c62.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-mebeli-i-interera",
+        "value": {
+            "human_name": "Настенные часы",
+            "url_name": "nastennye-chasy",
+            "link": "https://www.citilink.ru/catalog/nastennye-chasy/",
+            "img_link": "https://category-images.s1.citilink.ru/bcdd49f5-65d4-4c80-9c1d-2846a8b0091e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "aksessuary-dlya-mebeli-i-interera",
+        "value": {
+            "human_name": "Аксессуары для кресел",
+            "url_name": "aksessuary-dlya-kresel",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-kresel/",
+            "img_link": "https://category-images.s1.citilink.ru/ba794b10-2a0b-469b-9321-bd2f25154a83.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "konferenc-svyaz-i-call-centry",
+        "value": {
+            "human_name": "Микрофоны для конференций",
+            "url_name": "mikrofony-dlya-konferencii",
+            "link": "https://www.citilink.ru/catalog/mikrofony-dlya-konferencii/",
+            "img_link": "https://category-images.s1.citilink.ru/0872aaf0-4b9e-4f33-9b56-6062edd9a0fe.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "konferenc-svyaz-i-call-centry",
+        "value": {
+            "human_name": "Веб-камеры для конференций",
+            "url_name": "veb-kamery-dlya-konferencii",
+            "link": "https://www.citilink.ru/catalog/veb-kamery-dlya-konferencii/",
+            "img_link": "https://category-images.s1.citilink.ru/3c2ac9e3-0747-4f66-b3ec-d6a2bee8223c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "konferenc-svyaz-i-call-centry",
+        "value": {
+            "human_name": "Презентеры",
+            "url_name": "prezentery",
+            "link": "https://www.citilink.ru/catalog/prezentery/",
+            "img_link": "https://category-images.s1.citilink.ru/41c1eda9-ca8c-414a-96b2-b53d25e59fae.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "konferenc-svyaz-i-call-centry",
+        "value": {
+            "human_name": "Наушники для колл-центров",
+            "url_name": "naushniki-dlya-koll-centrov",
+            "link": "https://www.citilink.ru/catalog/naushniki-dlya-koll-centrov/",
+            "img_link": "https://category-images.s1.citilink.ru/8628160f-5aa8-4b70-b737-2a122bce3982.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Принтеры для печати наклеек",
+            "url_name": "printery-dlya-pechati-nakleek",
+            "link": "https://www.citilink.ru/catalog/printery-dlya-pechati-nakleek/",
+            "img_link": "https://category-images.s1.citilink.ru/827ce889-51fe-4f63-bbfb-9bb3582feb53.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Сканеры штрих-кода",
+            "url_name": "skanery-shtrih-koda",
+            "link": "https://www.citilink.ru/catalog/skanery-shtrih-koda/",
+            "img_link": "https://category-images.s1.citilink.ru/3d883348-037e-467f-b145-1de446a3cd5a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Терминалы сбора данных",
+            "url_name": "terminaly-sbora-dannyh",
+            "link": "https://www.citilink.ru/catalog/terminaly-sbora-dannyh/",
+            "img_link": "https://category-images.s1.citilink.ru/9aee9fc6-6fc7-41a3-b5a8-6b9898cbdee4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Этикет-пистолеты",
+            "url_name": "etiket-pistolety",
+            "link": "https://www.citilink.ru/catalog/etiket-pistolety/",
+            "img_link": "https://category-images.s1.citilink.ru/9c0dc008-e4d0-4aed-9717-49f977e716f9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Бланки бухгалтерские и кассовая лента",
+            "url_name": "blanki-buhgalterskie-i-kassovaya-lenta",
+            "link": "https://www.citilink.ru/catalog/blanki-buhgalterskie-i-kassovaya-lenta/",
+            "img_link": "https://category-images.s1.citilink.ru/7cd78dcc-a6a4-44b2-8edb-f9e4cdec6540.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Сейфы",
+            "url_name": "seify",
+            "link": "https://www.citilink.ru/catalog/seify/",
+            "img_link": "https://category-images.s1.citilink.ru/3d84776d-04b8-442d-8b52-403857a6589b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Детекторы банкнот",
+            "url_name": "detektory-banknot",
+            "link": "https://www.citilink.ru/catalog/detektory-banknot/",
+            "img_link": "https://category-images.s1.citilink.ru/33b9983e-d00d-4580-805f-5fa1a8aed582.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Счетчики банкнот",
+            "url_name": "schetchiki-banknot",
+            "link": "https://www.citilink.ru/catalog/schetchiki-banknot/",
+            "img_link": "https://category-images.s1.citilink.ru/0e14a39e-795f-411e-90ff-1f31091b5beb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Контрольно-кассовая техника",
+            "url_name": "kontrolno-kassovaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/kontrolno-kassovaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/8d0d527d-676e-4eba-916f-e0bb485df571.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Весы для магазинов",
+            "url_name": "vesy-dlya-magazinov",
+            "link": "https://www.citilink.ru/catalog/vesy-dlya-magazinov/",
+            "img_link": "https://category-images.s1.citilink.ru/53c27222-0021-4e98-9b4b-cde0a5c2a2a9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Аксессуары для торгового оборудования",
+            "url_name": "aksessuary-dlya-torgovogo-oborudovaniya",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-torgovogo-oborudovaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/2c5eb239-d190-48cf-8399-6c36affcf458.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Инкассация и опломбирование",
+            "url_name": "inkassaciya-i-oplombirovanie",
+            "link": "https://www.citilink.ru/catalog/inkassaciya-i-oplombirovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/e0111d3d-d40a-4ca2-bfec-c3c9e5694780.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "torgovoe-i-bankovskoe-oborudovanie",
+        "value": {
+            "human_name": "Дисплеи QR-кодов",
+            "url_name": "displei-qr-kodov",
+            "link": "https://www.citilink.ru/catalog/displei-qr-kodov/",
+            "img_link": "https://category-images.s1.citilink.ru/0d81216c-1438-4c65-a0c4-468bbb84fde6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Принтеры",
+            "url_name": "printery-lazernye",
+            "link": "https://www.citilink.ru/catalog/printery-lazernye/",
+            "img_link": "https://category-images.s1.citilink.ru/d2ea1673-7556-4eba-8d9a-a46f3e5ca238.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "МФУ струйные",
+            "url_name": "mfu-struinye",
+            "link": "https://www.citilink.ru/catalog/mfu-struinye/",
+            "img_link": "https://category-images.s1.citilink.ru/6e947623-c870-4893-a1d2-22ccee5ea53e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "МФУ лазерные",
+            "url_name": "mfu-lazernye",
+            "link": "https://www.citilink.ru/catalog/mfu-lazernye/",
+            "img_link": "https://category-images.s1.citilink.ru/8fad6c65-be92-48a6-a6a9-a60f976199a8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Плоттеры",
+            "url_name": "plottery",
+            "link": "https://www.citilink.ru/catalog/plottery/",
+            "img_link": "https://category-images.s1.citilink.ru/08a1888e-0953-420f-9a41-fdb3857fc1f2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Копиры",
+            "url_name": "kopiry",
+            "link": "https://www.citilink.ru/catalog/kopiry/",
+            "img_link": "https://category-images.s1.citilink.ru/43f8d450-2827-4053-9f01-b04ca58a1a53.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Сканеры",
+            "url_name": "skanery",
+            "link": "https://www.citilink.ru/catalog/skanery/",
+            "img_link": "https://category-images.s1.citilink.ru/f28c6166-e3ad-49eb-8da4-edfb7eacf99d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Проекторы",
+            "url_name": "proektory",
+            "link": "https://www.citilink.ru/catalog/proektory/",
+            "img_link": "https://category-images.s1.citilink.ru/0ade82bd-0cff-4168-8a90-7ecad3973664.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Уничтожители бумаг",
+            "url_name": "unichtozhiteli-bumag",
+            "link": "https://www.citilink.ru/catalog/unichtozhiteli-bumag/",
+            "img_link": "https://category-images.s1.citilink.ru/c32e98fa-8726-4689-9bf7-b5f0b5463322.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Ламинаторы",
+            "url_name": "laminatory",
+            "link": "https://www.citilink.ru/catalog/laminatory/",
+            "img_link": "https://category-images.s1.citilink.ru/172fdecc-701d-47c2-8f33-ee68514789ba.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Переплетчики",
+            "url_name": "perepletchiki",
+            "link": "https://www.citilink.ru/catalog/perepletchiki/",
+            "img_link": "https://category-images.s1.citilink.ru/17354116-1a75-48b4-8545-70702f1d3c41.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Резаки",
+            "url_name": "rezaki",
+            "link": "https://www.citilink.ru/catalog/rezaki/",
+            "img_link": "https://category-images.s1.citilink.ru/e95531db-4328-4c29-ab60-aa022564df41.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-tehnika",
+        "value": {
+            "human_name": "Офисная эргономика",
+            "url_name": "ofisnaya-ergonomika",
+            "link": "https://www.citilink.ru/catalog/ofisnaya-ergonomika/",
+            "img_link": "https://category-images.s1.citilink.ru/d85b0a9a-8076-49f7-b5f3-156450711287.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Картриджи",
+            "url_name": "kartridzhi",
+            "link": "https://www.citilink.ru/catalog/kartridzhi/",
+            "img_link": "https://category-images.s1.citilink.ru/709ef092-36a5-4a08-b392-fb69941accd9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Тонеры",
+            "url_name": "tonery",
+            "link": "https://www.citilink.ru/catalog/tonery/",
+            "img_link": "https://category-images.s1.citilink.ru/11810f8e-1c3b-4382-b133-da8f9e9eddf3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Фотобарабаны",
+            "url_name": "fotobarabany",
+            "link": "https://www.citilink.ru/catalog/fotobarabany/",
+            "img_link": "https://category-images.s1.citilink.ru/1882a878-6384-4e20-9f88-c2de44ddb4ea.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Бумага",
+            "url_name": "bumaga",
+            "link": "https://www.citilink.ru/catalog/bumaga/",
+            "img_link": "https://category-images.s1.citilink.ru/188bd903-8a8c-4d6e-964a-5d6825683c69.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Термопленки",
+            "url_name": "termoplenki",
+            "link": "https://www.citilink.ru/catalog/termoplenki/",
+            "img_link": "https://category-images.s1.citilink.ru/0d9889ee-eaee-4c50-85e2-5bb66ec22bf2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Чернила",
+            "url_name": "chernila",
+            "link": "https://www.citilink.ru/catalog/chernila/",
+            "img_link": "https://category-images.s1.citilink.ru/8d60bf19-5892-4a82-9eac-2d39518da237.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Опции для копиров",
+            "url_name": "opcii-dlya-kopirov",
+            "link": "https://www.citilink.ru/catalog/opcii-dlya-kopirov/",
+            "img_link": "https://category-images.s1.citilink.ru/449f91c2-f9aa-46ed-abc3-ab71bf09791d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Пленки для ламинирования",
+            "url_name": "aksessuary-dlya-laminatorov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-laminatorov/",
+            "img_link": "https://category-images.s1.citilink.ru/333526fd-2db3-4c4b-96a4-431e7cd548db.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Аксессуары для переплетчиков",
+            "url_name": "aksessuary-dlya-perepletchikov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-perepletchikov/",
+            "img_link": "https://category-images.s1.citilink.ru/bb1cc5bd-527d-4d63-a3c6-122086fb6965.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "rashodnye-materialy-dlya-orgtehniki",
+        "value": {
+            "human_name": "Аксессуары для резаков",
+            "url_name": "aksessuary-dlya-rezakov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-rezakov/",
+            "img_link": "https://category-images.s1.citilink.ru/6161ead9-90a6-48d0-992b-3e74b8af2d85.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Короба архивные",
+            "url_name": "koroba-arhivnye",
+            "link": "https://www.citilink.ru/catalog/koroba-arhivnye/",
+            "img_link": "https://category-images.s1.citilink.ru/55b31dce-08a1-44bb-b71e-3e348c24064e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Аксессуары для архивации",
+            "url_name": "aksessuary-dlya-arhivacii",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-arhivacii/",
+            "img_link": "https://category-images.s1.citilink.ru/ed8bd84d-e37f-4ba3-a103-16e6d0bc572e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Разделители индексные",
+            "url_name": "razdeliteli-indeksnye",
+            "link": "https://www.citilink.ru/catalog/razdeliteli-indeksnye/",
+            "img_link": "https://category-images.s1.citilink.ru/230600dc-338f-4811-82d2-8393c25c4d26.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки Дело",
+            "url_name": "papki-delo",
+            "link": "https://www.citilink.ru/catalog/papki-delo/",
+            "img_link": "https://category-images.s1.citilink.ru/0142fbb3-3090-439e-a2ee-d36756c869ec.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки с арочным механизмом",
+            "url_name": "papki-s-arochnym-mehanizmom",
+            "link": "https://www.citilink.ru/catalog/papki-s-arochnym-mehanizmom/",
+            "img_link": "https://category-images.s1.citilink.ru/b27f36e5-dbaf-4345-8fcf-72f27f98bbab.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки с клипом",
+            "url_name": "papki-s-klipom",
+            "link": "https://www.citilink.ru/catalog/papki-s-klipom/",
+            "img_link": "https://category-images.s1.citilink.ru/9142e14b-d6a9-4903-93bb-b27ec6262fe9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки-уголки",
+            "url_name": "papki-ugolki",
+            "link": "https://www.citilink.ru/catalog/papki-ugolki/",
+            "img_link": "https://category-images.s1.citilink.ru/7b55c6e2-fbd1-4971-8b43-4362989730fc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки-портфели",
+            "url_name": "papki-portfeli",
+            "link": "https://www.citilink.ru/catalog/papki-portfeli/",
+            "img_link": "https://category-images.s1.citilink.ru/f01e8fe7-de3f-4571-b6b2-53dd0dca4e57.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки на кнопке",
+            "url_name": "papki-na-knopke",
+            "link": "https://www.citilink.ru/catalog/papki-na-knopke/",
+            "img_link": "https://category-images.s1.citilink.ru/91c3c433-32d5-46c0-951b-743a94574fac.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки-скоросшиватели",
+            "url_name": "papki-skorosshivateli",
+            "link": "https://www.citilink.ru/catalog/papki-skorosshivateli/",
+            "img_link": "https://category-images.s1.citilink.ru/6036824e-2a51-495b-ad73-371c55d8ebda.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки на кольцах",
+            "url_name": "papki-na-kolcah",
+            "link": "https://www.citilink.ru/catalog/papki-na-kolcah/",
+            "img_link": "https://category-images.s1.citilink.ru/34364b9a-ae96-477b-b22e-8335208731e7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки на молнии",
+            "url_name": "papki-na-molnii",
+            "link": "https://www.citilink.ru/catalog/papki-na-molnii/",
+            "img_link": "https://category-images.s1.citilink.ru/7b27bc7e-d3d0-4fd1-b0bc-592368e58e2b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки на резинке",
+            "url_name": "papki-na-rezinke",
+            "link": "https://www.citilink.ru/catalog/papki-na-rezinke/",
+            "img_link": "https://category-images.s1.citilink.ru/6307321d-6d37-46f7-97cb-564936b98fc5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки с зажимом",
+            "url_name": "papki-s-zazhimom",
+            "link": "https://www.citilink.ru/catalog/papki-s-zazhimom/",
+            "img_link": "https://category-images.s1.citilink.ru/50b22f2b-8524-4ffe-ad5c-7adeb7140020.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки с прозрачными вкладышами",
+            "url_name": "papki-s-prozrachnymi-vkladyshami",
+            "link": "https://www.citilink.ru/catalog/papki-s-prozrachnymi-vkladyshami/",
+            "img_link": "https://category-images.s1.citilink.ru/4c6da97e-2dcf-4dcc-8d76-e0c8907bfd27.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки-планшеты",
+            "url_name": "papki-planshety",
+            "link": "https://www.citilink.ru/catalog/papki-planshety/",
+            "img_link": "https://category-images.s1.citilink.ru/34f1cb8d-0df4-4d3f-ac16-a566018fe389.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Файлы для бумаги",
+            "url_name": "faily-dlya-bumagi",
+            "link": "https://www.citilink.ru/catalog/faily-dlya-bumagi/",
+            "img_link": "https://category-images.s1.citilink.ru/9ff32d07-074b-4805-8edd-3d3a8a359cf9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "papki-faily-sistemy-arhivacii",
+        "value": {
+            "human_name": "Папки адресные",
+            "url_name": "papki-adresnye",
+            "link": "https://www.citilink.ru/catalog/papki-adresnye/",
+            "img_link": "https://category-images.s1.citilink.ru/1faa2174-b75f-4d7e-a9ff-c1dc00366e4a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Настольные наборы",
+            "url_name": "nastolnye-nabory",
+            "link": "https://www.citilink.ru/catalog/nastolnye-nabory/",
+            "img_link": "https://category-images.s1.citilink.ru/48e0e3d9-b068-48b1-8e0b-d3903e573591.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Штемпельная продукция",
+            "url_name": "shtempelnaya-produkciya",
+            "link": "https://www.citilink.ru/catalog/shtempelnaya-produkciya/",
+            "img_link": "https://category-images.s1.citilink.ru/78e31ac7-9be9-4dac-b01d-f6edc811b884.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Дыроколы",
+            "url_name": "dyrokoly",
+            "link": "https://www.citilink.ru/catalog/dyrokoly/",
+            "img_link": "https://category-images.s1.citilink.ru/bf073857-8507-47a2-8f5d-e2672bf2a422.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Степлеры",
+            "url_name": "steplery",
+            "link": "https://www.citilink.ru/catalog/steplery/",
+            "img_link": "https://category-images.s1.citilink.ru/42ca79dc-9d9c-4634-97a8-04648c7feb51.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Скобы для степлера",
+            "url_name": "skoby-dlya-steplera",
+            "link": "https://www.citilink.ru/catalog/skoby-dlya-steplera/",
+            "img_link": "https://category-images.s1.citilink.ru/9d1a76bd-70a7-4c89-90c7-255fba729f00.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Визитницы",
+            "url_name": "vizitnicy",
+            "link": "https://www.citilink.ru/catalog/vizitnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/ece0279f-8794-4cc0-a7ae-cabc3c379f33.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Корзины для бумаг",
+            "url_name": "korziny-dlya-bumag",
+            "link": "https://www.citilink.ru/catalog/korziny-dlya-bumag/",
+            "img_link": "https://category-images.s1.citilink.ru/4f6b4fdf-ecac-4a93-badb-1f11bb2dc01d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Настольные покрытия",
+            "url_name": "nastolnye-pokrytiya",
+            "link": "https://www.citilink.ru/catalog/nastolnye-pokrytiya/",
+            "img_link": "https://category-images.s1.citilink.ru/05f184e1-1c03-42ba-a564-145c133a14aa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Ножницы и канцелярские ножи",
+            "url_name": "nozhnicy-i-kancelyarskie-nozhi",
+            "link": "https://www.citilink.ru/catalog/nozhnicy-i-kancelyarskie-nozhi/",
+            "img_link": "https://category-images.s1.citilink.ru/89a598a4-cd13-4823-96b5-778102964145.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Бейджи и аксессуары",
+            "url_name": "beidzhi-i-aksessuary",
+            "link": "https://www.citilink.ru/catalog/beidzhi-i-aksessuary/",
+            "img_link": "https://category-images.s1.citilink.ru/023a693a-b26a-4366-a41e-58cc3d349eb9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Клейкая лента",
+            "url_name": "kleikaya-lenta",
+            "link": "https://www.citilink.ru/catalog/kleikaya-lenta/",
+            "img_link": "https://category-images.s1.citilink.ru/2cce70b2-00d0-47f1-9216-fa221002d56a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Канцелярские мелочи",
+            "url_name": "kancelyarskie-melochi",
+            "link": "https://www.citilink.ru/catalog/kancelyarskie-melochi/",
+            "img_link": "https://category-images.s1.citilink.ru/b9757761-db02-4c5d-87e2-cfcc7a8f6915.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Лотки и подставки",
+            "url_name": "lotki-i-podstavki",
+            "link": "https://www.citilink.ru/catalog/lotki-i-podstavki/",
+            "img_link": "https://category-images.s1.citilink.ru/2ef1734d-798c-4f09-b6e8-6dcdcee3650f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Клей канцелярский",
+            "url_name": "klei-kancelyarskii",
+            "link": "https://www.citilink.ru/catalog/klei-kancelyarskii/",
+            "img_link": "https://category-images.s1.citilink.ru/8127611a-d802-4dbf-a2d9-e58483770479.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Штрих-корректоры",
+            "url_name": "shtrih-korrektory",
+            "link": "https://www.citilink.ru/catalog/shtrih-korrektory/",
+            "img_link": "https://category-images.s1.citilink.ru/15932147-9826-4301-b53b-a990d6f9ea07.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Резинки для денег",
+            "url_name": "rezinki-dlya-deneg",
+            "link": "https://www.citilink.ru/catalog/rezinki-dlya-deneg/",
+            "img_link": "https://category-images.s1.citilink.ru/ba9e864a-bf8d-4779-9273-8e45de2bcf78.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Шкафчики и брелоки для ключей",
+            "url_name": "shkafchiki-i-breloki-dlya-klyuchei",
+            "link": "https://www.citilink.ru/catalog/shkafchiki-i-breloki-dlya-klyuchei/",
+            "img_link": "https://category-images.s1.citilink.ru/e04ecef9-b47b-4645-8358-aa8e317b7114.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Скрепки, кнопки, зажимы",
+            "url_name": "skrepki-knopki-zazhimy",
+            "link": "https://www.citilink.ru/catalog/skrepki-knopki-zazhimy/",
+            "img_link": "https://category-images.s1.citilink.ru/10ed2e4f-b025-444a-a64b-b2eb61c8f781.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Рамки для сертификатов и дипломов",
+            "url_name": "ramki-dlya-sertifikatov-i-diplomov",
+            "link": "https://www.citilink.ru/catalog/ramki-dlya-sertifikatov-i-diplomov/",
+            "img_link": "https://category-images.s1.citilink.ru/440ba385-28bb-4051-bbbe-9e2ad6da2db5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ofisnaya-kancelyariya",
+        "value": {
+            "human_name": "Калькуляторы",
+            "url_name": "kalkulyatory",
+            "link": "https://www.citilink.ru/catalog/kalkulyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/b3657457-07ed-4a8c-a282-2edb6e96122c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Фломастеры",
+            "url_name": "flomastery",
+            "link": "https://www.citilink.ru/catalog/flomastery/",
+            "img_link": "https://category-images.s1.citilink.ru/eb0397c5-a415-4ab7-8b48-1c5503fb63dd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Маркеры",
+            "url_name": "markery",
+            "link": "https://www.citilink.ru/catalog/markery/",
+            "img_link": "https://category-images.s1.citilink.ru/8ea8c047-6a5a-41da-9178-ae158f67c34c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Текстовыделители",
+            "url_name": "tekstovydeliteli",
+            "link": "https://www.citilink.ru/catalog/tekstovydeliteli/",
+            "img_link": "https://category-images.s1.citilink.ru/c508b284-5bb6-4518-aaea-2f936192813d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Ручки",
+            "url_name": "ruchki-sharikovye",
+            "link": "https://www.citilink.ru/catalog/ruchki-sharikovye/",
+            "img_link": "https://category-images.s1.citilink.ru/8cfd9da4-af31-4c85-805e-5c1378dff86d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Запасные стержни",
+            "url_name": "zapasnye-sterzhni",
+            "link": "https://www.citilink.ru/catalog/zapasnye-sterzhni/",
+            "img_link": "https://category-images.s1.citilink.ru/67755b89-8650-495f-9072-f34d3bd5a399.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Карандаши",
+            "url_name": "karandashi-cvetnye",
+            "link": "https://www.citilink.ru/catalog/karandashi-cvetnye/",
+            "img_link": "https://category-images.s1.citilink.ru/d398c596-d595-4c57-a28e-3e8e573a869b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Точилки для карандашей",
+            "url_name": "tochilki-dlya-karandashei",
+            "link": "https://www.citilink.ru/catalog/tochilki-dlya-karandashei/",
+            "img_link": "https://category-images.s1.citilink.ru/531268d5-d877-46a4-ae53-c93bfbcdf069.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Чертежные принадлежности",
+            "url_name": "chertezhnye-prinadlezhnosti",
+            "link": "https://www.citilink.ru/catalog/chertezhnye-prinadlezhnosti/",
+            "img_link": "https://category-images.s1.citilink.ru/985bb8b8-56a0-49a9-8847-3e4e2ec42244.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Линейки",
+            "url_name": "lineiki",
+            "link": "https://www.citilink.ru/catalog/lineiki/",
+            "img_link": "https://category-images.s1.citilink.ru/7bf5922a-ec8d-4ef2-9d62-600763d44e99.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "pismennye-prinadlezhnosti",
+        "value": {
+            "human_name": "Ластики",
+            "url_name": "lastiki",
+            "link": "https://www.citilink.ru/catalog/lastiki/",
+            "img_link": "https://category-images.s1.citilink.ru/f3abc6ee-195b-48e3-b5ae-cc579788d5a6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "izdeliya-iz-bumagi",
+        "value": {
+            "human_name": "Ежедневники и записные книжки",
+            "url_name": "ezhednevniki-i-zapisnye-knizhki",
+            "link": "https://www.citilink.ru/catalog/ezhednevniki-i-zapisnye-knizhki/",
+            "img_link": "https://category-images.s1.citilink.ru/28589c0e-d116-4f42-8df8-efeeaecf40a2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "izdeliya-iz-bumagi",
+        "value": {
+            "human_name": "Блоки для записей",
+            "url_name": "bloki-dlya-zapisei",
+            "link": "https://www.citilink.ru/catalog/bloki-dlya-zapisei/",
+            "img_link": "https://category-images.s1.citilink.ru/25c06438-7b5e-41a4-bc58-3cfdbe1869e0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "izdeliya-iz-bumagi",
+        "value": {
+            "human_name": "Закладки самоклеящиеся",
+            "url_name": "zakladki-samokleyaschiesya",
+            "link": "https://www.citilink.ru/catalog/zakladki-samokleyaschiesya/",
+            "img_link": "https://category-images.s1.citilink.ru/32318376-73b2-4c3c-b934-5fd8d4b27d5a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "izdeliya-iz-bumagi",
+        "value": {
+            "human_name": "Книги учета и журналы регистрации",
+            "url_name": "knigi-buhgalterskie",
+            "link": "https://www.citilink.ru/catalog/knigi-buhgalterskie/",
+            "img_link": "https://category-images.s1.citilink.ru/3aeeced1-5343-4aec-ba28-845b648db6c8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "izdeliya-iz-bumagi",
+        "value": {
+            "human_name": "Конверты почтовые",
+            "url_name": "konverty-pochtovye",
+            "link": "https://www.citilink.ru/catalog/konverty-pochtovye/",
+            "img_link": "https://category-images.s1.citilink.ru/34d61764-3447-4873-9cff-9a204e26a47d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "izdeliya-iz-bumagi",
+        "value": {
+            "human_name": "Этикетки универсальные",
+            "url_name": "etiketki-universalnye",
+            "link": "https://www.citilink.ru/catalog/etiketki-universalnye/",
+            "img_link": "https://category-images.s1.citilink.ru/63eb9270-e002-4cb5-95cc-fafa44dadf79.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "izdeliya-iz-bumagi",
+        "value": {
+            "human_name": "Цветная бумага и картон",
+            "url_name": "cvetnaya-bumaga-i-karton",
+            "link": "https://www.citilink.ru/catalog/cvetnaya-bumaga-i-karton/",
+            "img_link": "https://category-images.s1.citilink.ru/a4ba78bb-b791-4cd3-93cd-1934f6f5094e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "demonstracionnoe-oborudovanie",
+        "value": {
+            "human_name": "Доски демонстрационные",
+            "url_name": "doski-demonstracionnye",
+            "link": "https://www.citilink.ru/catalog/doski-demonstracionnye/",
+            "img_link": "https://category-images.s1.citilink.ru/93634524-d828-4a6f-93c7-0b73becc4fd2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "demonstracionnoe-oborudovanie",
+        "value": {
+            "human_name": "Аксессуары для досок",
+            "url_name": "aksessuary-dlya-dosok",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-dosok/",
+            "img_link": "https://category-images.s1.citilink.ru/d3fe9892-c5db-4ad4-bb78-8ce34d746b27.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "demonstracionnoe-oborudovanie",
+        "value": {
+            "human_name": "Флипчарты",
+            "url_name": "flipcharty",
+            "link": "https://www.citilink.ru/catalog/flipcharty/",
+            "img_link": "https://category-images.s1.citilink.ru/89df75ff-24ab-4c73-8c32-81129be94d1d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "demonstracionnoe-oborudovanie",
+        "value": {
+            "human_name": "Бумага для флипчартов",
+            "url_name": "bumaga-dlya-flipchartov",
+            "link": "https://www.citilink.ru/catalog/bumaga-dlya-flipchartov/",
+            "img_link": "https://category-images.s1.citilink.ru/29cacda5-769e-4d5e-9abf-2ccbaccc05c6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "demonstracionnoe-oborudovanie",
+        "value": {
+            "human_name": "Демосистемы",
+            "url_name": "demosistemy",
+            "link": "https://www.citilink.ru/catalog/demosistemy/",
+            "img_link": "https://category-images.s1.citilink.ru/c97b83b4-c89f-4601-8abf-3683aee7125f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "demonstracionnoe-oborudovanie",
+        "value": {
+            "human_name": "Информационные таблички, стенды, рамки, пиктограмм",
+            "url_name": "informacionnye-tablichki-i-piktogrammy",
+            "link": "https://www.citilink.ru/catalog/informacionnye-tablichki-i-piktogrammy/",
+            "img_link": "https://category-images.s1.citilink.ru/530009e0-ec60-45c5-9474-90d8e5ac7d52.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "Проводные телефоны",
+            "url_name": "provodnye-telefony",
+            "link": "https://www.citilink.ru/catalog/provodnye-telefony/",
+            "img_link": "https://category-images.s1.citilink.ru/01e5cdfe-528a-41ad-974b-952514648a25.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "Радиотелефоны",
+            "url_name": "radiotelefony",
+            "link": "https://www.citilink.ru/catalog/radiotelefony/",
+            "img_link": "https://category-images.s1.citilink.ru/1d66b15d-e550-485f-a50f-294bb384984d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "IP-телефоны и базовые станции",
+            "url_name": "ip-telefony",
+            "link": "https://www.citilink.ru/catalog/ip-telefony/",
+            "img_link": "https://category-images.s1.citilink.ru/e9e21516-de86-45bf-ad00-74708347bc75.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "Дополнительные трубки",
+            "url_name": "dopolnitelnye-trubki",
+            "link": "https://www.citilink.ru/catalog/dopolnitelnye-trubki/",
+            "img_link": "https://category-images.s1.citilink.ru/055b4327-0272-4cca-9c2a-059d77fceee2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "Телефонные гарнитуры",
+            "url_name": "telefonnye-garnitury",
+            "link": "https://www.citilink.ru/catalog/telefonnye-garnitury/",
+            "img_link": "https://category-images.s1.citilink.ru/83545c30-c3fd-4724-851b-14e2b8d6ac60.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "АТС",
+            "url_name": "ats",
+            "link": "https://www.citilink.ru/catalog/ats/",
+            "img_link": "https://category-images.s1.citilink.ru/8f4e28ef-76b8-499c-b09d-82a0a483cd73.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "Системные консоли",
+            "url_name": "sistemnye-konsoli",
+            "link": "https://www.citilink.ru/catalog/sistemnye-konsoli/",
+            "img_link": "https://category-images.s1.citilink.ru/7fbffd1d-d5ba-48c0-861b-f4d6a6cb97a6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "Шлюзы и модули для IP-телефонии",
+            "url_name": "platy-i-moduli",
+            "link": "https://www.citilink.ru/catalog/platy-i-moduli/",
+            "img_link": "https://category-images.s1.citilink.ru/b1c7f7ac-ba67-4b33-a086-bf5128a2641c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "telefoniya",
+        "value": {
+            "human_name": "Аксессуары для IP-телефонии",
+            "url_name": "aksessuary-dlya-ip-telefonii",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-ip-telefonii/",
+            "img_link": "https://category-images.s1.citilink.ru/1465ebd8-6060-4b4a-bee0-e578031eabbf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Клатчи",
+            "url_name": "klatchi",
+            "link": "https://www.citilink.ru/catalog/klatchi/",
+            "img_link": "https://category-images.s1.citilink.ru/148ec974-a977-4a3c-9282-b4cd2ad34d9a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Ключницы",
+            "url_name": "klyuchnicy",
+            "link": "https://www.citilink.ru/catalog/klyuchnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/7e59177c-0c68-4f6a-b59a-130d0b995fc4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Косметички",
+            "url_name": "kosmetichki",
+            "link": "https://www.citilink.ru/catalog/kosmetichki/",
+            "img_link": "https://category-images.s1.citilink.ru/c4ed0516-8cf3-4d60-b3e5-c53e569dd41c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Кошельки",
+            "url_name": "koshelki",
+            "link": "https://www.citilink.ru/catalog/koshelki/",
+            "img_link": "https://category-images.s1.citilink.ru/154f92d4-980b-4688-b628-c6d1e75a5047.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Портмоне",
+            "url_name": "portmone",
+            "link": "https://www.citilink.ru/catalog/portmone/",
+            "img_link": "https://category-images.s1.citilink.ru/76bb9a47-04ea-4179-85b1-a12c2b6721e9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Портфели",
+            "url_name": "portfeli",
+            "link": "https://www.citilink.ru/catalog/portfeli/",
+            "img_link": "https://category-images.s1.citilink.ru/fad44f11-21e3-4142-a9f0-da680d5ad4c5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Ремни",
+            "url_name": "remni",
+            "link": "https://www.citilink.ru/catalog/remni/",
+            "img_link": "https://category-images.s1.citilink.ru/7cdcc571-4780-4345-ae51-7eca66fc6964.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Кожаные сумки",
+            "url_name": "kozhanye-sumki",
+            "link": "https://www.citilink.ru/catalog/kozhanye-sumki/",
+            "img_link": "https://category-images.s1.citilink.ru/348ca95f-e23b-4f23-881c-692c36f47386.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Чехлы для карт",
+            "url_name": "chehly-dlya-kart",
+            "link": "https://www.citilink.ru/catalog/chehly-dlya-kart/",
+            "img_link": "https://category-images.s1.citilink.ru/dda772d8-f003-4c8f-be07-15562f3f087c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Зонты",
+            "url_name": "zonty",
+            "link": "https://www.citilink.ru/catalog/zonty/",
+            "img_link": "https://category-images.s1.citilink.ru/e79c35bb-f71b-460b-bd3d-7d63d0b96d86.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kozhgalantereya",
+        "value": {
+            "human_name": "Кожаные рюкзаки",
+            "url_name": "ryukzaki--kozhanye-ryukzaki-mainmenu",
+            "link": "https://www.citilink.ru/catalog/ryukzaki--kozhanye-ryukzaki-mainmenu/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1740_1664555827.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nozhi-i-aksessuary",
+        "value": {
+            "human_name": "Мультитулы",
+            "url_name": "multituly",
+            "link": "https://www.citilink.ru/catalog/multituly/",
+            "img_link": "https://category-images.s1.citilink.ru/683a583b-c97e-42f8-83cf-49348af79b79.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nozhi-i-aksessuary",
+        "value": {
+            "human_name": "Складные ножи",
+            "url_name": "skladnye-nozhi",
+            "link": "https://www.citilink.ru/catalog/skladnye-nozhi/",
+            "img_link": "https://category-images.s1.citilink.ru/4927839b-6b36-4185-87bc-4b13292ad5af.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nozhi-i-aksessuary",
+        "value": {
+            "human_name": "Ножи с фиксированным лезвием",
+            "url_name": "nozhi-s-fiksirovannym-lezviem",
+            "link": "https://www.citilink.ru/catalog/nozhi-s-fiksirovannym-lezviem/",
+            "img_link": "https://category-images.s1.citilink.ru/2d1062ae-2f3d-4a32-8823-a42cd2506104.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nozhi-i-aksessuary",
+        "value": {
+            "human_name": "Швейцарские карты",
+            "url_name": "shveicarskie-karty",
+            "link": "https://www.citilink.ru/catalog/shveicarskie-karty/",
+            "img_link": "https://category-images.s1.citilink.ru/7bfcfcbd-a004-4412-9730-fef945a49698.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nozhi-i-aksessuary",
+        "value": {
+            "human_name": "Наборы кухонных ножей",
+            "url_name": "nabory-kuhonnyh-nozhei",
+            "link": "https://www.citilink.ru/catalog/nabory-kuhonnyh-nozhei/",
+            "img_link": "https://category-images.s1.citilink.ru/f7dc4677-60b4-4cae-aa5d-2805f985624b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "nozhi-i-aksessuary",
+        "value": {
+            "human_name": "Аксессуары к ножам",
+            "url_name": "aksessuary-k-nozham",
+            "link": "https://www.citilink.ru/catalog/aksessuary-k-nozham/",
+            "img_link": "https://category-images.s1.citilink.ru/5cea8ab7-9315-4663-b787-d09e38706b2e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-hudozhnikov",
+        "value": {
+            "human_name": "Краски для рисования",
+            "url_name": "kraski-dlya-risovaniya",
+            "link": "https://www.citilink.ru/catalog/kraski-dlya-risovaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/6f2f7f5c-900a-4ecd-bde6-e5ce5ac76d9e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-hudozhnikov",
+        "value": {
+            "human_name": "Кисти для рисования",
+            "url_name": "kisti-dlya-risovaniya",
+            "link": "https://www.citilink.ru/catalog/kisti-dlya-risovaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/934d1eed-7d58-4f17-98b0-3f31c5fb7006.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-hudozhnikov",
+        "value": {
+            "human_name": "Пастель",
+            "url_name": "pastel",
+            "link": "https://www.citilink.ru/catalog/pastel/",
+            "img_link": "https://category-images.s1.citilink.ru/ef14d1bd-3b79-4d50-8d1f-be589aec7108.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-hudozhnikov",
+        "value": {
+            "human_name": "Мелки для рисования",
+            "url_name": "melki-dlya-risovaniya",
+            "link": "https://www.citilink.ru/catalog/melki-dlya-risovaniya/",
+            "img_link": "https://category-images.s1.citilink.ru/c6de7a9f-03c8-4846-bb8a-6008c74b1113.jpg",
+            "is_product_page": true
+        }
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "model": "shop_cite.category",
+        "pk": 1,
+        "fields": {
+            "parent_category": null,
+            "name": "Смартфоны и гаджеты",
+            "image_src": "assets\\img\\icons\\departments\\mobile.svg",
+            "short_image_name": "mobile",
+            "has_subcategories": true,
+            "big_image_src": ""
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 2,
+        "fields": {
+            "parent_category": null,
+            "name": "Ноутбуки и компьютеры",
+            "image_src": "assets\\img\\icons\\departments\\computers_and_notebooks.svg",
+            "short_image_name": "computers_and_notebooks",
+            "has_subcategories": true,
+            "big_image_src": ""
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 3,
+        "fields": {
+            "parent_category": null,
+            "name": "Телевизоры, аудио-видео, фото",
+            "image_src": "assets\\img\\icons\\departments\\audio_and_digits.svg",
+            "short_image_name": "audio_and_digits",
+            "has_subcategories": true,
+            "big_image_src": ""
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 4,
+        "fields": {
+            "parent_category": null,
+            "name": "Бытовая техника",
+            "image_src": "assets\\img\\icons\\departments\\large_and_small_appliances.svg",
+            "short_image_name": "large_and_small_appliances",
+            "has_subcategories": true,
+            "big_image_src": ""
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 5,
+        "fields": {
+            "parent_category": null,
+            "name": "Красота и здоровье",
+            "image_src": "assets\\img\\icons\\departments\\beauty_and_health.svg",
+            "short_image_name": "beauty_and_health",
+            "has_subcategories": true,
+            "big_image_src": ""
+        }
+    },
+    {
+        "model": "shop_cite.category",
+        "pk": 6,
+        "fields": {
+            "parent_category": null,
+            "name": "Умный дом и системы безопасности",
+            "image_src": "assets\\img\\icons\\departments\\photo_and_video.svg",
+            "short_image_name": "photo_and_video",
+            "has_subcategories": true,
+            "big_image_src": ""
+        }
+    }
+]

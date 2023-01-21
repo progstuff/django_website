@@ -1,0 +1,74 @@
+[
+    {
+        "human_name": "Смартфоны и гаджеты",
+        "url_name": "mobile",
+        "link": "https://www.citilink.ru/catalog/mobile/",
+        "img_link": "https://c.dns-shop.ru/original/st1/ce7691a00f0aa2ec6076fe5e52731d6b/bd3471d784869986cb36f2d6c0910a2a829a3e168d69be21dffedbca77f87337.svg"
+    },
+    {
+        "human_name": "Ноутбуки и компьютеры",
+        "url_name": "computers_and_notebooks",
+        "link": "https://www.citilink.ru/catalog/computers_and_notebooks/",
+        "img_link": "https://c.dns-shop.ru/original/st4/d6c1fafdbec6ec320ddda34a242a9c35/a9114dd2379289bcb47115ea9c8969ca3c12501a801bc5e7c51edd8582919777.svg"
+    },
+    {
+        "human_name": "Телевизоры, аудио-видео, фото",
+        "url_name": "audio_and_digits",
+        "link": "https://www.citilink.ru/catalog/audio_and_digits/",
+        "img_link": "https://c.dns-shop.ru/original/st4/81bfc614ba456598e3554dbdc2773b4f/265ed645f85c4835d240e4ca643ed5e60065580bf74181c0e8f1d3a18de7e47a.svg"
+    },
+    {
+        "human_name": "Бытовая техника",
+        "url_name": "large_and_small_appliances",
+        "link": "https://www.citilink.ru/catalog/large_and_small_appliances/",
+        "img_link": "https://c.dns-shop.ru/original/st1/5d10cc54f37435f6f745d47bc22b45c5/98ebfc11ee69515d19fe8e70903b78ea7cac12b7e5b8fdf0fce368c8d8d08179.svg"
+    },
+    {
+        "human_name": "Красота и здоровье",
+        "url_name": "beauty_and_health",
+        "link": "https://www.citilink.ru/catalog/beauty_and_health/",
+        "img_link": "https://c.dns-shop.ru/original/st1/509e87425fa85a1f2bed3a7f922e402b/247f64f80dbec3f03c6667382b0b75359d7d1abf3b89fdb7d49c119f03857f74.svg"
+    },
+    {
+        "human_name": "Умный дом и системы безопасности",
+        "url_name": "photo_and_video",
+        "link": "https://www.citilink.ru/catalog/photo_and_video/",
+        "img_link": "https://c.dns-shop.ru/original/st1/67a80294738d1bd893f14ffb6943daed/d00f7300737f09db266517262be2c988680a12109871501708c38289e2a4951e.svg"
+    },
+    {
+        "human_name": "Канцтовары, Мебель и Офисная техника",
+        "url_name": "furniture",
+        "link": "https://www.citilink.ru/catalog/furniture/",
+        "img_link": "https://c.dns-shop.ru/original/st4/e132197d2dbc80041f551fb7856d8b14/2ec4296447234c5c24d52218ad6bb84f9aac52f149d72706d667a942a9cb3c35.svg"
+    },
+    {
+        "human_name": "Строительство и ремонт",
+        "url_name": "power_tools_and_garden_equipments",
+        "link": "https://www.citilink.ru/catalog/power_tools_and_garden_equipments/",
+        "img_link": "https://c.dns-shop.ru/original/st4/a3a6a550e6688cb74fcc0bd5134ccea0/dc52467e896861cee509cded74e85a23cc3e94889a7b4c9fc9afbf46ac97d114.svg"
+    },
+    {
+        "human_name": "Дом и дача",
+        "url_name": "dom_i_dacha",
+        "link": "https://www.citilink.ru/catalog/dom_i_dacha/",
+        "img_link": "https://c.dns-shop.ru/original/st4/a653655661952c5c4d46205b6d1d113a/af4f931a1435c09c7f39a45b9b816a7d6afce31a11f707da2498d70f4f6a00ae.svg"
+    },
+    {
+        "human_name": "Автотовары",
+        "url_name": "car_electronics",
+        "link": "https://www.citilink.ru/catalog/car_electronics/",
+        "img_link": "https://c.dns-shop.ru/original/st4/eeb3af85ad54a60eabe179f88803fbbc/913f0af43a6008cff4bbf6430b2aaefad60607f667f11b155b4fb7a7d530e7b6.svg"
+    },
+    {
+        "human_name": "Спорт и отдых",
+        "url_name": "active_sport",
+        "link": "https://www.citilink.ru/catalog/active_sport/",
+        "img_link": "https://c.dns-shop.ru/original/st1/d3827c5d01e87e934bfc7c33d37230eb/7fa73d7ea93a09d6f365be9a149861125b8f848aa2c23ff22a3fc192cc4fdf66.svg"
+    },
+    {
+        "human_name": "Детские товары",
+        "url_name": "detskie_tovary",
+        "link": "https://www.citilink.ru/catalog/detskie_tovary/",
+        "img_link": "https://c.dns-shop.ru/original/st1/d3827c5d01e87e934bfc7c33d37230eb/7fa73d7ea93a09d6f365be9a149861125b8f848aa2c23ff22a3fc192cc4fdf66.svg"
+    }
+]

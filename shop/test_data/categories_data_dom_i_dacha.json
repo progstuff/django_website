@@ -1,0 +1,1542 @@
+[
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Товары для уборки снега",
+            "url_name": "tovary-dlya-uborki-snega",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-uborki-snega/",
+            "img_link": "https://category-images.s1.citilink.ru/55c40671-e391-47fd-afb2-2bf8aa686ebc.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Садовая техника",
+            "url_name": "sadovaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/sadovaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/a5319436-433e-460e-adff-6b75447798a5.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Садовый инвентарь",
+            "url_name": "sadovyi-inventar",
+            "link": "https://www.citilink.ru/catalog/sadovyi-inventar/",
+            "img_link": "https://category-images.s1.citilink.ru/fa036391-b0c2-4b36-b55c-1f20460aafe2.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Товары для дачи",
+            "url_name": "tovary-dlya-dachi",
+            "link": "https://www.citilink.ru/catalog/tovary-dlya-dachi/",
+            "img_link": "https://category-images.s1.citilink.ru/41af03e8-bd18-43ff-9069-53e0d8a9d5c7.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Мебель для дома",
+            "url_name": "mebel-dlya-doma",
+            "link": "https://www.citilink.ru/catalog/mebel-dlya-doma/",
+            "img_link": "https://category-images.s1.citilink.ru/e3f58993-37e6-4ba7-b996-858e8ee6811d.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Освещение",
+            "url_name": "osveschenie",
+            "link": "https://www.citilink.ru/catalog/osveschenie/",
+            "img_link": "https://category-images.s1.citilink.ru/699bc222-347c-472a-b425-276d9a3537e3.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Хозяйственные товары для дома и дачи",
+            "url_name": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+            "link": "https://www.citilink.ru/catalog/hozyaistvennye-tovary-dlya-doma-i-dachi/",
+            "img_link": "https://category-images.s1.citilink.ru/4ca73fea-1f4e-41f7-b482-01963ca4e717.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Бытовая химия",
+            "url_name": "bytovaya-himiya",
+            "link": "https://www.citilink.ru/catalog/bytovaya-himiya/",
+            "img_link": "https://category-images.s1.citilink.ru/71951131-a487-4d3b-acb3-1c615a20e39a.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Текстиль",
+            "url_name": "tekstil",
+            "link": "https://www.citilink.ru/catalog/tekstil/",
+            "img_link": "https://category-images.s1.citilink.ru/95e01785-fdd7-4423-a9c4-e9b476b9f9e9.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Матрасы и кровати",
+            "url_name": "matrasy-i-krovati",
+            "link": "https://www.citilink.ru/catalog/matrasy-i-krovati/",
+            "img_link": "https://category-images.s1.citilink.ru/9b43b776-73b4-4c2e-a3c1-bbb3908f4e93.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Посуда",
+            "url_name": "posuda",
+            "link": "https://www.citilink.ru/catalog/posuda/",
+            "img_link": "https://category-images.s1.citilink.ru/01421f09-d330-49d0-bcde-1038ec5b7f02.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Отдых и пикник",
+            "url_name": "otdyh-i-piknik",
+            "link": "https://www.citilink.ru/catalog/otdyh-i-piknik/",
+            "img_link": "https://category-images.s1.citilink.ru/b43a22cd-5972-46c7-bc44-48cd53d4a1e4.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Садовый декор",
+            "url_name": "sadovyi-dekor",
+            "link": "https://www.citilink.ru/catalog/sadovyi-dekor/",
+            "img_link": "https://category-images.s1.citilink.ru/fbd18bd4-6857-4951-b400-7e99678124e9.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "dom_i_dacha",
+        "value": {
+            "human_name": "Поливочное оборудование",
+            "url_name": "polivochnoe-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/polivochnoe-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/d206bc0b-eddc-421f-befd-e4d7565ef1ef.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Щетки и скребки автомобильные",
+            "url_name": "schetki-i-skrebki-avtomobilnye",
+            "link": "https://www.citilink.ru/catalog/schetki-i-skrebki-avtomobilnye/",
+            "img_link": "https://category-images.s1.citilink.ru/509e07a5-9f26-40ab-9463-1c436954f49c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Скреперы для уборки снега",
+            "url_name": "lopaty--skrepery-dvizhki",
+            "link": "https://www.citilink.ru/catalog/lopaty--skrepery-dvizhki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_890_1669707725.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Аккумуляторные снегоуборщики",
+            "url_name": "snegouborschiki--akkumulyatornye-snegouborshchiki",
+            "link": "https://www.citilink.ru/catalog/snegouborschiki--akkumulyatornye-snegouborshchiki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_557_1669704021.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Бензиновые снегоуборщики",
+            "url_name": "snegouborschiki--benzinovye-sn",
+            "link": "https://www.citilink.ru/catalog/snegouborschiki--benzinovye-sn/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_557_1669703855.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Электрические снегоуборщики",
+            "url_name": "snegouborschiki--elektricheskie-sn",
+            "link": "https://www.citilink.ru/catalog/snegouborschiki--elektricheskie-sn/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_557_1669703945.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Самоходные снегоуборщики",
+            "url_name": "snegouborschiki--samohodnye-sn",
+            "link": "https://www.citilink.ru/catalog/snegouborschiki--samohodnye-sn/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_557_1669704103.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Лопаты для уборки снега",
+            "url_name": "lopaty--dlya-uborki-snega",
+            "link": "https://www.citilink.ru/catalog/lopaty--dlya-uborki-snega/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_890_1670323661.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-uborki-snega",
+        "value": {
+            "human_name": "Щетки и метлы",
+            "url_name": "sadovo-posadochnye-instrumenty--shchetki",
+            "link": "https://www.citilink.ru/catalog/sadovo-posadochnye-instrumenty--shchetki/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_892_1669705609.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Воздуходувки",
+            "url_name": "vozduhoduvki",
+            "link": "https://www.citilink.ru/catalog/vozduhoduvki/",
+            "img_link": "https://category-images.s1.citilink.ru/c0e7ac82-2024-4bd0-8354-fdbc2452b6b2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Цепные пилы",
+            "url_name": "cepnye-pily",
+            "link": "https://www.citilink.ru/catalog/cepnye-pily/",
+            "img_link": "https://category-images.s1.citilink.ru/0508eb14-2f46-4bce-b4bb-4f38e8fe9671.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Снегоуборщики",
+            "url_name": "snegouborschiki",
+            "link": "https://www.citilink.ru/catalog/snegouborschiki/",
+            "img_link": "https://category-images.s1.citilink.ru/ebf35f26-2c6f-44a6-aed5-defa10f7c13c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Садовые триммеры",
+            "url_name": "sadovye-trimmery",
+            "link": "https://www.citilink.ru/catalog/sadovye-trimmery/",
+            "img_link": "https://category-images.s1.citilink.ru/6b6054a5-f2f8-4fd1-87d7-2f7fab6174f4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Мойки высокого давления (Минимойки)",
+            "url_name": "moiki-vysokogo-davleniya-minimoiki",
+            "link": "https://www.citilink.ru/catalog/moiki-vysokogo-davleniya-minimoiki/",
+            "img_link": "https://category-images.s1.citilink.ru/31f1347e-796d-4088-90c9-f4816d1c1e70.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Газонокосилки",
+            "url_name": "gazonokosilki",
+            "link": "https://www.citilink.ru/catalog/gazonokosilki/",
+            "img_link": "https://category-images.s1.citilink.ru/42a28364-59a4-4ea8-bd63-59093565fba2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Насосы",
+            "url_name": "sadovye-nasosy",
+            "link": "https://www.citilink.ru/catalog/sadovye-nasosy/",
+            "img_link": "https://category-images.s1.citilink.ru/d498e961-3224-4306-af29-aa2cf2f26b52.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Мотоблоки",
+            "url_name": "motobloki",
+            "link": "https://www.citilink.ru/catalog/motobloki/",
+            "img_link": "https://category-images.s1.citilink.ru/4437fff5-d9d5-4430-ae1c-adc6595d90d8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Культиваторы",
+            "url_name": "kultivatory",
+            "link": "https://www.citilink.ru/catalog/kultivatory/",
+            "img_link": "https://category-images.s1.citilink.ru/0f114fba-37fe-4d94-9964-281871794ce3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Садовые измельчители",
+            "url_name": "sadovye-izmelchiteli",
+            "link": "https://www.citilink.ru/catalog/sadovye-izmelchiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/473608f2-84d0-453a-996c-941632e9e324.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Ножницы и кусторезы",
+            "url_name": "nozhnicy-i-kustorezy",
+            "link": "https://www.citilink.ru/catalog/nozhnicy-i-kustorezy/",
+            "img_link": "https://category-images.s1.citilink.ru/19aa12c9-93a6-4c52-9f14-873797be5ab2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Строительные пылесосы",
+            "url_name": "stroitelnye-pylesosy",
+            "link": "https://www.citilink.ru/catalog/stroitelnye-pylesosy/",
+            "img_link": "https://category-images.s1.citilink.ru/08ae4be0-7fa2-4793-a16b-6c84957fb9a5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Опрыскиватели",
+            "url_name": "opryskivateli",
+            "link": "https://www.citilink.ru/catalog/opryskivateli/",
+            "img_link": "https://category-images.s1.citilink.ru/e53a924c-28e0-4527-b967-050e0c4b267d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Аэраторы и скарификаторы",
+            "url_name": "aeratory-i-skarifikatory",
+            "link": "https://www.citilink.ru/catalog/aeratory-i-skarifikatory/",
+            "img_link": "https://category-images.s1.citilink.ru/9c3042d3-94b5-4279-8344-ba7d858b4be2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Мотобуры",
+            "url_name": "motobury",
+            "link": "https://www.citilink.ru/catalog/motobury/",
+            "img_link": "https://category-images.s1.citilink.ru/bccaabf5-9a98-4ec6-967c-ac722f83d2a5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Зернодробилки",
+            "url_name": "zernodrobilki",
+            "link": "https://www.citilink.ru/catalog/zernodrobilki/",
+            "img_link": "https://category-images.s1.citilink.ru/a76935ec-8dc9-4b5d-9017-28b3043f04e9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Двигатели для садовой техники",
+            "url_name": "dvigateli-dlya-sadovoi-tehniki",
+            "link": "https://www.citilink.ru/catalog/dvigateli-dlya-sadovoi-tehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/9bbf85ac-c0f6-4e78-ac29-f6b1f78f6862.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Мотопомпы",
+            "url_name": "motopompy",
+            "link": "https://www.citilink.ru/catalog/motopompy/",
+            "img_link": "https://category-images.s1.citilink.ru/93a53062-42b3-433d-8857-35f1448fc533.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Аксессуары для насосов",
+            "url_name": "aksessuary-dlya-nasosov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-nasosov/",
+            "img_link": "https://category-images.s1.citilink.ru/70d1bdfc-cd41-4f3e-bf42-264b541fc38f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Оснастка к садовой технике",
+            "url_name": "osnastka-k-sadovoi-tehnike",
+            "link": "https://www.citilink.ru/catalog/osnastka-k-sadovoi-tehnike/",
+            "img_link": "https://category-images.s1.citilink.ru/1066e7e9-fe3e-464a-9fb5-4a0894890bd4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovaya-tehnika",
+        "value": {
+            "human_name": "Аксессуары для минимоек",
+            "url_name": "aksessuary-dlya-minimoek",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-minimoek/",
+            "img_link": "https://category-images.s1.citilink.ru/530ceba7-d0e0-44e7-8a49-f40237637f31.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Грабли",
+            "url_name": "grabli",
+            "link": "https://www.citilink.ru/catalog/grabli/",
+            "img_link": "https://category-images.s1.citilink.ru/e9ed94dd-cee5-4b2c-adcf-acb3788c0389.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Лопаты",
+            "url_name": "lopaty",
+            "link": "https://www.citilink.ru/catalog/lopaty/",
+            "img_link": "https://category-images.s1.citilink.ru/c215b3d2-0646-4fd0-807f-7db69c73899c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Топоры",
+            "url_name": "topory",
+            "link": "https://www.citilink.ru/catalog/topory/",
+            "img_link": "https://category-images.s1.citilink.ru/1b05375f-378a-412d-9429-58a80f567b39.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Садово-посадочные инструменты",
+            "url_name": "sadovo-posadochnye-instrumenty",
+            "link": "https://www.citilink.ru/catalog/sadovo-posadochnye-instrumenty/",
+            "img_link": "https://category-images.s1.citilink.ru/446ff775-1f95-4d71-a34b-5c4948eac35f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Садовые пилы и ножи",
+            "url_name": "sadovye-pily-i-nozhi",
+            "link": "https://www.citilink.ru/catalog/sadovye-pily-i-nozhi/",
+            "img_link": "https://category-images.s1.citilink.ru/d64be089-e9c3-4a5f-ae0d-3cde8495d451.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Секаторы и сучкорезы",
+            "url_name": "sekatory-i-suchkorezy",
+            "link": "https://www.citilink.ru/catalog/sekatory-i-suchkorezy/",
+            "img_link": "https://category-images.s1.citilink.ru/9944614e-b5b4-404a-8112-1a6b14d1f58b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Садовые ножницы",
+            "url_name": "sadovye-nozhnicy",
+            "link": "https://www.citilink.ru/catalog/sadovye-nozhnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/36ba23b8-9c88-4e51-9252-a358a94e0b6d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Лестницы и стремянки",
+            "url_name": "lestnicy-i-stremyanki",
+            "link": "https://www.citilink.ru/catalog/lestnicy-i-stremyanki/",
+            "img_link": "https://category-images.s1.citilink.ru/bd4da569-4735-4d7c-8154-b4f79f708025.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Садовые души и умывальники",
+            "url_name": "sadovye-dushi-i-umyvalniki",
+            "link": "https://www.citilink.ru/catalog/sadovye-dushi-i-umyvalniki/",
+            "img_link": "https://category-images.s1.citilink.ru/886c3398-08f6-45c5-a5e9-0a9e09a380a1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Компостеры",
+            "url_name": "kompostery",
+            "link": "https://www.citilink.ru/catalog/kompostery/",
+            "img_link": "https://category-images.s1.citilink.ru/cfb45f0f-f370-4414-814f-c67ce94adc42.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-inventar",
+        "value": {
+            "human_name": "Садовые и пляжные зонты",
+            "url_name": "sadovye-i-plyazhnye-zonty",
+            "link": "https://www.citilink.ru/catalog/sadovye-i-plyazhnye-zonty/",
+            "img_link": "https://category-images.s1.citilink.ru/5007e47f-26cf-47a4-9e0b-71340491a121.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Комплекты спутникового ТВ",
+            "url_name": "komplekty-sputnikovogo-tv",
+            "link": "https://www.citilink.ru/catalog/komplekty-sputnikovogo-tv/",
+            "img_link": "https://category-images.s1.citilink.ru/5989a161-bf75-4af2-aa5a-ebc7cda2ce4e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Холодильники для дачи",
+            "url_name": "holodilniki-dlya-dachi",
+            "link": "https://www.citilink.ru/catalog/holodilniki-dlya-dachi/",
+            "img_link": "https://category-images.s1.citilink.ru/86eff889-a09b-40f4-a428-9339eb2afc45.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Портативные колонки",
+            "url_name": "portativnye-kolonki",
+            "link": "https://www.citilink.ru/catalog/portativnye-kolonki/",
+            "img_link": "https://category-images.s1.citilink.ru/205f0ebd-f5ed-42c9-8a5d-227b7f07e32e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Магнитолы",
+            "url_name": "magnitoly",
+            "link": "https://www.citilink.ru/catalog/magnitoly/",
+            "img_link": "https://category-images.s1.citilink.ru/1d51f31e-0acb-44ec-91bf-cd01b664ad1f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Дистилляторы",
+            "url_name": "distillyatory",
+            "link": "https://www.citilink.ru/catalog/distillyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/affa9002-9fed-489e-b4e2-cff74e7320c9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Мини-печи",
+            "url_name": "mini-pechi",
+            "link": "https://www.citilink.ru/catalog/mini-pechi/",
+            "img_link": "https://category-images.s1.citilink.ru/d574efa7-af80-40c1-97e4-af95b5feb018.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Радиоприемники",
+            "url_name": "radiopriemniki",
+            "link": "https://www.citilink.ru/catalog/radiopriemniki/",
+            "img_link": "https://category-images.s1.citilink.ru/90197d2c-37fe-4cd3-ac26-4b3805f7400c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Внешние аккумуляторы (Power Bank)",
+            "url_name": "power-bank",
+            "link": "https://www.citilink.ru/catalog/power-bank/",
+            "img_link": "https://category-images.s1.citilink.ru/481da8d6-5064-4bcc-81e7-1248a342a8b3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Укрывной материал",
+            "url_name": "ukryvnoi-material",
+            "link": "https://www.citilink.ru/catalog/ukryvnoi-material/",
+            "img_link": "https://category-images.s1.citilink.ru/1d445bbd-18d4-4e29-8996-515a2aeba7fa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Отпугиватели и уничтожители",
+            "url_name": "otpugivateli-i-unichtozhiteli",
+            "link": "https://www.citilink.ru/catalog/otpugivateli-i-unichtozhiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/fef8b279-e774-41f4-933d-fcf87e8e3951.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Биотуалеты",
+            "url_name": "biotualety",
+            "link": "https://www.citilink.ru/catalog/biotualety/",
+            "img_link": "https://category-images.s1.citilink.ru/b63eb739-317e-4586-8078-d30f94d8f5a7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Расходные материалы для биотуалетов",
+            "url_name": "rashodnye-materialy-dlya-biotualetov",
+            "link": "https://www.citilink.ru/catalog/rashodnye-materialy-dlya-biotualetov/",
+            "img_link": "https://category-images.s1.citilink.ru/e067fc9b-8878-4238-b06a-20f8a636d379.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Бассейны",
+            "url_name": "basseiny",
+            "link": "https://www.citilink.ru/catalog/basseiny/",
+            "img_link": "https://category-images.s1.citilink.ru/9d1ca092-2c25-4a8d-9b96-0a363965c828.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Аксессуары для бассейнов",
+            "url_name": "aksessuary-dlya-basseinov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-basseinov/",
+            "img_link": "https://category-images.s1.citilink.ru/e4efebc7-eabe-4345-b41e-9f9457b82445.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Химия для бассейнов",
+            "url_name": "himiya-dlya-basseinov",
+            "link": "https://www.citilink.ru/catalog/himiya-dlya-basseinov/",
+            "img_link": "https://category-images.s1.citilink.ru/0008cb1c-a3b2-4da7-bc6f-efd13aa81dae.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Матрасы надувные",
+            "url_name": "matrasy-naduvnye",
+            "link": "https://www.citilink.ru/catalog/matrasy-naduvnye/",
+            "img_link": "https://category-images.s1.citilink.ru/ae7ab03a-e8ac-40f2-a330-835754ddb229.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Газоны",
+            "url_name": "gazony",
+            "link": "https://www.citilink.ru/catalog/gazony/",
+            "img_link": "https://category-images.s1.citilink.ru/9fc0dbf0-a2af-43e4-8279-7545d56fd9bf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tovary-dlya-dachi",
+        "value": {
+            "human_name": "Батуты",
+            "url_name": "batuty--batuty-mainmenu",
+            "link": "https://www.citilink.ru/catalog/batuty--batuty-mainmenu/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_1184_1656331016.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel-dlya-doma",
+        "value": {
+            "human_name": "Стулья",
+            "url_name": "stulya",
+            "link": "https://www.citilink.ru/catalog/stulya/",
+            "img_link": "https://category-images.s1.citilink.ru/288ee975-2087-46de-88ba-91c5154fff68.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel-dlya-doma",
+        "value": {
+            "human_name": "Тумбы",
+            "url_name": "tumby",
+            "link": "https://www.citilink.ru/catalog/tumby/",
+            "img_link": "https://category-images.s1.citilink.ru/9f258557-6d7b-477f-854a-b0c57bcf8476.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "mebel-dlya-doma",
+        "value": {
+            "human_name": "Полки",
+            "url_name": "polki",
+            "link": "https://www.citilink.ru/catalog/polki/",
+            "img_link": "https://category-images.s1.citilink.ru/fe5e4b8b-8d75-41de-b527-964099b7dc0b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Умные лампы",
+            "url_name": "umnye-lampy",
+            "link": "https://www.citilink.ru/catalog/umnye-lampy/",
+            "img_link": "https://category-images.s1.citilink.ru/12d1dac1-7090-445a-a75d-130f736a3226.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Умные светильники",
+            "url_name": "umnye-svetilniki",
+            "link": "https://www.citilink.ru/catalog/umnye-svetilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/c53c0a08-eacf-4a95-b412-3ecab6da34bf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Потолочные светильники и люстры",
+            "url_name": "lyustry-i-potolochnye-svetilniki",
+            "link": "https://www.citilink.ru/catalog/lyustry-i-potolochnye-svetilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/f22059d3-d2d2-49d2-8427-d3ad36c07f42.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Настенные светильники и бра",
+            "url_name": "bra",
+            "link": "https://www.citilink.ru/catalog/bra/",
+            "img_link": "https://category-images.s1.citilink.ru/b6265e78-433e-4972-8594-e510bd3efafe.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Напольные светильники и торшеры",
+            "url_name": "torshery",
+            "link": "https://www.citilink.ru/catalog/torshery/",
+            "img_link": "https://category-images.s1.citilink.ru/dac0ead5-bcf3-425d-b6a8-4ca1919aa4c3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Настольные лампы",
+            "url_name": "nastolnye-lampy",
+            "link": "https://www.citilink.ru/catalog/nastolnye-lampy/",
+            "img_link": "https://category-images.s1.citilink.ru/259aee1f-ea74-408f-aef1-0dd5715f34ab.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Трековые системы",
+            "url_name": "trekovye-sistemy",
+            "link": "https://www.citilink.ru/catalog/trekovye-sistemy/",
+            "img_link": "https://category-images.s1.citilink.ru/e3e79afe-6f7f-405d-9bc8-9caf032a0970.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Точечные светильники и споты",
+            "url_name": "spoty-i-tochechnye-svetilniki",
+            "link": "https://www.citilink.ru/catalog/spoty-i-tochechnye-svetilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/aba7d5ab-ec8d-4989-9d38-c597b8a1ad8a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Светодиодные ленты",
+            "url_name": "svetodiodnye-lenty",
+            "link": "https://www.citilink.ru/catalog/svetodiodnye-lenty/",
+            "img_link": "https://category-images.s1.citilink.ru/9303d9b2-1fad-4d16-ad08-76f8f74c9ac9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Лампочки",
+            "url_name": "lampochki",
+            "link": "https://www.citilink.ru/catalog/lampochki/",
+            "img_link": "https://category-images.s1.citilink.ru/1bc1601e-2a3e-4467-ac3f-7379fa22a9cf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Фонари",
+            "url_name": "fonari",
+            "link": "https://www.citilink.ru/catalog/fonari/",
+            "img_link": "https://category-images.s1.citilink.ru/d90a0149-ae1f-404a-9ee1-b94058cab268.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Ночники",
+            "url_name": "nochniki",
+            "link": "https://www.citilink.ru/catalog/nochniki/",
+            "img_link": "https://category-images.s1.citilink.ru/c67438b3-03b7-4ac2-9818-86573686354a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Гирлянды",
+            "url_name": "girlyandy",
+            "link": "https://www.citilink.ru/catalog/girlyandy/",
+            "img_link": "https://category-images.s1.citilink.ru/d64cb122-59ff-41eb-b0e3-b0c7239768e2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Подсветка",
+            "url_name": "podsvetka",
+            "link": "https://www.citilink.ru/catalog/podsvetka/",
+            "img_link": "https://category-images.s1.citilink.ru/e6a73dd0-f362-435a-adeb-e9b00736adfe.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Светильники бактерицидные",
+            "url_name": "svetilniki-baktericidnye",
+            "link": "https://www.citilink.ru/catalog/svetilniki-baktericidnye/",
+            "img_link": "https://category-images.s1.citilink.ru/c2295824-4a2f-4b63-9361-f479b7999ae6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Декоративное освещение",
+            "url_name": "girlyandy-i-dekorativnoe-osveschenie",
+            "link": "https://www.citilink.ru/catalog/girlyandy-i-dekorativnoe-osveschenie/",
+            "img_link": "https://category-images.s1.citilink.ru/9682ece6-f274-4bd0-aebf-14cd6021687e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Освещение для растений",
+            "url_name": "osveschenie-dlya-rastenii",
+            "link": "https://www.citilink.ru/catalog/osveschenie-dlya-rastenii/",
+            "img_link": "https://category-images.s1.citilink.ru/90ec5737-4147-4eb0-91ec-71c2c93c07d2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "osveschenie",
+        "value": {
+            "human_name": "Комплектующие для светильников",
+            "url_name": "aksessuary-dlya-osvescheniya",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-osvescheniya/",
+            "img_link": "https://category-images.s1.citilink.ru/aac5d094-c1b8-4cbd-a943-36947c73f7ea.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Швабры",
+            "url_name": "shvabry",
+            "link": "https://www.citilink.ru/catalog/shvabry/",
+            "img_link": "https://category-images.s1.citilink.ru/372ebd3c-be0f-4883-929b-fbd2239a4d05.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Комплекты для уборки",
+            "url_name": "komplekty-dlya-uborki",
+            "link": "https://www.citilink.ru/catalog/komplekty-dlya-uborki/",
+            "img_link": "https://category-images.s1.citilink.ru/19675606-e4b7-466b-8996-cc2ab6de56b5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Инвентарь для мытья стекол",
+            "url_name": "inventar-dlya-mytya-stekol",
+            "link": "https://www.citilink.ru/catalog/inventar-dlya-mytya-stekol/",
+            "img_link": "https://category-images.s1.citilink.ru/497b0e34-f9a4-428c-9f8c-b758353b7cea.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Салфетки хозяйственные",
+            "url_name": "salfetki-hozyaistvennye",
+            "link": "https://www.citilink.ru/catalog/salfetki-hozyaistvennye/",
+            "img_link": "https://category-images.s1.citilink.ru/bd314ba7-2b2c-4e5e-a889-44870af10edc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Гладильные доски",
+            "url_name": "gladilnye-doski",
+            "link": "https://www.citilink.ru/catalog/gladilnye-doski/",
+            "img_link": "https://category-images.s1.citilink.ru/599ea2ff-80dc-4bc7-8f41-1fc99d4e3982.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Сушки для белья",
+            "url_name": "sushki-dlya-belya",
+            "link": "https://www.citilink.ru/catalog/sushki-dlya-belya/",
+            "img_link": "https://category-images.s1.citilink.ru/32736d35-d9ea-4d45-ab42-abb51c19f94e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Контейнеры и баки для мусора",
+            "url_name": "konteinery-i-baki-dlya-musora",
+            "link": "https://www.citilink.ru/catalog/konteinery-i-baki-dlya-musora/",
+            "img_link": "https://category-images.s1.citilink.ru/533a75cd-94c2-43e7-be56-8169449cdb53.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Урны",
+            "url_name": "urny",
+            "link": "https://www.citilink.ru/catalog/urny/",
+            "img_link": "https://category-images.s1.citilink.ru/acd547a2-9e7d-4e72-a65e-69fe14271e0e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "hozyaistvennye-tovary-dlya-doma-i-dachi",
+        "value": {
+            "human_name": "Пакеты мусорные",
+            "url_name": "pakety-musornye",
+            "link": "https://www.citilink.ru/catalog/pakety-musornye/",
+            "img_link": "https://category-images.s1.citilink.ru/b27c355e-02a6-4295-b178-d35fbad0e0f3.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства для кухни",
+            "url_name": "sredstva-dlya-kuhni",
+            "link": "https://www.citilink.ru/catalog/sredstva-dlya-kuhni/",
+            "img_link": "https://category-images.s1.citilink.ru/4ad8a0e5-025a-4b87-b3a4-8be795ee5ae6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства для ванных комнат",
+            "url_name": "sredstva-dlya-vannyh-komnat",
+            "link": "https://www.citilink.ru/catalog/sredstva-dlya-vannyh-komnat/",
+            "img_link": "https://category-images.s1.citilink.ru/5cf2da1d-5966-401a-8b86-28ab89e2c42d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства для труб",
+            "url_name": "sredstva-dlya-trub",
+            "link": "https://www.citilink.ru/catalog/sredstva-dlya-trub/",
+            "img_link": "https://category-images.s1.citilink.ru/e0a1c2b6-0d00-47b2-8e18-6728aa0c2f09.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства для мебели и ковров",
+            "url_name": "sredstva-dlya-mebeli-i-kovrov",
+            "link": "https://www.citilink.ru/catalog/sredstva-dlya-mebeli-i-kovrov/",
+            "img_link": "https://category-images.s1.citilink.ru/6a0ad526-5577-4d57-ab25-0fa69b18bfc7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства универсальные",
+            "url_name": "sredstva-universalnye",
+            "link": "https://www.citilink.ru/catalog/sredstva-universalnye/",
+            "img_link": "https://category-images.s1.citilink.ru/94c1630b-1438-4795-9d5d-6e7451e4d1d1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства для посудомоечных машин",
+            "url_name": "sredstva-dlya-posudomoechnyh-mashin",
+            "link": "https://www.citilink.ru/catalog/sredstva-dlya-posudomoechnyh-mashin/",
+            "img_link": "https://category-images.s1.citilink.ru/e2d77df8-a378-4c79-894d-6434b2a71781.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства для стиральных машин",
+            "url_name": "sredstva-dlya-stiralnyh-mashin",
+            "link": "https://www.citilink.ru/catalog/sredstva-dlya-stiralnyh-mashin/",
+            "img_link": "https://category-images.s1.citilink.ru/4427b52b-fdfa-44cd-84b6-243233ac253d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "bytovaya-himiya",
+        "value": {
+            "human_name": "Средства для мытья пола",
+            "url_name": "sredstva-dlya-mytya-pola",
+            "link": "https://www.citilink.ru/catalog/sredstva-dlya-mytya-pola/",
+            "img_link": "https://category-images.s1.citilink.ru/4297cb92-4204-42d5-a40e-b510a9040b95.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tekstil",
+        "value": {
+            "human_name": "Постельное белье",
+            "url_name": "postelnoe-bele",
+            "link": "https://www.citilink.ru/catalog/postelnoe-bele/",
+            "img_link": "https://category-images.s1.citilink.ru/e5472830-48ff-4841-bd0d-7f7202b4ee93.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tekstil",
+        "value": {
+            "human_name": "Хранение для дома",
+            "url_name": "hranenie-dlya-doma",
+            "link": "https://www.citilink.ru/catalog/hranenie-dlya-doma/",
+            "img_link": "https://category-images.s1.citilink.ru/78d62b0b-1816-4ac9-a7b4-b7e6e04bec49.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "matrasy-i-krovati",
+        "value": {
+            "human_name": "Матрасы надувные",
+            "url_name": "matrasy-naduvnye",
+            "link": "https://www.citilink.ru/catalog/matrasy-naduvnye/",
+            "img_link": "https://category-images.s1.citilink.ru/fd7aa256-e870-4bc9-a23b-0f3002ababa1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "matrasy-i-krovati",
+        "value": {
+            "human_name": "Матрасы",
+            "url_name": "matrasy",
+            "link": "https://www.citilink.ru/catalog/matrasy/",
+            "img_link": "https://category-images.s1.citilink.ru/43a870be-2cc3-4280-856f-3712ef3a88f6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "matrasy-i-krovati",
+        "value": {
+            "human_name": "Кровати",
+            "url_name": "krovati",
+            "link": "https://www.citilink.ru/catalog/krovati/",
+            "img_link": "https://category-images.s1.citilink.ru/6690f537-ad99-459f-9607-093058f12fc2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "matrasy-i-krovati",
+        "value": {
+            "human_name": "Наматрасники",
+            "url_name": "namatrasniki",
+            "link": "https://www.citilink.ru/catalog/namatrasniki/",
+            "img_link": "https://category-images.s1.citilink.ru/39b69e7c-b24d-48fc-b5af-fc05efd285c1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Наборы посуды",
+            "url_name": "nabory-posudy",
+            "link": "https://www.citilink.ru/catalog/nabory-posudy/",
+            "img_link": "https://category-images.s1.citilink.ru/6e369725-671a-4085-984e-117503bffab5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Кастрюли",
+            "url_name": "kastryuli",
+            "link": "https://www.citilink.ru/catalog/kastryuli/",
+            "img_link": "https://category-images.s1.citilink.ru/6a83c9a3-ba8e-4ceb-a7cb-a9a07f67fa21.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Сковороды",
+            "url_name": "skovorody",
+            "link": "https://www.citilink.ru/catalog/skovorody/",
+            "img_link": "https://category-images.s1.citilink.ru/1b7c79c0-1c17-48a0-9477-03ed73039aa1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Сотейники",
+            "url_name": "soteiniki",
+            "link": "https://www.citilink.ru/catalog/soteiniki/",
+            "img_link": "https://category-images.s1.citilink.ru/b82b089f-d1cc-437e-b87d-bb589b14b059.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Ковши",
+            "url_name": "kovshi",
+            "link": "https://www.citilink.ru/catalog/kovshi/",
+            "img_link": "https://category-images.s1.citilink.ru/18d310d7-01e4-4f5b-a515-783d91138fa1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Крышки",
+            "url_name": "kryshki",
+            "link": "https://www.citilink.ru/catalog/kryshki/",
+            "img_link": "https://category-images.s1.citilink.ru/61ff8c64-09d7-4753-97e3-92a57307c6a0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Аксессуары для кухни",
+            "url_name": "aksessuary-dlya-kuhni",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-kuhni/",
+            "img_link": "https://category-images.s1.citilink.ru/b0bf58ac-3561-4255-9528-62345be72136.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Казаны, утятницы, жаровни",
+            "url_name": "kazany-utyatnicy-zharovni",
+            "link": "https://www.citilink.ru/catalog/kazany-utyatnicy-zharovni/",
+            "img_link": "https://category-images.s1.citilink.ru/ab339b75-da0b-4e6f-aae8-e085f6f5383c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Наборы кухонных ножей",
+            "url_name": "nabory-kuhonnyh-nozhei",
+            "link": "https://www.citilink.ru/catalog/nabory-kuhonnyh-nozhei/",
+            "img_link": "https://category-images.s1.citilink.ru/d912cf52-14ad-4a99-8cbe-1e18bf0338fc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Ножи кухонные",
+            "url_name": "nozhi-kuhonnye",
+            "link": "https://www.citilink.ru/catalog/nozhi-kuhonnye/",
+            "img_link": "https://category-images.s1.citilink.ru/88b71a0f-6dab-40b4-97d2-db9eafacf76c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Ножницы кухонные",
+            "url_name": "nozhnicy-kuhonnye",
+            "link": "https://www.citilink.ru/catalog/nozhnicy-kuhonnye/",
+            "img_link": "https://category-images.s1.citilink.ru/bb7c8014-c2b7-4b15-8379-c26ddc996da0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Разделочные доски",
+            "url_name": "razdelochnye-doski",
+            "link": "https://www.citilink.ru/catalog/razdelochnye-doski/",
+            "img_link": "https://category-images.s1.citilink.ru/35de480c-1a77-4b9a-bf92-f62e816ab1b7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Посуда для хранения",
+            "url_name": "posuda-dlya-hraneniya",
+            "link": "https://www.citilink.ru/catalog/posuda-dlya-hraneniya/",
+            "img_link": "https://category-images.s1.citilink.ru/f74fb4f9-95eb-4535-9adc-acd644b55a7a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Посуда столовая",
+            "url_name": "posuda-stolovaya",
+            "link": "https://www.citilink.ru/catalog/posuda-stolovaya/",
+            "img_link": "https://category-images.s1.citilink.ru/6c2035ae-193a-4c6b-a666-106885c7729b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Противни, формы для выпечки",
+            "url_name": "protivni-formy-dlya-vypechki",
+            "link": "https://www.citilink.ru/catalog/protivni-formy-dlya-vypechki/",
+            "img_link": "https://category-images.s1.citilink.ru/c7e42986-4d47-488b-8a80-12dd3a2059ef.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Столовые приборы",
+            "url_name": "stolovye-pribory",
+            "link": "https://www.citilink.ru/catalog/stolovye-pribory/",
+            "img_link": "https://category-images.s1.citilink.ru/4768aa28-83ae-4c6e-b7d5-3cac774422a5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Чайники (не электрические)",
+            "url_name": "chainiki-ne-elektricheskie",
+            "link": "https://www.citilink.ru/catalog/chainiki-ne-elektricheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/4ea6e398-6534-4a25-9916-99152539c13d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Турки и гейзерные кофеварки",
+            "url_name": "turki-i-geizernye-kofevarki",
+            "link": "https://www.citilink.ru/catalog/turki-i-geizernye-kofevarki/",
+            "img_link": "https://category-images.s1.citilink.ru/1f685e4f-7af8-49f4-9acd-84350b3d5135.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "posuda",
+        "value": {
+            "human_name": "Френч-прессы, заварочные чайники",
+            "url_name": "french-pressy-zavarochnye-chainiki",
+            "link": "https://www.citilink.ru/catalog/french-pressy-zavarochnye-chainiki/",
+            "img_link": "https://category-images.s1.citilink.ru/45f792ba-cb49-490b-b32b-1e772db69b6d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdyh-i-piknik",
+        "value": {
+            "human_name": "Грили, мангалы, коптильни",
+            "url_name": "grili-mangaly-koptilni",
+            "link": "https://www.citilink.ru/catalog/grili-mangaly-koptilni/",
+            "img_link": "https://category-images.s1.citilink.ru/78559999-bedc-40b4-bfc2-aac7749b005f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdyh-i-piknik",
+        "value": {
+            "human_name": "Аксессуары для грилей, мангалов, коптильни",
+            "url_name": "aksessuary-dlya-grilei-mangalov-koptilni",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-grilei-mangalov-koptilni/",
+            "img_link": "https://category-images.s1.citilink.ru/13c9e674-a71f-4c27-9eea-7cc9383890cf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdyh-i-piknik",
+        "value": {
+            "human_name": "Палатки и тенты",
+            "url_name": "palatki-i-tenty",
+            "link": "https://www.citilink.ru/catalog/palatki-i-tenty/",
+            "img_link": "https://category-images.s1.citilink.ru/4fd58293-5f98-432d-b270-0527fce0dfeb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdyh-i-piknik",
+        "value": {
+            "human_name": "Спальные мешки",
+            "url_name": "spalnye-meshki",
+            "link": "https://www.citilink.ru/catalog/spalnye-meshki/",
+            "img_link": "https://category-images.s1.citilink.ru/4779d11a-2d5c-454f-a4c6-df0e750214ca.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdyh-i-piknik",
+        "value": {
+            "human_name": "Коврики туристические",
+            "url_name": "kovriki-turisticheskie",
+            "link": "https://www.citilink.ru/catalog/kovriki-turisticheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/b5571c43-57b4-4db6-9024-752a9a369dfb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdyh-i-piknik",
+        "value": {
+            "human_name": "Горелки походные",
+            "url_name": "gorelki-pohodnye",
+            "link": "https://www.citilink.ru/catalog/gorelki-pohodnye/",
+            "img_link": "https://category-images.s1.citilink.ru/1e92c94b-7a60-4050-8e4e-e8eb446e3530.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "otdyh-i-piknik",
+        "value": {
+            "human_name": "Походная мебель и кухня",
+            "url_name": "pohodnaya-mebel-i-kuhnya",
+            "link": "https://www.citilink.ru/catalog/pohodnaya-mebel-i-kuhnya/",
+            "img_link": "https://category-images.s1.citilink.ru/048b6686-a017-42d5-ab22-fccf6c4e55ef.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-dekor",
+        "value": {
+            "human_name": "Газоны",
+            "url_name": "gazony",
+            "link": "https://www.citilink.ru/catalog/gazony/",
+            "img_link": "https://category-images.s1.citilink.ru/4d56c193-9788-4ac9-8697-396773c08741.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-dekor",
+        "value": {
+            "human_name": "Садовая мебель",
+            "url_name": "sadovaya-mebel",
+            "link": "https://www.citilink.ru/catalog/sadovaya-mebel/",
+            "img_link": "https://category-images.s1.citilink.ru/1fb9323d-8cf4-41a8-896c-177a202812db.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-dekor",
+        "value": {
+            "human_name": "Качели садовые",
+            "url_name": "kacheli-sadovye",
+            "link": "https://www.citilink.ru/catalog/kacheli-sadovye/",
+            "img_link": "https://category-images.s1.citilink.ru/5e123973-7091-458e-8373-d66c268124ec.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-dekor",
+        "value": {
+            "human_name": "Тенты и шатры садовые",
+            "url_name": "tenty-i-shatry-sadovye",
+            "link": "https://www.citilink.ru/catalog/tenty-i-shatry-sadovye/",
+            "img_link": "https://category-images.s1.citilink.ru/1f889adb-ab2e-4b11-a0dd-268ca89b47f4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-dekor",
+        "value": {
+            "human_name": "Садовые дорожки",
+            "url_name": "sadovye-dorozhki",
+            "link": "https://www.citilink.ru/catalog/sadovye-dorozhki/",
+            "img_link": "https://category-images.s1.citilink.ru/c541a899-ea75-4e47-b102-e2c8665cac17.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-dekor",
+        "value": {
+            "human_name": "Шпалеры и ограждения для растений",
+            "url_name": "shpalery-i-ograzhdeniya-dlya-rastenii",
+            "link": "https://www.citilink.ru/catalog/shpalery-i-ograzhdeniya-dlya-rastenii/",
+            "img_link": "https://category-images.s1.citilink.ru/60386980-50a9-4d4b-a0b2-b6e178f07294.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "sadovyi-dekor",
+        "value": {
+            "human_name": "Уличные гирлянды",
+            "url_name": "girlyandy--ulichnye-girlyandy",
+            "link": "https://www.citilink.ru/catalog/girlyandy--ulichnye-girlyandy/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_100574_1670513256.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "polivochnoe-oborudovanie",
+        "value": {
+            "human_name": "Шланги",
+            "url_name": "shlangi",
+            "link": "https://www.citilink.ru/catalog/shlangi/",
+            "img_link": "https://category-images.s1.citilink.ru/8e660a16-a501-4b51-9398-44e4ea5df2d6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "polivochnoe-oborudovanie",
+        "value": {
+            "human_name": "Соединительные элементы",
+            "url_name": "soedinitelnye-elementy",
+            "link": "https://www.citilink.ru/catalog/soedinitelnye-elementy/",
+            "img_link": "https://category-images.s1.citilink.ru/b2122ed0-e2e2-45a9-887f-4fcd90a642ef.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "polivochnoe-oborudovanie",
+        "value": {
+            "human_name": "Насадки для шлангов",
+            "url_name": "nasadki-dlya-shlangov",
+            "link": "https://www.citilink.ru/catalog/nasadki-dlya-shlangov/",
+            "img_link": "https://category-images.s1.citilink.ru/884f5119-aa53-4c09-bbe0-e8928e4f075d.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "polivochnoe-oborudovanie",
+        "value": {
+            "human_name": "Тележки и катушки для шлангов",
+            "url_name": "telezhki-i-katushki-dlya-shlangov",
+            "link": "https://www.citilink.ru/catalog/telezhki-i-katushki-dlya-shlangov/",
+            "img_link": "https://category-images.s1.citilink.ru/59b1fd54-fb83-4190-9fd6-b78810f869bd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "polivochnoe-oborudovanie",
+        "value": {
+            "human_name": "Системы полива",
+            "url_name": "sistemy-poliva",
+            "link": "https://www.citilink.ru/catalog/sistemy-poliva/",
+            "img_link": "https://category-images.s1.citilink.ru/dc2f1058-3c42-42d7-a654-d1e3a75a2e97.jpg",
+            "is_product_page": true
+        }
+    }
+]

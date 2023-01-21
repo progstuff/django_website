@@ -56,13 +56,21 @@
             </header>
             <div class="Section-columnContent">
               <ul class="menu menu_vt Order-navigate">
+                {% if is_ok %}
+                <li class="menu-item"><a class="menu-link" href="#step1">Шаг 1. Параметры пользователя</a>
+                {% else %}
                 <li class="menu-item_ACTIVE menu-item"><a class="menu-link" href="#step1">Шаг 1. Параметры пользователя</a>
+                {% endif %}
                 </li>
                 <li class="menu-item"><a class="menu-link" href="#step2">Шаг 2. Способ доставки</a>
                 </li>
                 <li class="menu-item"><a class="menu-link" href="#step3">Шаг 3. Способ оплаты</a>
                 </li>
+                {% if is_ok %}
                 <li class="menu-item"><a class="menu-link" href="#step4">Шаг 4. Подтверждение заказа</a>
+                {% else %}
+                <li class="menu-item_ACTIVE menu-item"><a class="menu-link" href="#step4">Шаг 4. Подтверждение заказа</a>
+                {% endif %}
                 </li>
               </ul>
             </div>
@@ -70,7 +78,12 @@
         </div>
         <div class="Section-content">
           <form class="form" action="#" method="post">
+            {% csrf_token %}
+            {% if is_ok %}
+            <div class="Order-block" id="step1">
+            {% else %}
             <div class="Order-block Order-block_OPEN" id="step1">
+            {% endif %}
               <header class="Section-header Section-header_sm">
                 <h2 class="Section-title">Шаг 1. Параметры пользователя
                 </h2>
@@ -78,33 +91,32 @@
               <div class="row">
                 <div class="row-block">
                   <div class="form-group">
-                    <label class="form-label" for="name">ФИО
+                    <label class="form-label" for="{{form.full_name.id_for_label}}">ФИО
                     </label>
-                    <input class="form-input" id="name" name="name" type="text" value="Иванов Иван Иванович"/>
+                    {% if form.full_name.data != None %}
+                    <input class="form-input" required id="{{form.full_name.id_for_label}}" type="{{form.full_name.widget_type}}" name="{{form.full_name.name}}" value="{{form.full_name.data}}"/>
+                    {% else %}
+                    <input class="form-input" required id="{{form.full_name.id_for_label}}" type="{{form.full_name.widget_type}}" name="{{form.full_name.name}}" value="{{form.full_name.initial}}"/>
+                    {% endif %}
                   </div>
                   <div class="form-group">
-                    <label class="form-label" for="phone">Телефон
+                    <label class="form-label" for="{{form.phone.id_for_label}}">Телефон
                     </label>
-                    <input class="form-input" id="phone" name="phone" type="text" value="+70000000000"/>
+                    {% if form.phone.data != None %}
+                    <input class="form-input" required id="{{form.phone.id_for_label}}" type="{{form.phone.widget_type}}" name="{{form.phone.name}}" value="{{form.phone.data}}"/>
+                    {% else %}
+                    <input class="form-input" required id="{{form.phone.id_for_label}}" type="{{form.phone.widget_type}}" name="{{form.phone.name}}" value="{{form.phone.initial}}"/>
+                    {% endif %}
                   </div>
                   <div class="form-group">
-                    <label class="form-label" for="mail">E-mail
+                    <label class="form-label" for="{{form.email.id_for_label}}">E-mail
                     </label>
-                    <input class="form-input" id="mail" name="mail" type="text" value="" data-validate="require"/>
-                  </div>
-                </div>
-                <div class="row-block">
-                  <div class="form-group">
-                    <label class="form-label" for="password">Пароль
-                    </label>
-                    <input class="form-input" id="password" name="password" type="password" placeholder="Тут можно изменить пароль"/>
-                  </div>
-                  <div class="form-group">
-                    <label class="form-label" for="passwordReply">Подтверждение пароля
-                    </label>
-                    <input class="form-input" id="passwordReply" name="passwordReply" type="password" placeholder="Введите пароль повторно"/>
-                  </div>
-                  <div class="form-group"><a class="btn btn_muted Order-btnReg" href="#">Я уже зарегистрирован</a>
+                    {% if form.email.data != None %}
+                    <input class="form-input" required id="{{form.email.id_for_label}}" type="{{form.email.widget_type}}" name="{{form.email.name}}" value="{{form.email.data}}"/>
+                    {% else %}
+                    <input class="form-input" required id="{{form.email.id_for_label}}" type="{{form.email.widget_type}}" name="{{form.email.name}}" value="{{form.email.initial}}"/>
+                    {% endif %}
+                    <div class="form-error">val</div>
                   </div>
                 </div>
               </div>
@@ -119,24 +131,32 @@
               <div class="form-group">
                 <div>
                   <label class="toggle">
-                    <input type="radio" name="delivery" value="ordinary" checked="checked"/><span class="toggle-box"></span><span class="toggle-text">Обычная доставка</span>
+                    <input required id="id_delivery_type_0" type="{{form.fields.delivery_type.widget.input_type}}" name="{{form.delivery_type.name}}" value="{{form.fields.delivery_type.choices.0.0}}" checked="checked"/><span class="toggle-box"></span><span class="toggle-text">{{form.fields.delivery_type.choices.0.1}}</span>
                   </label>
                 </div>
                 <div>
                   <label class="toggle">
-                    <input type="radio" name="delivery" value="express"/><span class="toggle-box"></span><span class="toggle-text">Экспресс доставка</span>
+                    <input required id="id_delivery_type_1" type="{{form.fields.delivery_type.widget.input_type}}" name="{{form.delivery_type.name}}" value="{{form.fields.delivery_type.choices.1.0}}"/><span class="toggle-box"></span><span class="toggle-text">{{form.fields.delivery_type.choices.1.1}}</span>
                   </label>
                 </div>
               </div>
               <div class="form-group">
-                <label class="form-label" for="city">Город
+                <label class="form-label" for="{{form.town.id_for_label}}">Город
                 </label>
-                <input class="form-input" id="city" name="city" type="text"/>
+                {% if form.town.data != None %}
+                <input class="form-input" required id="{{form.town.id_for_label}}" type="{{form.town.widget_type}}" name="{{form.town.name}}" value="{{form.town.data}}"/>
+                {% else %}
+                <input class="form-input" required id="{{form.town.id_for_label}}" type="{{form.town.widget_type}}" name="{{form.town.name}}" value="{{form.town.initial}}"/>
+                {% endif %}
               </div>
               <div class="form-group">
-                <label class="form-label" for="address">Адрес
+                <label class="form-label" for="{{form.address.id_for_label}}">Адрес
                 </label>
-                <textarea class="form-textarea" name="address" id="address"></textarea>
+                {% if form.town.data != None %}
+                <input class="form-input" required id="{{form.address.id_for_label}}" type="{{form.address.widget_type}}" name="{{form.address.name}}" value="{{form.address.data}}"/>
+                {% else %}
+                <input class="form-input" required id="{{form.address.id_for_label}}" type="{{form.address.widget_type}}" name="{{form.address.name}}" value="{{form.address.initial}}"/>
+                {% endif %}
               </div>
               <div class="Order-footer"><a class="btn btn_success Order-next" href="#step3">Дальше</a>
               </div>
@@ -149,19 +169,25 @@
               <div class="form-group">
                 <div>
                   <label class="toggle">
-                    <input type="radio" name="pay" value="online" checked="checked"/><span class="toggle-box"></span><span class="toggle-text">Онлайн картой</span>
+                    <input required id="id_payment_type_0" type="{{form.fields.payment_type.widget.input_type}}" name="{{form.payment_type.name}}" value="{{form.fields.payment_type.choices.0.0}}" checked="checked"/><span class="toggle-box"></span><span class="toggle-text">{{form.fields.payment_type.choices.0.1}}</span>
                   </label>
                 </div>
                 <div>
                   <label class="toggle">
-                    <input type="radio" name="pay" value="someone"/><span class="toggle-box"></span><span class="toggle-text">Онлайн со случайного чужого счета</span>
+                    <input required id="id_payment_type_1" type="{{form.fields.payment_type.widget.input_type}}" name="{{form.payment_type.name}}" value="{{form.fields.payment_type.choices.1.0}}"/><span class="toggle-box"></span><span class="toggle-text">{{form.fields.payment_type.choices.1.1}}</span>
                   </label>
                 </div>
               </div>
-              <div class="Order-footer"><a class="btn btn_success Order-next" href="#step4">Дальше</a>
+              <div class="Cart-block">
+                  <button class="btn btn_success" type="submit" name="check_data">Дальше
+                  </button>
               </div>
             </div>
+            {% if is_ok %}
+            <div class="Order-block Order-block_OPEN" id="step4">
+            {% else %}
             <div class="Order-block" id="step4">
+            {% endif %}
               <header class="Section-header Section-header_sm">
                 <h2 class="Section-title">Шаг 4. Подтверждение заказа
                 </h2>
@@ -174,19 +200,19 @@
                       <div class="Order-info">
                         <div class="Order-infoType">ФИО:
                         </div>
-                        <div class="Order-infoContent">Иванов Иван Иванович
+                        <div class="Order-infoContent">{{form.cleaned_data.full_name}}
                         </div>
                       </div>
                       <div class="Order-info">
                         <div class="Order-infoType">Телефон:
                         </div>
-                        <div class="Order-infoContent">+7000000000
+                        <div class="Order-infoContent">{{form.cleaned_data.phone}}
                         </div>
                       </div>
                       <div class="Order-info">
                         <div class="Order-infoType">E-mail:
                         </div>
-                        <div class="Order-infoContent">send@test.test
+                        <div class="Order-infoContent">{{form.cleaned_data.email}}
                         </div>
                       </div>
                     </div>
@@ -194,92 +220,66 @@
                       <div class="Order-info Order-info_delivery">
                         <div class="Order-infoType">Тип доставки:
                         </div>
-                        <div class="Order-infoContent">Обычная доставка
+                        {% if form.cleaned_data.delivery_type == form.fields.delivery_type.choices.0.0%}
+                        <div class="Order-infoContent">{{form.fields.delivery_type.choices.0.1}}
+                        {% else %}
+                        <div class="Order-infoContent">{{form.fields.delivery_type.choices.1.1}}
+                        {% endif %}
                         </div>
                       </div>
                       <div class="Order-info">
                         <div class="Order-infoType">Город:
                         </div>
-                        <div class="Order-infoContent">Москва
+                        <div class="Order-infoContent">{{form.cleaned_data.town}}
                         </div>
                       </div>
                       <div class="Order-info">
                         <div class="Order-infoType">Адрес:
                         </div>
-                        <div class="Order-infoContent">Ул. Академика Арцимовича, д. 10, кв. 10
+                        <div class="Order-infoContent">{{form.cleaned_data.address}}
                         </div>
                       </div>
                       <div class="Order-info Order-info_pay">
                         <div class="Order-infoType">Оплата:
                         </div>
-                        <div class="Order-infoContent">Онлайн картой
+                        {% if form.cleaned_data.payment_type == form.fields.payment_type.choices.0.0%}
+                        <div class="Order-infoContent">{{form.fields.payment_type.choices.0.1}}
+                        {% else %}
+                        <div class="Order-infoContent">{{form.fields.payment_type.choices.1.1}}
+                        {% endif %}
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="Cart Cart_order">
+                  {% for product in basket_items %}
                   <div class="Cart-product">
                     <div class="Cart-block Cart-block_row">
-                      <div class="Cart-block Cart-block_pict"><a class="Cart-pict" href="#"><img class="Cart-img" src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/></a>
+                      <div class="Cart-block Cart-block_pict"><a class="Cart-pict" href="#"><img class="Cart-img" src="{% static 'shop_cite/' %}{{product.img_src}}" alt="card.jpg"/></a>
                       </div>
-                      <div class="Cart-block Cart-block_info"><a class="Cart-title" href="#">Ноутбук</a>
-                        <div class="Cart-desc">Это супер ноутбук, 3 гб. 4 ядра
+                      <div class="Cart-block Cart-block_info"><a class="Cart-title" href="/product/{{product.id}}">{{product.name}}</a>
+                        <div class="Cart-desc">{{product.description}}
                         </div>
                       </div>
                       <div class="Cart-block Cart-block_price">
-                        <div class="Cart-price">80.00$
+                        <div class="Cart-price">{{product.price}}
                         </div>
                       </div>
                     </div>
                     <div class="Cart-block Cart-block_row">
-                      <div class="Cart-block Cart-block_amount">1 шт.
+                      <div class="Cart-block Cart-block_amount">{{product.amount}}
                       </div>
                     </div>
                   </div>
-                  <div class="Cart-product">
-                    <div class="Cart-block Cart-block_row">
-                      <div class="Cart-block Cart-block_pict"><a class="Cart-pict" href="#"><img class="Cart-img" src="{% static 'shop_cite/assets/img/content/sale/product.png' %}" alt="product.png"/></a>
-                      </div>
-                      <div class="Cart-block Cart-block_info"><a class="Cart-title" href="#">Планшет</a>
-                        <div class="Cart-desc">Это планшет с современным железом. Процессор последнего поколения
-                        </div>
-                      </div>
-                      <div class="Cart-block Cart-block_price">
-                        <div class="Cart-price">40.99$
-                        </div>
-                      </div>
-                    </div>
-                    <div class="Cart-block Cart-block_row">
-                      <div class="Cart-block Cart-block_amount">1 шт.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Cart-product">
-                    <div class="Cart-block Cart-block_row">
-                      <div class="Cart-block Cart-block_pict"><a class="Cart-pict" href="#"><img class="Cart-img" src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/></a>
-                      </div>
-                      <div class="Cart-block Cart-block_info"><a class="Cart-title" href="#">Ноутбук</a>
-                        <div class="Cart-desc">Это супер ноутбук, 3 гб. 4 ядра
-                        </div>
-                      </div>
-                      <div class="Cart-block Cart-block_price">
-                        <div class="Cart-price">80.00$
-                        </div>
-                      </div>
-                    </div>
-                    <div class="Cart-block Cart-block_row">
-                      <div class="Cart-block Cart-block_amount">1 шт.
-                      </div>
-                    </div>
-                  </div>
+                  {% endfor %}
                   <div class="Cart-total">
                     <div class="Cart-block Cart-block_total">
                       <strong class="Cart-title">Итого:
-                      </strong><span class="Cart-price">200.99$</span>
+                      </strong><span class="Cart-price">{{basket_total_price}}</span>
                     </div>
                     <div class="Cart-block">
-                      <button class="btn btn_primary btn_lg" type="submit">Оплатить
+                      <button class="btn btn_primary btn_lg" type="submit" name="save_data">Оплатить
                       </button>
                     </div>
                   </div>

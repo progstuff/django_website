@@ -55,22 +55,28 @@
             <form class="form Profile-form" action="#" method="post">
               {% csrf_token %}
               <div class="row">
-
                 <div class="row-block">
                   {% for field in form.visible_fields %}
                     <div class="form-group">
                       <label class="form-label" for="{{field.id_for_label}}">{{field.label}}
                       </label>
-                      <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="" data-validate="require"/>
+                      {% if field.data != None %}
+                        <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="{{field.data}}" data-validate="require"/>
+                      {% else %}
+                        <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="" data-validate="require"/>
+                      {% endif %}
+                      {% for key, val in errors.items %}
+                        {% if key == field.name %}
+                          <div class="form-error">{{val}}</div>
+                        {% endif %}
+                      {% endfor %}
                     </div>
                   {% endfor %}
 
                   <div class="form-group">
                     <div class="Profile-btn">
-                      <button class="btn btn_success" type="submit">Сохранить
+                      <button class="btn btn_success" type="submit">Регистрация
                       </button>
-                    </div>
-                    <div class="Profile-success">Профиль успешно сохранен
                     </div>
                   </div>
                 </div>

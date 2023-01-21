@@ -1,0 +1,1132 @@
+[
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Крупная бытовая техника",
+            "url_name": "krupnaya-bytovaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/krupnaya-bytovaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/9f921ff4-1426-405b-8bab-693d139d0025.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Встраиваемая техника",
+            "url_name": "vstraivaemaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/vstraivaemaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/c2b3ab78-6dc8-4cc4-891d-275e0380abef.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Вытяжки",
+            "url_name": "vytyazhki",
+            "link": "https://www.citilink.ru/catalog/vytyazhki/",
+            "img_link": "https://category-images.s1.citilink.ru/e9242e69-bb5b-467e-8e14-e720e3a161f4.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Кофемашины, кофеварки",
+            "url_name": "kofemashiny-kofevarki",
+            "link": "https://www.citilink.ru/catalog/kofemashiny-kofevarki/",
+            "img_link": "https://category-images.s1.citilink.ru/2bcbf6aa-56d7-4202-b497-d3a2d7ef0418.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Техника для кухни",
+            "url_name": "melkaya-bytovaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/melkaya-bytovaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/57a8da02-c6a9-42ae-badd-b6aa2cbef38c.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Принадлежности для бытовой техники",
+            "url_name": "prinadlezhnosti-dlya-bytovoi-tehniki",
+            "link": "https://www.citilink.ru/catalog/prinadlezhnosti-dlya-bytovoi-tehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/99a6b6a9-e4b4-4b96-a739-162d5cb48693.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Обогреватели",
+            "url_name": "obogrevateli",
+            "link": "https://www.citilink.ru/catalog/obogrevateli/",
+            "img_link": "https://category-images.s1.citilink.ru/a9991557-c0d5-48c1-adb5-7554c3dd46f2.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Техника для уборки",
+            "url_name": "tehnika-dlya-doma",
+            "link": "https://www.citilink.ru/catalog/tehnika-dlya-doma/",
+            "img_link": "https://category-images.s1.citilink.ru/ba2dfd9e-9d3f-487d-a643-88db7fdbea56.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Техника для ухода за одеждой",
+            "url_name": "tehnika-dlya-uhoda-za-odezhdoi",
+            "link": "https://www.citilink.ru/catalog/tehnika-dlya-uhoda-za-odezhdoi/",
+            "img_link": "https://category-images.s1.citilink.ru/39438ef1-5b44-4e1b-8496-de6395cb649b.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Водонагреватели",
+            "url_name": "vodonagrevateli",
+            "link": "https://www.citilink.ru/catalog/vodonagrevateli/",
+            "img_link": "https://category-images.s1.citilink.ru/177478e5-cc0b-4115-8e96-706b259dc405.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Кондиционеры",
+            "url_name": "kondicionery",
+            "link": "https://www.citilink.ru/catalog/kondicionery/",
+            "img_link": "https://category-images.s1.citilink.ru/0d43227d-7fb2-4654-a1e0-0158fb3b93bd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Климатическая техника",
+            "url_name": "klimaticheskaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/klimaticheskaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/4c7f0967-f957-4df8-b0e3-8058477bac7a.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Очистка воды",
+            "url_name": "ochistka-vody",
+            "link": "https://www.citilink.ru/catalog/ochistka-vody/",
+            "img_link": "https://category-images.s1.citilink.ru/86a0a09d-3666-4553-a8b9-8193f5be20eb.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Сушилки для рук",
+            "url_name": "sushilki-dlya-ruk",
+            "link": "https://www.citilink.ru/catalog/sushilki-dlya-ruk/",
+            "img_link": "https://category-images.s1.citilink.ru/914f304b-dad9-4a96-8bf9-327f7a8eb5a6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "large_and_small_appliances",
+        "value": {
+            "human_name": "Швейное оборудование",
+            "url_name": "shveinoe-oborudovanie",
+            "link": "https://www.citilink.ru/catalog/shveinoe-oborudovanie/",
+            "img_link": "https://category-images.s1.citilink.ru/88b1eff4-65eb-4464-b680-f1fe5f95df6c.jpg",
+            "is_product_page": false
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Винные шкафы",
+            "url_name": "vinnye-shkafy",
+            "link": "https://www.citilink.ru/catalog/vinnye-shkafy/",
+            "img_link": "https://category-images.s1.citilink.ru/45c2f594-889a-4f6e-b7d9-c051e34de1d6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Холодильники",
+            "url_name": "holodilniki",
+            "link": "https://www.citilink.ru/catalog/holodilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/ca7533fa-1cf4-4caa-ab36-69a3f8a336ef.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Стиральные машины",
+            "url_name": "stiralnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/stiralnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/31a4a707-cf8a-4b05-a9ae-f186e1a0f254.png",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Сушильные машины",
+            "url_name": "sushilnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/sushilnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/b88f721f-35df-432c-9e79-1e57999414eb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Настольные плиты",
+            "url_name": "nastolnye-plity",
+            "link": "https://www.citilink.ru/catalog/nastolnye-plity/",
+            "img_link": "https://category-images.s1.citilink.ru/98947655-09e3-4e3e-9ed3-84804413c28e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Газовые плиты",
+            "url_name": "gazovye-plity",
+            "link": "https://www.citilink.ru/catalog/gazovye-plity/",
+            "img_link": "https://category-images.s1.citilink.ru/b5f39d4c-ce14-4368-87c7-50117d93b94b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Электрические плиты",
+            "url_name": "elektricheskie-plity",
+            "link": "https://www.citilink.ru/catalog/elektricheskie-plity/",
+            "img_link": "https://category-images.s1.citilink.ru/dd03a3c2-54e3-4c6f-a3b0-69cfba09c59a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Посудомоечные машины",
+            "url_name": "posudomoechnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/posudomoechnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/99fb389a-160f-4c17-afdf-982b8eed5858.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Морозильные камеры",
+            "url_name": "morozilnye-kamery",
+            "link": "https://www.citilink.ru/catalog/morozilnye-kamery/",
+            "img_link": "https://category-images.s1.citilink.ru/9d0b3868-c5f5-4ce5-bbf3-3428132ee027.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Морозильные лари",
+            "url_name": "morozilnye-lari",
+            "link": "https://www.citilink.ru/catalog/morozilnye-lari/",
+            "img_link": "https://category-images.s1.citilink.ru/c58c935f-99a2-480c-9d7e-f918a92e7121.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "krupnaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Аксессуары для бытовой техники",
+            "url_name": "aksessuary-dlya-bytovoi-tehniki",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-bytovoi-tehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/5b8ea7bc-2496-457c-ada6-06ee80f264ba.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые газовые панели",
+            "url_name": "vstraivaemye-gazovye-paneli",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-gazovye-paneli/",
+            "img_link": "https://category-images.s1.citilink.ru/24a6bea0-79ff-47cd-b79e-6f77e1356a82.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые электрические панели",
+            "url_name": "vstraivaemye-elektricheskie-paneli",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-elektricheskie-paneli/",
+            "img_link": "https://category-images.s1.citilink.ru/997d8bde-7ba6-4d38-a452-439f6aea9b47.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Духовые шкафы",
+            "url_name": "elektricheskie-duhovye-shkafy",
+            "link": "https://www.citilink.ru/catalog/elektricheskie-duhovye-shkafy/",
+            "img_link": "https://category-images.s1.citilink.ru/71dbc055-7b37-47b1-9b09-464a4d4792ff.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые комплекты",
+            "url_name": "vstraivaemye-komplekty",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-komplekty/",
+            "img_link": "https://category-images.s1.citilink.ru/c063ebdb-2359-4e95-859e-a1edd7708d09.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые микроволновые печи",
+            "url_name": "vstraivaemye-mikrovolnovye-pechi",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-mikrovolnovye-pechi/",
+            "img_link": "https://category-images.s1.citilink.ru/73c20933-2bf4-440c-a5ab-744d6a53d7b4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые посудомоечные машины",
+            "url_name": "vstraivaemye-posudomoechnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-posudomoechnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/e5e13b1a-3a99-4967-b676-541b410edd08.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые стиральные машины",
+            "url_name": "vstraivaemye-stiralnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-stiralnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/80ef294d-d2d1-4605-925a-2ce8d2a66278.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые холодильники",
+            "url_name": "vstraivaemye-holodilniki",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-holodilniki/",
+            "img_link": "https://category-images.s1.citilink.ru/42722ee3-766c-4456-a4c0-70f765918ee2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Встраиваемые морозильные камеры",
+            "url_name": "vstraivaemye-morozilnye-kamery",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-morozilnye-kamery/",
+            "img_link": "https://category-images.s1.citilink.ru/44729bba-e99b-4dba-8d6e-ac2ff02799b0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vstraivaemaya-tehnika",
+        "value": {
+            "human_name": "Прочая встраиваемая техника",
+            "url_name": "prochaya-vstraivaemaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/prochaya-vstraivaemaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/46ba8f8a-d381-45ba-89f1-f62e7b234b0b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vytyazhki",
+        "value": {
+            "human_name": "Встраиваемые вытяжки",
+            "url_name": "vstraivaemye-vytyazhki",
+            "link": "https://www.citilink.ru/catalog/vstraivaemye-vytyazhki/",
+            "img_link": "https://category-images.s1.citilink.ru/a1f157ce-c78d-45be-83b0-aff589177a38.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vytyazhki",
+        "value": {
+            "human_name": "Каминные вытяжки",
+            "url_name": "kaminnye-vytyazhki",
+            "link": "https://www.citilink.ru/catalog/kaminnye-vytyazhki/",
+            "img_link": "https://category-images.s1.citilink.ru/257af2d7-b62c-4755-a4d7-7e5356ccdd54.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vytyazhki",
+        "value": {
+            "human_name": "Подвесные вытяжки",
+            "url_name": "podvesnye-vytyazhki",
+            "link": "https://www.citilink.ru/catalog/podvesnye-vytyazhki/",
+            "img_link": "https://category-images.s1.citilink.ru/99970549-607b-4de7-954f-cd83a89b6edc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vytyazhki",
+        "value": {
+            "human_name": "Аксессуары для вытяжек",
+            "url_name": "aksessuary-dlya-vytyazhek",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-vytyazhek/",
+            "img_link": "https://category-images.s1.citilink.ru/56363421-0c79-4c82-83b5-c0d564139d45.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kofemashiny-kofevarki",
+        "value": {
+            "human_name": "Кофемашины",
+            "url_name": "kofemashiny",
+            "link": "https://www.citilink.ru/catalog/kofemashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/5f479fe2-54e4-4d4e-aa7c-91627d34e822.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kofemashiny-kofevarki",
+        "value": {
+            "human_name": "Кофеварки",
+            "url_name": "kofevarki",
+            "link": "https://www.citilink.ru/catalog/kofevarki/",
+            "img_link": "https://category-images.s1.citilink.ru/85d43fdc-0703-4137-9d19-17aa5a887b9f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kofemashiny-kofevarki",
+        "value": {
+            "human_name": "Капсульные кофеварки",
+            "url_name": "kapsulnye-kofevarki",
+            "link": "https://www.citilink.ru/catalog/kapsulnye-kofevarki/",
+            "img_link": "https://category-images.s1.citilink.ru/0a460479-ceb3-4df1-897e-31acb63b4a3a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kofemashiny-kofevarki",
+        "value": {
+            "human_name": "Кофе",
+            "url_name": "kofe",
+            "link": "https://www.citilink.ru/catalog/kofe/",
+            "img_link": "https://category-images.s1.citilink.ru/fccc29aa-9204-4880-915b-a59c90e9bea5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kofemashiny-kofevarki",
+        "value": {
+            "human_name": "Кофемолки",
+            "url_name": "kofemolki",
+            "link": "https://www.citilink.ru/catalog/kofemolki/",
+            "img_link": "https://category-images.s1.citilink.ru/6a8c1991-3b4e-4176-8ecd-7615f833bbb2.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "kofemashiny-kofevarki",
+        "value": {
+            "human_name": "Аксессуары для кофе",
+            "url_name": "aksessuary-dlya-kofe",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-kofe/",
+            "img_link": "https://category-images.s1.citilink.ru/85db2d3e-4acb-4849-a14c-a411b8940867.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Мультиварки",
+            "url_name": "multivarki",
+            "link": "https://www.citilink.ru/catalog/multivarki/",
+            "img_link": "https://category-images.s1.citilink.ru/0f503350-f414-40b1-bdb3-e948e38bd55f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Микроволновые печи",
+            "url_name": "mikrovolnovye-pechi",
+            "link": "https://www.citilink.ru/catalog/mikrovolnovye-pechi/",
+            "img_link": "https://category-images.s1.citilink.ru/4e16505d-253d-4060-9863-5f5853c39c5e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Кухонные комбайны",
+            "url_name": "kuhonnye-kombainy",
+            "link": "https://www.citilink.ru/catalog/kuhonnye-kombainy/",
+            "img_link": "https://category-images.s1.citilink.ru/a794b0f3-4dae-4ff9-8b03-d87457a38fa9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Чайники электрические",
+            "url_name": "chainiki-elektricheskie",
+            "link": "https://www.citilink.ru/catalog/chainiki-elektricheskie/",
+            "img_link": "https://category-images.s1.citilink.ru/582d0b55-00de-454c-9134-b224d7f62387.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Термопоты",
+            "url_name": "termopoty",
+            "link": "https://www.citilink.ru/catalog/termopoty/",
+            "img_link": "https://category-images.s1.citilink.ru/d0e73359-6e60-4ada-b851-7dfe99ab40cc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Пароварки",
+            "url_name": "parovarki",
+            "link": "https://www.citilink.ru/catalog/parovarki/",
+            "img_link": "https://category-images.s1.citilink.ru/5f44a7fa-50ee-45e8-8f99-cc2b564fb7bb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Аэрогрили и электрогрили",
+            "url_name": "aerogrili-i-elektrogrili",
+            "link": "https://www.citilink.ru/catalog/aerogrili-i-elektrogrili/",
+            "img_link": "https://category-images.s1.citilink.ru/5afe5f80-59ac-48c2-9aee-fa68f90c5b59.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Блендеры",
+            "url_name": "blendery",
+            "link": "https://www.citilink.ru/catalog/blendery/",
+            "img_link": "https://category-images.s1.citilink.ru/415a3075-081c-4e6b-a44c-4ac8d743fb1e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Миксеры",
+            "url_name": "miksery",
+            "link": "https://www.citilink.ru/catalog/miksery/",
+            "img_link": "https://category-images.s1.citilink.ru/03fd8d99-57a7-4904-986f-0bf87386be12.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Миксеры планетарные",
+            "url_name": "miksery-planetarnye",
+            "link": "https://www.citilink.ru/catalog/miksery-planetarnye/",
+            "img_link": "https://category-images.s1.citilink.ru/15e4c727-7372-4e5f-9dc3-94afcba8335f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Мясорубки",
+            "url_name": "myasorubki",
+            "link": "https://www.citilink.ru/catalog/myasorubki/",
+            "img_link": "https://category-images.s1.citilink.ru/2506156f-430e-40d1-ae2b-ce0e0d989f29.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Соковыжималки",
+            "url_name": "sokovyzhimalki",
+            "link": "https://www.citilink.ru/catalog/sokovyzhimalki/",
+            "img_link": "https://category-images.s1.citilink.ru/022bfd34-cf5c-4103-b9ea-677da10cc6b0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Орешницы",
+            "url_name": "oreshnicy",
+            "link": "https://www.citilink.ru/catalog/oreshnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/69f23f2b-42d2-456c-8e90-5e37328ba5a9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Вафельницы",
+            "url_name": "vafelnicy",
+            "link": "https://www.citilink.ru/catalog/vafelnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/9097b32f-acbe-4b4b-83b1-0ed22ee6b1c7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Хлебопечи",
+            "url_name": "hlebopechi",
+            "link": "https://www.citilink.ru/catalog/hlebopechi/",
+            "img_link": "https://category-images.s1.citilink.ru/a45dbfdd-f261-4792-b877-f8bceada52a1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Тостеры",
+            "url_name": "tostery",
+            "link": "https://www.citilink.ru/catalog/tostery/",
+            "img_link": "https://category-images.s1.citilink.ru/16b1a2ef-7634-4fbb-bf9b-c343f5b52b57.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Сэндвичницы",
+            "url_name": "sendvichnicy",
+            "link": "https://www.citilink.ru/catalog/sendvichnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/cddd28c5-d744-46bc-b3e1-e642e6382b53.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Фритюрницы",
+            "url_name": "frityurnicy",
+            "link": "https://www.citilink.ru/catalog/frityurnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/8a92ebf5-44f4-401c-9914-ee76e266460c.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Мини-печи",
+            "url_name": "mini-pechi",
+            "link": "https://www.citilink.ru/catalog/mini-pechi/",
+            "img_link": "https://category-images.s1.citilink.ru/7c92d599-8d45-43bb-bac3-6844ea7e0bba.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Йогуртницы",
+            "url_name": "iogurtnicy",
+            "link": "https://www.citilink.ru/catalog/iogurtnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/327b6e68-6455-499c-b641-de2b7bbc418f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Блинницы",
+            "url_name": "blinnicy",
+            "link": "https://www.citilink.ru/catalog/blinnicy/",
+            "img_link": "https://category-images.s1.citilink.ru/777068ec-a32a-4dad-b1ed-6b4f6c6320dc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Кухонные весы",
+            "url_name": "kuhonnye-vesy",
+            "link": "https://www.citilink.ru/catalog/kuhonnye-vesy/",
+            "img_link": "https://category-images.s1.citilink.ru/60a69ef0-648c-45c9-96ea-a12ad1228a97.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Сушки для фруктов и овощей",
+            "url_name": "sushki-dlya-fruktov-i-ovoschei",
+            "link": "https://www.citilink.ru/catalog/sushki-dlya-fruktov-i-ovoschei/",
+            "img_link": "https://category-images.s1.citilink.ru/d47725ad-5e5a-4486-9c75-321875e485aa.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Прочая кухонная техника",
+            "url_name": "prochaya-kuhonnaya-tehnika",
+            "link": "https://www.citilink.ru/catalog/prochaya-kuhonnaya-tehnika/",
+            "img_link": "https://category-images.s1.citilink.ru/796782d3-3d40-424c-ba2b-ede5f76e8b02.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Термосы и термокружки",
+            "url_name": "termosy-i-termokruzhki",
+            "link": "https://www.citilink.ru/catalog/termosy-i-termokruzhki/",
+            "img_link": "https://category-images.s1.citilink.ru/a1882b4f-2f27-4c61-84b4-dbd6c860ecbc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Измельчители",
+            "url_name": "izmelchiteli",
+            "link": "https://www.citilink.ru/catalog/izmelchiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/87be73b1-19bf-4cbf-91a4-f18cbb1377df.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Дистилляторы",
+            "url_name": "distillyatory",
+            "link": "https://www.citilink.ru/catalog/distillyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/b6db9d42-adfa-4ef9-921e-2275bc5436eb.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "melkaya-bytovaya-tehnika",
+        "value": {
+            "human_name": "Кухонные машины",
+            "url_name": "kuhonnye-mashiny",
+            "link": "https://www.citilink.ru/catalog/kuhonnye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/5a520c4f-bd5e-4eae-8969-8d721e68497a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "prinadlezhnosti-dlya-bytovoi-tehniki",
+        "value": {
+            "human_name": "Все принадлежности",
+            "url_name": "vse-prinadlezhnosti",
+            "link": "https://www.citilink.ru/catalog/vse-prinadlezhnosti/",
+            "img_link": "https://category-images.s1.citilink.ru/bf0ddcd3-d570-485e-a6c1-c1f41926d382.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "prinadlezhnosti-dlya-bytovoi-tehniki",
+        "value": {
+            "human_name": "Аксессуары для кухонных комбайнов",
+            "url_name": "aksessuary-dlya-kuhonnyh-kombainov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-kuhonnyh-kombainov/",
+            "img_link": "https://category-images.s1.citilink.ru/0998bcb9-14a2-4456-a324-e1efedbb77de.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "prinadlezhnosti-dlya-bytovoi-tehniki",
+        "value": {
+            "human_name": "Аксессуары для мультиварок",
+            "url_name": "aksessuary-dlya-multivarok",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-multivarok/",
+            "img_link": "https://category-images.s1.citilink.ru/d726350e-80de-4118-bda1-77cd9cd2768f.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "prinadlezhnosti-dlya-bytovoi-tehniki",
+        "value": {
+            "human_name": "Аксессуары для мясорубок",
+            "url_name": "aksessuary-dlya-myasorubok",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-myasorubok/",
+            "img_link": "https://category-images.s1.citilink.ru/a4c0ff3d-01a1-48ba-a8c0-37c7b515eba0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "prinadlezhnosti-dlya-bytovoi-tehniki",
+        "value": {
+            "human_name": "Прочие аксессуары для бытовой техники",
+            "url_name": "prochie-aksessuary-dlya-bytovoi-tehniki",
+            "link": "https://www.citilink.ru/catalog/prochie-aksessuary-dlya-bytovoi-tehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/3530c37b-0438-472e-9eb5-96f284b6b22e.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Тепловые пушки",
+            "url_name": "teplovye-pushki",
+            "link": "https://www.citilink.ru/catalog/teplovye-pushki/",
+            "img_link": "https://category-images.s1.citilink.ru/d236879b-48c4-414f-8c9f-cf7f5a182965.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Тепловые завесы",
+            "url_name": "teplovye-zavesy",
+            "link": "https://www.citilink.ru/catalog/teplovye-zavesy/",
+            "img_link": "https://category-images.s1.citilink.ru/44d67e46-cb21-40c5-8ccc-b197b1c29982.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Конвекторы",
+            "url_name": "konvektory",
+            "link": "https://www.citilink.ru/catalog/konvektory/",
+            "img_link": "https://category-images.s1.citilink.ru/e3e51400-0c11-486c-838a-812b5a7d0251.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Масляные радиаторы",
+            "url_name": "maslyanye-radiatory",
+            "link": "https://www.citilink.ru/catalog/maslyanye-radiatory/",
+            "img_link": "https://category-images.s1.citilink.ru/acac9234-2989-4b36-afea-d3d369147603.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Тепловентиляторы",
+            "url_name": "teploventilyatory",
+            "link": "https://www.citilink.ru/catalog/teploventilyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/e3d70e8e-c775-4f73-82b6-d9fa9ddb5596.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Инфракрасные обогреватели",
+            "url_name": "infrakrasnye-obogrevateli",
+            "link": "https://www.citilink.ru/catalog/infrakrasnye-obogrevateli/",
+            "img_link": "https://category-images.s1.citilink.ru/6f947c36-c1ce-48b8-953a-9ad8b7ba39c6.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Газовые обогреватели",
+            "url_name": "gazovye-obogrevateli",
+            "link": "https://www.citilink.ru/catalog/gazovye-obogrevateli/",
+            "img_link": "https://category-images.s1.citilink.ru/f1bf27fb-713c-44f7-bbfa-44e85eefd0e5.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "obogrevateli",
+        "value": {
+            "human_name": "Электрокамины",
+            "url_name": "elektrokaminy",
+            "link": "https://www.citilink.ru/catalog/elektrokaminy/",
+            "img_link": "https://category-images.s1.citilink.ru/833da1bd-06a9-4e76-9064-059608a92eea.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-doma",
+        "value": {
+            "human_name": "Пылесосы",
+            "url_name": "pylesosy",
+            "link": "https://www.citilink.ru/catalog/pylesosy/",
+            "img_link": "https://category-images.s1.citilink.ru/bea8e443-8eb5-48e6-9065-a9bccecd9a12.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-doma",
+        "value": {
+            "human_name": "Аксессуары для пылесосов",
+            "url_name": "aksessuary-dlya-pylesosov",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-pylesosov/",
+            "img_link": "https://category-images.s1.citilink.ru/984974b2-a14d-4124-9a49-52aeb6bc4f08.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-doma",
+        "value": {
+            "human_name": "Пароочистители",
+            "url_name": "paroochistiteli",
+            "link": "https://www.citilink.ru/catalog/paroochistiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/be8cbcb7-d0c4-4290-b0eb-9d03e2daaad1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-doma",
+        "value": {
+            "human_name": "Паровые швабры",
+            "url_name": "parovye-shvabry",
+            "link": "https://www.citilink.ru/catalog/parovye-shvabry/",
+            "img_link": "https://category-images.s1.citilink.ru/f72b22ee-d217-4f88-a631-d2c345c399a0.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-doma",
+        "value": {
+            "human_name": "Стеклоочистители",
+            "url_name": "stekloochistiteli",
+            "link": "https://www.citilink.ru/catalog/stekloochistiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/b31ebc56-c685-4017-89df-93bafb2ec0bd.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-uhoda-za-odezhdoi",
+        "value": {
+            "human_name": "Утюги",
+            "url_name": "utyugi",
+            "link": "https://www.citilink.ru/catalog/utyugi/",
+            "img_link": "https://category-images.s1.citilink.ru/5dee7d2b-5718-4e2c-9b6d-6eae7e6ff5e1.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-uhoda-za-odezhdoi",
+        "value": {
+            "human_name": "Парогенераторы",
+            "url_name": "parogeneratory",
+            "link": "https://www.citilink.ru/catalog/parogeneratory/",
+            "img_link": "https://category-images.s1.citilink.ru/047ff94d-c2e5-4e23-af23-3a03e6550c9b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-uhoda-za-odezhdoi",
+        "value": {
+            "human_name": "Отпариватели",
+            "url_name": "otparivateli",
+            "link": "https://www.citilink.ru/catalog/otparivateli/",
+            "img_link": "https://category-images.s1.citilink.ru/b30008a5-614f-45fc-ace3-7e7f8131d5f4.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "tehnika-dlya-uhoda-za-odezhdoi",
+        "value": {
+            "human_name": "Прочая техника для дома",
+            "url_name": "prochaya-tehnika-dlya-doma",
+            "link": "https://www.citilink.ru/catalog/prochaya-tehnika-dlya-doma/",
+            "img_link": "https://category-images.s1.citilink.ru/51d221e8-2d03-4955-a977-924a9413f258.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vodonagrevateli",
+        "value": {
+            "human_name": "Электрические водонагреватели",
+            "url_name": "elektricheskie-vodonagrevateli",
+            "link": "https://www.citilink.ru/catalog/elektricheskie-vodonagrevateli/",
+            "img_link": "https://category-images.s1.citilink.ru/3311ae28-329d-4344-9cd7-c331260bd29a.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "vodonagrevateli",
+        "value": {
+            "human_name": "Газовые водонагреватели",
+            "url_name": "gazovye-vodonagrevateli",
+            "link": "https://www.citilink.ru/catalog/gazovye-vodonagrevateli/",
+            "img_link": "https://category-images.s1.citilink.ru/f79de20a-4b3e-4d51-83f2-a9bdc4bbf3ce.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Увлажнители воздуха",
+            "url_name": "uvlazhniteli-vozduha",
+            "link": "https://www.citilink.ru/catalog/uvlazhniteli-vozduha/",
+            "img_link": "https://category-images.s1.citilink.ru/1e7bd01f-7265-4ee0-bcb1-739b00dcc48b.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Воздухоочистители",
+            "url_name": "vozduhoochistiteli",
+            "link": "https://www.citilink.ru/catalog/vozduhoochistiteli/",
+            "img_link": "https://category-images.s1.citilink.ru/5020b5b9-9ce6-4601-9b52-af66c31a9747.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Осушители воздуха",
+            "url_name": "osushiteli-vozduha",
+            "link": "https://www.citilink.ru/catalog/osushiteli-vozduha/",
+            "img_link": "https://category-images.s1.citilink.ru/c2857601-fd9a-4983-8729-4cdfce0ee4b9.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Погодные станции",
+            "url_name": "pogodnye-stancii",
+            "link": "https://www.citilink.ru/catalog/pogodnye-stancii/",
+            "img_link": "https://category-images.s1.citilink.ru/dc000014-4b9f-4f12-989c-359c00a4d9cf.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Сушилки для рук",
+            "url_name": "sushilki-dlya-ruk",
+            "link": "https://www.citilink.ru/catalog/sushilki-dlya-ruk/",
+            "img_link": "https://category-images.s1.citilink.ru/529e1635-ee7c-44ec-882c-d1b6485d93e7.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Вентиляторы",
+            "url_name": "ventilyatory",
+            "link": "https://www.citilink.ru/catalog/ventilyatory/",
+            "img_link": "https://category-images.s1.citilink.ru/79c5cca3-e92d-444c-a636-990180839459.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Аксессуары для климатической техники",
+            "url_name": "aksessuary-dlya-klimaticheskoi-tehniki",
+            "link": "https://www.citilink.ru/catalog/aksessuary-dlya-klimaticheskoi-tehniki/",
+            "img_link": "https://category-images.s1.citilink.ru/ae390dac-2331-4891-a54c-50b68849c274.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Мойки воздуха",
+            "url_name": "vozduhoochistiteli--moyki-vozduha",
+            "link": "https://www.citilink.ru/catalog/vozduhoochistiteli--moyki-vozduha/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_347_1657209060.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Кондиционеры",
+            "url_name": "split-sistemy--kondic",
+            "link": "https://www.citilink.ru/catalog/split-sistemy--kondic/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_277_1656703892.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "klimaticheskaya-tehnika",
+        "value": {
+            "human_name": "Мобильные кондиционеры",
+            "url_name": "split-sistemy--mobilnye-kondicionery",
+            "link": "https://www.citilink.ru/catalog/split-sistemy--mobilnye-kondicionery/",
+            "img_link": "https://content.s1.citilink.ru/seo_filter_277_1657208924.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ochistka-vody",
+        "value": {
+            "human_name": "Фильтры для воды",
+            "url_name": "filtry-dlya-vody",
+            "link": "https://www.citilink.ru/catalog/filtry-dlya-vody/",
+            "img_link": "https://category-images.s1.citilink.ru/0f5ea146-ffa5-46df-ad40-683971067874.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ochistka-vody",
+        "value": {
+            "human_name": "Картриджи для фильтров",
+            "url_name": "kartridzhi-dlya-filtrov",
+            "link": "https://www.citilink.ru/catalog/kartridzhi-dlya-filtrov/",
+            "img_link": "https://category-images.s1.citilink.ru/2f1897df-d0bd-45ee-9d66-64679aa221cc.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "ochistka-vody",
+        "value": {
+            "human_name": "Кулеры для воды",
+            "url_name": "kulery-dlya-vody",
+            "link": "https://www.citilink.ru/catalog/kulery-dlya-vody/",
+            "img_link": "https://category-images.s1.citilink.ru/be1449e1-2d3a-45f5-ac35-1b7f4b50a5b8.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shveinoe-oborudovanie",
+        "value": {
+            "human_name": "Швейные машины",
+            "url_name": "shveinye-mashiny",
+            "link": "https://www.citilink.ru/catalog/shveinye-mashiny/",
+            "img_link": "https://category-images.s1.citilink.ru/211ee332-7d40-4742-85e8-3c368c9b9024.jpg",
+            "is_product_page": true
+        }
+    },
+    {
+        "root": "shveinoe-oborudovanie",
+        "value": {
+            "human_name": "Оверлоки",
+            "url_name": "overloki",
+            "link": "https://www.citilink.ru/catalog/overloki/",
+            "img_link": "https://category-images.s1.citilink.ru/6ca42bab-76ff-441e-bcc2-924a9cd92f38.jpg",
+            "is_product_page": true
+        }
+    }
+]
