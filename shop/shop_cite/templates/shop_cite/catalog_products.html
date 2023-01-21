@@ -52,7 +52,7 @@
         <div class="Section-column">
           <div class="Section-columnSection">
             <header class="Section-header">
-              <strong class="Section-title">Filter
+              <strong class="Section-title">Фильтр
               </strong>
             </header>
             <div class="Section-columnContent">
@@ -108,10 +108,10 @@
             <div class="Sort-variants">
               <form class="form" action="#" method="post">
                 {% csrf_token %}
-                <button class="Sort-sortBy{{popular_class}}" type="submit" name="popular_sort" value="{{sort_popular}}">Популярности</button>
-                <button class="Sort-sortBy{{price_class}}" type="submit" name="price_sort" value="{{sort_price}}">Цене</button>
-                <button class="Sort-sortBy{{review_class}}" type="submit" name="review_sort" value="{{sort_review}}">Отзывам</button>
-                <button class="Sort-sortBy{{new_class}}" type="submit" name="new_sort" value="{{sort_new}}">Новизне</button>
+                <!--<button class="Sort-sortBy{{popular_class}}" type="submit" name="popular_sort" value="{{sort_popular}}">Популярности</button>-->
+                <button class="Sort-sortBy{{price_class}}" type="submit" name="price_sort" value="{{sort_price}}" style="border:none;">Цене</button>
+                <button class="Sort-sortBy{{review_class}}" type="submit" name="review_sort" value="{{sort_review}}" style="border:none;">Отзывам</button>
+                <button class="Sort-sortBy{{new_class}}" type="submit" name="new_sort" value="{{sort_new}}" style="border:none;">Названию</button>
               </form>
             </div>
           </div>

@@ -35,44 +35,52 @@ class CatalogProductsPage(BaseTemplate):
         price_class = ''
         new_class = ''
         review_class = ''
+        order_val = 'price'
         if sort_val is not None:
             data = sort_val.split('_')
             param = data[0]
             val = data[1]
             if param == 'price':
-                if val == 'dec':
+                if val == 'inc':
                     sort_price = 'price_inc'
                     price_class = ' Sort-sortBy_dec'
+                    order_val = 'price'
                 else:
-                    sort_price = 'price_inc'
-                    price_class = ' Sort-sortBy_dec'
+                    sort_price = 'price_dec'
+                    price_class = ' Sort-sortBy_inc'
+                    order_val = '-price'
             elif param == 'popular':
-                if val == 'dec':
+                if val == 'inc':
                     sort_popular = 'popular_inc'
                     popular_class = ' Sort-sortBy_dec'
                 else:
                     sort_popular = 'popular_dec'
                     popular_class = ' Sort-sortBy_inc'
             elif param == 'review':
-                if val == 'dec':
+                if val == 'inc':
                     sort_review = 'review_inc'
                     review_class = ' Sort-sortBy_dec'
                 else:
                     sort_review = 'review_dec'
                     review_class = ' Sort-sortBy_inc'
             elif param == 'new':
-                if val == 'dec':
+                if val == 'inc':
                     sort_new = 'new_inc'
-                    new_class = ' Sort-sortBy_inc'
-                else:
-                    sort_price = 'new_dec'
                     new_class = ' Sort-sortBy_dec'
+                    order_val = 'name'
+                else:
+                    sort_new = 'new_dec'
+                    new_class = ' Sort-sortBy_inc'
+                    order_val = '-name'
         else:
             price_class = ' Sort-sortBy_inc'
             sort_price = 'price_dec'
+            order_val = '-price'
         ##############################################
+        products = list(Product.objects.filter(category=category, price__gte=from_pr, price__lte=to_pr)
+                        .order_by(order_val))
 
-        products = list(Product.objects.filter(category=category, price__gte=from_pr, price__lte=to_pr))
+
         return self.get_render(request,
                                'shop_cite/catalog_products.html',
                                context={'products': products,
@@ -105,18 +113,23 @@ class CatalogProductsPage(BaseTemplate):
             to_pr = request.GET.get('to_pr', None)
             min_pr = request.GET.get('min_pr', None)
             max_pr = request.GET.get('max_pr', None)
-        if 'price_sort' in request.POST:
-            if request.POST['price_sort'][-4::] != 'none':
+            if 'price_sort' in request.POST:
                 sort_val = request.POST['price_sort']
-        elif 'popular_sort' in request.POST:
-            if request.POST['popular_sort'][-4::] != 'none':
+            elif 'popular_sort' in request.POST:
                 sort_val = request.POST['popular_sort']
-        elif 'new_sort' in request.POST:
-            if request.POST['new_sort'][-4::] != 'none':
+            elif 'new_sort' in request.POST:
                 sort_val = request.POST['new_sort']
-        elif 'review_sort' in request.POST:
-            if request.POST['review_sort'][-4::] != 'none':
+            elif 'review_sort' in request.POST:
                 sort_val = request.POST['review_sort']
+            a = 1
+            if sort_val != '':
+                if sort_val[-4::] != 'none':
+                    if sort_val[-3::] == 'dec':
+                        sort_val = sort_val[:-3] + 'inc'
+                    else:
+                        sort_val = sort_val[:-3] + 'dec'
+                else:
+                    sort_val = sort_val[:-4] + 'dec'
 
         params = {}
         params['from_pr'] = from_pr
