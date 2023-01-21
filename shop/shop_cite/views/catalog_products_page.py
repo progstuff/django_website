@@ -26,6 +26,7 @@ class CatalogProductsPage(BaseTemplate):
         ##############################################
 
         ## sort vals #################################
+        querry = request.GET.get('name', '')
         sort_val = request.GET.get('sort', None)
         sort_popular = 'popular_none'
         sort_price = 'price_none'
@@ -77,8 +78,17 @@ class CatalogProductsPage(BaseTemplate):
             sort_price = 'price_dec'
             order_val = '-price'
         ##############################################
-        products = list(Product.objects.filter(category=category, price__gte=from_pr, price__lte=to_pr)
-                        .order_by(order_val))
+        if querry == '':
+            products = list(Product.objects.filter(category=category,
+                                                   price__gte=from_pr,
+                                                   price__lte=to_pr)
+                            .order_by(order_val))
+        else:
+            products = list(Product.objects.filter(category=category,
+                                                   price__gte=from_pr,
+                                                   price__lte=to_pr,
+                                                   name__icontains=querry)
+                            .order_by(order_val))
 
 
         return self.get_render(request,
@@ -90,6 +100,7 @@ class CatalogProductsPage(BaseTemplate):
                                         'max_pr': str(max_pr),
                                         'from_pr': str(from_pr),
                                         'to_pr': str(to_pr),
+                                        'querry_name': querry,
                                         'sort_popular': sort_popular,
                                         'sort_price': sort_price,
                                         'sort_new': sort_new,
@@ -108,11 +119,13 @@ class CatalogProductsPage(BaseTemplate):
             max_pr = int(prices['price__max'])
             from_pr = price[0]
             to_pr = price[1]
+            querry = request.POST['querry']
         else:
             from_pr = request.GET.get('from_pr', None)
             to_pr = request.GET.get('to_pr', None)
             min_pr = request.GET.get('min_pr', None)
             max_pr = request.GET.get('max_pr', None)
+            querry = request.GET.get('name', None)
             if 'price_sort' in request.POST:
                 sort_val = request.POST['price_sort']
             elif 'popular_sort' in request.POST:
@@ -121,7 +134,7 @@ class CatalogProductsPage(BaseTemplate):
                 sort_val = request.POST['new_sort']
             elif 'review_sort' in request.POST:
                 sort_val = request.POST['review_sort']
-            a = 1
+
             if sort_val != '':
                 if sort_val[-4::] != 'none':
                     if sort_val[-3::] == 'dec':
@@ -132,6 +145,7 @@ class CatalogProductsPage(BaseTemplate):
                     sort_val = sort_val[:-4] + 'dec'
 
         params = {}
+        params['name'] = querry
         params['from_pr'] = from_pr
         params['to_pr'] = to_pr
         params['min_pr'] = min_pr
