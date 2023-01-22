@@ -81,7 +81,7 @@
         </nav>
         <div class="row-block">
           <div class="CartBlock"><a class="CartBlock-block" href="/cart"><img class="CartBlock-img" src="{% static 'shop_cite/assets/img/icons/cart.svg' %}" alt="cart.svg"/><span class="CartBlock-amount">{{basket_items_cnt}}</span></a>
-            <div class="CartBlock-block"><span class="CartBlock-price">{{basket_total_price}}</span>
+            <div class="CartBlock-block"><span class="CartBlock-price">{{basket_total_price|floatformat:0}}₽</span>
             </div>
           </div>
         </div>
@@ -140,8 +140,9 @@
         <div class="Header-search">
           <div class="search">
             <form class="form form_search" action="#" method="post">
-              <input class="search-input" id="query" name="query" type="text" placeholder="What are you looking for ..."/>
-              <button class="search-button" type="submit" name="search" id="search"><img src="{% static 'shop_cite/assets/img/icons/search.svg' %}" alt="search.svg"/>Search
+              {% csrf_token %}
+              <input class="search-input" id="query" name="query_text" type="text" placeholder="Поиск по товарам"/>
+              <button class="search-button" type="submit" name="search" id="search"><img src="{% static 'shop_cite/assets/img/icons/search.svg' %}" alt="search.svg"/>Найти
               </button>
             </form>
           </div>

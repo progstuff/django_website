@@ -7,15 +7,35 @@ from django.http import HttpResponseRedirect
 
 class CatalogProductsPage(BaseTemplate):
 
+    def get_products_cnt_str(self, products_cnt):
+        if products_cnt == 0:
+            return 'Товаров не найдено'
+        rez = '{} товар'.format(products_cnt)
+        b = products_cnt % 100;
+        if b >= 5 and b <= 19:
+            return rez + 'ов'
+        a = b % 10
+        if a == 1:
+            return rez
+        if a >= 2 and a <= 4:
+            return rez + 'a'
+        return rez + 'ов'
+
     def get(self, request, pk):
         form = FilterForm()
-        category = Category.objects.get(id=pk)
-
+        search_val = request.GET.get('search', None)
+        if search_val is None:
+            category = Category.objects.get(id=pk)
+        else:
+            category = {}
         # get values from get querry or db############
         min_pr = request.GET.get('min_pr', None)
         max_pr = request.GET.get('max_pr', None)
         if min_pr is None or max_pr is None:
-            prices = Product.objects.filter(category=category).aggregate(Max('price'), Min('price'))
+            if search_val is None:
+                prices = Product.objects.filter(category=category).aggregate(Max('price'), Min('price'))
+            else:
+                prices = Product.objects.filter(name__icontains=search_val).aggregate(Max('price'), Min('price'))
             min_pr = prices['price__min']
             max_pr = prices['price__max']
         else:
@@ -79,18 +99,44 @@ class CatalogProductsPage(BaseTemplate):
             order_val = '-price'
         ##############################################
         if querry == '':
-            products = list(Product.objects.filter(category=category,
-                                                   price__gte=from_pr,
-                                                   price__lte=to_pr)
-                            .order_by(order_val))
+            if search_val is None:
+                products = list(Product.objects.filter(category=category,
+                                                       price__gte=from_pr,
+                                                       price__lte=to_pr)
+                                .order_by(order_val))
+            else:
+                products = list(Product.objects.filter(name__icontains=search_val,
+                                                       price__gte=from_pr,
+                                                       price__lte=to_pr)
+                                .order_by(order_val))
+
         else:
-            products = list(Product.objects.filter(category=category,
-                                                   price__gte=from_pr,
-                                                   price__lte=to_pr,
-                                                   name__icontains=querry)
-                            .order_by(order_val))
+            if search_val is None:
+                products = list(Product.objects.filter(category=category,
+                                                       price__gte=from_pr,
+                                                       price__lte=to_pr,
+                                                       name__icontains=querry)
+                                .order_by(order_val))
+            else:
+                products = list(Product.objects.filter(name__icontains=search_val)
+                                               .filter(price__gte=from_pr,
+                                                       price__lte=to_pr,
+                                                       name__icontains=querry)
+                                               .order_by(order_val))
 
-
+        if search_val is not None:
+            if len(products) > 0:
+                products_cnt_str = self.get_products_cnt_str(len(products))
+                category['title'] = 'Найдено: {}'.format(products_cnt_str)
+            else:
+                category['title'] = 'Ничего не найдено'
+        else:
+            if len(products) > 0:
+                products_cnt_str = self.get_products_cnt_str(len(products))
+                category.title = 'найдено: {}'.format(products_cnt_str)
+            else:
+                category.title = 'ничего не найдено'
+            category.title = category.name + ' - ' + category.title
         return self.get_render(request,
                                'shop_cite/catalog_products.html',
                                context={'products': products,
@@ -108,58 +154,68 @@ class CatalogProductsPage(BaseTemplate):
                                         'popular_class': popular_class,
                                         'price_class': price_class,
                                         'new_class': new_class,
-                                        'review_class': review_class})
+                                        'review_class': review_class,
+                                        'is_category': search_val is None})
 
     def post(self, request, pk):
-        sort_val = request.GET.get('sort', '')
-        if 'filter' in request.POST:
-            price = request.POST['price'].split(';')
-            prices = Product.objects.filter(category__id=pk).aggregate(Max('price'), Min('price'))
-            min_pr = int(prices['price__min'])
-            max_pr = int(prices['price__max'])
-            from_pr = price[0]
-            to_pr = price[1]
-            querry = request.POST['querry']
-        else:
-            from_pr = request.GET.get('from_pr', None)
-            to_pr = request.GET.get('to_pr', None)
-            min_pr = request.GET.get('min_pr', None)
-            max_pr = request.GET.get('max_pr', None)
-            querry = request.GET.get('name', None)
-            if 'price_sort' in request.POST:
-                sort_val = request.POST['price_sort']
-            elif 'popular_sort' in request.POST:
-                sort_val = request.POST['popular_sort']
-            elif 'new_sort' in request.POST:
-                sort_val = request.POST['new_sort']
-            elif 'review_sort' in request.POST:
-                sort_val = request.POST['review_sort']
+        srch_page = super().post(request)
+        if srch_page is None:
+            srch_val = request.GET.get('search', '')
+            sort_val = request.GET.get('sort', '')
+            if 'filter' in request.POST:
+                price = request.POST['price'].split(';')
+                if srch_val == '':
+                    prices = Product.objects.filter(category__id=pk).aggregate(Max('price'), Min('price'))
+                else:
+                    prices = Product.objects.filter(name__icontains=srch_val).aggregate(Max('price'), Min('price'))
 
-            if sort_val != '':
-                if sort_val[-4::] != 'none':
-                    if sort_val[-3::] == 'dec':
-                        sort_val = sort_val[:-3] + 'inc'
+                min_pr = int(prices['price__min'])
+                max_pr = int(prices['price__max'])
+                from_pr = price[0]
+                to_pr = price[1]
+                querry = request.POST['querry']
+            else:
+                from_pr = request.GET.get('from_pr', None)
+                to_pr = request.GET.get('to_pr', None)
+                min_pr = request.GET.get('min_pr', None)
+                max_pr = request.GET.get('max_pr', None)
+                querry = request.GET.get('name', None)
+                if 'price_sort' in request.POST:
+                    sort_val = request.POST['price_sort']
+                elif 'popular_sort' in request.POST:
+                    sort_val = request.POST['popular_sort']
+                elif 'new_sort' in request.POST:
+                    sort_val = request.POST['new_sort']
+                elif 'review_sort' in request.POST:
+                    sort_val = request.POST['review_sort']
+
+                if sort_val != '':
+                    if sort_val[-4::] != 'none':
+                        if sort_val[-3::] == 'dec':
+                            sort_val = sort_val[:-3] + 'inc'
+                        else:
+                            sort_val = sort_val[:-3] + 'dec'
                     else:
-                        sort_val = sort_val[:-3] + 'dec'
-                else:
-                    sort_val = sort_val[:-4] + 'dec'
+                        sort_val = sort_val[:-4] + 'dec'
 
-        params = {}
-        params['name'] = querry
-        params['from_pr'] = from_pr
-        params['to_pr'] = to_pr
-        params['min_pr'] = min_pr
-        params['max_pr'] = max_pr
-        params['sort'] = sort_val
+            params = {}
+            params['search'] = srch_val
+            params['name'] = querry
+            params['from_pr'] = from_pr
+            params['to_pr'] = to_pr
+            params['min_pr'] = min_pr
+            params['max_pr'] = max_pr
+            params['sort'] = sort_val
 
-        link = '/catalog-products/{0}'.format(pk)
-        is_first = True
-        for key, val in params.items():
-            if val != '' and val is not None:
-                if is_first:
-                    link += '?{0}={1}'.format(key, val)
-                    is_first = False
-                else:
-                    link += '&{0}={1}'.format(key, val)
+            link = '/catalog-products/{0}'.format(pk)
+            is_first = True
+            for key, val in params.items():
+                if val != '' and val is not None:
+                    if is_first:
+                        link += '?{0}={1}'.format(key, val)
+                        is_first = False
+                    else:
+                        link += '&{0}={1}'.format(key, val)
 
-        return HttpResponseRedirect(link)
+            return HttpResponseRedirect(link)
+        return srch_page

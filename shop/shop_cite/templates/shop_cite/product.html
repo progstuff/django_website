@@ -39,7 +39,7 @@
           <h1 class="Middle-title">{{product.name}}
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
-            <li class="breadcrumbs-item"><a href="/">home</a>
+            <li class="breadcrumbs-item"><a href="/">Главная</a>
             </li>
             <li class="breadcrumbs-item breadcrumbs-item_current"><span>Product</span>
             </li>
@@ -74,7 +74,7 @@
                 </h2>
                 <div class="ProductCard-info">
                   <div class="ProductCard-cost">
-                    <div class="ProductCard-price">{{product.price}}
+                    <div class="ProductCard-price">{{product.price|floatformat:0}} ₽
                     </div>
                   </div>
                 </div>

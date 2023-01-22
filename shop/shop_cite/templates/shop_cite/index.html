@@ -70,7 +70,7 @@
                 <strong class="Card-title"><a href="/product/{{product.id}}">{{product.name}}</a>
                 </strong>
                 <div class="Card-description">
-                  <div class="Card-cost"><span class="Card-price">{{product.price}}</span>
+                  <div class="Card-cost"><span class="Card-price">{{product.price|floatformat:0}} ₽</span>
                   </div>
                   <div class="Card-category">
                   </div>
@@ -155,7 +155,7 @@
                       <strong class="Card-title"><a href="#">{{product.name}}</a>
                       </strong>
                       <div class="Card-description">
-                        <div class="Card-cost"><span class="Card-price">{{product.price}}</span>
+                        <div class="Card-cost"><span class="Card-price">{{product.price|floatformat:0}} ₽</span>
                         </div>
                         <div class="Card-category">
                         </div>

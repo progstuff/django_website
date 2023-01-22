@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import View
 from ..models import Category
+from django.http import HttpResponseRedirect
 
 
 class BaseTemplate(View):
@@ -51,3 +52,9 @@ class BaseTemplate(View):
                     lvl_three[category.name] = (category.image_src, category.short_image_name, category.id, category.has_subcategories, [])
 
         return lvl_one, lvl_two, lvl_three
+
+    def post(self, request):
+        if 'search' in request.POST:
+            querry_text = request.POST['query_text']
+            return HttpResponseRedirect('/catalog-products/0?search={}'.format(querry_text))
+

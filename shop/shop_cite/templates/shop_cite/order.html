@@ -38,7 +38,7 @@
           <h1 class="Middle-title">Оформление заказа
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
-            <li class="breadcrumbs-item"><a href="/">home</a>
+            <li class="breadcrumbs-item"><a href="/">Главная</a>
             </li>
             <li class="breadcrumbs-item breadcrumbs-item_current"><span>Оформление заказа</span>
             </li>
@@ -263,7 +263,7 @@
                         </div>
                       </div>
                       <div class="Cart-block Cart-block_price">
-                        <div class="Cart-price">{{product.price}}
+                        <div class="Cart-price">{{product.price|floatformat:0}} ₽
                         </div>
                       </div>
                     </div>
@@ -276,7 +276,7 @@
                   <div class="Cart-total">
                     <div class="Cart-block Cart-block_total">
                       <strong class="Cart-title">Итого:
-                      </strong><span class="Cart-price">{{basket_total_price}}</span>
+                      </strong><span class="Cart-price">{{basket_total_price|floatformat:0}} ₽</span>
                     </div>
                     <div class="Cart-block">
                       <button class="btn btn_primary btn_lg" type="submit" name="save_data">Оплатить

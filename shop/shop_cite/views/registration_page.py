@@ -13,20 +13,23 @@ class RegistrationPage(BaseTemplate):
                                context={'form': form})
 
     def post(self, request):
-        form = RegistrationForm(request.POST)
-        if form.is_valid():
-            try:
-                form.save_to_db()
-                return HttpResponseRedirect('/')
+        srch_page = super().post(request)
+        if srch_page is None:
+            form = RegistrationForm(request.POST)
+            if form.is_valid():
+                try:
+                    form.save_to_db()
+                    return HttpResponseRedirect('/')
 
-            except IntegrityError:
+                except IntegrityError:
+                    errors = form.get_error_messages()
+                    errors['email'] = 'Пользователь с таким email уже зарегистрирован'
+                    return self.get_render(request,
+                                           'shop_cite/registration.html',
+                                           context={'form': form, 'errors': errors})
+            else:
                 errors = form.get_error_messages()
-                errors['email'] = 'Пользователь с таким email уже зарегистрирован'
                 return self.get_render(request,
                                        'shop_cite/registration.html',
                                        context={'form': form, 'errors': errors})
-        else:
-            errors = form.get_error_messages()
-            return self.get_render(request,
-                                   'shop_cite/registration.html',
-                                   context={'form': form, 'errors': errors})
+        return srch_page

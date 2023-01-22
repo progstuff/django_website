@@ -36,13 +36,15 @@
     <div class="Middle-top">
       <div class="wrap">
         <div class="Middle-header">
-          <h1 class="Middle-title">{{category.name}}
+          <h1 class="Middle-title">{{category.title}}
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
-            <li class="breadcrumbs-item"><a href="/">home</a>
+            <li class="breadcrumbs-item"><a href="/">Главная</a>
             </li>
-            <li class="breadcrumbs-item breadcrumbs-item_current"><span>{{category.name}}</span>
-            </li>
+            {% if is_category %}
+              <li class="breadcrumbs-item breadcrumbs-item_current"><span>{{category.name}}</span>
+              </li>
+            {% endif %}
           </ul>
         </div>
       </div>
@@ -127,7 +129,7 @@
                   <strong class="Card-title"><a href="/product/{{product.id}}">{{product.name}}</a>
                   </strong>
                   <div class="Card-description">
-                    <div class="Card-cost"><span class="Card-price">{{product.price}}</span>
+                    <div class="Card-cost"><span class="Card-price">{{product.price|floatformat:0}} ₽</span>
                     </div>
                     <div class="Card-category">
                     </div>
@@ -160,5 +162,5 @@
   <script src="{% static 'shop_cite/assets/plg/form/jquery.maskedinput.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/range/ion.rangeSlider.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/Slider/slick.min.js' %}"></script>
-  <script src="{% static 'shop_cite/assets/js/scripts.js' %}"></script>
+  <script src="{% static 'shop_cite/assets/js/scripts3.js' %}"></script>
 </body></html>
