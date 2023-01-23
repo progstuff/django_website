@@ -146,16 +146,28 @@
             {% csrf_token %}
             <div class="Pagination">
               <div class="Pagination-ins">
-                <button class="Pagination-element Pagination-element_prev" name="page_back" style="border:none;" type="submit">
+                {% if cur_page > 1 %}
+                <button class="Pagination-element Pagination-element_prev" name="page_back_{{prev_page}}" style="border:none;" type="submit">
                   <img src="{% static 'shop_cite/assets/img/icons/prevPagination.svg' %}" alt="prevPagination.svg"/></button>
-                <button class="Pagination-element Pagination-element_current" name="page_1" style="border:none;" type="submit">
-                  <span class="Pagination-text">1</span></button>
-                <button class="Pagination-element" href="#" style="border:none;" type="submit" name="page_2">
-                  <span class="Pagination-text">2</span></button>
-                <button class="Pagination-element" href="#" style="border:none;" type="submit" name="page_3">
-                  <span class="Pagination-text">3</span></button>
-                <button class="Pagination-element Pagination-element_prev" name="page_forward" style="border:none;" type="submit">
+                {% endif %}
+                {% for page in pages %}
+                  {% if page.0 == cur_page %}
+                    <button class="Pagination-element Pagination-element_current" name="page_{{page.0}}" style="border:none;" type="submit">
+                      <span class="Pagination-text">{{page.0}}</span></button>
+                  {% else %}
+                    {% if page.0 == '...' %}
+                      <button class="Pagination-element" name="page_{{page.1}}" style="border:none;" type="submit">
+                        <span class="Pagination-text">{{page.0}}</span></button>
+                    {% else %}
+                      <button class="Pagination-element" name="page_{{page.0}}" style="border:none;" type="submit">
+                        <span class="Pagination-text">{{page.0}}</span></button>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+                {% if cur_page < max_page %}
+                <button class="Pagination-element Pagination-element_prev" name="page_forward_{{next_page}}" style="border:none;" type="submit">
                   <img src="{% static 'shop_cite/assets/img/icons/nextPagination.svg' %}" alt="nextPagination.svg"/></button>
+                {% endif %}
               </div>
             </div>
           </form>
