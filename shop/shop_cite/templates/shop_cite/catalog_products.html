@@ -142,10 +142,23 @@
 
 
           </div>
-          <div class="Pagination">
-            <div class="Pagination-ins"><a class="Pagination-element Pagination-element_prev" href="#"><img src="{% static 'shop_cite/assets/img/icons/prevPagination.svg' %}" alt="prevPagination.svg"/></a><a class="Pagination-element Pagination-element_current" href="#"><span class="Pagination-text">1</span></a><a class="Pagination-element" href="#"><span class="Pagination-text">2</span></a><a class="Pagination-element" href="#"><span class="Pagination-text">3</span></a><a class="Pagination-element Pagination-element_prev" href="#"><img src="{% static 'shop_cite/assets/img/icons/nextPagination.svg' %}" alt="nextPagination.svg"/></a>
+          <form method="post">
+            {% csrf_token %}
+            <div class="Pagination">
+              <div class="Pagination-ins">
+                <button class="Pagination-element Pagination-element_prev" name="page_back" style="border:none;" type="submit">
+                  <img src="{% static 'shop_cite/assets/img/icons/prevPagination.svg' %}" alt="prevPagination.svg"/></button>
+                <button class="Pagination-element Pagination-element_current" name="page_1" style="border:none;" type="submit">
+                  <span class="Pagination-text">1</span></button>
+                <button class="Pagination-element" href="#" style="border:none;" type="submit" name="page_2">
+                  <span class="Pagination-text">2</span></button>
+                <button class="Pagination-element" href="#" style="border:none;" type="submit" name="page_3">
+                  <span class="Pagination-text">3</span></button>
+                <button class="Pagination-element Pagination-element_prev" name="page_forward" style="border:none;" type="submit">
+                  <img src="{% static 'shop_cite/assets/img/icons/nextPagination.svg' %}" alt="nextPagination.svg"/></button>
+              </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>

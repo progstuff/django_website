@@ -31,6 +31,8 @@ class CatalogProductsPage(BaseTemplate):
         # get values from get querry or db############
         min_pr = request.GET.get('min_pr', None)
         max_pr = request.GET.get('max_pr', None)
+        page_number = int(request.GET.get('p', 1))
+
         if min_pr is None or max_pr is None:
             if search_val is None:
                 prices = Product.objects.filter(category=category).aggregate(Max('price'), Min('price'))
@@ -155,13 +157,30 @@ class CatalogProductsPage(BaseTemplate):
                                         'price_class': price_class,
                                         'new_class': new_class,
                                         'review_class': review_class,
-                                        'is_category': search_val is None})
+                                        'is_category': search_val is None,
+                                        'cur_page_number': page_number})
 
     def post(self, request, pk):
+
         srch_page = super().post(request)
         if srch_page is None:
             srch_val = request.GET.get('search', '')
             sort_val = request.GET.get('sort', '')
+
+            page_number = int(request.GET.get('p', 1))
+            for key in request.POST.keys():
+                if 'page' in key:
+                    page_val = key.split('_')[1]
+                    if page_val == 'forward':
+                        page_number += 1
+                        if page_number > 3:
+                            page_number = 3
+                    if page_val == 'back':
+                        page_number -= 1
+                        if page_number < 1:
+                            page_number = 1
+                    break
+
             if 'filter' in request.POST:
                 price = request.POST['price'].split(';')
                 if srch_val == '':
@@ -199,6 +218,7 @@ class CatalogProductsPage(BaseTemplate):
                         sort_val = sort_val[:-4] + 'dec'
 
             params = {}
+            params['p'] = page_number
             params['search'] = srch_val
             params['name'] = querry
             params['from_pr'] = from_pr
