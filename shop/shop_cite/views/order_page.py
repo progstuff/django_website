@@ -87,6 +87,8 @@ class OrderPage(BaseTemplate):
                                                         price=data['price'],
                                                         amount=data['amount'])
                         ######################################################
+                    basket = {}
+                    request.session['basket'] = basket
 
                 return HttpResponseRedirect('/payment/{}'.format(purchase.id))
         return srch_page

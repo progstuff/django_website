@@ -18,10 +18,9 @@ DELIVERY_STATE = (
     ('В', 'Завершён'),
 )
 PAYMENT_STATE = (
-    ('Н', 'Не оплачен'),
+    ('Н', 'Ожидается оплата'),
     ('О', 'Оплачен'),
 )
-
 
 class UserProfile(models.Model):
 

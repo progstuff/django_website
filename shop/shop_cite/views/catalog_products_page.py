@@ -52,6 +52,10 @@ class CatalogProductsPage(BaseTemplate):
                 prices = Product.objects.filter(name__icontains=search_val).aggregate(Max('price'), Min('price'))
             min_pr = prices['price__min']
             max_pr = prices['price__max']
+            if min_pr is None:
+                min_pr = 0
+            if max_pr is None:
+                max_pr = 0
         else:
             min_pr = float(min_pr)
             max_pr = float(max_pr)

@@ -6,6 +6,12 @@ from django.http import HttpResponseRedirect
 
 class BaseTemplate(View):
 
+    def get_long_name(self, short_name, names):
+        for shrt_name, lng_name in names:
+            if shrt_name == short_name:
+                return lng_name
+        return ''
+
     def get_basket_items_cnt(self, request):
         basket = request.session.get('basket', None)
         cnt = 0

@@ -152,7 +152,7 @@
                 <div class="Slider-content">
                   <div class="Card"><a class="BannersHomeBlock-img" href="/product/{{product.id}}"><img src="{% static 'shop_cite/' %}{{product.main_image_src}}" alt="card.jpg"/></a>
                     <div class="Card-content">
-                      <strong class="Card-title"><a href="#">{{product.name}}</a>
+                      <strong class="Card-title"><a href="/product/{{product.id}}">{{product.name}}</a>
                       </strong>
                       <div class="Card-description">
                         <div class="Card-cost"><span class="Card-price">{{product.price|floatformat:0}} ₽</span>
