@@ -73,38 +73,36 @@
         <div class="Section-content">
           <div class="Profile">
             <form class="form Profile-form" action="#" method="post">
+              {% csrf_token %}
               <div class="row">
                 <div class="row-block">
-                  <div class="form-group">
-                    <label class="form-label" for="name">ФИО
-                    </label>
-                    <input class="form-input" id="name" name="name" type="text" value="Иванов Иван Иванович"/>
-                  </div>
+
                 </div>
                 <div class="row-block">
-                  <div class="form-group">
-                    <label class="form-label" for="phone">Телефон
-                    </label>
-                    <input class="form-input" id="phone" name="phone" type="text" value="+70000000000"/>
-                  </div>
-                  <div class="form-group">
-                    <label class="form-label" for="mail">E-mail
-                    </label>
-                    <input class="form-input" id="mail" name="mail" type="text" value="send@test.test"/>
-                  </div>
-                  <div class="form-group">
-                    <label class="form-label" for="password">Пароль
-                    </label>
-                    <input class="form-input" id="password" name="password" type="password" placeholder="Тут можно изменить пароль"/>
-                  </div>
-                  <div class="form-group">
-                    <label class="form-label" for="passwordReply">Подтверждение пароля
-                    </label>
-                    <input class="form-input" id="passwordReply" name="passwordReply" type="password" placeholder="Введите пароль повторно"/>
-                  </div>
+                  {% for field in form.visible_fields %}
+                      <div class="form-group">
+                        <label class="form-label" for="{{field.id_for_label}}">{{field.label}}
+                        </label>
+                        {% if field.data != None %}
+                          <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="{{field.data}}" data-validate="require"/>
+                        {% else %}
+                          {% if field.initial != None %}
+                            <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="{{field.initial}}" data-validate="require"/>
+                          {% else %}
+                            <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="" data-validate="require"/>
+                          {% endif %}
+                        {% endif %}
+                        {% for key, val in errors.items %}
+                          {% if key == field.name %}
+                            <div class="form-error">{{val}}</div>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                  {% endfor %}
+
                   <div class="form-group">
                     <div class="Profile-btn">
-                      <button class="btn btn_success">Сохранить
+                      <button class="btn btn_success" type="submit" name="update_data">Сохранить
                       </button>
                     </div>
                   </div>

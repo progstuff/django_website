@@ -1,12 +1,13 @@
 from django import forms
 from django.utils.translation import gettext_lazy as _
 from django.core.exceptions import ValidationError
-from django.contrib.auth.models import User
 from ..models import UserProfile
+from django.contrib.auth import authenticate, login
 
 
-class RegistrationForm(forms.Form):
-    name = forms.CharField(label=_('ФИО'))
+class ProfileForm(forms.Form):
+    full_name = forms.CharField(label=_('ФИО'))
+    phone = forms.CharField(label=_('Телефон'))
     email = forms.CharField(label=_('E-mail'), widget=forms.EmailInput)
     password = forms.CharField(label=_('Пароль'), widget=forms.PasswordInput)
     password_confirm = forms.CharField(label=_('Подтверждение пароля'), widget=forms.PasswordInput)
@@ -32,13 +33,22 @@ class RegistrationForm(forms.Form):
 
         return errors
 
-    def save_to_db(self):
+    def save_to_db(self, user, request):
         email = self.cleaned_data.get('email', '')
-        name = self.cleaned_data.get('name', '')
+        phone = self.cleaned_data.get('phone', '')
+        name = self.cleaned_data.get('full_name', '')
         password = self.cleaned_data.get('password', '')
-        user = User.objects.create_user(username=email,
-                                        password=password)
-        UserProfile.objects.create(user=user,
-                                   full_name=name)
+        user.username = email
+        user.set_password(password)
+        user.save()
+        authenticate(username=email, password=password)
+        login(request, user)
+        #user.update(username=email)
+        #user = User.objects.create_user(username=email,
+        #                                email=email,
+        #                                password=password,
+        #                                first_name=name)
+        UserProfile.objects.filter(user=user).update(full_name=name,
+                                                     phone=phone)
 
 

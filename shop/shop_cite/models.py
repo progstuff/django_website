@@ -22,6 +22,7 @@ PAYMENT_STATE = (
     ('О', 'Оплачен'),
 )
 
+
 class UserProfile(models.Model):
 
     USER_STATUS = (

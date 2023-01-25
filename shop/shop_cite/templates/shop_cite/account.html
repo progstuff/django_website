@@ -63,8 +63,6 @@
                   </li>
                   <li class="menu-item"><a class="menu-link" href="/history">История заказов</a>
                   </li>
-                  <li class="menu-item"><a class="menu-link" href="historyview.html">История просмотра</a>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -78,7 +76,7 @@
                 </div>
               </div>
               <div class="Account-column">
-                <div class="Account-name">Иванов Иван Иванович
+                <div class="Account-name">{{user_profile.full_name}}
                 </div><a class="Account-editLink" href="/profile">Редактировать профиль</a>
               </div>
             </div>
@@ -108,7 +106,7 @@
                         <div class="Order-info">
                           <div class="Order-infoType">Общая стоимость:
                           </div>
-                          <div class="Order-infoContent">{{last_order.total_sum}}
+                          <div class="Order-infoContent">{{last_order.total_sum|floatformat:0}} ₽
                           </div>
                         </div>
                         <div class="Order-info Order-info_status">

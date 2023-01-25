@@ -1,6 +1,7 @@
 from .view_utils import BaseTemplate
 from ..models import UserProfile, Purchase
 from ..models import PAYMENT_STATE, DELIVERY_TYPE, PAYMENT_TYPE
+from django.http import HttpResponseRedirect
 
 
 class AccountPage(BaseTemplate):
@@ -17,6 +18,9 @@ class AccountPage(BaseTemplate):
             except IndexError:
                 last_purchase = None
 
-        return self.get_render(request,
-                               'shop_cite/account.html',
-                               context={'last_order': last_purchase})
+            return self.get_render(request,
+                                   'shop_cite/account.html',
+                                   context={'last_order': last_purchase,
+                                            'user_profile': user_profile})
+        else:
+            return HttpResponseRedirect('/')
