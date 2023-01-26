@@ -5,6 +5,7 @@ from django.http import HttpResponseRedirect
 from django.db.utils import IntegrityError
 
 
+
 class ProfilePage(BaseTemplate):
 
     def get(self, request):
@@ -14,10 +15,15 @@ class ProfilePage(BaseTemplate):
             form = ProfileForm(initial={'full_name': user_profile.full_name,
                                         'email': user.username,
                                         'phone': user_profile.phone})
+            try:
+                avatar_image = user_profile.avatar.url
+            except ValueError:
+                avatar_image = None
 
             return self.get_render(request,
                                    'shop_cite/profile.html',
-                                   context={'form': form})
+                                   context={'form': form,
+                                            'avatar_image': avatar_image})
         else:
             return HttpResponseRedirect('/')
 
@@ -29,8 +35,9 @@ class ProfilePage(BaseTemplate):
                 form = ProfileForm(request.POST)
                 if form.is_valid():
                     try:
-                        form.save_to_db(request.user, request)
-                        a = 1
+                        file = request.FILES.get('avatar', None)
+                        # сохраняем на файловой системе
+                        form.save_to_db(request.user, request, file)
                         return HttpResponseRedirect('/account')
 
                     except IntegrityError:
@@ -42,8 +49,13 @@ class ProfilePage(BaseTemplate):
                         #                       context={'form': form, 'errors': errors})
                 else:
                     errors = form.get_error_messages()
+                    user_profile = UserProfile.objects.get(user=user)
+                    try:
+                        avatar_image = user_profile.avatar.url
+                    except ValueError:
+                        avatar_image = None
                     return self.get_render(request,
                                            'shop_cite/profile.html',
-                                           context={'form': form, 'errors': errors})
+                                           context={'form': form, 'errors': errors, 'avatar_image': avatar_image})
             return srch_page
         return HttpResponseRedirect('/')

@@ -17,10 +17,15 @@ class AccountPage(BaseTemplate):
                 last_purchase.payment_state = self.get_long_name(last_purchase.payment_state, PAYMENT_STATE)
             except IndexError:
                 last_purchase = None
+            try:
+                avatar_image = user_profile.avatar.url
+            except ValueError:
+                avatar_image = None
 
             return self.get_render(request,
                                    'shop_cite/account.html',
                                    context={'last_order': last_purchase,
-                                            'user_profile': user_profile})
+                                            'user_profile': user_profile,
+                                            'avatar_image': avatar_image})
         else:
             return HttpResponseRedirect('/')

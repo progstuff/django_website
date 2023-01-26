@@ -10,7 +10,7 @@ admin.site.site_title = 'MEGANO'
 
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'status', 'payment_method']
+    list_display = ['id', 'user', 'status', 'payment_method', 'avatar']
 
 
 @admin.register(Category)

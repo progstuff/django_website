@@ -72,8 +72,11 @@
           <div class="Account">
             <div class="Account-group">
               <div class="Account-column">
-                <div class="Account-avatar"><img src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/>
-                </div>
+                {% if avatar_image != None %}
+                <div class="Account-avatar"><img src="{{avatar_image}}" alt="card.jpg"/></div>
+                {% else %}
+                <div class="Account-avatar"><img src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/></div>
+                {% endif %}
               </div>
               <div class="Account-column">
                 <div class="Account-name">{{user_profile.full_name}}

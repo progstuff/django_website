@@ -64,7 +64,6 @@
                   </li>
                   <li class="menu-item"><a class="menu-link" href="/history">История заказов</a>
                   </li>
-
                 </ul>
               </div>
             </div>
@@ -72,32 +71,60 @@
         </div>
         <div class="Section-content">
           <div class="Profile">
-            <form class="form Profile-form" action="#" method="post">
+            <form class="form Profile-form" action="#" method="post" enctype="multipart/form-data">
               {% csrf_token %}
               <div class="row">
                 <div class="row-block">
-
+                  <div class="form-group">
+                    <label class="form-label" for="{{form.avatar.id_for_label}}">{{form.avatar.label}}
+                    </label>
+                    <div class="Profile-avatar">
+                      {% if avatar_image != None %}
+                      <div class="Profile-img"><img src="{{avatar_image}}" alt="card.jpg"/></div>
+                      {% else %}
+                      <div class="Profile-img"><img src="{% static 'shop_cite/assets/img/content/home/card.jpg' %}" alt="card.jpg"/></div>
+                      {% endif %}
+                      <label class="Profile-fileLabel" for="{{form.avatar.id_for_label}}">{{form.avatar.label}}
+                      </label>
+                      <input class="Profile-file form-input" id="{{form.avatar.id_for_label}}" name="{{form.avatar.name}}" type="file"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="{{form.full_name.id_for_label}}">{{form.full_name.label}}
+                    </label>
+                     {% if form.full_name.data != None %}
+                      <input class="form-input" required id="{{form.full_name.id_for_label}}" type="{{form.full_name.widget_type}}" name="{{form.full_name.name}}" value="{{form.full_name.data}}" data-validate="require"/>
+                     {% else %}
+                      {% if form.full_name.initial != None %}
+                        <input class="form-input" required id="{{form.full_name.id_for_label}}" type="{{form.full_name.widget_type}}" name="{{form.full_name.name}}" value="{{form.full_name.initial}}" data-validate="require"/>
+                      {% else %}
+                        <input class="form-input" required id="{{form.full_name.id_for_label}}" type="{{form.full_name.widget_type}}" name="{{form.full_name.name}}" value="" data-validate="require"/>
+                      {% endif %}
+                     {% endif %}
+                  </div>
                 </div>
                 <div class="row-block">
                   {% for field in form.visible_fields %}
-                      <div class="form-group">
-                        <label class="form-label" for="{{field.id_for_label}}">{{field.label}}
-                        </label>
-                        {% if field.data != None %}
-                          <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="{{field.data}}" data-validate="require"/>
-                        {% else %}
-                          {% if field.initial != None %}
-                            <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="{{field.initial}}" data-validate="require"/>
+                    {% if field.name != "full_name" and field.name != "avatar"%}
+                        <div class="form-group">
+                          <label class="form-label" for="{{field.id_for_label}}">{{field.label}}
+                          </label>
+                          {% if field.data != None %}
+                            <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="{{field.data}}" data-validate="require"/>
                           {% else %}
-                            <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="" data-validate="require"/>
+                            {% if field.initial != None %}
+                              <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="{{field.initial}}" data-validate="require"/>
+                            {% else %}
+                              <input class="form-input" required id="{{field.id_for_label}}" type="{{field.widget_type}}" name="{{field.name}}" value="" data-validate="require"/>
+                            {% endif %}
                           {% endif %}
-                        {% endif %}
-                        {% for key, val in errors.items %}
-                          {% if key == field.name %}
-                            <div class="form-error">{{val}}</div>
-                          {% endif %}
-                        {% endfor %}
-                      </div>
+                          {% for key, val in errors.items %}
+                            {% if key == field.name %}
+                              <div class="form-error">{{val}}</div>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                    {% endif %}
                   {% endfor %}
 
                   <div class="form-group">
