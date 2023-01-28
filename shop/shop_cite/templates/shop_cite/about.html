@@ -34,7 +34,7 @@
     <div class="Middle-top">
       <div class="wrap">
         <div class="Middle-header">
-          <h1 class="Middle-title">About Megano
+          <h1 class="Middle-title">О компании
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
             <li class="breadcrumbs-item"><a href="/">Главная</a>
@@ -48,57 +48,10 @@
     <div class="Section Section_column Section_columnLeft Section_columnWide">
       <div class="wrap">
         <div class="Section-column">
-          <div class="Section-columnSection Section-columnSection_mark">
-            <div class="media media_advantage">
-              <div class="media-image"><img src="{% static 'shop_cite/assets/img/icons/advantages/shipping.svg' %}" alt="shipping.svg"/>
-              </div>
-              <div class="media-content">
-                <strong class="media-title">Shipping & Returns
-                </strong>
-                <p class="media-text">World wide shipping
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="Section-columnSection Section-columnSection_mark">
-            <div class="media media_advantage">
-              <div class="media-image"><img src="{% static 'shop_cite/assets/img/icons/advantages/moneyBack.svg' %}" alt="moneyBack.svg"/>
-              </div>
-              <div class="media-content">
-                <strong class="media-title">Money Back
-                </strong>
-                <p class="media-text">Guaranted payments
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="Section-columnSection Section-columnSection_mark">
-            <div class="media media_advantage">
-              <div class="media-image"><img src="{% static 'shop_cite/assets/img/icons/advantages/support.svg' %}" alt="support.svg"/>
-              </div>
-              <div class="media-content">
-                <strong class="media-title">Support Policy
-                </strong>
-                <p class="media-text">Fast support team
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="Section-columnSection Section-columnSection_mark">
-            <div class="media media_advantage">
-              <div class="media-image"><img src="{% static 'shop_cite/assets/img/icons/advantages/quality.svg' %}" alt="quality.svg"/>
-              </div>
-              <div class="media-content">
-                <strong class="media-title">Quality Guarantee
-                </strong>
-                <p class="media-text">Best guaranted items
-                </p>
-              </div>
-            </div>
-          </div>
+          {% include 'shop_cite/features.html' %}
           <div class="Section-columnSection">
             <header class="Section-header">
-              <strong class="Section-title">Follow Us
+              <strong class="Section-title">Мы в соцсетях
               </strong>
             </header>
             <div class="Section-columnContent">
@@ -124,17 +77,15 @@
             <div class="Article-section">
               <div class="row row_verticalCenter row_maxHalf">
                 <div class="row-block">
-                  <h2>Why Choose Megano?
+                  <h2>О нас
                   </h2>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eutu, pretiumem.
+                  <p>Мы работаем, активно развиваясь и расширяясь. Мы не забываем о том, что высочайший уровень обслуживания – показатель того, что мы работаем действительно качественно. Поэтому на нас можно положиться.
                   </p>
-                  <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justotuio, rhoncus ut loret, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus element semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae  ligula eget dolor. Aenean massa. Cumtipsu sociis natoque pena tibusetm t semper ni.
+                  <p>Мы не привозим товары с других складов, потому что обладаем своим собственным. В чем плюс? Вы заказываете, мы – доставляем. Без задержек. Точно по времени.
                   </p>
-                  <div><a class="btn btn_primary" href="#">Get Started</a>
-                  </div>
                 </div>
                 <div class="row-block">
-                  <div class="pict"><img src="{% static 'shop_cite/assets/img/content/home/slider.png' %}" alt="slider.png"/>
+                  <div class="pict"><img src="{% static 'shop_cite/assets/img/content/about/about_1.png' %}" alt="about_1.png"/>
                   </div>
                 </div>
               </div>
@@ -142,26 +93,22 @@
             <div class="Article-section">
               <div class="row row_verticalCenter row_maxHalf">
                 <div class="row-block">
-                  <div class="pict"><img src="{% static 'shop_cite/assets/img/content/home/bigGoods.png' %}" alt="bigGoods.png"/>
+                  <div class="pict"><img src="{% static 'shop_cite/assets/img/content/about/about_2.png' %}" alt="about_2.png"/>
                   </div>
                 </div>
                 <div class="row-block">
-                  <h2>Megano Store Hystory
+                  <h2>Почему выбирают нас
                   </h2>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eutu, pretiumem.
+                  <p>Мы работаем и совершенствуемся для вас. Тщательно отбираем лучшие товары и помогаем сделать правильный выбор. У нас есть:
                   </p>
                   <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetuer
+                    <li>оперативная доставка заказов
                     </li>
-                    <li>adipiscing elit doli. Aenean commodo ligula
+                    <li>собственный сервисный центр
                     </li>
-                    <li>eget dolor. Aenean massa. Cumtipsu sociis
+                    <li>квалифицированный и опытный персонал
                     </li>
-                    <li>natoque penatibus et magnis dis parturient
-                    </li>
-                    <li>montesti, nascetur ridiculus mus. Donec
-                    </li>
-                    <li>quam felis, ultricies nec, pellentesque eutu
+                    <li>прямые контракты с ведущими производителями электроники и товаров для дома
                     </li>
                   </ul>
                 </div>

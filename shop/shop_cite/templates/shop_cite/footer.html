@@ -7,7 +7,7 @@
     <div class="wrap">
       <div class="row Footer-main">
         <div class="row-block"><a class="logo Footer-logo" href="/"><img class="logo-image" src="{% static 'shop_cite/assets/img/logo_footer.png' %}" alt="logo_footer.png"/></a>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid  unt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+          <p>Наша цель изменить жизнь людей, сделав простым доступ к огромному количеству качественных и недорогих товаров, предоставляя лучший сервис.
           </p>
           <ul class="menu menu_img menu_smallImg Footer-menuSoc">
             <li class="menu-item"><a class="menu-link" href="#"><img src="{% static 'shop_cite/assets/img/icons/socialFooter/fb.svg' %}" alt="fb.svg"/></a>
@@ -23,45 +23,35 @@
           </ul>
         </div>
         <div class="row-block">
-          <strong class="Footer-title">Useful Links
+          <strong class="Footer-title">Полезные страницы
           </strong>
           <ul class="menu menu_vt Footer-menu">
-            <li class="menu-item"><a class="menu-link" href="#">Checkout</a>
+            <li class="menu-item"><a class="menu-link" href="/cart">Корзина</a>
             </li>
-            <li class="menu-item"><a class="menu-link" href="#">My Cart</a>
+            <li class="menu-item"><a class="menu-link" href="#">Доставка</a>
             </li>
-            <li class="menu-item"><a class="menu-link" href="#">Delivery</a>
+            <li class="menu-item"><a class="menu-link" href="#">Детали заказа</a>
             </li>
-            <li class="menu-item"><a class="menu-link" href="#">Order Info</a>
+            <li class="menu-item"><a class="menu-link" href="#">Правила</a>
             </li>
-            <li class="menu-item"><a class="menu-link" href="#">Terms</a>
-            </li>
-            <li class="menu-item"><a class="menu-link" href="#">Conditions</a>
+            <li class="menu-item"><a class="menu-link" href="/about">О компании</a>
             </li>
           </ul>
         </div>
         <div class="row-block">
-          <strong class="Footer-title">My Account
+          <strong class="Footer-title">Категории
           </strong>
           <ul class="menu menu_vt Footer-menu">
-            <li class="menu-item"><a class="menu-link" href="#">Accessories</a>
+            {% for key_one, value_one in categories_lvl_one.items %}
+            <li class="menu-item"><a class="menu-link" href="#">{{key_one}}</a>
             </li>
-            <li class="menu-item"><a class="menu-link" href="#">Bags</a>
-            </li>
-            <li class="menu-item"><a class="menu-link" href="#">Cameras</a>
-            </li>
-            <li class="menu-item"><a class="menu-link" href="#">Clothings</a>
-            </li>
-            <li class="menu-item"><a class="menu-link" href="#">Electronics</a>
-            </li>
-            <li class="menu-item"><a class="menu-link" href="#">Fashion</a>
-            </li>
+            {% endfor %}
           </ul>
         </div>
         <div class="row-block">
-          <strong class="Footer-title">Contacts
+          <strong class="Footer-title">Контакты
           </strong>
-          <p>Phone: 8.800.200.600<br>Email: Support@ninzio.com<br>Skype: techno<br>Address: New York, north<br>Avenue 26/7<br>0057
+          <p>Телефон: 8.800.200.600<br>Email: Support@ninzio.com<br>Skype: techno<br>Адрес: Россия, г. Тверь<br>ул. Зеленой слободы, 100<br>1700054
           </p>
         </div>
       </div>
@@ -69,9 +59,9 @@
     <div class="Footer-copy">
       <div class="wrap">
         <div class="row row_space">
-          <div class="row-block">© Copyright&#32;<a href="#">Megano Store.</a>&#32;All rights reserved.
+          <div class="row-block">
           </div>
-          <div class="row-block"><span>Accepted Payments</span>
+          <div class="row-block"><span>Платёжные системы</span>
             <div class="Footer-payments">
               <div><img src="{% static 'shop_cite/assets/img/payments/visa.png' %}" alt="visa.png"/>
               </div>
