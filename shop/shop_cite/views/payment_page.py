@@ -20,26 +20,28 @@ class PaymentPage(BaseTemplate):
                                             'not_payed': False})
 
     def post(self, request, order_id):
-
-        purchase = Purchase.objects.get(id=order_id)
-        if purchase.payment_state == 'Н':
-            form = PaymentForm(request.POST)
-            if form.is_valid():
-                purchase.payment_state = 'О'
-                purchase.save()
-                return self.get_render(request,
-                                       'shop_cite/progressPayment.html',
-                                       context={'form': form,
-                                                'order_id': order_id,
-                                                'not_payed': True})
+        srch_page = super().post(request)
+        if srch_page is None:
+            purchase = Purchase.objects.get(id=order_id)
+            if purchase.payment_state == 'Н':
+                form = PaymentForm(request.POST)
+                if form.is_valid():
+                    purchase.payment_state = 'О'
+                    purchase.save()
+                    return self.get_render(request,
+                                           'shop_cite/progressPayment.html',
+                                           context={'form': form,
+                                                    'order_id': order_id,
+                                                    'not_payed': True})
+                else:
+                    return self.get_render(request,
+                                           'shop_cite/payment.html',
+                                           context={'form': form,
+                                                    'order_id': order_id,
+                                                    'is_random': purchase.payment_method == 'Н'})
             else:
                 return self.get_render(request,
-                                       'shop_cite/payment.html',
-                                       context={'form': form,
-                                                'order_id': order_id,
-                                                'is_random': purchase.payment_method == 'Н'})
-        else:
-            return self.get_render(request,
-                                   'shop_cite/progressPayment.html',
-                                   context={'order_id': order_id,
-                                            'not_payed': False})
+                                       'shop_cite/progressPayment.html',
+                                       context={'order_id': order_id,
+                                                'not_payed': False})
+        return srch_page

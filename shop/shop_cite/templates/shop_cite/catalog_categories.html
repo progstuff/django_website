@@ -39,7 +39,7 @@
           <h1 class="Middle-title">{{root_category.name}}
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
-            <li class="breadcrumbs-item"><a href="/">home</a>
+            <li class="breadcrumbs-item"><a href="/">Главная</a>
             </li>
             <li class="breadcrumbs-item breadcrumbs-item_current"><span>{{root_category.name}}</span>
             </li>
@@ -55,12 +55,13 @@
             {% for category in categories %}
               <div class="Card">
                 {% if category.has_subcategories == True %}
-                  <a class="Card-picture" href="/catalog-categories/{{category.id}}">
-                    <img src="{% static 'shop_cite/' %}{{category.big_image_src}}" alt="card.jpg" intrinsicsize="200x200" style="width: auto"/>
+                  <a class="BannersHomeBlock-img" href="/catalog-categories/{{category.id}}">
+                    <img src="{% static 'shop_cite/' %}{{category.big_image_src}}" alt="card.jpg"/>
                   </a>
                 {% else %}
-                  <a class="Card-picture" href="/catalog-products/{{category.id}}">
-                    <img src="{% static 'shop_cite/' %}{{category.big_image_src}}" alt="card.jpg" intrinsicsize="200x200" style="width: auto"/>
+                  <a class="BannersHomeBlock-img" href="/catalog-products/{{category.id}}">
+                    <img src="{% static 'shop_cite/' %}{{category.big_image_src}}" alt="card.jpg"/>
+
                   </a>
                 {% endif %}
                 <div class="Card-content">

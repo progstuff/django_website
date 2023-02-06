@@ -15,10 +15,10 @@ DELIVERY_STATE = (
     ('С', 'Собирается'),
     ('Д', 'Доставляется'),
     ('Г', 'Готов к выдаче'),
-    ('В', 'Выдан покупателю'),
+    ('В', 'Завершён'),
 )
 PAYMENT_STATE = (
-    ('Н', 'Не оплачен'),
+    ('Н', 'Ожидается оплата'),
     ('О', 'Оплачен'),
 )
 
@@ -40,6 +40,7 @@ class UserProfile(models.Model):
     status = models.CharField(default='П', max_length=1, choices=USER_STATUS, verbose_name=_('Статус'))
     payment_method = models.CharField(default='Н', max_length=1, choices=PAYMENT_TYPE, verbose_name=_('Тип оплаты'))
     delivery_type = models.CharField(default='О', max_length=1, choices=DELIVERY_TYPE, verbose_name=_('Тип доставки'))
+    avatar = models.ImageField(null=True, blank=True, upload_to="images/profiles/", verbose_name=_('Иконка'))
 
     class Meta:
         verbose_name_plural = _('Профили пользователей')

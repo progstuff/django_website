@@ -37,9 +37,8 @@ class RegistrationForm(forms.Form):
         name = self.cleaned_data.get('name', '')
         password = self.cleaned_data.get('password', '')
         user = User.objects.create_user(username=email,
-                                        email=email,
-                                        password=password,
-                                        first_name=name)
-        user_profile = UserProfile.objects.create(user=user)
+                                        password=password)
+        UserProfile.objects.create(user=user,
+                                   full_name=name)
 
 

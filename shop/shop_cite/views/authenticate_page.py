@@ -14,23 +14,26 @@ class AuthenticatePage(BaseTemplate):
                                context={'form': form, 'errors': ''})
 
     def post(self, request):
-        form = AuthenticateForm(request.POST)
-        if form.is_valid():
-            username = form.cleaned_data['email']
-            password = form.cleaned_data['password']
-            user = authenticate(username=username, password=password)
-            errors = form.get_error_messages()
-            if user:
-                if user.is_active:
-                    login(request, user)
-                    return HttpResponseRedirect('/')
+        srch_page = super().post(request)
+        if srch_page is None:
+            form = AuthenticateForm(request.POST)
+            if form.is_valid():
+                username = form.cleaned_data['email']
+                password = form.cleaned_data['password']
+                user = authenticate(username=username, password=password)
+                errors = form.get_error_messages()
+                if user:
+                    if user.is_active:
+                        login(request, user)
+                        return HttpResponseRedirect('/')
+                    else:
+                        errors['email'] = 'Учётная запись не активна'
                 else:
-                    errors['email'] = 'Учётная запись не активна'
-            else:
-                errors['password'] = 'Ошибка в логине или пароле'
-        return self.get_render(request,
-                               'shop_cite/authenticate.html',
-                               context={'form': form, 'errors': errors})
+                    errors['password'] = 'Ошибка в логине или пароле'
+            return self.get_render(request,
+                                   'shop_cite/authenticate.html',
+                                   context={'form': form, 'errors': errors})
+        return srch_page
 
 
 class LogOutView(View):

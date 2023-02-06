@@ -40,7 +40,7 @@
           <h1 class="Middle-title">Корзина
           </h1>
           <ul class="breadcrumbs Middle-breadcrumbs">
-            <li class="breadcrumbs-item"><a href="/">home</a>
+            <li class="breadcrumbs-item"><a href="/">Главная</a>
             </li>
             <li class="breadcrumbs-item breadcrumbs-item_current"><span>Корзина</span>
             </li>
@@ -51,6 +51,7 @@
     <div class="Section">
       <div class="wrap">
         <form class="form Cart" action="#" method="post">
+          {% csrf_token %}
           {% for product in basket_items %}
           <div class="Cart-product">
             <div class="Cart-block Cart-block_row">
@@ -61,7 +62,7 @@
                 </div>
               </div>
               <div class="Cart-block Cart-block_price">
-                <div class="Cart-price">{{product.price}}
+                <div class="Cart-price">{{product.price|floatformat:0}}₽
                 </div>
               </div>
             </div>
@@ -74,31 +75,44 @@
                 <div class="Cart-amount">
 
                   <div class="Amount">
-                    <button class="Amount-remove" type="button" onclick="Amount()">
+                    <button class="Amount-remove" type="submit" name="remove_item-{{product.id}}">
                     </button>
                     <input class="Amount-input form-input" name="amount" type="text" value="{{product.amount}}" id="amount_input"/>
-                    <button class="Amount-add" type="button" onclick="Amount()">
+                    <button class="Amount-add" type="submit" name="add_item-{{product.id}}">
                     </button>
                   </div>
 
                 </div>
               </div>
+
               <div class="Cart-block Cart-block_delete">
-                  <button class="Cart-delete" type="button" name="delete_item-{{product.id}}">
-                    <img src="{% static 'shop_cite/assets/img/icons/card/delete.svg' %}" alt="delete.svg"/>
-                  </button>
+                    <button class="Cart-delete" type="submit" name="delete_item-{{product.id}}">
+                      <img src="{% static 'shop_cite/assets/img/icons/card/delete.svg' %}" alt="delete.svg"/>
+                    </button>
               </div>
+
             </div>
           </div>
           {% endfor %}
+          {% if basket_items|length > 0 %}
           <div class="Cart-total">
             <div class="Cart-block Cart-block_total">
               <strong class="Cart-title">Итого:
-              </strong><span class="Cart-price">{{basket_total_price}}</span>
+              </strong><span class="Cart-price">{{basket_total_price|floatformat:0}}₽</span>
             </div>
             <div class="Cart-block"><a class="btn btn_success btn_lg" href="/order">Оформить заказ</a>
             </div>
           </div>
+          {% else %}
+          <div class="Cart-total">
+            <div class="Cart-block Cart-block_total">
+              <div class="Order Order_anons">
+                <h2 class="ProductCard-title"> В корзине нет товаров
+                </h2>
+              </div>
+            </div>
+          </div>
+          {% endif %}
         </form>
       </div>
     </div>
@@ -116,6 +130,6 @@
   <script src="{% static 'shop_cite/assets/plg/form/jquery.maskedinput.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/range/ion.rangeSlider.min.js' %}"></script>
   <script src="{% static 'shop_cite/assets/plg/Slider/slick.min.js' %}"></script>
-  <script src="{% static 'shop_cite/assets/js/scripts.js' %}"></script>
+  <script src="{% static 'shop_cite/assets/js/scripts2.js' %}"></script>
 
 </body></html>
