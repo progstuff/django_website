@@ -5,7 +5,7 @@
 Сайт содержит главную страницу, страницу с перечнем товаров, страницу товара,  историю покупок
 
 главная страница
-![image](https://user-images.githubusercontent.com/49985639/216927152-b9c3f20c-369e-4529-9f6b-e32d8294286e.png)
+![image](https://user-images.githubusercontent.com/49985639/216941783-5594af64-8b3a-4df8-9544-d8368de45758.png)
 
 страница с перечнем товаров
 ![image](https://user-images.githubusercontent.com/49985639/216927358-177932e8-3b50-4c60-935f-2d966ca3d5c8.png)
